@@ -1,0 +1,5 @@
+interface Horloge {
+  // Corps de l'interface : attributs et méthodes
+  string get_time_string();
+  void get_time_int(out short heure, out short min);
+};
