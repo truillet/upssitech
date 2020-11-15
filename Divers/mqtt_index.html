@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A web interface for MQTT over Websockets">
+
+    <title>Mon Dashboard</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <!-- MQTT Websocket -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.2/mqttws31.js"></script>
+
+    <script type="text/javascript">
+        var host = '54.38.32.137';
+        var port = 9001;
+        var topic = '#';
+        var useTLS = false;
+        var cleansession = true;
+        var mqtt;
+        var reconnectTimeout = 2000;
+        var tempData = new Array();
+
+        function MQTTconnect() {
+	        if (typeof path == "undefined") {
+		        path = '/';
+	        }
+	        mqtt = new Paho.MQTT.Client(host, port, path, "MQTT_panel" + parseInt(Math.random() * 100, 10)
+	    );
+            var options = {
+                timeout: 3,
+                useSSL: useTLS,
+                cleanSession: cleansession,
+                onSuccess: onConnect,
+                onFailure: function (message) {
+                    $('#status').html("Problème de connexion : " + message.errorMessage + "Re-essai ...");
+                    setTimeout(MQTTconnect, reconnectTimeout);
+                }
+            };
+
+            mqtt.onConnectionLost = onConnectionLost;
+            mqtt.onMessageArrived = onMessageArrived;
+            console.log("Host: "+ host + ", Port: " + port + ", Path: " + path + " TLS: " + useTLS);
+            mqtt.connect(options);
+        };
+
+        function onConnect() {
+            $('#status').html('Connecté à ' + host + ':' + port + path);
+            mqtt.subscribe(topic, {qos: 0});
+            $('#topic').html(topic);
+        };
+
+        function onConnectionLost(response) {
+            setTimeout(MQTTconnect, reconnectTimeout);
+            $('#status').html("Connexion perdue : " + response.errorMessage + " . Reconnexion...");
+        };
+
+        function onMessageArrived(message) {
+            var topic = message.destinationName;
+            var payload = message.payloadString;
+            console.log("Topic: " + topic + ", Message payload: " + payload);
+            $('#message').html(topic + ', ' + payload);
+            var message = topic.split('/');
+            var area = message[1];
+            var sensor = message[2];
+
+            switch (area) {
+
+              case 'AIP':
+                    $('#livingTempSensor').html('(Valeur du capteur : ' + payload + ')');
+                    $('#livingTempLabel').text(payload + ' °C');
+                    $('#livingTempLabel').addClass('badge-default');
+
+                    tempData.push({"timestamp": Date().slice(16,21), "temperature": parseInt(payload)});
+                    if (tempData.length >= 10) {
+                        tempData.shift()
+                    }
+                    drawChart(tempData);
+
+                    break;
+                case 'UPSSITECH':
+					switch (sensor) {
+						case 'temperature' :
+							$('#TempSensor').html('(Valeur du capteur : ' + payload + ')');
+							if (payload >= 25) {
+								$('#TempLabel').text(payload + ' °C - brûlant');
+								$('#TempLabel').removeClass('badge-warning badge-success badge-info badge-primary').addClass('badge-danger');
+							} 
+							else if (payload >= 21) {
+								$('#TempLabel').text(payload + ' °C - chaud');
+								$('#TempLabel').removeClass('badge-danger badge-success badge-info badge-primary').addClass('badge-warning');
+							} 
+							else if (payload >= 18) {
+								$('#TempLabel').text(payload + ' °C - normal');
+								$('#TempLabel').removeClass('badge-danger badge-warning badge-info badge-primary').addClass('badge-success');
+							} 
+							else if (payload >= 15) {
+								$('#TempLabel').text(payload + ' °C - frais');
+								$('#TempLabel').removeClass('badge-danger badge-warning badge-success badge-primary').addClass('badge-info');
+							} 
+							else if (mpayload <= 12) {
+								$('#tTempLabel').text(payload + ' °C - froid');
+								$('#TempLabel').removeClass('badge-danger badge-warning badge-success badge-info').addClass('badge-primary');
+								Temp.push(parseInt(payload));
+								if (Temp.length >= 20) {
+									Temp.shift()
+								}	
+							}
+							break;
+						default:
+							break;		
+					}
+                    break;
+                default: console.log('Erreur : Les données ne correspondent pas aux abonnements MQTT.'); break;
+            }
+        };
+
+        function drawChart(data) {
+            var ctx = document.getElementById("tempChart").getContext("2d");
+
+            var temperatures = []
+            var timestamps = []
+
+            data.map((entry) => {
+                temperatures.push(entry.temperature);
+                timestamps.push(entry.timestamp);
+            });
+
+            var chart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: timestamps,
+                    datasets: [{
+                        backgroundColor: 'rgb(255, 99, 132)',
+                        borderColor: 'rgb(255, 99, 132)',
+                        data: temperatures
+                    }]
+                },
+                options: {legend: {
+                    display: false
+                }}
+            });
+        }
+        
+        $(document).ready(function() {
+            drawChart(tempData);
+            MQTTconnect();
+        });
+    </script>
+
+  </head>
+
+  <body style="margin-top: 30px;">
+    <div id="wrap">
+      <div class="container mt-10">
+        <div class="header"><h1>Mon Tableau de bord</h1></div>
+            <div class="panel panel-default">
+              <div class="panel-body">
+                    <table class="table table-striped">
+
+                        <!-- temperature AIP -->
+                        <tr>
+                        <td width="40%" style="vertical-align:middle;"><h3>Température à l'AIP</h3><small id="livingTempSensor">(pas de valeur reçue)</small></td>
+                        <td style="vertical-align:middle;"><canvas id="tempChart" width="400" height="150"></canvas></td>
+                        <td width="30%" style="vertical-align:middle;"><h4>&nbsp;<span id="livingTempLabel" class="badge">Inconnu</span></h4></td>
+                        </tr>
+                        <!-- temperature UPSSITECH -->
+                        <tr>
+                        <td width="40%" style="vertical-align:middle;"><h3>Température à l'UPSSITECH</h3><small id="TempSensor">(pas de valeur reçue)</small></td>
+                        <td style="vertical-align:middle;"></td>
+                        <td width="30%" style="vertical-align:middle;"><h4>&nbsp;<span id="TempLabel" class="badge">Inconnu</span></h4></td>
+                        </tr>
+                    </table>
+              </div>
+            </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+              <div class="row">
+                <div class="col-md-6"><b>Dernier message MQTT :  </b> <small id="message">pas encore de message reçu</small></div>
+                <div class="col-md-6"><b>Statut :</b>  <small id='status'></small></div>
+              </div>
+          </div>
+        </div>
+      <div class="footer">
+        <small><p class="text-center" style="margin-top: 30px;">&copy; Juillet-Novembre 2020</p></small>
+    </div>
+  </body>
+</html>
