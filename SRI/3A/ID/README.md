@@ -29,6 +29,11 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 ## MQTT: a lightweight publish/subscribe messaging transport
 * **TP6** - [MQTT - protocol for IoT devices](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/MQTT-1.5.pdf) (2020)
 
+## Other interesting middlewares
+* [ROS2](https://github.com/ros2) : Robotic Operating System
+* [TUIO](https://www.tuio.org) : Tangible User Interface Object (based on OSC protocol) is an open protocol for the communication of data from devices like a multi-touch display, an interactive surface, or a computer vision-based motion tracker
+* [ZeroMQ](https://zeromq.org) : (zero brocker) is an open-source universal messaging library
+
 ## Projects
 * **Project -2019-** : [MySQL - My Smart Quiet Locality](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2019_v1.0.pdf)
 * **Project -2020-** : [TISSU - TIny Smart Sensors Unified](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2020_v1.0.pdf)
