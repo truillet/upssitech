@@ -7,7 +7,7 @@
 * [ivy presentation](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/C_ivy_2.4.pdf) (2020)
 * **TP1** - [ivy](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/TP_ivy.3.3.pdf) (2020)
 
-### Some useful ivy libraries ###
+### Some useful ivy libraries and clients ###
 See [this wiki page concerning specifically the **ivy middleware**](https://github.com/truillet/ivy/blob/master/README.md)
 
 ## Java socket programming
