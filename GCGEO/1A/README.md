@@ -3,7 +3,7 @@
 **Nota** : vous pouvez essayer **GNU Octave** [en ligne](https://octave-online.net/)
 
 ## supports de cours
-* [pptx présentation GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/gnu_octave_2020.pdf) (2020)
+* [pptx présentation GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/gnu_octave_2021.pdf) (2021)
 * [notes de cours GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/octave_v1.8.pdf) (2019)
 
 ## supports de TD
