@@ -6,11 +6,12 @@
 _Exemple de code Processing permettant l'affichage de la reconnaissance vocale et envoi vers la synthèse_ : **[vocal_ivy](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Code/vocal_ivy.zip)**
 
 ## Interaction gestuelle
-* **TP2** - [Interaction gestuelle](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/TP2_InteractionGestuelle.pdf) (2020)
+* **TP2** - [Interaction gestuelle](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/TP2_InteractionGestuelle.pdf) (2021)
 
 _Exemple de code Processing permettant l'enregistrement de formes dessinées à l'écran_ : **[Enregistrement Forme](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Code/Enregistrement_Forme.zip)**
 
 _Autres ressources_
+   * OneDollarIvy (implémentation de l'algorithme du $1 Recognizer) [code source](https://github.com/truillet/OneDollarIvy)
    * ICAR (implémentation de l'algorithme de Rubine) [code source](https://github.com/truillet/icar), [fichier jar](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Outils/icar.1.2.zip) et [documentation](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Outils/icar.pdf)
 
 ## Fusion Multimodale
