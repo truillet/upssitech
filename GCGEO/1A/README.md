@@ -4,7 +4,7 @@
 
 ## supports de cours
 * [pptx présentation GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/gnu_octave_2021.pdf) (2021)
-* [notes de cours GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/octave_v1.8.pdf) (2019)
+* [notes de cours GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/octave_v1.91.pdf) (2021)
 
 ## supports de TD
 * **TD 1** : [Structures de contrôle, tableaux/vecteurs/matrices](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/TD1_Structures_Tableaux_Vecteurs_Matrices.pdf) (2020)
