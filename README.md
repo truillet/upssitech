@@ -3,8 +3,7 @@
 # Notes de Cours/TD/TP
 Vous trouverez ici les notes de cours des :
 
-* [GCGEO 1ère année](https://github.com/truillet/upssitech/blob/master/SRI/1A/README.md)
-
+* [GCGEO 1ère année](https://github.com/truillet/upssitech/tree/master/GCGEO/1A)
 * [SRI 1ère année](https://github.com/truillet/upssitech/blob/master/SRI/1A/README.md)
 * SRI 3ème année
   * [Interaction Distribuée](https://github.com/truillet/upssitech/tree/master/SRI/3A/ID) (UE Conception et et Mise en Oeuvre des Systèmes Robotiques)
