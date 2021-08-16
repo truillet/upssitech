@@ -12,7 +12,7 @@
 * [Reimagining Participatory Design](http://interactions.acm.org/archive/view/january-february-2019/reimagining-participatory-design), ACM Interactions, January-February 2019, p.26
 * [ACM Interactions Magazine](http://interactions.acm.org/)
 
-## [Processing.org](https://www.processing.org)
+## <img src="https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/Processing_2021_logo.png" width=64> [Processing.org](https://www.processing.org)
 * [support de cours](https://github.com/truillet/upssitech/blob/master/SRI/1A/Cours/C_processing.org_2.3.pdf) (2019)
 * **TP1** - [Initiation à Processing.org](https://github.com/truillet/upssitech/blob/master/SRI/1A/TP/TP1_processing.pdf) (2020)
 * **TP2** - [Processing.org avancé](https://github.com/truillet/upssitech/blob/master/SRI/1A/TP/TP2_processing.pdf) (2019)
