@@ -8,6 +8,7 @@
 
 ### Quelques liens et artciles "à lire" ou "écouter"
 * [The Augmentation of Douglas Engelbart](https://www.youtube.com/watch?v=_7ZtISeGyCY)
+* 
 [<img src="https://img.youtube.com/vi/_7ZtISeGyCY/0.jpg" width=250 alt="Put That There">](https://www.youtube.com/watch?v=_7ZtISeGyCY)
 * [The Information Capacity of he Human Motor System in Controlling The Amplitude of Movement](https://github.com/truillet/upssitech/blob/master/SRI/1A/articles/Fitts_1954.pdf), Paul Fitts in Journal of Experimental Psychology, vol. 47, No 6, June 1954
 * [50 ans d'interaction homme-machine](https://interstices.info/50-ans-dinteraction-homme-machine-retours-vers-le-futur/)
