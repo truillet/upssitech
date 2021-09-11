@@ -1,7 +1,7 @@
 # Distributed Interaction
 
 ## General
-* [Distributed Interaction](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/ID_intro_2021.pdf) (2020)
+* [Distributed Interaction](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/ID_intro_2022.pdf) (2021)
 
 ## ivy middleware
 * [ivy presentation](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/C_ivy_2.4.pdf) (2020)
