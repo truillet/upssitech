@@ -1,6 +1,6 @@
 # Distributed Interaction
 
-## General
+## General introduction
 * [Distributed Interaction](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/ID_intro_2022.pdf) (2021)
 
 ## ivy middleware
@@ -11,8 +11,8 @@
 See [this wiki page concerning specifically the **ivy middleware**](https://github.com/truillet/ivy/blob/master/README.md)
 
 ## Java socket programming
-* [socket programming slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/sockets_2020.pdf) (2020)
-* **TP2** - [socket programming](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/sockets_2.3.pdf) (2020)
+* [socket programming slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/sockets_2021.pdf) (2021)
+* **TP2** - [socket programming](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/sockets_2.4.pdf) (2021)
 
 ## RMI (Remote Message Invocation)
 * [Java RMI slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/RMI_2020.pdf) (2020)
@@ -38,3 +38,4 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 * **Project -2019-** : [MySQL - My Smart Quiet Locality](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2019_v1.0.pdf)
 * **Project -2020-** : [TISSU - TIny Smart Sensors Unified](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2020_v1.0.pdf)
 * **Project -2021-** : [SEW - Sensors EveryWhere](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2021_v1.0.pdf)
+* **Project -2022-** : *(to be done)*
