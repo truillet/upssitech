@@ -15,7 +15,7 @@ _Autres ressources / Other resources_
    * **ICAR** (implémentation de l'algorithme de [Rubine](http://reports-archive.adm.cs.cmu.edu/anon/itc/CMU-ITC-099.pdf)) [code source](https://github.com/truillet/icar), [fichier jar](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Outils/icar.1.2.zip) et [documentation](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Outils/icar.pdf)
 
 ## Fusion Multimodale / Multimodal Fusion
-* **TP3-5** - [Moteur de Fusion](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/TP3-5_Projet_Multimodal.pdf) (2020)
+* **TP3-5** - [Moteur de Fusion](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/TP3-5_Projet_Multimodal.pdf) (2021)
 
 _Exemple de code Processing permettant la gestion de formes géométriques_ : **[Palette](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Code/Palette.zip)**
 
@@ -28,9 +28,11 @@ _Exemple de code Processing permettant la gestion de formes géométriques_ : **
 
 _Exemple de code Processing permettant la gestion de formes simples (cercles, rectangles, triangles_ : **[code](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Code/Palette.zip)**
 
+<!--
 ## Interaction Multimodale & Accessibilité
 * **TP6** - [Interaction &amp; Handicap](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/TP6_Interaction_et_Handicap.pdf) (2020)
 
 _Exemple de code p5js permettant l'usage de la reconnaissance vocale_ : **[p5.js](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Outils/p5js.zip)**
 
-[Accessibility Cheatsheet](https://moritzgiessmann.de/accessibility-cheatsheet/)
+[Accessibility Cheatsheet](https://moritzgiessmann.de/accessibility-cheatsheet)
+-->
