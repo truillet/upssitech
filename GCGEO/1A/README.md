@@ -8,9 +8,9 @@
 
 ## supports de TD
 * **TD 1** : [Structures de contrôle, tableaux/vecteurs/matrices](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/TD1_Structures_Tableaux_Vecteurs_Matrices.pdf) (2021)
-* **TD 2** : [Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/TD2_Fonctions.pdf) (2020)
-* **TD 3** : [Algorithmes de tri](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/TD3_algorithmes_de_tri.pdf) (2020)
-* **TD 4** : [Méthodes d'intégration](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/TD4_Integration.pdf) (2020)
+* **TD 2** : [Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/TD2_Fonctions.pdf) (2021)
+* **TD 3** : [Algorithmes de tri](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/TD3_algorithmes_de_tri.pdf) (2021)
+* **TD 4** : [Méthodes d'intégration](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/TD4_Integration.pdf) (2021)
 
 ## supports de TP
 * **TP 1** : [Prise en main](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP1_Prise_en_main.pdf) (2021)
