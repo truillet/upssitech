@@ -15,8 +15,9 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 * **TP2** - [socket programming](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/sockets_2.4.pdf) (2021)
 
 ## RMI (Remote Message Invocation)
-* [Java RMI slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/RMI_2020.pdf) (2020)
-* **TP3** - [RMI programming](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/RMI-2_2.pdf) (2020)
+* [Java RMI slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/RMI_2021.pdf) (2021)
+* **TP3** - [RMI programming (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/RMI-2_3.pdf) / [RMI programming (EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/RMI-2_3en.pdf)(2021)
+
 
 ## CORBA: Common Object Request Broker Architecture
 * [CORBA slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/CORBA-2020.pdf) (2020)
