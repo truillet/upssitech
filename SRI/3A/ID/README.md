@@ -23,8 +23,8 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 * **TP3bis** - [CORBA programming](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/CORBA-3.4.pdf) (2020)
 
 ## API RESTful and JSON (JavaScript Object Notation) 
-* [REST slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/REST.pdf) (2020)
-* **TP4** - [RESTful and JSON](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/JSON-1.5.pdf) (2020)
+* [REST and JSON slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/REST_JSON.pdf) (2021)
+* **TP4** - [RESTful and JSON (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/REST_JSON-1.6.pdf) (2021)
 
 ## MQTT: a lightweight publish/subscribe messaging transport
 * **TP5** - [MQTT - protocol for IoT devices](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/MQTT-1.5.pdf) (2020)
