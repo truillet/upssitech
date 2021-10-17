@@ -24,7 +24,7 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 
 ## API RESTful and JSON (JavaScript Object Notation) 
 * [REST and JSON slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/REST_JSON.pdf) (2021)
-* **TP4** - [RESTful and JSON (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/REST_JSON-1.6.pdf) (2021)
+* **TP4** - [RESTful and JSON (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/REST_JSON-1.6.pdf) / [RESTful and JSON (EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/REST_JSON-1.6en.pdf) (2021)
 
 ## MQTT: a lightweight publish/subscribe messaging transport
 * **TP5** - [MQTT - protocol for IoT devices](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/MQTT-1.5.pdf) (2020)
