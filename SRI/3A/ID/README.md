@@ -39,4 +39,4 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 * **Project -2019-** : [MySQL - My Smart Quiet Locality](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2019_v1.0.pdf)
 * **Project -2020-** : [TISSU - TIny Smart Sensors Unified](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2020_v1.0.pdf)
 * **Project -2021-** : [SEW - Sensors EveryWhere](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2021_v1.0.pdf)
-* **Project -2022-** : *(to be done)*
+* **Project -2022-** : ID-PHYCS - Interactive Disseminated PHYsical Complex Sensors *(to be done)*
