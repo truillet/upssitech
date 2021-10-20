@@ -26,11 +26,7 @@ _Exemple de code Processing permettant la gestion de formes géométriques / Exa
 
 [Sh. Oviatt, Ten Myths on Multimodal Interaction, Communication of the ACM, volume 42, Issue 11, November 1999](https://dl.acm.org/doi/10.1145/319382.319398)
 
-<!--
-## Interaction Multimodale & Accessibilité
-* **TP6** - [Interaction &amp; Handicap](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/TP6_Interaction_et_Handicap.pdf) (2020)
-
-_Exemple de code p5js permettant l'usage de la reconnaissance vocale_ : **[p5.js](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Outils/p5js.zip)**
-
-[Accessibility Cheatsheet](https://moritzgiessmann.de/accessibility-cheatsheet)
--->
+## Fission Multimodale / Multimodal Fission
+* **TP6/Tutorial 6** - [Moteur de Fisssion] (2021)
+_Autres ressources / Other resources_
+  * **Braille display**
