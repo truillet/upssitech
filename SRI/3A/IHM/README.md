@@ -31,3 +31,6 @@ _Exemple de code Processing permettant la gestion de formes géométriques / Exa
 
 * **Les outils utilisés dans le TP / tools used in this tutorial** : agent de synthèse vocale / speech Synthesis agent [ppilot5 v 3.3](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.3.zip), agent d'affichage braille / braille display agent [Braille_display](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Code/Braille_display.zip), outil de supervision ivy / ivy monitoring tool [Probe](https://github.com/truillet/ivy/blob/master/code/Probe.zip) ou / or [visionneur](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Outils/visionneur_1_2.zip)
   * **[SSML](https://www.w3.org/TR/speech-synthesis11)**
+  * autres liens "intéressants"
+    * [seeing with sound](https://www.seeingwithsound.com/webvoice/webvoice.htm) : un exemple de transmodalité 
+    * [Renault 25 et TTS](https://www.dailymotion.com/video/x2vt9b)
