@@ -1,6 +1,7 @@
 # Facteurs Humains et Accessibilité / Human Factors and Accessibility
 ## Facteurs Humains  / vocal interaction
-* **TP1/Tutorial 1** - [Inspection Ergonomique](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/TP/TP1_FH_Inspection_Ergonomique.pdf) / Ergonomic Inspection (2021)
+* **Cours1/Lecture1** - Evaluation**s**
+* **TP1/Tutorial 1** - [Inspection Ergonomique (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/TP/TP1_FH_Inspection_Ergonomique.pdf) / [Ergonomic Inspection (EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/TP/T1_HF_Ergonomic_Inspection.pdf) (2021)
 
 ## Quelques liens
 *  [Critères Ergonomiques pour l’Évaluation d’Interfaces Utilisateurs - May 1993](https://hal.inria.fr/inria-00070012/document)
