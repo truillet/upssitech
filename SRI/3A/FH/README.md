@@ -7,6 +7,10 @@
 * **Cours2/Lecture2** - Handicap
 *  **TP2/Tutorial 2** - Universal Design
 
+## Design
+* [The Laws of Simplicity](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/Cours/The_Laws_of_Simplicity.pdf) (J. Maeda)
+* [Introduction à p5.js](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/Cours/p5js.pdf)
+
 ## Quelques liens
 *  [Critères Ergonomiques pour l’Évaluation d’Interfaces Utilisateurs - May 1993](https://hal.inria.fr/inria-00070012/document)
 * [Rapport ANSI INCTIS 354-2001 - Common Industry Format for Usability Test Reports](https://webstore.ansi.org/Standards/INCITS/ANSIINCITS3542001)
