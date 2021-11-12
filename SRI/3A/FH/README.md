@@ -17,3 +17,5 @@
 * [10 Usability Heuristics for User Interface Design - updated on november 2020](https://www.nngroup.com/articles/ten-usability-heuristics)
 * [SUS - A quick and dirty usability scale](https://hell.meiert.org/core/pdf/sus.pdf)
 * [NASA TLX - Task Load Index](https://humansystems.arc.nasa.gov/groups/TLX)
+* [Adobe Color Wheel](https://color.adobe.com/fr/create) : Roue chromatique
+* [Créer des palettes de couleur](https://codepen.io/jasesmith/full/rZmKQG)
