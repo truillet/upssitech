@@ -5,7 +5,7 @@
 
 ## Accessibilité / Accessibility
 * **Cours2/Lecture2** - Handicap
-*  **TP2/Tutorial 2** - Universal Design
+*  **TP2/Tutorial 2** - [Accessibilité & Handicap (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/TP/TP2_Accessibilite_et_Handicap.pdf)
 
 ## Design
 * [The Laws of Simplicity](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/Cours/The_Laws_of_Simplicity.pdf) (J. Maeda)
