@@ -5,7 +5,7 @@
 
 ## Accessibilité / Accessibility
 * **Cours2/Lecture2** - Interaction et Handicap (FR), [Accessibilité des sites web (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/Cours/Accessibilite_Sites_web.pdf)
-*  **TP2/Tutorial 2** - [Accessibilité & Handicap (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/TP/TP2_Accessibilite_et_Handicap.pdf)
+*  **TP2/Tutorial 2** - [Accessibilité & Handicap (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/TP/TP2_Accessibilite_et_Handicap.pdf) / [Accessibility and disability (EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/TP/T2_Accessibility_Disability.pdf)
 
 ## Design
 * [The Laws of Simplicity](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/Cours/The_Laws_of_Simplicity.pdf) (J. Maeda)
