@@ -6,7 +6,7 @@
 * **TD2** - [Conception de systèmes interactifs](https://github.com/truillet/upssitech/blob/master/SRI/1A/TD/BE_csi_v1.9.pdf) (2019)
 * **Projet** - [bureau d'études](https://github.com/truillet/upssitech/blob/master/SRI/1A/TD/BE_prototypage_2021.pdf) (2021)
 
-### Quelques liens et artciles "à lire" ou "écouter"
+### Quelques liens et articles "à lire" ou "écouter"
 * [The Augmentation of Douglas Engelbart](https://www.youtube.com/watch?v=_7ZtISeGyCY)
 
 [<img src="https://img.youtube.com/vi/_7ZtISeGyCY/0.jpg" width=250 alt="Put That There">](https://www.youtube.com/watch?v=_7ZtISeGyCY)
