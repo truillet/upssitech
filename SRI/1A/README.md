@@ -4,7 +4,7 @@
 * [support de cours](https://github.com/truillet/upssitech/blob/master/SRI/1A/Cours/survol_ihm_3_91.pdf) (2021)
 * **TD1** - [Lois Psycho-Physiques](https://github.com/truillet/upssitech/blob/master/SRI/1A/TD/TD1_IHM.pdf) (2021)
 * **TD2** - [Conception de systèmes interactifs](https://github.com/truillet/upssitech/blob/master/SRI/1A/TD/BE_csi_v2.0.pdf) (2021)
-* **Projet** - [bureau d'études](https://github.com/truillet/upssitech/blob/master/SRI/1A/TD/BE_prototypage_2021.pdf) (2021)
+* **Projet** - [Bureau d'études](https://github.com/truillet/upssitech/blob/master/SRI/1A/TD/BE_prototypage_2022.pdf) (2021)
 
 ### Quelques liens et articles "à lire" ou "écouter"
 * [The Augmentation of Douglas Engelbart](https://www.youtube.com/watch?v=_7ZtISeGyCY)
