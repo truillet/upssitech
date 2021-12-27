@@ -4,7 +4,7 @@
 Vous trouverez ici les notes de cours des :
 
 * **CPI - cursus préparatoire intégré**
- * (bientôt - ouverture septembre 2022)
+  * (bientôt - ouverture septembre 2022)
 * **Filière GCGEO 1ère année**
   * [Algorithmique / GNU Octave](https://github.com/truillet/upssitech/tree/master/GCGEO/1A)
 * **Filière SRI 1ère année**
