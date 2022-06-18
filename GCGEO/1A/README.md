@@ -20,7 +20,7 @@
 * **TP 5/6** : [Algorithmes de tri](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP5-6_Algorithmes_tri.pdf) (2021)
   * [Chaîne Youtube AlgoRythmics](https://www.youtube.com/user/AlgoRythmics)
   * [Visualisation de tris](http://sorting.at)
-* **TP 7/8** : [Calculer la valeur de $$ \PI $$](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP7-8_Pi.pdf) (2020)
+* **TP 7/8** : [Calculer la valeur de $\PI$](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP7-8_Pi.pdf) (2020)
 
 
 
