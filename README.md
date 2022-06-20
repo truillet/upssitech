@@ -3,8 +3,9 @@
 # Notes de Cours/TD/TP
 Vous trouverez ici les notes de cours des :
 
-* **CPI - cursus préparatoire intégré**
-  * (bientôt - ouverture septembre 2022)
+* **CPI - cursus préparatoire intégré (ouverture septembre 2022))**
+  * Stuctures de données / Langage C
+  * Introduction aux Réseaux Informatiques  
 * **Filière GCGEO 1ère année**
   * [Algorithmique / GNU Octave](https://github.com/truillet/upssitech/tree/master/GCGEO/1A)
 * **Filière SRI 1ère année**
