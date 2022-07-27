@@ -1,6 +1,8 @@
 # Algorithmique / GNU Octave
 
-**Nota** : vous pouvez essayer **GNU Octave** [en ligne](https://octave-online.net/)
+**Nota** : vous pouvez essayer **GNU Octave** [en ligne](https://octave-online.net)
+
+Il existe d'autres solutions permettant par exemple d'utiliser GNU Octave sous [Jupyter Notebook](https://jupyter.org) en utiisant le [kernel octave](https://pypi.org/project/octave-kernel)
 
 ## supports de cours
 * [pptx présentation GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/gnu_octave_2021.pdf) (2021)
