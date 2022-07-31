@@ -5,8 +5,8 @@
 Il existe d'autres solutions permettant par exemple d'utiliser GNU Octave sous [Jupyter Notebook](https://jupyter.org) en utiisant le [kernel octave](https://pypi.org/project/octave-kernel)
 
 ## supports de cours
-* [pptx présentation GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/gnu_octave_2021.pdf) (2021)
-* [notes de cours GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/octave_v1.91.pdf) (2021)
+* [pptx présentation GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/gnu_octave_2022.pdf) (2022)
+* [notes de cours GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/octave_v1.92.pdf) (2022)
 
 ## supports de TD
 * **TD 1** : [Structures de contrôle, tableaux/vecteurs/matrices](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/TD1_Structures_Tableaux_Vecteurs_Matrices.pdf) (2021)
