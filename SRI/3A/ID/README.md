@@ -4,7 +4,7 @@
 * [Distributed Interaction](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/ID_intro_2023.pdf) (2022)
 
 ## ivy middleware
-* [ivy presentation (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/C_ivy_2.5.pdf) / [ivy presentation (EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/C_ivy_2.5en.pdf) (2021)
+* [ivy presentation v 2.6 (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/C_ivy_2.6.pdf) / [ivy presentation v. 2.5 (EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/C_ivy_2.5en.pdf) (2022)
 * **TP1** - [ivy](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/TP_ivy.3.4.pdf) (2021)
 
 ### Some useful ivy libraries and clients ###
