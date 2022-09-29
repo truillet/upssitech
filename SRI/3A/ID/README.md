@@ -14,6 +14,10 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 * [socket programming slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/sockets_2022.pdf) (2022)
 * **TP2** - [socket programming](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/sockets_2.5.pdf) (2022)
 
+### Some links
+* [Socket programming in Python](https://realpython.com/python-sockets)
+* [A guide to java socket](https://www.baeldung.com/a-guide-to-java-sockets)
+
 ## RMI (Remote Message Invocation)
 * [Java RMI slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/RMI_2021.pdf) (2021)
 * **TP3** - [RMI programming (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/RMI-2_3.pdf) / [RMI programming (EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/RMI-2_3en.pdf) (2021)
