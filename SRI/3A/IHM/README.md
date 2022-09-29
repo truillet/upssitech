@@ -8,14 +8,15 @@
 _Exemple de code Processing permettant l'affichage de la reconnaissance vocale et l'envoi du résultat vers la synthèse vocale / Example of Processing code allowing the text ouptut of speech recognition and sending the result to TTS_ : **[vocal_ivy](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Code/vocal_ivy.zip)**
 
 ## Interaction gestuelle / gesture interaction
-* **TP2/Tutorial 2** - [Interaction gestuelle](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/TP2_InteractionGestuelle.pdf) / [Gesture Interaction](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/T2_gesture_interaction.pdf) (2021)
+* **TP2/Tutorial 2** - [Interaction gestuelle](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/TP2_InteractionGestuelle.pdf) / [Gesture Interaction](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/T2_gesture_interaction.pdf) (2022)
 
 _Exemple de code Processing permettant l'enregistrement de formes dessinées à l'écran / Example of Processing code for recording shapes drawn on the screen_ : **[Enregistrement Forme](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Code/Enregistrement_Forme.zip)**
 
 _Autres ressources / Other resources_
    * **OneDollarIvy** (implémentation de l'algorithme du [$1 Recognizer](http://faculty.washington.edu/wobbrock/pubs/uist-07.01.pdf)) [code source](https://github.com/truillet/OneDollarIvy)
    * **ICAR** (implémentation de l'algorithme de [Rubine](http://reports-archive.adm.cs.cmu.edu/anon/itc/CMU-ITC-099.pdf)) [code source](https://github.com/truillet/icar), [fichier jar](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Outils/icar.1.2.zip) et [documentation](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Outils/icar.pdf)
-
+  * **[$N Recognizer](https://depts.washington.edu/acelab/proj/dollar/ndollar.html)**
+  
 ## Fusion Multimodale / Multimodal Fusion
 * **TP3-5/Tutorial 3 to 5** - [Moteur de Fusion](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/TP3-5_Projet_Multimodal.pdf) / [Multimodal Engine](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/T3-5_multimodal_interaction.pdf) (2021)
 
