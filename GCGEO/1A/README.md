@@ -23,7 +23,7 @@ Il existe d'autres solutions permettant par exemple d'utiliser GNU Octave sous [
 * **TP 5/6** : [Algorithmes de tri](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP5-6_Algorithmes_tri.pdf) (2021)
   * [Les algortihmes de tri](https://interstices.info/les-algorithmes-de-tri)
   * [Chaîne Youtube AlgoRythmics](https://www.youtube.com/user/AlgoRythmics)
-  * [Visualisation de tris](http://sorting.at)
+  * [Visualisation de tris](https://dharshakch97.github.io/sort-visualizer)
 <!--
 * **TP 7/8** : [Calculer la valeur de](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP7-8_Pi.pdf) $\pi$ (2020)
  -->
