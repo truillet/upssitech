@@ -12,7 +12,8 @@ Il existe d'autres solutions permettant par exemple d'utiliser GNU Octave sous [
 * **TD 1** : [Structures de contrôle, tableaux/vecteurs/matrices](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/TD1_Structures_Tableaux_Vecteurs_Matrices.pdf) (2022)
 * **TD 2** : [Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/TD2_Fonctions.pdf) (2022)
 * **TD 3** : [Algorithmes de tri](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/TD3_algorithmes_de_tri.pdf) (2022)
-* **TD 4** : [Méthodes d'intégration](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/TD4_Integration.pdf) (2021)
+* **TD 4** : [Les aventures de $\pi$ et méthodes d'intégration](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/TD4_Pi_Integration.pdf) (2022)
+  * [le nombre $\pi$](https://www.nombrepi.com) 
 
 ## supports de TP
 * **TP 1** : [Prise en main](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP1_Prise_en_main.pdf) (2022)
@@ -20,10 +21,12 @@ Il existe d'autres solutions permettant par exemple d'utiliser GNU Octave sous [
 * **TP 3** : [Affichage - Partie 2](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP3_Affichage_Part2.pdf) (2022)
 * **TP 4** : [Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP4_Fonctions.pdf) (2022)
 * **TP 5/6** : [Algorithmes de tri](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP5-6_Algorithmes_tri.pdf) (2021)
+  * [Les algortihmes de tri](https://interstices.info/les-algorithmes-de-tri)
   * [Chaîne Youtube AlgoRythmics](https://www.youtube.com/user/AlgoRythmics)
   * [Visualisation de tris](http://sorting.at)
+<!--
 * **TP 7/8** : [Calculer la valeur de](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP7-8_Pi.pdf) $\pi$ (2020)
- 
+ -->
 
 ### solutions des TP
 * **TP 1** : [Prise en main](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/solutions/tp1.zip) (2019)
