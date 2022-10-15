@@ -13,7 +13,7 @@ Il existe d'autres solutions permettant par exemple d'utiliser GNU Octave sous [
 * **TD 2** : [Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/TD2_Fonctions.pdf) (2022)
 * **TD 3** : [Algorithmes de tri](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/TD3_algorithmes_de_tri.pdf) (2022)
 * **TD 4** : [Les aventures de $\pi$ et méthodes d'intégration](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/TD4_Pi_Integration.pdf) (2022)
-  * [le nombre $\pi$](https://www.nombrepi.com) 
+  * [le nombre](https://www.nombrepi.com) $\pi$
 
 ## supports de TP
 * **TP 1** : [Prise en main](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP1_Prise_en_main.pdf) (2022)
