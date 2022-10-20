@@ -28,8 +28,7 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 * [A Step by Step Implementation Tutorial for Java RMI](http://www.ejbtutorial.com/java-rmi/a-step-by-step-implementation-tutorial-for-java-rmi)
 
 ### CORBA: Common Object Request Broker Architecture **(optional)**
-* 
-[CORBA slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/CORBA-2020.pdf) (2020)
+* [CORBA slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/CORBA-2020.pdf) (2020)
 * **TP3bis** - [CORBA programming](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/CORBA-3.4.pdf) (2020)
 
 ## API RESTful and JSON (JavaScript Object Notation) 
