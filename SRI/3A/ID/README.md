@@ -19,11 +19,17 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 * [A guide to java socket](https://www.baeldung.com/a-guide-to-java-sockets)
 
 ## RMI (Remote Message Invocation)
-* [Java RMI slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/RMI_2021.pdf) (2021)
-* **TP3** - [RMI programming (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/RMI-2_3.pdf) / [RMI programming (EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/RMI-2_3en.pdf) (2021)
+* [Java RMI slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/RMI_2022.pdf) (2022)
+* **TP3** - [RMI programming (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/RMI-2_4.pdf) / [RMI programming (EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/RMI-2_3en.pdf) (2022)
+
+### Some links
+* [Java Remote Method Invocation Distributed Computing for Java](https://www.oracle.com/java/technologies/javase/remote-method-invocation-distributed-computing.html)
+* [RMI](http://cedric.cnam.fr/~farinone/IAGL/rmi.pdf)
+* [A Step by Step Implementation Tutorial for Java RMI](http://www.ejbtutorial.com/java-rmi/a-step-by-step-implementation-tutorial-for-java-rmi)
 
 ### CORBA: Common Object Request Broker Architecture **(optional)**
-* [CORBA slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/CORBA-2020.pdf) (2020)
+* 
+[CORBA slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/CORBA-2020.pdf) (2020)
 * **TP3bis** - [CORBA programming](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/CORBA-3.4.pdf) (2020)
 
 ## API RESTful and JSON (JavaScript Object Notation) 
