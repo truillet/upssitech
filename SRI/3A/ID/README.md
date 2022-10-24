@@ -12,7 +12,7 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 
 ## Java socket programming
 * [socket programming slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/sockets_2022.pdf) (2022)
-* **TP2** - [socket programming](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/sockets_2.5.pdf) (2022)
+* **TP2** - [socket programming v. 2.5](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/sockets_2.5.pdf) (2022)
 
 ### Some links
 * [Socket programming in Python](https://realpython.com/python-sockets)
@@ -20,7 +20,7 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 
 ## RMI (Remote Message Invocation)
 * [Java RMI slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/RMI_2022.pdf) (2022)
-* **TP3** - [RMI programming (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/RMI-2_4.pdf) / [RMI programming (EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/RMI-2_3en.pdf) (2022)
+* **TP3** - [RMI programming v. 2.4 (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/RMI-2_4.pdf) / [RMI programming v. 2.3 (EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/RMI-2_3en.pdf) (2022)
 
 ### Some links
 * [Java Remote Method Invocation Distributed Computing for Java](https://www.oracle.com/java/technologies/javase/remote-method-invocation-distributed-computing.html)
@@ -29,7 +29,7 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 
 ### CORBA: Common Object Request Broker Architecture **(optional)**
 * [CORBA slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/CORBA-2020.pdf) (2020)
-* **TP3bis** - [CORBA programming](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/CORBA-3.4.pdf) (2020)
+* **TP3bis** - [CORBA programming v. 3.4](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/CORBA-3.4.pdf) (2020)
 
 ## API RESTful and JSON (JavaScript Object Notation) 
 * [REST and JSON slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/REST_JSON.pdf) (2021)
