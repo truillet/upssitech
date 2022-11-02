@@ -41,14 +41,14 @@ Il existe d'autres solutions permettant par exemple d'utiliser GNU Octave sous [
 * **2019-2020** : [Tri (très) sélectif](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/Projet-2020_v1.0_GCGEO.pdf) - Le rendu sera à effectuer pour le 12 janvier 2020 23h55 UTC
 * **2020-2021** : [A la recherche du "Zéro"](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/Projet-2021_v1.0.pdf) - Le rendu sera à effectuer pour le 10 janvier 2021 23h55 UTC
 * **2021-2022** : [Des rayons et des formes](https://github.com/vgaildrat/2021_GCGEO_Projet) - Le rendu sera à effectuer pour le 16 janvier 2022 23h55 UTC
-* **2022-2023** : ["Une aire" de déjà-vu]() - Le rendu sera à effectuer pour le 13 janvier 2023 23h55 UTC
+* **2022-2023** : ["Une aire" de déjà-vu](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/Projet-2023_v1.0.pdf) - Le rendu sera à effectuer pour le 13 janvier 2023 23h55 UTC
 
 ### Contrôles Continus
 * **2018-2019** : le sujet [1](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/TP8%20-%20Controle%20Continu_2018_GCGE0_Gr1.pdf) et le [2](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/TP8%20-%20Controle%20Continu_2018_GCGEO_Gr2.pdf)
 * **2019-2020** : le sujet [1](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/TP8%20-%20Controle%20Continu_2019-Gr1_GCGEO.pdf) et le [2](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/TP8%20-%20Controle%20Continu_2019-Gr2_GCGEO.pdf) (et les solutions [ici](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/solutions/CC2019_Gr1.zip) et [là](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/solutions/CC2019_Gr2.zip))
 * **2020-2021** : [Le sujet du Contrôle Continu (*distanciel*)](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/CC_2020.pdf)
 * **2021-2022** : [le sujet](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/CC_2021_GCGEO.pdf) et la solution [ici](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/solutions/CC2021.zip)
-* **2022-2023** : *à venir*
+* **2022-2023** : Le sujet 1 et 2 *à venir*
 
 ### Petit plus 
 Utiliser des "packages" sous GNU Octave peut permettre d'enrichir les fonctionnalités du langage. La liste des principaux packages est disponible --> [ici](https://gnu-octave.github.io/pkg-index/) <--
