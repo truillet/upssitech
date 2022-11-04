@@ -32,7 +32,7 @@ _Exemple de code Processing permettant la gestion de formes géométriques / Exa
 * **TP6/Tutorial 6** - [Multimodalité en sortie](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/TP6_multimodalite_sortie.pdf) / [Multimodal Fission](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/T6_multimodal_fission.pdf) (2022)
 
 * **Les outils utilisés dans le TP / tools used in this tutorial** : agent de synthèse vocale / speech Synthesis agent [ppilot5 v 3.3](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.3.zip), agent d'affichage braille / braille display agent [Braille_display](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Code/Braille_display.zip), outil de supervision ivy / ivy monitoring tool [Probe](https://github.com/truillet/ivy/blob/master/code/Probe.zip) ou / or [visionneur](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Outils/visionneur_1_2.zip)
-  * **[Speech Synthesis Markup Language - SSML](https://www.w3.org/TR/speech-synthesis11)**
+  * **[Speech Synthesis Markup Language - SSML](https://www.w3.org/TR/speech-synthesis11)** et **[support SSML pour SAPI 5](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/Memo/ssml.pdf)**
   * autres liens "intéressants"
     * [seeing with sound](https://www.seeingwithsound.com/webvoice/webvoice.htm) : un exemple de transmodalité 
     * [Renault 25 et TTS](https://www.dailymotion.com/video/x2vt9b)
