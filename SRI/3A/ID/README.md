@@ -48,7 +48,7 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 * [ROS2](https://github.com/ros2) : Robotic Operating System
 * [TUIO](https://www.tuio.org) : Tangible User Interface Object (based on OSC protocol) is an open protocol for the communication of data from devices like a multi-touch display, an interactive surface, or a computer vision-based motion tracker
 * [ZeroMQ](https://zeromq.org) : (zero brocker) is an open-source universal messaging library and [Ingescape](https://github.com/zeromq/ingescape)
-* [ingescape](https://ingescape.com/fr/home) : Model-based framework for broker-free distributed software environments by [ingenuiti I/O](https://ingenuity.io)
+* [ingescape](https://ingescape.com/fr/home) : Model-based framework for broker-free distributed software environments by [ingenuity I/O](https://ingenuity.io)
 
 
 ## Projects
