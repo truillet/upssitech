@@ -45,10 +45,11 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 * [Paho - MQTT library](https://pypi.org/project/paho-mqtt)
 
 ## Ingescape: Model-based framework for broker-free distributed software environments
+### Some links
 * [ingescape circle](https://ingescape.com/circle)
 * [ingescape for python](https://github.com/zeromq/ingescape/tree/main/bindings/python)
 * [ingescape for java](https://ingescape.com/ingescape-java)
-* ingescape for [nodeJS](https://github.com/zeromq/ingescape/tree/main/bindings/javascript-node)
+* [ingescape for nodeJS](https://github.com/zeromq/ingescape/tree/main/bindings/javascript-node)
 * [ingescape for C#](https://github.com/zeromq/ingescape/tree/main/bindings/csharp)
 
 ## Other interesting middlewares
