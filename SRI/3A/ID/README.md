@@ -46,10 +46,10 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 
 ## Ingescape: Model-based framework for broker-free distributed software environments
 * [ingescape circle](https://ingescape.com/circle)
-* [ingescape for python](https://ingescape.com/ingescape-python)
+* [ingescape for python](https://github.com/zeromq/ingescape/tree/main/bindings/python)
 * [ingescape for java](https://ingescape.com/ingescape-java)
-* ingescape for [javascript](https://ingescape.com/ingescape-js) and [nodeJS](https://ingescape.com/ingescape-nodejs)
-* [ingescape for C#](https://ingescape.com/ingescape-csharp)
+* ingescape for [nodeJS](https://github.com/zeromq/ingescape/tree/main/bindings/javascript-node)
+* [ingescape for C#](https://github.com/zeromq/ingescape/tree/main/bindings/csharp)
 
 ## Other interesting middlewares
 * [ROS2](https://github.com/ros2) : Robotic Operating System
