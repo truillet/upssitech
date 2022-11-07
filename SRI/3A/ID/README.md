@@ -40,7 +40,7 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 * [Arduino - an overview](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/arduino_general.pdf) (2021)
 * **TP5** - [MQTT - protocol for IoT devices (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/MQTT-1.7.pdf) (2022) / [MQTT - protocol for IoT devices (EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/MQTT-1.6en.pdf)  (2021)
 ### Some links
-* [Shitr.io](https://www.shiftr.io)
+* [Shiftr.io](https://www.shiftr.io)
 * [Eclipse Mosquitto - MQTT brocker](https://mosquitto.org)
 * [Paho - MQTT library](https://pypi.org/project/paho-mqtt)
 
