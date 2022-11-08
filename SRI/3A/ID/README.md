@@ -37,13 +37,13 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 
 ## MQTT: a lightweight publish/subscribe messaging transport
 * [MQTT slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/MQTT.pdf) (2022)
-* [Arduino - an overview](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/arduino_general.pdf) (2021)
 * **TP5** - [MQTT - protocol for IoT devices (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/MQTT-1.7.pdf) (2022) / [MQTT - protocol for IoT devices (EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/MQTT-1.6en.pdf)  (2021)
 ### Some links
 * [Shiftr.io](https://www.shiftr.io)
 * [Eclipse Mosquitto - MQTT brocker](https://mosquitto.org)
 * [Paho - MQTT library](https://pypi.org/project/paho-mqtt)
-* [Introduction à arduino : ESP8266 et ESP32](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/arduino.pdf)
+* [Introduction à arduino : ESP8266 et ESP32](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/arduino.pdf) (2022)
+ Suivant le matériel utilisé, vous serez amenés à utiliser le driver [CH341SER](https://github.com/HobbyComponents/CH340-Drivers/tree/master/CH341SER) [notamment pour les clones chinois] ou le driver [CP210x USB to UART Bridge](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers), utile pour les ESP32 par exemple(2022)
 * exemple de code : [Capteur DHT / ESP32](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Code/DHT_ESP32.zip) et [Station Météo](https://github.com/truillet/Projets/tree/master/Weather_Station)
 
 ## Ingescape: Model-based framework for broker-free distributed software environments
