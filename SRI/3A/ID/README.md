@@ -43,6 +43,8 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 * [Shiftr.io](https://www.shiftr.io)
 * [Eclipse Mosquitto - MQTT brocker](https://mosquitto.org)
 * [Paho - MQTT library](https://pypi.org/project/paho-mqtt)
+* [Introduction à arduino : ESP8266 et ESP32](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/arduino.pdf)
+* exemple de code : [Capteur DHT / ESP32](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Code/DHT_ESP32.zip) et [Station Météo](https://github.com/truillet/Projets/tree/master/Weather_Station)
 
 ## Ingescape: Model-based framework for broker-free distributed software environments
 ### Some links
