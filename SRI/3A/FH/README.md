@@ -7,7 +7,7 @@
 ## Accessibilité / Accessibility
 -->
 
-* **Cours/Lecture** - Interaction et Handicap (FR) (2022)
+* **Cours/Lecture** - [Interaction et Handicap](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/Cours/Handicap.pdf) (FR) (2022)
 *  **TP/Tutorial** - [Accessibilité & Handicap (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/TP/TP2_Accessibilite_et_Handicap.pdf) / [Accessibility and disability (EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/TP/T2_Accessibility_Disability.pdf) (2021)
 
 ## Design
