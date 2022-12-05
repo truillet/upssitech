@@ -65,4 +65,4 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 * **Project -2020-** : [TISSU - TIny Smart Sensors Unified](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2020_v1.0.pdf)
 * **Project -2021-** : [SEW - Sensors EveryWhere](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2021_v1.0.pdf)
 * **Project -2022-** : [ID-PHYCS - Interactive Disseminated PHYsical Complex Sensors (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2022_v1.0.pdf) / [(EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2022_v1.0en.pdf)
-* **Project -2023-** : Phi-X/it - PHYsically eXtended Interactive Technologies
+* **Project -2023-** : [Phi-X/it - PHYsically eXtended Interactive Technologies](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2023_v1.0.pdf)
