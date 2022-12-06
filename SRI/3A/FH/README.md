@@ -11,7 +11,8 @@
 
 *  **TP/Tutorial** - [Accessibilité & Handicap](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/TP/TP1_Accessibilite_et_Handicap.pdf) (2022)
      * [Code p5js](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/TP/Outils/p5js.zip)
-     * [génération de dessin](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/TP/Outils/dessin.zip)
+     * [Code génération de dessin](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/TP/Outils/dessin.zip)
+     * [plugin p5js pour VSCode](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode)
  
 ## Design
 * [The Laws of Simplicity](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/Cours/The_Laws_of_Simplicity.pdf) (J. Maeda) (2022)
