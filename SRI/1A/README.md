@@ -13,9 +13,10 @@
 [<img src="https://img.youtube.com/vi/_7ZtISeGyCY/0.jpg" width=250 alt="Put That There">](https://www.youtube.com/watch?v=_7ZtISeGyCY)
 
 * [The Information Capacity of he Human Motor System in Controlling The Amplitude of Movement](https://github.com/truillet/upssitech/blob/master/SRI/1A/articles/Fitts_1954.pdf), Paul Fitts in Journal of Experimental Psychology, vol. 47, No 6, June 1954
-* [50 ans d'interaction homme-machine](https://interstices.info/50-ans-dinteraction-homme-machine-retours-vers-le-futur/)
+* [M. Beaudoin-Lafon, 50 ans d'interaction homme-machine : retours vers le futur, Interstices.info](https://interstices.info/50-ans-dinteraction-homme-machine-retours-vers-le-futur)
 * [Reimagining Participatory Design](http://interactions.acm.org/archive/view/january-february-2019/reimagining-participatory-design), ACM Interactions, January-February 2019, p.26
-* [ACM Interactions Magazine](http://interactions.acm.org/)
+* [ACM Interactions Magazine](http://interactions.acm.org)
+* [Microsoft, Human-Computer Interaction in the Year 2020](https://www.microsoft.com/en-us/research/project/being-human/#:~:text=Human%2DComputer%20Interaction%20in%20the%20Year%202020&text=As%20we%20move%20further%20the,enables%20and%20recognizes%20human%20values.)
 
 ## <img src="https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/Processing_2021_logo.png" width=64> [Processing.org](https://www.processing.org)
 * [support d'introduction rapide à Processing.org](https://github.com/truillet/upssitech/blob/master/SRI/1A/Cours/introduction_processing.pdf) (2022)
