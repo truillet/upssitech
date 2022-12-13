@@ -38,3 +38,4 @@
 * [Sujet 2018/2019](https://github.com/truillet/upssitech/blob/master/SRI/1A/Examen/Exam_1Asri__060219.pdf)
 * [Sujet 2019/2020](https://github.com/truillet/upssitech/blob/master/SRI/1A/Examen/Exam_1Asri__050220.pdf)
 * [Sujet 2020/2021](https://github.com/truillet/upssitech/blob/master/SRI/1A/Examen/Exam_1Asri__030221.pdf)
+* [Sujet 2021/2022]()
