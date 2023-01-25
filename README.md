@@ -3,7 +3,7 @@
 # Notes de Cours/TD/TP
 Vous trouverez ici les notes de cours des :
 
-* **CPI - cursus préparatoire intégré (ouverture septembre 2022))**
+* **CUPGE UPSSITECH - cursus préparatoire intégré **
   * [Stuctures de données / Langage C](https://github.com/truillet/upssitech/tree/master/CUPGE/L2/SDD)
   * Introduction aux Réseaux Informatiques  
 * **Filière GCGEO 1ère année**
