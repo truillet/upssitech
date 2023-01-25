@@ -3,7 +3,7 @@
 
 ## Cours
 * [Eléments introductifs sur les structures de données](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/Cours/introduction_SdD.pdf) (2023)
-* [enum, union et typedef en langage C](https://github.com/truillet/ups/blob/master/l2cupge/TP/types_avances_C.pdf)
+* [enum, union et typedef en langage C](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/Cours/types_avances_C.pdf) (2023)
 
 ### Quelques liens 
 
