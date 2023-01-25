@@ -10,7 +10,7 @@
 * D. Ritchie, [The Development of the C Language](https://dl.acm.org/doi/10.1145/155360.155580), ACM SIGPLAN Notices, Volume 28, n° 3, March 1993, pp. 201-208
 * [Quick and Dirty Guide to C](https://courses.cs.washington.edu/courses/cse351/14sp/sections/1/Cheatsheet-c.pdf)
 * [Pointer Cheat Sheet](https://c-for-dummies.com/caio/pointer-cheatsheet.php)
-* [Installer le sous-sytème ubuntu sous windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+* [Installer le sous-sytème ubuntu sous windows](https://learn.microsoft.com/fr-fr/windows/wsl/install)
 * [Serveur X et WSL2](https://medium.com/javarevisited/using-wsl-2-with-x-server-linux-on-windows-a372263533c3)
 
 ```
