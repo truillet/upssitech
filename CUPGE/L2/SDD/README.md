@@ -58,7 +58,7 @@ gcc -E fichier.c # montre le résultat issu de l'étape du pré-processeur
 gcc -S fichier.c # génère le code ASM fichier.s
 ```
 
-## Contrôles continus, Projet & examen
+## Contrôles continus, Projets & examens
 ### Contrôles continus
 
 * **CC1**
