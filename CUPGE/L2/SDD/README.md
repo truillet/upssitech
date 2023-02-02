@@ -59,9 +59,8 @@ gcc -S fichier.c # génère le code ASM fichier.s
 ```
 
 ## Contrôles continus, Projets & examens
-### Contrôles continus
+### Contrôles continus (CC1 et CC2)
 
-* **CC1 et CC2 **
   *  **2019** : [Complexes](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC1_Structures_2019.pdf) (solution [ici](https://github.com/truillet/ups/blob/master/l2cupge/CC/Complexe.zip)) et [Listes](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC2_Pointeurs_2019.pdf)
   *  **2020** : [Points et Vecteurs](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC1_Structures_2020.pdf) (solution [ici](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC1_2020.zip))
   *  **2021** : [Equations](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC1_Structures_2021.pdf) et [Suite et liste](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC2_ExamenMachine_2021.pdf)
