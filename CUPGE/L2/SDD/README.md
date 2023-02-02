@@ -24,8 +24,8 @@ export LIBGL_ALWAYS_INDIRECT=1
 
 ## Travaux Pratiques
 
-* **TP 1** : [prise en main](https://github.com/truillet/ups/blob/master/l2cupge/TP/TP1_Prise_en_main.pdf) et [solution](https://github.com/truillet/ups/blob/master/l2cupge/TP/solutions/sum.c) (2021)
-* **TP 2** : [utilisation de structure simple](https://github.com/truillet/ups/blob/master/l2cupge/TP/TP2_Structure_Simple.pdf) et [solution](https://github.com/truillet/ups/blob/master/l2cupge/TP/solutions/jeucarte.c) (2021)
+* **TP 1** : [prise en main](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP1_Prise_en_main.pdf) et [solution](https://github.com/truillet/ups/blob/master/l2cupge/TP/solutions/sum.c) (2023)
+* **TP 2** : [utilisation de structure simple](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP2_Structure_Simple.pdf) et [solution](https://github.com/truillet/ups/blob/master/l2cupge/TP/solutions/jeucarte.c) (2023)
 * **TP 3 & 4** : [exploration de labyrinthes](https://github.com/truillet/ups/blob/master/l2cupge/TP/TP3-4_Exploration.pdf) et [début de solution]() (2021)
 * **TP 5** : [compilation séparée](https://github.com/truillet/ups/blob/master/l2cupge/TP/TP5_Compilation_Separee.pdf) et [solution](https://github.com/truillet/ups/blob/master/l2cupge/TP/solutions/compilation_separee.zip)
 * **TP 6 & 7** : [Graphes - partie 1](https://github.com/truillet/ups/blob/master/l2cupge/TP/TP6-7_Graphes1.pdf) et [début de solution](https://github.com/truillet/ups/blob/master/l2cupge/TP/solutions/Graphes_LC.zip)
@@ -71,6 +71,7 @@ gcc -S fichier.c # génère le code ASM fichier.s
   * **2019** : [Listes](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC2_Pointeurs_2019.pdf)
   * **2021** : [Suite et liste](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC2_ExamenMachine_2021.pdf) 
   * **2022** : [Suite et arbre](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC2_ExamenMachine_2022.pdf) (solution [ici](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC2_2022.zip))
+  * **2023** : *à venir*
 
 ### Projets
 * **Projet 2018** : [Réservations de ressources](https://github.com/truillet/ups/blob/master/l2cupge/CC/Projet_Info_2018.pdf)
@@ -78,9 +79,11 @@ gcc -S fichier.c # génère le code ASM fichier.s
 * **Projet 2020** : [Share Things](https://github.com/truillet/ups/blob/master/l2cupge/CC/Projet_Info_2020.pdf)
 * **Projet 2021** : [Tchou-(tchou)](https://github.com/truillet/ups/blob/master/l2cupge/CC/Projet_Info_2021.pdf)
 * **Projet 2022** : [BAC - **B**ook **A** **C**lassrom](https://github.com/truillet/ups/blob/master/l2cupge/CC/Projet_Info_2022.pdf)
+* **Projet 2023** : *à venir*
 
 ### Contrôles Terminaux
 * **Examen sur table 2019** : [Examen 2019](https://github.com/truillet/ups/blob/master/l2cupge/CC/CT_Examen_L2CUPGE_2019_session1.pdf)
 * **Examen sur table 2021** : [Examen 2021](https://github.com/truillet/ups/blob/master/l2cupge/CC/CT_Examen_L2CUPGE_2021_session1.pdf)
 * **Examen sur table 2022** : [Examen 2022](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/CT_Examen_L2CUPGE_2022_session1.pdf)
+* **Examen sur table 2023** : *à venir*
 
