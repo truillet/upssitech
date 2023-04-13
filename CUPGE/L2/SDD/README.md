@@ -28,8 +28,8 @@ export LIBGL_ALWAYS_INDIRECT=1
 * **TP 2** : [utilisation de structure simple](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP2_Structure_Simple.pdf) et [solution](https://github.com/truillet/ups/blob/master/l2cupge/TP/solutions/jeucarte.c) (2023)
 * **TP 3 & 4** : [exploration de labyrinthes](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP3-4_Exploration.pdf) et [début de solution](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/solutions/labyrinthe.zip) (2023)
 * **TP 5** : [compilation séparée](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP5_Compilation_Separee.pdf) et [solution](https://github.com/truillet/ups/blob/master/l2cupge/TP/solutions/compilation_separee.zip) (2023)
-* **TP 6 & 7** : [Graphes - partie 1](https://github.com/truillet/ups/blob/master/l2cupge/TP/TP6-7_Graphes1.pdf) et [début de solution](https://github.com/truillet/ups/blob/master/l2cupge/TP/solutions/Graphes_LC.zip)
-* **TP 8 & 9** : [Graphes - partie 2](https://github.com/truillet/ups/blob/master/l2cupge/TP/TP8-9_Graphes2.pdf)
+* **TP 6 & 7** : [Graphes - partie 1](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP6-7_Graphes1.pdf) et [début de solution](https://github.com/truillet/ups/blob/master/l2cupge/TP/solutions/Graphes_LC.zip) (2023)
+* **TP 8 & 9** : [Graphes - partie 2](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP8-9_Graphes2.pdf) (2023)
 ```mermaid
  graph TD;
   A-->C;
@@ -41,9 +41,9 @@ export LIBGL_ALWAYS_INDIRECT=1
   E-->G;
   E-->F;
 ```
-* **TP 10** : [JNI - articuler java et langage C](https://github.com/truillet/ups/blob/master/l2cupge/TP/TP10_JNI_C.pdf)
-* **TP bonus 1** : [arduino](https://github.com/truillet/ups/blob/master/l2cupge/TP/TPbonus1_arduino.pdf)
-* **TP bonus 2** : [un middleware pour l'interaction](https://github.com/truillet/ups/blob/master/l2cupge/TP/TPbonus2_ivy_middleware.pdf) 
+* **TP 10** : [JNI - articuler java et langage C](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP10_JNI_C.pdf) (2023)
+* **TP bonus 1** : [arduino](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TPbonus1_arduino.pdf) (2023)
+* **TP bonus 2** : [un middleware pour l'interaction](https://github.com/truillet/ups/blob/master/l2cupge/TP/TPbonus2_ivy_middleware.pdf) (2023)
 
 ### Eléments
 __installer Java OpenJDK (téléchargement des paquets)__
