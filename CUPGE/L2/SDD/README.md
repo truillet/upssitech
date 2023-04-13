@@ -43,12 +43,12 @@ export LIBGL_ALWAYS_INDIRECT=1
 ```
 * **TP 10** : [JNI - articuler java et langage C](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP10_JNI_C.pdf) (2023)
 * **TP bonus 1** : [arduino](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TPbonus1_arduino.pdf) (2023)
-* **TP bonus 2** : [un middleware pour l'interaction](https://github.com/truillet/ups/blob/master/l2cupge/TP/TPbonus2_ivy_middleware.pdf) (2023)
+* **TP bonus 2** : [un middleware pour l'interaction](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TPbonus2_ivy_middleware.pdf) (2023)
 
 ### Eléments
 __installer Java OpenJDK (téléchargement des paquets)__
 ```
-sudo apt install openjdk-14-jdk-headless
+sudo apt install openjdk-17-jdk-headless
 ```
 
 __gcc__
