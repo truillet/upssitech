@@ -11,7 +11,7 @@
 * [Quick and Dirty Guide to C](https://courses.cs.washington.edu/courses/cse351/14sp/sections/1/Cheatsheet-c.pdf)
 * [Pointer Cheat Sheet](https://c-for-dummies.com/caio/pointer-cheatsheet.php)
 * [Installer le sous-sytème ubuntu sous windows](https://learn.microsoft.com/fr-fr/windows/wsl/install)
-* [Serveur X et WSL2](https://medium.com/javarevisited/using-wsl-2-with-x-server-linux-on-windows-a372263533c3)
+* [Serveur X et WSL2 sous Windows 10](https://medium.com/javarevisited/using-wsl-2-with-x-server-linux-on-windows-a372263533c3)
 
 ```
 # sous WSL 2 et windows 11, un serveur X est installé [Magic] ! 
