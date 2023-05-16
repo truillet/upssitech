@@ -65,7 +65,7 @@ gcc -S fichier.c # génère le code ASM fichier.s
   *  **2020** : [Points et Vecteurs](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC1_Structures_2020.pdf) (solution [ici](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC1_2020.zip))
   *  **2021** : [Equations](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC1_Structures_2021.pdf) et [Suite et liste](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC2_ExamenMachine_2021.pdf)
   *  **2022** : [Quaternions](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC1_Structures_2022.pdf) (solution [ici](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC1_2022.zip)) et [Suite et arbre](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC2_ExamenMachine_2022.pdf) (solution [ici](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC2_2022.zip))
-  * **2023** : [Méthode de Cardan](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/CC1_Structures_2023.pdf) (solution [ici](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/solutions/CC1_2023.zip))
+  * **2023** : [Méthode de Cardan](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/CC1_Structures_2023.pdf) (solution [ici](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/solutions/CC1_2023.zip)) et [tango unchained](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/CC2_ExamenMachine_2023.pdf)
 
 ### Projets
 * **Projet 2018** : [Réservations de ressources](https://github.com/truillet/ups/blob/master/l2cupge/CC/Projet_Info_2018.pdf)
@@ -79,5 +79,4 @@ gcc -S fichier.c # génère le code ASM fichier.s
 * **Examen sur table 2019** : [Examen 2019](https://github.com/truillet/ups/blob/master/l2cupge/CC/CT_Examen_L2CUPGE_2019_session1.pdf)
 * **Examen sur table 2021** : [Examen 2021](https://github.com/truillet/ups/blob/master/l2cupge/CC/CT_Examen_L2CUPGE_2021_session1.pdf)
 * **Examen sur table 2022** : [Examen 2022](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/CT_Examen_L2CUPGE_2022_session1.pdf)
-* **Examen sur table 2023** : *à venir*
 
