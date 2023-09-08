@@ -1,12 +1,16 @@
 # Algorithmique / GNU Octave
 
-**Nota** : vous pouvez essayer **GNU Octave** [en ligne](https://octave-online.net)
+## introduction
+[<img src="https://img.youtube.com/vi/_7ZtISeGyCYhttps://www.youtube.com/watch?v=cDA3_5982h8/0.jpg" width=250 alt="Exact Instructions Challenge - THIS is why my kids hate me. | Josh Darnit">](https://www.youtube.com/watch?v=cDA3_5982h8)
 
-Il existe d'autres solutions permettant par exemple d'utiliser GNU Octave sous [Jupyter Notebook](https://jupyter.org) en utiisant le [kernel octave](https://pypi.org/project/octave-kernel)
 
 ## supports de cours
 * [pptx présentation GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/gnu_octave_2023.pdf) (2023)
 * [notes de cours GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/octave_v1.92.pdf) (2022)
+
+**Nota** : vous pouvez essayer **GNU Octave** [en ligne](https://octave-online.net)
+
+Il existe d'autres solutions permettant par exemple d'utiliser GNU Octave sous [Jupyter Notebook](https://jupyter.org) en utiisant le [kernel octave](https://pypi.org/project/octave-kernel)
 
 ## supports de TD
 * **TD 1** : [Structures de contrôle, tableaux/vecteurs/matrices](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/TD1_Structures_Tableaux_Vecteurs_Matrices.pdf) (2022)
