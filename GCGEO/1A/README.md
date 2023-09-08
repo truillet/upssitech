@@ -8,7 +8,8 @@
 * [pptx présentation GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/gnu_octave_2023.pdf) (2023)
 * [notes de cours GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/octave_v1.92.pdf) (2022)
 
-**Nota** : vous pouvez essayer **GNU Octave** [en ligne](https://octave-online.net)
+Vous pouvez télécharger **GNU Octave** -->[ici](https://octave.org/download)<-- (dernière version 8.3.0 du 08/08/2023) 
+**Nota** : vous pouvez essayer [**GNU Octave** en ligne](https://octave-online.net)
 
 Il existe d'autres solutions permettant par exemple d'utiliser GNU Octave sous [Jupyter Notebook](https://jupyter.org) en utiisant le [kernel octave](https://pypi.org/project/octave-kernel)
 
