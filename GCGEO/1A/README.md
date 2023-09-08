@@ -1,7 +1,7 @@
 # Algorithmique / GNU Octave
 
 ## introduction
-[<img src="https://img.youtube.com/vi/_7ZtISeGyCYhttps://www.youtube.com/watch?v=cDA3_5982h8/0.jpg" width=250 alt="Exact Instructions Challenge - THIS is why my kids hate me. | Josh Darnit">](https://www.youtube.com/watch?v=cDA3_5982h8)
+[<img src="https://img.youtube.com/vi/cDA3_5982h8/0.jpg" width=250 alt="Exact Instructions Challenge - THIS is why my kids hate me. | Josh Darnit">](https://www.youtube.com/watch?v=cDA3_5982h8)
 
 
 ## supports de cours
