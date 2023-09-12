@@ -6,7 +6,7 @@
 
 ## supports de cours
 * [pptx présentation GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/gnu_octave_2023.pdf) (2023)
-* [notes de cours GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/octave_v1.92.pdf) (2022)
+* [notes de cours GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/octave_v1.93.pdf) (2023)
 
 Vous pouvez télécharger **GNU Octave** -->[ici](https://octave.org/download)<-- (dernière version *8.3.0* du 08/08/2023) 
 
