@@ -23,7 +23,7 @@ Il existe d'autres solutions permettant par exemple d'utiliser GNU Octave sous [
 
 ## supports de TP
 * **TP 1** : [Prise en main](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP1_Prise_en_main.pdf) (2023)
-* **TP 2** : [Affichage - Partie 1](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP2_Affichage_Part1.pdf) (2022)
+* **TP 2** : [Affichage - Partie 1](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP2_Affichage_Part1.pdf) (2023)
 * **TP 3** : [Affichage - Partie 2](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP3_Affichage_Part2.pdf) (2022)
 * **TP 4** : [Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP4_Fonctions.pdf) (2022)
 * **TP 5/6/7** : [Algorithmes de tri](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP5-6-7_Algorithmes_tri.pdf) (2022)
