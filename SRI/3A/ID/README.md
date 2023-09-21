@@ -40,6 +40,12 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 * [ROS2](https://github.com/ros2) : Robotic Operating System
 * [TUIO](https://www.tuio.org) : Tangible User Interface Object (based on OSC protocol) is an open protocol for the communication of data from devices like a multi-touch display, an interactive surface, or a computer vision-based motion tracker
 
+## Projects
+* **Project -2019-** : [MySQL - My Smart Quiet Locality](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2019_v1.0.pdf)
+* **Project -2020-** : [TISSU - TIny Smart Sensors Unified](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2020_v1.0.pdf)
+* **Project -2021-** : [SEW - Sensors EveryWhere](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2021_v1.0.pdf)
+* **Project -2022-** : [ID-PHYCS - Interactive Disseminated PHYsical Complex Sensors (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2022_v1.0.pdf) / [(EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2022_v1.0en.pdf)
+* **Project -2023-** : [Phi-X/it - PHYsically eXtended Interactive Technologies](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2023_v1.0.pdf)
 
 ## Older resources
 ### Java socket programming
@@ -64,11 +70,3 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 * [CORBA slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/CORBA-2020.pdf) (2020)
 * **TP3bis** - [CORBA programming v. 3.4](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/CORBA-3.4.pdf) (2020)
 
-
-
-## Projects
-* **Project -2019-** : [MySQL - My Smart Quiet Locality](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2019_v1.0.pdf)
-* **Project -2020-** : [TISSU - TIny Smart Sensors Unified](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2020_v1.0.pdf)
-* **Project -2021-** : [SEW - Sensors EveryWhere](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2021_v1.0.pdf)
-* **Project -2022-** : [ID-PHYCS - Interactive Disseminated PHYsical Complex Sensors (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2022_v1.0.pdf) / [(EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2022_v1.0en.pdf)
-* **Project -2023-** : [Phi-X/it - PHYsically eXtended Interactive Technologies](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2023_v1.0.pdf)
