@@ -5,7 +5,7 @@
 
 ## Ingescape: Model-based framework for broker-free distributed software environments
 * [ingescape](https://ingescape.com/fr/home) : Model-based framework for broker-free distributed software environments by [ingenuity I/O](https://ingenuity.io)
-* 
+ 
 ### Some links
 * [ingescape circle](https://ingescape.com/circle)
 * [ingescape for python](https://github.com/zeromq/ingescape/tree/main/bindings/python)
