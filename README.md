@@ -11,7 +11,7 @@ Vous trouverez ici les notes de cours des :
 * **Filière SRI 1ère année**
   * [Interaction Homme-Machine / Prototypage](https://github.com/truillet/upssitech/blob/master/SRI/1A/README.md)
 * **Filière SRI 3ème année**
-  * [Interaction Distribuée](https://github.com/truillet/upssitech/tree/master/SRI/3A/ID) (UE Conception et et Mise en Oeuvre des Systèmes Robotiques)
-  * [Interaction Humain-Machine Multimodale](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/README.md) (UE Systèmes Interactifs)
-  * [Facteurs Humains et Accessibilité](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/README.md) (UE Mineure Interaction Avancée)
-  * Projet d'intégration interaction 
+  * [Interaction Humain-Machine Multimodale](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/README.md) (UE Sciences et Techniques 9 - KUPR9AD5)
+  * [Interaction Distribuée](https://github.com/truillet/upssitech/tree/master/SRI/3A/ID) (UE Sciences et Techniques 9 - KUPR9AD7)
+  * [Facteurs Humains et Accessibilité](https://github.com/truillet/upssitech/blob/master/SRI/3A/FH/README.md) (UE UE Sciences et Techniques 8 - KUPR9AC2)
+  * Projet d'intégration interaction
