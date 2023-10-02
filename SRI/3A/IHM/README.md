@@ -29,7 +29,7 @@ _Autres ressources / Other resources_
 ## Fusion Multimodale / Multimodal Fusion
 * **TP3-5/Tutorial 3 to 5** - [Moteur de Fusion](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/TP3-5_Projet_Multimodal.pdf) (2023) / [Multimodal Engine](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/T3-5_multimodal_interaction.pdf) (2023)
 
-_Exemple de code Processing permettant la gestion de formes géométriques / Example of Processing code for rmanipulating different shapes_ :_ : **[Palette](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Code/Palette.zip)**
+_Exemple de code Processing permettant la gestion de formes géométriques / Example of Processing code for rmanipulating different shapes_ : **[Palette](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Code/Palette.zip)**
 
 [<img src="https://img.youtube.com/vi/RyBEUyEtxQo/0.jpg" width=250 alt="Put That There">](https://youtu.be/RyBEUyEtxQo)
 
