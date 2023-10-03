@@ -25,6 +25,10 @@ _Autres ressources / Other resources_
    * **OneDollarIvy** (implémentation de l'algorithme du [$1 Recognizer](http://faculty.washington.edu/wobbrock/pubs/uist-07.01.pdf)) [code source](https://github.com/truillet/OneDollarIvy)
    * **ICAR** (implémentation de l'algorithme de [Rubine](http://reports-archive.adm.cs.cmu.edu/anon/itc/CMU-ITC-099.pdf)) [code source](https://github.com/truillet/icar), [fichier jar](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Outils/icar.1.2.zip) et [documentation](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Outils/icar.pdf)
   * **[$N Recognizer](https://depts.washington.edu/acelab/proj/dollar/ndollar.html)**
+
+_Un peu d'Histoire  / A bit of History_
+* [PalmOs et Graffiti](https://designobserver.com/feature/interface-runes/35108)
+<img src="" width=250 alt="Graffiti gestures">
   
 ## Fusion Multimodale / Multimodal Fusion
 * **TP3-5/Tutorial 3 to 5** - [Moteur de Fusion](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/TP3-5_Projet_Multimodal.pdf) (2023) / [Multimodal Engine](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/T3-5_multimodal_interaction.pdf) (2023)
