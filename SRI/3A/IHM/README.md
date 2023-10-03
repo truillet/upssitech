@@ -28,7 +28,7 @@ _Autres ressources / Other resources_
 
 _Un peu d'Histoire  / A bit of History_
 * [PalmOs et Graffiti](https://designobserver.com/feature/interface-runes/35108)
-<img src="" width=250 alt="Graffiti gestures">
+<img src="https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/ressources/Palm_Graffiti_gestures.png" height=250 alt="Graffiti gestures">
   
 ## Fusion Multimodale / Multimodal Fusion
 * **TP3-5/Tutorial 3 to 5** - [Moteur de Fusion](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/TP3-5_Projet_Multimodal.pdf) (2023) / [Multimodal Engine](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/T3-5_multimodal_interaction.pdf) (2023)
