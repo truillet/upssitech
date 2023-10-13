@@ -37,9 +37,9 @@ Il existe d'autres solutions permettant par exemple d'utiliser GNU Octave sous [
 
 ### solutions des TP
 * **TP 1** : [Prise en main](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/solutions/tp1.zip) (2019)
-* **TP 2** : [Affichage - Partie 1](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/solutions/tp2.zip) (2019)
-* **TP 3** : [Affichage - Partie 2](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/solutions/tp3.zip) (2019)
-* **TP 4** : [Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/solutions/tp4.zip) (2019)
+* **TP 2** : [Affichage - Partie 1](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/solutions/tp2.zip) (2023)
+* **TP 3** : [Affichage - Partie 2](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/solutions/tp3.zip) (2023)
+* **TP 4** : [Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/solutions/tp4.zip) (2023)
 * **TP 5/6/7** : [Algorithmes de tri](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/solutions/tp5_6.zip) (2020)
 
 ## Projets
