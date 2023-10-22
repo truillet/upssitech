@@ -26,14 +26,12 @@ Il existe d'autres solutions permettant par exemple d'utiliser GNU Octave sous [
 * **TP 2** : [Affichage - Partie 1](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP2_Affichage_Part1.pdf) (2023)
 * **TP 3** : [Affichage - Partie 2](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP3_Affichage_Part2.pdf) (2023)
 * **TP 4** : [Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP4_Fonctions.pdf) (2023)
-* **TP 5/6/7** : [Algorithmes de tri](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP5-6-7_Algorithmes_tri.pdf) (2022)
+* **TP 5/6/7** : [Algorithmes de tri](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP5-6-7_Algorithmes_tri.pdf) (2023)
   * [Les algortihmes de tri](https://interstices.info/les-algorithmes-de-tri)
   * [Chaîne Youtube AlgoRythmics](https://www.youtube.com/user/AlgoRythmics)
   * [Les tris en danses folkloriques](https://www.laboiteverte.fr/algorithmes-tri-visualises-danses-folkloriques)
   * [Visualisation de tris](https://dharshakch97.github.io/sort-visualizer)
-<!--
-* **TP 7/8** : [Calculer la valeur de](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP7-8_Pi.pdf) $\pi$ (2020)
- -->
+* **TP surplus** : [Calculer la valeur de](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TPsurplus_Pi.pdf) $\pi$ (2023)
 
 ### solutions des TP
 * **TP 1** : [Prise en main](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/solutions/tp1.zip) (2019)
