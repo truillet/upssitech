@@ -54,7 +54,8 @@ Il existe d'autres solutions permettant par exemple d'utiliser GNU Octave sous [
 * **2020-2021** : [Le sujet du Contrôle Continu (*distanciel*)](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/CC_2020.pdf)
 * **2021-2022** : [le sujet](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/CC_2021_GCGEO.pdf) et la solution [ici](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/solutions/CC2021.zip)
 * **2022-2023** : Le [sujet 1](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/CC_2022-Gr1_GCGEO.pdf) et le [sujet 2](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/CC_2022-Gr2_GCGEO.pdf)
-
+* **2023-2024** : Le sujet 1 et le sujet 2
+  
 ### Petit plus 
 Utiliser des "packages" sous GNU Octave peut permettre d'enrichir les fonctionnalités du langage. La liste des principaux packages est disponible --> [ici](https://gnu-octave.github.io/packages) <--
 
