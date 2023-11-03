@@ -34,6 +34,8 @@ Il existe d'autres solutions permettant par exemple d'utiliser GNU Octave sous [
 * **TP surplus** : [Calculer la valeur de](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TPsurplus_Pi.pdf) $\pi$ (2023)
 
 ### solutions des TP
+Vus pouvez aller jeter un oeil chez [notion](https://ctruille.notion.site/TP-1A-GCGEO-fb1f35a33b8147dfb3cc4116c08f96fc) pour les solutions
+
 * **TP 1** : [Prise en main](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/solutions/tp1.zip) (2019)
 * **TP 2** : [Affichage - Partie 1](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/solutions/tp2.zip) (2023)
 * **TP 3** : [Affichage - Partie 2](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/solutions/tp3.zip) (2023)
