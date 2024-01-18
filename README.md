@@ -13,4 +13,4 @@ Vous trouverez ici les notes de cours des :
 * **Filière SRI 3ème année**
   * [Interaction Humain-Machine Multimodale](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/README.md) (UE Sciences et Techniques 9 - **KUPR9AD5**)
   * [Interaction Distribuée](https://github.com/truillet/upssitech/tree/master/SRI/3A/ID) (UE Sciences et Techniques 9 - **KUPR9AD7**)
-  * Projet d'intégration interaction (UE Intégration IA et Interaction - **KUPR9AC2**)
+  * Projet d'intégration mineure interaction (UE Intégration IA et Interaction - **KUPR9AC2**)
