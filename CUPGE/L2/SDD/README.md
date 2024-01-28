@@ -1,5 +1,5 @@
 # Structures de données / Langage C
-[Eléments sur le déroulement du semestre](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/Cours/infos_L2CUPGE_UPSSITECH.pdf) (2023)
+[Eléments sur le déroulement du semestre](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/Cours/infos_L2CUPGE_UPSSITECH.pdf) (2024)
 
 ## Cours
 * [Eléments introductifs sur les structures de données](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/Cours/introduction_SdD.pdf) (2023)
