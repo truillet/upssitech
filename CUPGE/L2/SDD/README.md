@@ -22,7 +22,7 @@ export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/nu
 export LIBGL_ALWAYS_INDIRECT=1
 ```
 
-* [git et VSCode](https://code.visualstudio.com/docs/sourcecontrol/overview) et [git cheat sheet] (https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
+* [git et VSCode](https://code.visualstudio.com/docs/sourcecontrol/overview) et [git cheat sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
 
 ## Travaux Pratiques
 
