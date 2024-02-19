@@ -6,7 +6,7 @@
   * [site officiel](https://www.arduino.cc)
 * [Support Réseaux](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/introduction_reseaux_2024.pdf)
 ## Ressources
-* [webServer on a ESP32(https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/code/webserver.zip) (code arduino)
+* [webServer on a ESP32](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/code/webserver.zip) (code arduino)
  * [logo UPSSITECH en base64](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/ressources/logoUpssitech250_png_base64.txt)
 
 ## Liens
