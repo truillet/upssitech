@@ -30,8 +30,8 @@ export LIBGL_ALWAYS_INDIRECT=1
 * **TP 1** : [prise en main](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP1_Prise_en_main.pdf) et [solution](https://github.com/truillet/ups/blob/master/l2cupge/TP/solutions/sum.c) (2024)
 * **TP 2** : [utilisation de structure simple](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP2_Structure_Simple.pdf) et [solution](https://github.com/truillet/ups/blob/master/l2cupge/TP/solutions/jeucarte.c) (2024)
 * **TP 3 & 4** : [exploration de labyrinthes](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP3-4_Exploration.pdf) et [début de solution](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/solutions/labyrinthe.zip) (2024)
-* **TP 5** : [compilation séparée](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP5_Compilation_Separee.pdf) et [solution](https://github.com/truillet/ups/blob/master/l2cupge/TP/solutions/compilation_separee.zip) (2024)
-* **TP 6 & 7** : [Graphes - partie 1](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP6-7_Graphes1.pdf) et [début de solution](https://github.com/truillet/ups/blob/master/l2cupge/TP/solutions/Graphes_LC.zip) (2024)
+* **TP 5** : [compilation séparée](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP5_Compilation_Separee.pdf) et [solution](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/solutions/tp4.zip) (2024)
+* **TP 6 & 7** : [Graphes - partie 1](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP6-7_Graphes1.pdf) et [début de solution](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/solutions/tp5_6.zip) (2024)
 * **TP 8 & 9** : [Graphes - partie 2](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP8-9_Graphes2.pdf) (2023)
 ```mermaid
  graph TD;
