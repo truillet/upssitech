@@ -32,7 +32,7 @@ export LIBGL_ALWAYS_INDIRECT=1
 * **TP 3 & 4** : [exploration de labyrinthes](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP3-4_Exploration.pdf) et [début de solution](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/solutions/labyrinthe.zip) (2024)
 * **TP 5** : [compilation séparée](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP5_Compilation_Separee.pdf) et [solution](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/solutions/tp4.zip) (2024)
 * **TP 6 & 7** : [Graphes - partie 1](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP6-7_Graphes1.pdf) et [début de solution](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/solutions/tp5_6.zip) (2024)
-* **TP 8 & 9** : [Graphes - partie 2](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP8-9_Graphes2.pdf) (2023)
+* **TP 8** : [Graphes - partie 2](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP8_Graphes2.pdf) (2024)
 ```mermaid
  graph TD;
   A-->C;
@@ -44,9 +44,9 @@ export LIBGL_ALWAYS_INDIRECT=1
   E-->G;
   E-->F;
 ```
-* **TP 10** : [JNI - articuler java et langage C](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP10_JNI_C.pdf) (2023)
+* **TP 9** : [JNI - articuler java et langage C](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP9_JNI_C.pdf) (2024)
+* **TP 10** : [un middleware pour l'interaction](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP10_ivy_middleware.pdf) (2024)
 * **TP bonus 1** : [arduino](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TPbonus1_arduino.pdf) (2023)
-* **TP bonus 2** : [un middleware pour l'interaction](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TPbonus2_ivy_middleware.pdf) (2023)
 
 ### Eléments
 __installer Java OpenJDK (téléchargement des paquets)__
@@ -69,7 +69,7 @@ gcc -S fichier.c # génère le code ASM fichier.s
   *  **2021** : [Equations](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC1_Structures_2021.pdf) et [Suite et liste](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC2_ExamenMachine_2021.pdf)
   *  **2022** : [Quaternions](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC1_Structures_2022.pdf) (solution [ici](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC1_2022.zip)) et [Suite et arbre](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC2_ExamenMachine_2022.pdf) (solution [ici](https://github.com/truillet/ups/blob/master/l2cupge/CC/CC2_2022.zip))
   * **2023** : [Méthode de Cardan](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/CC1_Structures_2023.pdf) (solution [ici](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/solutions/CC1_2023.zip)) et [tango unchained](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/CC2_ExamenMachine_2023.pdf)
-  * **2024** : *bientôt*
+  * **2024** : [Des ensembles](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/CC1_Structures_2024.pdf) 
 
 ### Projets
 * **Projet 2018** : [Réservations de ressources](https://github.com/truillet/ups/blob/master/l2cupge/CC/Projet_Info_2018.pdf)
