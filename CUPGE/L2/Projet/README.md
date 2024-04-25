@@ -5,7 +5,7 @@
 * [Support arduino](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/arduino.pdf)
   * [site officiel](https://www.arduino.cc)
   * Lien pour ajouter les cartes ESP32 : *https://dl.espressif.com/dl/package_esp32_index.json*
-  * Carte [ESP32 ! DOIT ESP32 DEVKIT v1](https://espacerm.com/webgen/esp32intro)
+  * Carte ESP32 [DOIT ESP32 DEVKIT v1](https://espacerm.com/webgen/esp32intro)
 * [Support Réseaux](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/introduction_reseaux_2024.pdf)
 
 ##Drivers**
