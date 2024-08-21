@@ -37,10 +37,10 @@ _Exemple de code Processing permettant la gestion de formes géométriques / Exa
 
 [<img src="https://img.youtube.com/vi/RyBEUyEtxQo/0.jpg" width=250 alt="Put That There">](https://youtu.be/RyBEUyEtxQo)
 
-[R. Bolt, "Put-That-There": Voice and Gesture at the Graphics Interface, ACM SIGGRAPH Computer Graphics, Volume 14, Issue 3
+  * [R. Bolt, "Put-That-There": Voice and Gesture at the Graphics Interface, ACM SIGGRAPH Computer Graphics, Volume 14, Issue 3
 Pages 262 - 270](https://doi.org/10.1145/965105.807503) et [R. Bolt, Reflexion on ... "Put-That-There": Voice and Gesture at the Graphics Interface](
 https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/ressources/Bolt_1998_-_Reflections_on_Put-That-There.pdf)
-[Sh. Oviatt, Ten Myths on Multimodal Interaction, Communication of the ACM, volume 42, Issue 11, November 1999](https://dl.acm.org/doi/10.1145/319382.319398)
+  * [Sh. Oviatt, Ten Myths on Multimodal Interaction, Communication of the ACM, volume 42, Issue 11, November 1999](https://dl.acm.org/doi/10.1145/319382.319398)
 
 ## Fission Multimodale / Multimodal Fission
 * **TP6/Tutorial 6** - [Multimodalité en sortie](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/TP6_multimodalite_sortie.pdf) (2022) / [Multimodal Fission](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/T6_multimodal_fission.pdf) (2021)
