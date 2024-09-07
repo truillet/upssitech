@@ -8,11 +8,13 @@
 * [pptx présentation GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/gnu_octave_2023.pdf) (2023)
 * [notes de cours GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/octave_v1.93.pdf) (2023)
 
-Vous pouvez télécharger **GNU Octave** -->[ici](https://octave.org/download)<-- (dernière version *8.3.0* du 08/08/2023) 
+Vous pouvez télécharger **GNU Octave** -->[ici](https://octave.org/download)<-- (dernière version *9.2.0* du 14/03/2024) 
 
 **Nota** : vous pouvez essayer [**GNU Octave** en ligne](https://octave-online.net)
 
 Il existe d'autres solutions permettant par exemple d'utiliser GNU Octave sous [Jupyter Notebook](https://jupyter.org) en utiisant le [kernel octave](https://pypi.org/project/octave-kernel)
+
+Vous pouvez télécharger **edupyter** -->[ici](https://www.edupyter.net/)<-- (dernière version *312* du 26/03/2024) 
 
 ## supports de TD
 * **TD 1** : [Structures de contrôle, tableaux/vecteurs/matrices](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/TD1_Structures_Tableaux_Vecteurs_Matrices.pdf) (2023)
