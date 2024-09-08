@@ -1,4 +1,5 @@
-# Algorithmique / GNU Octave
+# Algorithmique / GNU Octave & Jupyter Notebook
+Les travaux pratiques sont disponibles pour deux langages : Matlab (avec GNU Octave) et Python (Jupyter notebbok). Avous de choisir !
 
 ## introduction
 [<img src="https://img.youtube.com/vi/cDA3_5982h8/0.jpg" width=250 alt="Exact Instructions Challenge - THIS is why my kids hate me. | Josh Darnit">](https://www.youtube.com/watch?v=cDA3_5982h8)
@@ -14,7 +15,9 @@ Vous pouvez télécharger **GNU Octave** -->[ici](https://octave.org/download)<-
 
 Il existe d'autres solutions permettant par exemple d'utiliser GNU Octave sous [Jupyter Notebook](https://jupyter.org) en utiisant le [kernel octave](https://pypi.org/project/octave-kernel)
 
-Vous pouvez télécharger **edupyter** -->[ici](https://www.edupyter.net/)<-- (dernière version *312* du 26/03/2024) 
+Si vous préférez programmer en [python](https://www.python.org) avec [Jupyter Notebook](https://jupyter.org), plusieurs solutions s'offrent à vous : * [Google Colab](https://colab.research.google.com)
+* ou hors ligne, vous pouvez aussi télécharger **edupyter** -->[ici](https://www.edupyter.net/)<-- (dernière version *312* du 26/03/2024)
+ 
 
 ## supports de TD
 * **TD 1** : [Structures de contrôle, tableaux/vecteurs/matrices](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TD/TD1_Structures_Tableaux_Vecteurs_Matrices.pdf) (2023)
@@ -24,7 +27,9 @@ Vous pouvez télécharger **edupyter** -->[ici](https://www.edupyter.net/)<-- (d
   * [le nombre](https://www.nombrepi.com) $\pi$
 
 ## supports de TP
-* **TP 1** : [Prise en main](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP1_Prise_en_main.pdf) (2023)
+* **TP 1** :
+   * [Prise en main](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP1_Prise_en_main.pdf) (2024)
+   * [Prise en main - notebook]() (2024)
 * **TP 2** : [Affichage - Partie 1](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP2_Affichage_Part1.pdf) (2023)
 * **TP 3** : [Affichage - Partie 2](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP3_Affichage_Part2.pdf) (2023)
 * **TP 4** : [Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP4_Fonctions.pdf) (2023)
