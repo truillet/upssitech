@@ -8,7 +8,7 @@ Vous trouverez ici les notes de cours des :
   * Introduction aux Réseaux Informatiques
   * [Projet d'intégration](https://github.com/truillet/upssitech/tree/master/CUPGE/L2/Projet) (UE Informatique Théorique 3 - **KINUPH31**)
 * **Filière GCGEO 1ère année**
-  * [Algorithmique / GNU Octave](https://github.com/truillet/upssitech/tree/master/GCGEO/1A) (UE Informatique - **KUPX5AB1**)
+  * [Algorithmique / GNU Octave & Jupyter Notebook](https://github.com/truillet/upssitech/tree/master/GCGEO/1A) (UE Informatique - **KUPX5AB1**)
 * **Filière SRI 1ère année**
   * [Interaction Homme-Machine / Prototypage](https://github.com/truillet/upssitech/blob/master/SRI/1A/README.md)  (UE Intro SI-IHM - **KUPR6AC6**)
 * **Filière SRI 3ème année**
