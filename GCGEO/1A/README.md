@@ -32,9 +32,13 @@ Si vous préférez programmer en [python](https://www.python.org) avec [Jupyter 
    * [TP0_Premier_Notebook](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/ipynb/TP0_Premier_Notebook.ipynb) et [TP_Prise_en_main](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/ipynb/TP1_Prise_en_main_de_Python.ipynb) (2024)
 * **TP 2** :
    * [Affichage - Partie 1](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP2_Affichage_Part1.pdf) (2024)
-   * [TP2_Affichage_de_données_(part1)](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/ipynb/TP2_Affichage_de_donn%C3%A9es_(part1).ipynb) (2024)
-* **TP 3** : [Affichage - Partie 2](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP3_Affichage_Part2.pdf) (2024)
-* **TP 4** : [Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP4_Fonctions.pdf) (2023)
+   * [TP2_Affichage_de_données_(part1)](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/ipynb/TP2-3_Affichage_de_donn%C3%A9es.ipynb) (2024)
+* **TP 3** :
+   * [Affichage - Partie 2](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP3_Affichage_Part2.pdf) (2024)
+   * [TP3_Affichage_de_données_(part2)](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/ipynb/TP2-3_Affichage_de_donn%C3%A9es.ipynb) (2024)
+* **TP 4** :
+   * [Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP4_Fonctions.pdf) (2023)
+   * [TP4 Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/ipynb/TP4_Fonctions.ipynb) (2024)
 * **TP 5/6/7** : [Algorithmes de tri](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP5-6-7_Algorithmes_tri.pdf) (2023)
   * [Les algorithmes de tri](https://interstices.info/les-algorithmes-de-tri)
   * [Chaîne Youtube AlgoRythmics](https://www.youtube.com/user/AlgoRythmics)
