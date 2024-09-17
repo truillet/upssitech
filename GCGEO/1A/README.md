@@ -15,9 +15,10 @@ Vous pouvez télécharger **GNU Octave** -->[ici](https://octave.org/download)<-
 
 Il existe d'autres solutions permettant par exemple d'utiliser GNU Octave sous [Jupyter Notebook](https://jupyter.org) en utiisant le [kernel octave](https://pypi.org/project/octave-kernel)
 
-Si vous préférez programmer en [python](https://www.python.org) avec [Jupyter Notebook](https://jupyter.org), plusieurs solutions s'offrent à vous : * [Google Colab](https://colab.research.google.com)
+Si vous préférez programmer en [python](https://www.python.org) avec [Jupyter Notebook](https://jupyter.org), plusieurs solutions s'offrent à vous : 
+* [Google Colab](https://colab.research.google.com)
 * ou hors ligne, vous pouvez aussi télécharger **edupyter** -->[ici](https://www.edupyter.net/)<-- (dernière version *312* du 26/03/2024) ([Installer edupyter](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/edupyter.pdf))
-* [documentation NUmPy](https://numpy.org/doc/stable/index.html) 
+* [documentation NumPy](https://numpy.org/doc/stable/index.html) 
  
 
 ## supports de TD
