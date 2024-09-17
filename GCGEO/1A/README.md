@@ -17,6 +17,7 @@ Il existe d'autres solutions permettant par exemple d'utiliser GNU Octave sous [
 
 Si vous préférez programmer en [python](https://www.python.org) avec [Jupyter Notebook](https://jupyter.org), plusieurs solutions s'offrent à vous : * [Google Colab](https://colab.research.google.com)
 * ou hors ligne, vous pouvez aussi télécharger **edupyter** -->[ici](https://www.edupyter.net/)<-- (dernière version *312* du 26/03/2024) ([Installer edupyter](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/edupyter.pdf))
+* [documentation NUmPy](https://numpy.org/doc/stable/index.html) 
  
 
 ## supports de TD
@@ -70,6 +71,7 @@ Vus pouvez aller jeter un oeil chez [notion](https://ctruille.notion.site/TP-1A-
 * **2021-2022** : [le sujet](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/CC_2021_GCGEO.pdf) et la solution [ici](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/solutions/CC2021.zip)
 * **2022-2023** : Le [sujet 1](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/CC_2022-Gr1_GCGEO.pdf) et le [sujet 2](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/CC_2022-Gr2_GCGEO.pdf) {solution [ici](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/solutions/CC_2022-Gr2_GCGEO.zip)}
 * **2023-2024** : Le [sujet 1](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/CC_2023-Gr1_GCGEO.pdf) {solution [ici](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/solutions/CC_2023-Gr1_GCGEO.zip)} et le [sujet 2](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/CC_2023-Gr2_GCGEO.pdf) {solution [ici](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/CC/solutions/CC_2023-Gr2_GCGEO.zip)}
+* **2024-2025** : *bientôt !*
   
 ### Petit plus 
 Utiliser des "packages" sous GNU Octave peut permettre d'enrichir les fonctionnalités du langage. La liste des principaux packages est disponible --> [ici](https://gnu-octave.github.io/packages) <--
