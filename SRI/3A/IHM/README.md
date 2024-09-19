@@ -1,11 +1,11 @@
 # Interaction Humain-Machine Multimodale / Multimodal Human-Machine Interaction
 
 ## Préambule / Preamble - ivy middleware
-Les deux premiers sujets de travaux pratiques ont pour objectif de concevoir un système multimodal en entrée qui sera développé dans les trois suivants. Le dernier sujet tratire de la multimodalité en sortie et de transmodalité (passage d'une modalité vers une ou plusieurs "équivalentes").
+Les deux premiers sujets de travaux pratiques ont pour objectif de concevoir un système multimodal en entrée qui sera développé dans les trois suivants. Le dernier sujet traite de la multimodalité en sortie et de transmodalité (passage d'une modalité vers une ou plusieurs "équivalentes").
 *The aim of the first two practical topics is to design an input multimodal system, which will be developed in the next three. The last topic deals with multimodal output and transmodality (switching from one modality to one or more "equivalent" ones).*
 
-* [ivy presentation v 2.6 (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/C_ivy_2.6.pdf) (2022) / [ivy presentation v. 2.5 (EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/C_ivy_2.5en.pdf) (2021)
-* **Comment utiliser ivy / How tu use ivy** - [ivy](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/TP_ivy.3.5.pdf) (2022)
+* [ivy presentation v 2.7 (FR)](https://github.com/truillet/ivy/blob/master/doc/C_ivy_2.7.pdf) (2024) / [ivy presentation v. 2.5 (EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/C_ivy_2.5en.pdf) (2021)
+* **Comment utiliser ivy / How to use ivy** - [ivy](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/TP_ivy.3.5.pdf) (2022)
 * **repository ivy** : [Github ivy](https://github.com/truillet/ivy/blob/master/README.md)  
 
 ## Interaction vocale / vocal interaction
