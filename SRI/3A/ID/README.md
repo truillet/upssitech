@@ -1,8 +1,11 @@
 # Distributed Interaction
 
 ## General introduction
-* [Distributed Interaction](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/ID_intro_2024.pdf) (2023)
+* [Distributed Interaction](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/ID_intro_2025.pdf) (2024)
 
+## ivy: a middleware for interaction
+* [middleware ivy](https://github.com/truillet/ivy/blob/master/doc/C_ivy_2.7.pdf) (2024)
+  
 ## Ingescape: Model-based framework for broker-free distributed software environments
 * [ingescape](https://ingescape.com/fr/home) : Model-based framework for broker-free distributed software environments by [ingenuity I/O](https://ingenuity.io)
  
@@ -21,7 +24,7 @@
 
 * **Lab** [JSON, REST API and MQTT](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/JSON_REST_MQTT.pdf)
   
-### Some links
+### Some (useful) links
 * [Shiftr.io](https://www.shiftr.io)
 * [Eclipse Mosquitto - MQTT brocker](https://mosquitto.org)
 * [Paho - MQTT library](https://pypi.org/project/paho-mqtt)
@@ -44,7 +47,7 @@ Depending on your hardware, you may need to use the [CH341SER](https://github.co
 
 ## Older resources
 ### ivy middleware
-* [ivy presentation v 2.6 (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/C_ivy_2.6.pdf) (2022) / [ivy presentation v. 2.5 (EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/C_ivy_2.5en.pdf) (2021)
+* [ivy presentation v. 2.5 (EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/C_ivy_2.5en.pdf) (2021)
 * **TP1** - [ivy](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/TP_ivy.3.5.pdf) (2022)
 
 **Some useful ivy libraries and clients**
