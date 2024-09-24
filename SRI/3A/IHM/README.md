@@ -14,7 +14,7 @@ Les deux premiers sujets de travaux pratiques ont pour objectif de concevoir un 
   * **[GrXML pour SAPI 5](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/Memo/GrXML.pdf)**
   * **[SSML pour SAPI 5](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/Memo/ssml.pdf)**
   
-_Exemple de code Processing permettant l'affichage de la reconnaissance vocale et l'envoi du résultat vers la synthèse vocale / Example of Processing code allowing the text ouptut of speech recognition and sending the result to TTS_ : **[vocal_ivy](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Code/vocal_ivy.zip)**
+_Exemple de code Processing permettant l'affichage de la reconnaissance vocale et l'envoi du résultat vers la synthèse vocale / Example of Processing code allowing the text ouptut of speech recognition and sending the result to TTS_ : **[dessert](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Code/dessert.zip)**
 
 ## Interaction gestuelle / gesture interaction
 * **TP2/Tutorial 2** - [Interaction gestuelle](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/TP2_InteractionGestuelle.pdf) (2023) / [Gesture Interaction](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/T2_gesture_interaction.pdf) (2023)
