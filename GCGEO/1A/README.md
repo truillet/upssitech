@@ -43,7 +43,7 @@ Si vous préférez programmer en [python](https://www.python.org) avec [Jupyter 
    * [TP4 Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/ipynb/TP4_Fonctions.ipynb) (2024)
 * **TP 5/6/7** : 
    * [Algorithmes de tri](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP5-6-7_Algorithmes_tri.pdf) (2023)
-  * [TP5_Algorithmes_de_tri]((https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP5_Algorithmes_de_tri.ipynb) (2024)
+  * [TP5_Algorithmes_de_tri](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP5_Algorithmes_de_tri.ipynb) (2024)
     
      * [Les algorithmes de tri](https://interstices.info/les-algorithmes-de-tri)
      * [Chaîne Youtube AlgoRythmics](https://www.youtube.com/user/AlgoRythmics)
