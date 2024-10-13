@@ -41,11 +41,14 @@ Si vous préférez programmer en [python](https://www.python.org) avec [Jupyter 
 * **TP 4** :
    * [Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP4_Fonctions.pdf) (2023)
    * [TP4 Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/ipynb/TP4_Fonctions.ipynb) (2024)
-* **TP 5/6/7** : [Algorithmes de tri](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP5-6-7_Algorithmes_tri.pdf) (2023)
-  * [Les algorithmes de tri](https://interstices.info/les-algorithmes-de-tri)
-  * [Chaîne Youtube AlgoRythmics](https://www.youtube.com/user/AlgoRythmics)
-  * [Les tris en danses folkloriques](https://www.laboiteverte.fr/algorithmes-tri-visualises-danses-folkloriques)
-  * [Visualisation de tris](https://dharshakch97.github.io/sort-visualizer)
+* **TP 5/6/7** : 
+   * [Algorithmes de tri](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP5-6-7_Algorithmes_tri.pdf) (2023)
+  * [TP5_Algorithmes_de_tri]((https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TP5_Algorithmes_de_tri.ipynb) (2024)
+    
+     * [Les algorithmes de tri](https://interstices.info/les-algorithmes-de-tri)
+     * [Chaîne Youtube AlgoRythmics](https://www.youtube.com/user/AlgoRythmics)
+     * [Les tris en danses folkloriques](https://www.laboiteverte.fr/algorithmes-tri-visualises-danses-folkloriques)
+     * [Visualisation de tris](https://dharshakch97.github.io/sort-visualizer)
 * **TP surplus** : [Calculer la valeur de](https://github.com/truillet/upssitech/blob/master/GCGEO/1A/TP/TPsurplus_Pi.pdf) $\pi$ (2023)
 
 ### solutions des TP
