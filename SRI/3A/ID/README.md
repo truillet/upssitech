@@ -21,7 +21,7 @@
 * [REST and JSON slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/REST_JSON.pdf) (2021)
 * [MQTT slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/MQTT.pdf) (2022)
 
-* **Lab** [JSON, REST API and MQTT](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/MQTT-2.0.pdf) (2024)
+**Lab**: [JSON, REST API and MQTT](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/MQTT-2.0.pdf) (2024)
   
 ### Some (useful) links
 * [Shiftr.io](https://www.shiftr.io)
