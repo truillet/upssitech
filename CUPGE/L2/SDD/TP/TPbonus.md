@@ -21,7 +21,7 @@ Dans le cas contraire, il faut :
 2. **Nous pouvons commencer à travailler ☺** Nous installerons plus tard de nouvelles librairies pour contrôler arduino.
 
 ## 1. introduction
-### 1.1 Histoire d’arduino (https://spectrum.ieee.org/geek-life/hands-on/the-making-of-arduino)
+### 1.1 [Histoire d’arduino](https://spectrum.ieee.org/geek-life/hands-on/the-making-of-arduino)
 C’est à Ivrea en Italie, terres du roi Arduin (Arduino en italien) vers l’an mil que commence l’histoire de cette plateforme électronique. Créé en 2005 comme outil pour les étudiants de l’Interaction Design Institute d’Ivrea, Arduino est devenu en moins de 8 ans le projet de plus influent de l’électronique moderne.
 Sous licence Creative Commons (les plans sont libres), arduino peut permettre d’effectuer des tâches extrêmement diversifiées comme des tâches domotique ou robotique. Il existe de nombreux matériels compatibles Arduino (clônes)
 
