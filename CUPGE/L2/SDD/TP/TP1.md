@@ -8,15 +8,25 @@ Tous les TP de ce semestre vont s’appuyer sur trois outils principaux :
 L’interface de commande nous permettra de taper les différentes commandes nécessaires à l’écriture, la compilation et l’exécution de notre code ; l’éditeur à créer ou modifier notre code et l’outil **gcc** à traduire notre code en langage machine pour l’éxécution.
 
 ## Exercice de démarrage
-Tapez dans un fichier **hello.c** le code (**mythique**) suivant (cf. Figure 1) :
+Tapez dans un fichier **hello.c** le code (**mythique**) suivant :
 
-![](data:image/png;base64...)
+`
+#include <stdio.h>
 
-**Figure 1 – « Hello world »**
+int main(){
+  printf("hello world\n");
+  return(1);
+}
+`
 
-Compilez et exécutez ensuite le code produit (cf. Figure 2).
+Compilez et exécutez ensuite le code produit.
 
-![](data:image/png;base64...)
+`
+**$** gcc -Wall hello.c -o hello
+**$** ./hello
+hello world
+**$**_
+`
 
 **Figure 2 – chaîne de compilation et d’éxécution**
 
