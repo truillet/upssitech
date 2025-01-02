@@ -21,12 +21,12 @@ int main(){
 
 Compilez et exécutez ensuite le code produit.
 
-`
+```console
 **$** gcc -Wall hello.c -o hello
 **$** ./hello
 hello world
 **$**_
-`
+```
 
 **Figure 2 – chaîne de compilation et d’éxécution**
 
