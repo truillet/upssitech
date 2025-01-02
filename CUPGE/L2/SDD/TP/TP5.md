@@ -9,9 +9,9 @@ Vous créerez dans cet exercice un fichier **maLibMath.h** contenant les prototy
 
 1. Ecrire une fonction **Point Pt=Demande\_Point()** qui créé un « *point 3D* » à partir des entrées de l’utilisateur
 2. Ecrire une fonction **Point Pt=Creer\_Point(float x, float y, float z)** qui créé un « *point 3D* » à partir des coordonnées (x,y,z) données en paramètre.
-3. Ecrire une fonction **Vecteur V=Vectorise(Point Pt1,Point Pt2)** qui définit 
+3. Ecrire une fonction **Vecteur V=Vectorise(Point Pt1,Point Pt2)** qui définit à partir des points A et B le vecteur 
 ```math
-le vecteur  \vec{AB} à partir des points A et B.
+\vec{AB}
 ```
 4. Ecrire une fonction **Vecteur PV=Produit\_Vectoriel(Vecteur V1,Vecteur V2)** qui renvoie le vecteur résultat du produit vectoriel de 2 vecteurs.
 5. Ecrire une fonction **float PS=Produit\_Scalaire(Vecteur V1,Vecteur V2)** qui renvoie le produit scalaire de 2 vecteurs.
