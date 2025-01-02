@@ -2,7 +2,7 @@
 
 Tous les TP de ce semestre vont s’appuyer sur trois outils principaux :
 * Une interface de commande en ligne (**CLI** - Command Line Interface) ou **shell**
-* Un éditeur de texte (comme **nano**, emacs, vi, ou autre de votre choix [Visual Studio par exemple], …)
+* Un éditeur de texte (comme **nano**, emacs, vi, ou autre de votre choix [Visual Studio par exemple](https://code.visualstudio.com/), ...)
 * Et un outil de compilation (**gcc**)
 
 L’interface de commande nous permettra de taper les différentes commandes nécessaires à l’écriture, la compilation et l’exécution de notre code ; l’éditeur à créer ou modifier notre code et l’outil **gcc** à traduire notre code en langage machine pour l’éxécution.
@@ -22,7 +22,7 @@ Compilez et exécutez ensuite le code produit (cf. Figure 2).
 
 ***Nota1*** : **gcc** est l’outil de compilation que nous utiliserons communément en TP. Son fonctionnement précis sera précisé ultérieurement. L’option **-o** *hello* indique à **gcc** que le fichier produit devra s’appeler *hello* (et non *a.out* par défaut).
 
-***Nota2***: pourquoi faut-il appeler l’outil **gcc** avec la commande « **gcc** », alors qu’il faut appeler notre programme avec la commande **./hello** ?
+***Nota2*** : pourquoi faut-il appeler l’outil **gcc** avec la commande « **gcc** », alors qu’il faut appeler notre programme avec la commande **./hello** ?
 *A quoi sert ce «****./****»*? La raison est assez simple. Afin de pouvoir exécuter un programme en ligne de commande, il faut donner le chemin de ce programme sur le disque. C’est ce que nous faisons avec **./hello** en référençant un chemin relatif grâce à « **./** ».
 Comme **gcc** est un outil couramment utilisé, et il a été placé dans un répertoire que l’environnement d’exécution des commandes connait. L’ensemble des chemins dans lesquels l’environnement de commande cherche les binaires que vous lancez est stocké dans la variable d’environnement **PATH**. Pour connaitre la liste des répertoires dans lesquels l’environnement en ligne de commandes cherche les binaires, tapez **echo $PATH**.
 Vous voyez s’afficher une liste de chemins, séparés par « **:**». Lorsque vous lancez **gcc**, l’environnement d’exécution des commandes cherche alors dans chaque chemin précisé, l’un après l’autre, s’il contient un fichier appelé **gcc**. Dès qu’il en trouve un (le premier donc !), il l’exécute.
