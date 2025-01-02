@@ -47,7 +47,7 @@ La commande **make** requiert pour son fonctionnement un fichier nommé **Makefi
 
 Une règle est une suite d’instructions qui seront exécutées pour construire une cible, mais uniquement si des dépendances sont plus récentes (par rapport à la dernière construction de la cible). La syntaxe d’une règle est la suivante :
 
-```console
+```makefile
 cible: dépendances
 
 commandes
@@ -61,15 +61,10 @@ Les commandes sont des commandes shell qui seront exécutées au moment de la co
 ## construction du TP5
 ```makefile
 all: maLibMath.o TP5.o
-
 gcc –o TP5.exe maLibMath.o TP5.o -lm
-
 maLibMath.o: maLibMath.c maLibMath.h
-
 gcc -c maLibMath.c -Wall -o maLibMath.o -lm
-
 TP5.o: TP5.c
-
 gcc -c TP5.c -Wall -o TP5.o
 ```
 
@@ -84,21 +79,20 @@ Par exemple, la syntaxe de l’appel d’une variable est la suivante : **$(NOM)
 
 ```makefile
 # $(BIN) est le nom du fichier binaire généré
-**BIN = TP5.exe**
+BIN = TP5.exe
 # $(OBJECTS) sont les objets qui seront générés après la compilation
 
-**OBJECTS** = TP5.o maLibMath.o
+OBJECTS = TP5.o maLibMath.o
 # $(CC) est le compilateur utilisé
-**CC** = gcc
+CC = gcc
 # all est la première règle à être exécutée (1ère règle)
-**all: $(OBJECTS)
-$(CC) $(OBJECTS) –o $(BIN) -lm**
+all: $(OBJECTS)
+$(CC) $(OBJECTS) –o $(BIN) -lm
 
-**…**
+...
 ```
 
 **Attention** : il existe des conventions de nommage sur des noms des d’exécutables et leurs arguments (Ex : **CC** pour le compilateur) ou pour les noms de cible (Ex : **all**). Nous y reviendrons prochainement.
 
 **Exercice** : Ecrire un fichier **Makefile** qui permette de compiler le code de l’exercice à l’aide de variables.
-
 
