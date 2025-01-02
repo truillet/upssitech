@@ -1,6 +1,4 @@
-
-
-TP 2 : utilisation de structure simple
+# TP 2 : utilisation de structure simple
 
 L’objectif de ce TP va être d’écrire un programme de gestion du jeu de cartes « *bataille* ». Dans notre version, on jouera avec un jeu de **32 cartes**.
 
@@ -10,7 +8,7 @@ Enfin, le joueur qui ramasse toutes les cartes est déclaré gagnant.
 Le programme fait appel à une structure pour représenter une carte dont les membres sont la valeur et la couleur. Les cartes de chaque joueur sont stockées dans un tableau.
 
 Le squelette de programme suivant est fourni :
-
+```c
 #include … /\* à compléter \*/
 
 typedef struct carte {
@@ -96,33 +94,28 @@ printf("J1 : %d cartes, J2 : %d cartes\n",NJ1,NJ2);
 return 0;
 
 }
-
+```
 Copier ce code dans votre répertoire **~/TP2** dans le fichier **jeucarte.c**
 
-# 0. Définition de la structure
-
+## 0. Définition de la structure
 Définissez la structure **Carte** permettant de manipuler des cartes de jeu (Plusieurs solutions sont possibles mais pensez aux énumérations 😊 !)
 
-# 1. Initialisation du jeu
-
+## 1. Initialisation du jeu
 Ecrire la fonction **initjeu** qui remplit le tableau jeu avec les 32 cartes ainsi que les fonctions d’affichage d’une carte et du jeu entier.
 
 Vérifier le fonctionnement avant de passer à la suite.
 
-# 2. Mélange des cartes
-
+## 2. Mélange des cartes
 Ecrire la fonction **alea32** qui renvoie un entier compris entre 0 et 31 (correspondant à un indice valide du tableau *jeu*).
 
 Ecrire une fonction permettant de permuter deux variables de type *Carte*.
 
 Utiliser ces deux fonctions pour écrire la fonction de mélange des cartes. L’idée est de réaliser un nombre important de permutations (50 par exemple) entre deux cartes tirées au hasard. Vérifier en l’affichant que le jeu est bien mélangé.
 
-# 3. Distribution des cartes
-
+## 3. Distribution des cartes
 Ecrire la procédure permettant de distribuer 16 cartes à chaque joueur. On utilisera 1 tableau de 32 Cartes pour chaque joueur. Afficher les 16 cartes de chacun des joueurs et vérifier le bon fonctionnement.
 
-# 4. Jeu de carte
-
+## 4. Jeu de carte
 Voici la partie la plus délicate du programme.
 
 Chaque joueur possède N1 (ou N2) cartes indicées de 0 à N1-1 (ou N2-1). La carte jouée est celle d’indice 0. Une solution consiste à mettre de côté les cartes d’indice 0 de chaque joueur puis à décaler toutes les cartes restantes de chaque joueur vers le bas (cartes 1 à N1-1 (ou N2-1) mises de 0 à N1-2 (ou N2-2)).
@@ -133,8 +126,7 @@ Les valeurs de N1 et N2 doivent bien entendu être ajustées en conséquence (+1
 
 Tester le bon fonctionnement sur quelques coups du jeu en affichant par exemple les cartes restantes des deux joueurs après chaque coup.
 
-# 5. Jeu final
-
+## 5. Jeu final
 Compléter le programme principal en écrivant la condition de fin de partie.
 Afficher le joueur gagnant et le nombre de coups joués.
 
