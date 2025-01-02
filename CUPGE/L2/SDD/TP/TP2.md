@@ -19,34 +19,35 @@ void initjeu(Carte jeu[]){ /* remplit le tableau avec les 32 cartes */
   /* à compléter */
 }
 
-int alea32() { /* génère un entier aléatoire compris entre 0 et 31 */
+int alea32(){ /* génère un entier aléatoire compris entre 0 et 31 */
   /* à compléter */
 }
 
-void permute(Carte *carte1, Carte *carte2) /* permute 2 cartes */
-
-{/* à compléter */}
-
-void melange(Carte jeu[]) /* mélange les cartes */
-{/* à compléter */}
-
-void affiche\_carte(Carte X) { /* affiche une carte (valeur, couleur)*/
+void permute(Carte *carte1, Carte *carte2){ /* permute 2 cartes */
   /* à compléter */
 }
 
-void affiche(Carte jeu[],int N) { /* affiche N cartes */
+void melange(Carte jeu[]){ /* mélange les cartes */
   /* à compléter */
 }
 
-void distribue(Carte jeu[], Carte jeu1[], Carte jeu2[]) /* distribue les cartes aux deux joueurs */
+void affiche\_carte(Carte X){ /* affiche une carte (valeur, couleur)*/
   /* à compléter */
 }
 
-void joue1coup( Carte jeu1[], Carte jeu2[], int* N1, int* N2) { /* gère le résultat d’une bataille (1 coup) */
+void affiche(Carte jeu[],int N){ /* affiche N cartes */
   /* à compléter */
 }
 
-int main() {
+void distribue(Carte jeu[], Carte jeu1[], Carte jeu2[]){ /* distribue les cartes aux deux joueurs */
+  /* à compléter */
+}
+
+void joue1coup( Carte jeu1[], Carte jeu2[], int* N1, int* N2){ /* gère le résultat d’une bataille (1 coup) */
+  /* à compléter */
+}
+
+int main(){
   Carte jeu[32];
   Carte jeuJ1[32]; /* cartes du joueur 1 */
   Carte jeuJ2[32];
