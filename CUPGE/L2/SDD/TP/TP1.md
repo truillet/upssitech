@@ -21,7 +21,7 @@ int main(){
 
 Compilez et exécutez ensuite le code produit.
 
-```shell
+```console
 foo@bar:~$ gcc -Wall hello.c -o hello
 foo@bar:~$ ./hello
 hello world
