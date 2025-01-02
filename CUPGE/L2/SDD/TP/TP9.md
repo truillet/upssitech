@@ -84,7 +84,7 @@ JNIEXPORT jstring JNICALL Java_fr_ut3_HelloJNI_getGreetings (JNIEnv* env, jclass
 ### 1.5 Générer la librairie dynamique
 Dernière étape, générons la librairie dynamique (**.so** sous Unix, **.dll** sous windows) grâce aux deux commandes suivantes [^2] :
 ```console
-gcc -c -I"$JAVA\_HOME/include" -I"$JAVA\_HOME/include/linux" -o Greetings.o Greetings.c gcc -shared -o libGreetings.so Greetings.o
+gcc -c -I"$JAVA_HOME/include" -I"$JAVA_HOME/include/linux" -o Greetings.o Greetings.c gcc -shared -o libGreetings.so Greetings.o
 ```
 
 ### 1.6 Exécuter le programme
