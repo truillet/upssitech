@@ -1,6 +1,6 @@
 # TP bonus1 : arduino, du C(++) dans un micro-contrôleur !
 
-## 1. Introduction
+## 0. Liminaire
 Avant de commencer, il faut installer sur le poste de travail l’environnement de travail (IDE) [arduino](https://www.arduino.cc). Supposons que l’IDE soit installé sur le répertoire C:/langages).
 Dans le cas contraire, il faut :
 * Télécharger le logiciel (*version 2.3.4 au 03/02/2024*)
@@ -59,7 +59,7 @@ initialisation
 
 **Exemple de clignotement de led**
 
-**Mettre une led sur la plaque arduino : grande patte (+) sur le pin 13[[1]](#footnote-1), petite sur le pin GND (-)**
+**Mettre une led sur la plaque arduino : grande patte (+) sur le pin 13 [^1], petite sur le pin GND (-)**
 
 Branchez la plaque arduino : à la première utilisation, le pilote de périphérique s’installe. Attendez qu’un port série soit affecté à notre plaque
 
@@ -76,10 +76,9 @@ Toujours lors de la première utilisation, il faut configurer la version de votr
 Vérifiez le programme en appuyant sur le bouton ![](data:image/png;base64...) puis téléchargez votre code en appuyant sur le bouton ![](data:image/png;base64...). **C’est prêt !** La led devrait clignoter …
 
 ### 1.4 Liens
-
 Ce rapide aperçu laisse entrevoir de très nombreuses possibilités simples à mettre en œuvre : contrôle de capteurs, d’effecteurs (led, buzzer, moteurs, …), contrôle à distance sans fil, etc, etc.
 
-Pour aller plus loin, le mieux reste de lire et de partager ses expériences ! Il existe de très nombreux sites accessibles via votre moteur de recherche préféré ! Parmi ceux-ci, citons **http://arduino.cc/en/Reference/HomePage,** la page de référence du langage.
+Pour aller plus loin, le mieux reste de lire et de partager ses expériences ! Il existe de très nombreux sites accessibles via votre moteur de recherche préféré ! Parmi ceux-ci, citons **http://arduino.cc/en/Reference/HomePage**, la page de référence du langage.
 
 ## 2. A vous de jouer !!!
 A partir de l’exemple **sketch_dynamique** suivant à télécharger ici 🡪 https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/solutions/sketch_dynamique.zip
