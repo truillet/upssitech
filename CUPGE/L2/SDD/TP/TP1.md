@@ -2,7 +2,7 @@
 
 Tous les TP de ce semestre vont s’appuyer sur trois outils principaux :
 * Une interface de commande en ligne (**CLI** - Command Line Interface) ou **shell**
-* Un éditeur de texte (comme **nano**, emacs, vi, ou autre de votre choix [Visual Studio par exemple](https://code.visualstudio.com/), ...)
+* Un éditeur de texte (comme **nano**, emacs, vi, ou autre de votre choix [Visual Studio](https://code.visualstudio.com/)  par exemple, ...)
 * Et un outil de compilation (**gcc**)
 
 L’interface de commande nous permettra de taper les différentes commandes nécessaires à l’écriture, la compilation et l’exécution de notre code ; l’éditeur à créer ou modifier notre code et l’outil **gcc** à traduire notre code en langage machine pour l’éxécution.
@@ -87,11 +87,13 @@ Ecrire le code de la fonction ***int isCharInteger(char c);*** Cette fonction re
 
 ### 3.3 Exercice 3
 Compléter le code de la fonction main de sorte à afficher le message suivant ***Wrong usage, parameters param1 and param2 should be integers when executing ./sum param1 param2*** lorsque l’utilisateur n’a pas passé des paramètres sous la forme d’entiers.
+
 Pour vérifier que les deux paramètres passés par l’utilisateur sont bien des entiers, il faudra vérifier que chaque caractère de chaque chaine est un entier en utilisant la fonction **isCharInteger**.
 Testez votre implémentation en compilant et en exécutant le programme avec différentes configurations.
 
 ### 3.4 Exercice 4
 Nous allons maintenant continuer l’implémentation du programme **sum** que nous avons commencé précédemment. Pour cela, nous allons implémenter la fonctionnalité qui somme la valeur des entiers passés en paramètres sur la ligne de commande, puis qui affiche la valeur obtenue.
+
 Afin de convertir une chaine de caractère contenant des nombres en une valeur entière, vous allez coder la fonction ***int******charToInteger(char c)***, qui renvoie la valeur de c sous la forme d’un entier.
 Codez ensuite la fonction ***int stringToInteger(char \* c)***, qui renvoie la valeur de c (un tableau de caractères représentant des chiffres) sous la forme d’un entier.
 
@@ -100,7 +102,7 @@ Afin d’afficher le résultat du calcul, nous allons avoir besoin d’utiliser 
 
 Testez votre programme comme suit : **sum 21 21** puis **sum 21 -21.** Une fois que vous aurez obtenu le chiffre **42** en résultat de ce test, passez au test suivant : **sum 1024 1024**. Le résultat est-il celui attendu ?
 
-***Nota 1 :*** *il existe déjà, dans la librairie standard du langage C (stdlib), une fonction qui convertit une chaine de caractère en une valeur numérique entière. Cette fonction s’appelle* ***atoi*** *(****A****SCII* ***to******I****nteger), et vous pouvez l’utiliser en remplacement de* ***stringToInteger***
+***Nota :*** *il existe déjà, dans la librairie standard du langage C (stdlib), une fonction qui convertit une chaine de caractère en une valeur numérique entière. Cette fonction s’appelle* ***atoi*** *(****A****SCII* ***to******I****nteger), et vous pouvez l’utiliser en remplacement de* ***stringToInteger***
 
 ### 3.6 Exercice 6
 Modifiez le programme précédent de telle sorte que le résultat soit renvoyé à la ligne de commandes. Testez votre solution.
@@ -109,6 +111,6 @@ Modifiez le programme précédent de telle sorte que le résultat soit renvoyé 
 Plutôt que d’utiliser des arguments passés en ligne de commande, vous allez maintenant utiliser des fonctions d’entrées/sorties.
 Faites évoluer votre programme en utilisant des interactions avec l’utilisateur, via la fonction **scanf** (*int scanf(const char \*format [, arg1 [, arg2]...]*)
 
-***Nota 2 :*** *Pour pouvoir initialiser arg1 et arg2 dans l’appel de fonction, arg1 et arg2 doivent être de type pointeur. Nous passerons donc des adresses ou des pointeurs en paramètre de cette fonction.*
+***Nota :*** *Pour pouvoir initialiser arg1 et arg2 dans l’appel de fonction, arg1 et arg2 doivent être de type pointeur. Nous passerons donc des adresses ou des pointeurs en paramètre de cette fonction.*
 
 
