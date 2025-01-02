@@ -1,9 +1,6 @@
+# TP 5 : Compilation séparée
 
-
-TP 5 : Compilation séparée
-
-# Exercice 1 : Fonctions et repère orthonormé
-
+## Exercice 1 : Fonctions et repère orthonormé
 Nous allons manipuler dans ce TP des points dans l’espace (en trois dimensions donc) et des vecteurs (au sens mathématique). Nous allons pour ce faire utiliser des **Points**, des **Vecteurs** pour représenter ces structures dans un repère orthonormé **(**O,i,j,k**)** tridimensionnel et des **Equations**.
 
 Les **Points**, les **Vecteurs** et les **Equations** seront donc représentés par des structures que vous définirez.
@@ -24,8 +21,7 @@ Vous créerez dans cet exercice un fichier **maLibMath.h** contenant les prototy
 
 Compilez le fichier C. Qu’obtenez-vous ?
 
-# Exercice 2 : Un programme pour les utiliser toutes !
-
+## Exercice 2 : Un programme pour les utiliser toutes !
 Ecrire un programme en C utilisant la librairie définie plus haut qui permet :
 
 1. à l’utilisateur de rentrer les coordonnées de 3 points dans l’espace.
@@ -33,8 +29,7 @@ Ecrire un programme en C utilisant la librairie définie plus haut qui permet :
 3. de calculer et d’afficher le périmètre et l’aire du triangle.
 4. de calculer l’équation du plan passant par ces 3 points et l’afficher
 
-# Exercice 3 : compilation séparée
-
+## Exercice 3 : compilation séparée
 L’utilité de la compilation séparée est triple :
 
 * la programmation est modulaire, donc plus compréhensible ;
@@ -52,17 +47,19 @@ La commande **make** requiert pour son fonctionnement un fichier nommé **Makefi
 
 Une règle est une suite d’instructions qui seront exécutées pour construire une cible, mais uniquement si des dépendances sont plus récentes (par rapport à la dernière construction de la cible). La syntaxe d’une règle est la suivante :
 
+```console
 cible: dépendances
 
 commandes
+```
 
 La cible est généralement le nom d’un fichier qui va être généré par les commandes qui vont suivre. Les dépendances sont les fichiers ou les règles nécessaires à la création de la cible.
 Les commandes sont des commandes shell qui seront exécutées au moment de la construction de la cible. La tabulation avant les commandes est obligatoire et si la commande dépasse une ligne, il est nécessaire de signaler la fin de ligne avec un caractère antislash "**\**".
 
-## Mon premier Makefile
+### Mon premier Makefile
 
-# construction du TP5
-
+## construction du TP5
+```makefile
 all: maLibMath.o TP5.o
 
 gcc –o TP5.exe maLibMath.o TP5.o -lm
@@ -74,6 +71,7 @@ gcc -c maLibMath.c -Wall -o maLibMath.o -lm
 TP5.o: TP5.c
 
 gcc -c TP5.c -Wall -o TP5.o
+```
 
 Les lignes commençant par le caractère **#** sont des lignes de commentaires.
 
@@ -84,6 +82,7 @@ La commande **make** peut être exécutée sans argument. Dans ce cas, elle exé
 On peut aussi utiliser des variables (macro-commandes dans un fichier **Makefile**). La déclaration se fait par la règle **NOM = VALEUR**. La valeur affectée à la variable peut comporter n’importe quels caractères. Elle peut être aussi une autre variable.
 Par exemple, la syntaxe de l’appel d’une variable est la suivante : **$(NOM)**
 
+```makefile
 # $(BIN) est le nom du fichier binaire généré
 **BIN = TP5.exe**
 # $(OBJECTS) sont les objets qui seront générés après la compilation
@@ -96,6 +95,7 @@ Par exemple, la syntaxe de l’appel d’une variable est la suivante : **$(NOM)
 $(CC) $(OBJECTS) –o $(BIN) -lm**
 
 **…**
+```
 
 **Attention** : il existe des conventions de nommage sur des noms des d’exécutables et leurs arguments (Ex : **CC** pour le compilateur) ou pour les noms de cible (Ex : **all**). Nous y reviendrons prochainement.
 
