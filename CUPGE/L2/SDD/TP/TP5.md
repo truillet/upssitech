@@ -9,7 +9,12 @@ Vous créerez dans cet exercice un fichier **maLibMath.h** contenant les prototy
 
 1. Ecrire une fonction **Point Pt=Demande\_Point()** qui créé un « *point 3D* » à partir des entrées de l’utilisateur
 2. Ecrire une fonction **Point Pt=Creer\_Point(float x, float y, float z)** qui créé un « *point 3D* » à partir des coordonnées (x,y,z) données en paramètre.
-3. Ecrire une fonction **Vecteur V=Vectorise(Point Pt1,Point Pt2)** qui définit le vecteur ![](data:image/x-wmf;base64...) à partir des points A et B.
+3. Ecrire une fonction **Vecteur V=Vectorise(Point Pt1,Point Pt2)** qui définit le vecteur 
+```math
+\vec{AB}
+```
+
+à partir des points A et B.
 4. Ecrire une fonction **Vecteur PV=Produit\_Vectoriel(Vecteur V1,Vecteur V2)** qui renvoie le vecteur résultat du produit vectoriel de 2 vecteurs.
 5. Ecrire une fonction **float PS=Produit\_Scalaire(Vecteur V1,Vecteur V2)** qui renvoie le produit scalaire de 2 vecteurs.
 6. Ecrire une fonction **float N=Norme(Vecteur V)** qui calcule la norme (distance) d’un vecteur.
@@ -54,7 +59,7 @@ commandes
 ```
 
 La cible est généralement le nom d’un fichier qui va être généré par les commandes qui vont suivre. Les dépendances sont les fichiers ou les règles nécessaires à la création de la cible.
-Les commandes sont des commandes shell qui seront exécutées au moment de la construction de la cible. La tabulation avant les commandes est obligatoire et si la commande dépasse une ligne, il est nécessaire de signaler la fin de ligne avec un caractère antislash "**\**".
+Les commandes sont des commandes shell qui seront exécutées au moment de la construction de la cible. La tabulation avant les commandes est obligatoire et si la commande dépasse une ligne, il est nécessaire de signaler la fin de ligne avec un caractère antislash "\\".
 
 ### Mon premier Makefile
 
