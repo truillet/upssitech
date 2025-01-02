@@ -32,7 +32,11 @@ foo@bar:~$ _
 
 ***Nota2*** : pourquoi faut-il appeler l’outil **gcc** avec la commande « **gcc** », alors qu’il faut appeler notre programme avec la commande **./hello** ?
 *A quoi sert ce «****./****»*? La raison est assez simple. Afin de pouvoir exécuter un programme en ligne de commande, il faut donner le chemin de ce programme sur le disque. C’est ce que nous faisons avec **./hello** en référençant un chemin relatif grâce à « **./** ».
-Comme **gcc** est un outil couramment utilisé, et il a été placé dans un répertoire que l’environnement d’exécution des commandes connait. L’ensemble des chemins dans lesquels l’environnement de commande cherche les binaires que vous lancez est stocké dans la variable d’environnement **PATH**. Pour connaitre la liste des répertoires dans lesquels l’environnement en ligne de commandes cherche les binaires, tapez **echo $PATH**.
+
+Comme **gcc** est un outil couramment utilisé, et il a été placé dans un répertoire que l’environnement d’exécution des commandes connait. L’ensemble des chemins dans lesquels l’environnement de commande cherche les binaires que vous lancez est stocké dans la variable d’environnement **PATH**.
+
+Pour connaitre la liste des répertoires dans lesquels l’environnement en ligne de commandes cherche les binaires, tapez **echo $PATH**.
+
 Vous voyez s’afficher une liste de chemins, séparés par « **:**». Lorsque vous lancez **gcc**, l’environnement d’exécution des commandes cherche alors dans chaque chemin précisé, l’un après l’autre, s’il contient un fichier appelé **gcc**. Dès qu’il en trouve un (le premier donc !), il l’exécute.
 
 ## Quelques commandes systèmes utiles
