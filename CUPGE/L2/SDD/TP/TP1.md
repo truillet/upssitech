@@ -10,14 +10,14 @@ L’interface de commande nous permettra de taper les différentes commandes né
 ## Exercice de démarrage
 Tapez dans un fichier **hello.c** le code (**mythique**) suivant :
 
-`
+```c
 #include <stdio.h>
 
 int main(){
   printf("hello world\n");
   return(1);
 }
-`
+```
 
 Compilez et exécutez ensuite le code produit.
 
