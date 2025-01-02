@@ -68,14 +68,16 @@ Code généré :
 Enfin, il faut coder le programme .c qui va implémenter les fonctions natives (par exemple dans le fichier Greetings.c
 
 ```c
-// Greetings.c #include <jni.h>
-#include "fr\_ut3\_HelloJNI.h"
+// Greetings.c
+#include <jni.h>
+#include "fr_ut3_HelloJNI.h"
 
-JNIEXPORT jstring JNICALL Java\_fr\_ut3\_HelloJNI\_getGreetings (JNIEnv\* env, jclass obj, jstring string) {
-  const char\* str = (\*env)->GetStringUTFChars(env,string,0); char cap[128];
+JNIEXPORT jstring JNICALL Java_fr_ut3_HelloJNI_getGreetings (JNIEnv* env, jclass obj, jstring string) {
+  const char* str = (*env)->GetStringUTFChars(env,string,0); char cap[128];
   // strcpy(cap, str);
   sprintf(cap, "You welcome, %s\n", str);
-  (*env)->ReleaseStringUTFChars(env, string, str); return ((*env)->NewStringUTF(env, cap));
+  (*env)->ReleaseStringUTFChars(env, string, str);
+  return ((*env)->NewStringUTF(env, cap));
 }
 ```
 
