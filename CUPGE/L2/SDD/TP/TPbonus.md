@@ -7,10 +7,8 @@ Dans le cas contraire, il faut :
 * Créer deux répertoires sur **C:/langages** et sur **C:/dev** (sous windows)
 * Décompresser l’archive téléchargée dans **C:/langages/arduino-2.x.x** *(où x.x représente le numéro de version)*
 
-![](data:image/png;base64...)
-**Téléchargement de l’IDE Arduino (v. 2.3.4)**
-
-1. Brancher sur un port usb une plaque arduino et installer le pilote (driver) si nécessaire [le chemin vers le pilote est dans **C:/langages/arduino-2.x.x/drivers**]
+Une fois installé, lancer **arduino.exe** :
+1. Brancher sur un port usb une plaque arduino et installer le pilote (driver) si nécessaire (le chemin vers le pilote est dans **C:/langages/arduino-2.x.x/drivers**)
 2. Lancer l’IDE arduino en cliquant sur **arduino.exe** dans son répertoire
 3. Dans le répertoire **dev**, créer le répertoire arduino
 4. Modifier dans **Fichier | Préférences** l’emplacement du carnet de croquis vers **C:/dev/arduino**. Appuyer sur ok et redémarrer **arduino.exe**
