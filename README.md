@@ -5,7 +5,7 @@ Vous trouverez ici les notes de cours des :
 
 * **CUPGE UPSSITECH - cursus préparatoire intégré**
   * [Stuctures de données / Langage C](https://github.com/truillet/upssitech/tree/master/CUPGE/L2/SDD) (UE Informatique Appliquée 3 - **KINUPI31**)
-  * Introduction aux Réseaux Informatiques
+  * *Introduction aux Réseaux Informatiques*
   * [Projet d'intégration](https://github.com/truillet/upssitech/tree/master/CUPGE/L2/Projet) (UE Informatique Théorique 3 - **KINUPH31**)
 * **Filière GCGEO 1ère année**
   * [Algorithmique / GNU Octave & Jupyter Notebook](https://github.com/truillet/upssitech/tree/master/GCGEO/1A) (UE Informatique - **KUPX5AB1**)
