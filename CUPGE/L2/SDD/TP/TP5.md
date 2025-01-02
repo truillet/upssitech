@@ -13,8 +13,8 @@ Vous créerez dans cet exercice un fichier **maLibMath.h** contenant les prototy
 ```math
 \vec{AB}
 ```
-
 à partir des points A et B.
+
 4. Ecrire une fonction **Vecteur PV=Produit\_Vectoriel(Vecteur V1,Vecteur V2)** qui renvoie le vecteur résultat du produit vectoriel de 2 vecteurs.
 5. Ecrire une fonction **float PS=Produit\_Scalaire(Vecteur V1,Vecteur V2)** qui renvoie le produit scalaire de 2 vecteurs.
 6. Ecrire une fonction **float N=Norme(Vecteur V)** qui calcule la norme (distance) d’un vecteur.
