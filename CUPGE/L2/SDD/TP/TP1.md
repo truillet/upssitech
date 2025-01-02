@@ -22,13 +22,11 @@ int main(){
 Compilez et exécutez ensuite le code produit.
 
 ```console
-**$** gcc -Wall hello.c -o hello
-**$** ./hello
+foo@bar:~$ gcc -Wall hello.c -o hello
+foo@bar:~$ ./hello
 hello world
-**$**_
+foo@bar:~$_
 ```
-
-**Figure 2 – chaîne de compilation et d’éxécution**
 
 ***Nota1*** : **gcc** est l’outil de compilation que nous utiliserons communément en TP. Son fonctionnement précis sera précisé ultérieurement. L’option **-o** *hello* indique à **gcc** que le fichier produit devra s’appeler *hello* (et non *a.out* par défaut).
 
