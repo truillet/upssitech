@@ -1,13 +1,11 @@
 # Travaux Dirigés - Lois Psycho-Physiques *(inspiré des TDs IHM du LRI)*
 
 ## 1. Loi de Fitts
-
 *(« Le temps mis pour atteindre une cible est proportionnel à sa distance et inversement proportionnel à sa taille »)*
 
-Mathématiquement, a loi de Fitts a été formulée de plusieurs manières, l’indice de difficulté été calculé par **log2(2D/d)** ou **log2(1 + D/d)**, formulation dite « de Shannon » proposée par Scott MacKenzie.
+Mathématiquement, a loi de Fitts a été formulée de plusieurs manières, l’indice de difficulté été calculé par **log~2~(2D/d)** ou **log~2~(1 + D/d)**, formulation dite « de Shannon » proposée par Scott MacKenzie.
 
 **Rappel** :
-
 **Logarithme binaire**
 
 log2(2n) = n
