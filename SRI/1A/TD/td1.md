@@ -68,21 +68,19 @@ Les paramètres a et b sont traditionnellement fixés pour un novice à **a=0** 
 3. Calculez le temps moyen d’accès à l’item de menu défini en **1.3.3.** Quelle est votre conclusion ?
 
 ## 3. KLM - Keystroke Level Model
-
-Keystroke-Level Model (KLM), proposé par Card, Moran et Newell (1983), prédit le temps d’exécution d’une tâche à partir d’un scénario de tâche spécifiques. Il s’agit essentiellement d’énumérer la séquence d’actions au niveau des touches que l’utilisateur doit effectuer pour accomplir une tâche.
+Keystroke-Level Model (KLM), proposé par [Card, Moran et Newell](https://www.taylorfrancis.com/books/mono/10.1201/9780203736166/psychology-human-computer-interaction-stuart-card) (1983), prédit le temps d’exécution d’une tâche à partir d’un scénario de tâche spécifiques. Il s’agit essentiellement d’énumérer la séquence d’actions au niveau des touches que l’utilisateur doit effectuer pour accomplir une tâche.
 
 Il n’est pas nécessaire de disposer d’une maquette, KLM exige seulement que l’interface utilisateur soit spécifiée de manière suffisamment détaillée pour dicter la séquence des actions.
 
-***A votre avis, quelle est la méthode la plus rapide pour effacer une partie de texte sous un éditeur standard ?
-Etayez votre réponse …***
+### A votre avis, quelle est la méthode la plus rapide pour effacer une partie de texte sous un éditeur standard ?
 
-**Trois techniques sont envisagées** : soit vous vous placez à la fin du texte à supprimer et vous appuyez autant de fois que nécessaire la touche de suppression (**SUPPR**), soit vous sélectionnez l’ensemble du texte indésirable à supprimer avant d’appuyer (une fois) cette touche. Enfin, une fois le texte sélectionné, vous pouvez sélectionner l’item « *supprimer* » du menu « édition » de la barre de menus.
+Pour répondre à cette question, *trois techniques sont envisagées* : soit vous vous placez à la fin du texte à supprimer et vous appuyez autant de fois que nécessaire la touche de suppression (**SUPPR**), soit vous sélectionnez l’ensemble du texte indésirable à supprimer avant d’appuyer (une fois) cette touche. Enfin, une fois le texte sélectionné, vous pouvez sélectionner l’item « *supprimer* » du menu « édition » de la barre de menus.
 
 1. En vous appuyant sur le modèle KLM, estimez le temps nécessaire pour la suppression d’un texte de 3 caractères adjacents.
 2. Faites de même pour une suppression de 10 caractères adjacents.
 3. Les résultats obtenus sont-ils intuitifs ? Quels sont les limites de ces calculs ?
 
-**Rappel** : KLM introduit six opérateurs pour décrire l’exécution d’une tâche élémentaire
+### Rappel : **KLM** introduit six opérateurs pour décrire l’exécution d’une tâche élémentaire
 
 * **K** : « keystroking », frappe de touches du clavier ou de la souris – entre 0.08 et 1.20 s suivant l’expertise des utilisateurs – **0,2 s**
 * **P** : « pointing », désignation – entre 0,8 s et 1,5 s, **on prendra la valeur médiane 1,1 s**
@@ -93,9 +91,5 @@ Etayez votre réponse …***
 
 Le temps d’exécution est la somme des temps passés à exécuter chaque classe d’opérateurs.
 
-**Estimateur en ligne** :
-http://courses.csail.mit.edu/6.831/2009/handouts/ac18-predictive-evaluation/klm.shtml
-
-**Estimateur** (application windows) : http://www.syntagm.co.uk/design/klmcalcv1.zip
-
+**Estimateur** : [KmlCalc](https://github.com/truillet/upssitech/blob/master/SRI/1A/TD/KlmCalc.exe) (application windows)
 
