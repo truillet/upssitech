@@ -1,7 +1,7 @@
 # Travaux Dirigés - Lois Psycho-Physiques *(inspiré des TDs IHM du LRI)*
 
 ## 1. Loi de Fitts
-*(« Le temps mis pour atteindre une cible est proportionnel à sa distance et inversement proportionnel à sa taille »)*
+*Le temps mis pour atteindre une cible est proportionnel à sa distance et inversement proportionnel à sa taille*
 
 Mathématiquement, a loi de Fitts a été formulée de plusieurs manières, l’indice de difficulté été calculé par **log<sub>2</sub>(2D/d)** ou **log<sub>2</sub>(1 + D/d)**, formulation dite « de Shannon » proposée par Scott MacKenzie.
 
@@ -30,18 +30,16 @@ Pour ce dispositif, **déterminer** (grossièrement) les valeurs des constantes 
 ### 1.3. Prédire
 Typiquement, la durée d’un clic souris est évaluée à **10 ms**, la largeur d’une icône à **1 cm**, la hauteur d’un menu à **0,7 cm** et sa largeur à **5 cm**.
 
-![](data:image/png;base64...)On supposera le temps d’affichage comme étant **nul**. On prendra les valeurs suivantes pour **a** et **b** : **a=0** et **b=0,1**. (paramètres classiques de la loi de Fitts). Enfin, le curseur se situe à chaque opération au centre de l’écran (on prendra comme distance initiale entre le curseur souris et le centre du widget ≈ **20 cm**)
+On supposera le temps d’affichage comme étant **nul**. On prendra les valeurs suivantes pour **a** et **b** : **a=0** et **b=0,1**. (paramètres classiques de la loi de Fitts). Enfin, le curseur se situe à chaque opération au centre de l’écran (on prendra comme distance initiale entre le curseur souris et le centre du widget ≈ **20 cm**)
 
 1. Evaluez le temps moyen pour la sélection d’une commande dans un menu unique à 25 entrées.
    On choisira de pointer la 13ème entrée.
-2. Comparez le temps pour effectuer une opération par *drag-and-drop* et par la sélection d’une icône suivie de la sélection d’une commande dans un menu. (on prendra la taille de la fenêtre égale à **10 cm** et la distance ![](data:image/png;base64...)entre les icônes égale à **20 cm**).
+2. Comparez le temps pour effectuer une opération par *drag-and-drop* et par la sélection d’une icône suivie de la sélection d’une commande dans un menu. (on prendra la taille de la fenêtre égale à **10 cm** et la distance entre les icônes égale à **20 cm**).
    Le curseur est positionné au départ sur l’icône à sélectionner.
-3. Enfin, comparez le temps de pointage d’un item d’un pie-menu à 4 entrées (rayon du menu = **3 cm**) et de la troisième entrée d’un menu « *surgissant* » (popup menu) à 4 entrées.
-   Qu’en concluez-vous ?
-   Quelles critiques pouvez-vous formuler ?
+3. Enfin, comparez le temps de pointage d’un item d’un [pie-menu](https://en.wikipedia.org/wiki/Pie_menu) à 4 entrées (rayon du menu = **3 cm**) et de la troisième entrée d’un menu « *surgissant* » (popup menu) à 4 entrées.
+   Qu’en concluez-vous ? Quelles critiques pouvez-vous formuler ?
 
 ### 1.4. Des limites à la Loi de Fitts
-
 Que se passe t’il quand :
 
 1. On veut pointer une cible de **10 pixels de largeur** au milieu en haut de l’écran sur un écran **4000 x 4000** (sur un écran de **50 pouces** soit **127 cm** de diagonale).
@@ -49,19 +47,13 @@ Que se passe t’il quand :
 
    Le curseur est au centre de l’écran. En reprenant les paramètres estimés en (1), calculer le temps moyen pour atteindre la cible et calculer la distance « réelle » à parcourir
 2. Et quand le rapport **2D/d > 1 000**
-
-Que pouvez-vous en conclure ?
+3  Que pouvez-vous en conclure ?
 
 ## 2. Loi de Hick-Hymann
-*(« Le temps de décision est proportionnel au nombre d’alternatives proposées »)*
+*Le temps de décision est proportionnel au nombre d’alternatives proposées*
 
 **Rappel** :
-
-**Loi de Hick** *TR = a + b log*2*(n)* TR : Temps de réaction
-
-n : nombre d’alternatives
-
-Les paramètres a et b sont traditionnellement fixés pour un novice à **a=0** et **b=0,2**
+* *Loi de Hick* TR=a +blog<sub>2</sub>(n) avec TR : Temps de réaction, n : nombre d’alternatives (les paramètres a et b sont traditionnellement fixés pour un novice à **a=0** et **b=0,2**)
 
 1. Calculez le temps moyen de décision dans un menu à *25 entrées*
 2. Calculez le temps moyen de décision dans un menu à *4 entrées*
