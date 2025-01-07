@@ -3,25 +3,14 @@
 ## 1. Loi de Fitts
 *(« Le temps mis pour atteindre une cible est proportionnel à sa distance et inversement proportionnel à sa taille »)*
 
-Mathématiquement, a loi de Fitts a été formulée de plusieurs manières, l’indice de difficulté été calculé par **log<sub>2</sub>(2D/d)** ou **log~2~(1 + D/d)**, formulation dite « de Shannon » proposée par Scott MacKenzie.
+Mathématiquement, a loi de Fitts a été formulée de plusieurs manières, l’indice de difficulté été calculé par **log<sub>2</sub>(2D/d)** ou **log<sub>2</sub>(1 + D/d)**, formulation dite « de Shannon » proposée par Scott MacKenzie.
 
-**Rappel** :
-**Logarithme binaire**
-
-log2(2n) = n
-
-**Loi de Fitts :** T *= a + bID*
-
-*T : temps de pointage (en secondes)*
-
-**ID = log2(2D/d)**
-
-D : Distance à la cible
-
-d : diamètre de la cible![](data:image/x-emf;base64...)
+**Rappels** :
+ * *Logarithme binaire* : log<sub>2</sub>(2n) = n
+ * *Loi de Fitts :* T=a+bID* avec *T : temps de pointage (en secondes)* et *ID = log<sub>2</sub>(2D/d)* (D : Distance à la cible, d : diamètre de la cible)
 
 ### 1.1. Expérimenter (en ligne)
-Il existe de nombreux sites web qui permettent d’expérimenter et visualiser les résultats de la Loi de Fitts. Parmi ceux-ci, on peut citer : http://www.simonwallner.at/ext/fitts (visualisation avec Javascript et D3.js) ou http://fww.few.vu.nl/hci/interactive/fitts (démonstration en ligne et explications de la Loi)
+Il existe de nombreux sites web qui permettent d’expérimenter et visualiser les résultats de la Loi de Fitts. Parmi ceux-ci, on peut citer : [Interactive Visualisation of Fitt's Law](http://www.simonwallner.at/ext/fitts), visualisation avec Javascript et D3.js) ou [Fitt's Law demonstration](https://fww.few.vu.nl/hci/interactive/fitts), démonstration en ligne et explications de la Loi.
 
 ### 1.2. Estimer
 On considère quelques temps (en secondes) mesurés lors d’une expérimentation avec un dispositif particulier.
@@ -36,7 +25,7 @@ Pour ce dispositif, **déterminer** (grossièrement) les valeurs des constantes 
 | **D** | **1** | **1** | **1** | **5** | **5** | **5** | **10** | **10** | **10** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **d** | **0,1** | **0,5** | **1,0** | **0,1** | **0,5** | **1,0** | **0,1** | **0,5** | **1,0** |
-| **log2(2D/d)** | 4,32 | 2 | 1 | 6,64 | 4,42 | 3,32 | 7,64 | 5,32 | 4,32 |
+| **log<sub>2</sub>(2D/d)** | 4,32 | 2 | 1 | 6,64 | 4,42 | 3,32 | 7,64 | 5,32 | 4,32 |
 
 ### 1.3. Prédire
 Typiquement, la durée d’un clic souris est évaluée à **10 ms**, la largeur d’une icône à **1 cm**, la hauteur d’un menu à **0,7 cm** et sa largeur à **5 cm**.
