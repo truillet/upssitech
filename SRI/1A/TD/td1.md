@@ -7,7 +7,7 @@ Mathématiquement, a loi de Fitts a été formulée de plusieurs manières, l’
 
 **Rappels** :
  * *Logarithme binaire* : log<sub>2</sub>(2n) = n
- * *Loi de Fitts :* T=a+bID* avec *T : temps de pointage (en secondes)* et *ID = log<sub>2</sub>(2D/d)* (D : Distance à la cible, d : diamètre de la cible)
+ * *Loi de Fitts :* T=a+bID avec *T : temps de pointage (en secondes)* et *ID = log<sub>2</sub>(2D/d)* (D : Distance à la cible, d : diamètre de la cible)
 
 ### 1.1. Expérimenter (en ligne)
 Il existe de nombreux sites web qui permettent d’expérimenter et visualiser les résultats de la Loi de Fitts. Parmi ceux-ci, on peut citer : [Interactive Visualisation of Fitt's Law](http://www.simonwallner.at/ext/fitts), visualisation avec Javascript et D3.js) ou [Fitt's Law demonstration](https://fww.few.vu.nl/hci/interactive/fitts), démonstration en ligne et explications de la Loi.
