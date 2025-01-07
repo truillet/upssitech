@@ -1,14 +1,6 @@
+# Travaux Dirigés - Lois Psycho-Physiques *(inspiré des TDs IHM du LRI)*
 
-
-Travaux Dirigés
-
-Lois Psycho-Physiques
-
-décembre 2021 – v. 3.4
-
-*(inspiré des TDs IHM du LRI)*
-
-# 1. Loi de Fitts
+## 1. Loi de Fitts
 
 *(« Le temps mis pour atteindre une cible est proportionnel à sa distance et inversement proportionnel à sa taille »)*
 
@@ -30,12 +22,10 @@ D : Distance à la cible
 
 d : diamètre de la cible![](data:image/x-emf;base64...)
 
-## 1.1. Expérimenter (en ligne)
-
+### 1.1. Expérimenter (en ligne)
 Il existe de nombreux sites web qui permettent d’expérimenter et visualiser les résultats de la Loi de Fitts. Parmi ceux-ci, on peut citer : http://www.simonwallner.at/ext/fitts (visualisation avec Javascript et D3.js) ou http://fww.few.vu.nl/hci/interactive/fitts (démonstration en ligne et explications de la Loi)
 
-## 1.2. Estimer
-
+### 1.2. Estimer
 On considère quelques temps (en secondes) mesurés lors d’une expérimentation avec un dispositif particulier.
 Pour ce dispositif, **déterminer** (grossièrement) les valeurs des constantes expérimentales **a** et **b** utilisées de la loi de Fitts.
 
@@ -50,8 +40,7 @@ Pour ce dispositif, **déterminer** (grossièrement) les valeurs des constantes 
 | **d** | **0,1** | **0,5** | **1,0** | **0,1** | **0,5** | **1,0** | **0,1** | **0,5** | **1,0** |
 | **log2(2D/d)** | 4,32 | 2 | 1 | 6,64 | 4,42 | 3,32 | 7,64 | 5,32 | 4,32 |
 
-## 1.3. Prédire
-
+### 1.3. Prédire
 Typiquement, la durée d’un clic souris est évaluée à **10 ms**, la largeur d’une icône à **1 cm**, la hauteur d’un menu à **0,7 cm** et sa largeur à **5 cm**.
 
 ![](data:image/png;base64...)On supposera le temps d’affichage comme étant **nul**. On prendra les valeurs suivantes pour **a** et **b** : **a=0** et **b=0,1**. (paramètres classiques de la loi de Fitts). Enfin, le curseur se situe à chaque opération au centre de l’écran (on prendra comme distance initiale entre le curseur souris et le centre du widget ≈ **20 cm**)
@@ -64,7 +53,7 @@ Typiquement, la durée d’un clic souris est évaluée à **10 ms**, la largeur
    Qu’en concluez-vous ?
    Quelles critiques pouvez-vous formuler ?
 
-## 1.4. Des limites à la Loi de Fitts
+### 1.4. Des limites à la Loi de Fitts
 
 Que se passe t’il quand :
 
@@ -76,8 +65,7 @@ Que se passe t’il quand :
 
 Que pouvez-vous en conclure ?
 
-# 2. Loi de Hick-Hymann
-
+## 2. Loi de Hick-Hymann
 *(« Le temps de décision est proportionnel au nombre d’alternatives proposées »)*
 
 **Rappel** :
@@ -92,7 +80,7 @@ Les paramètres a et b sont traditionnellement fixés pour un novice à **a=0** 
 2. Calculez le temps moyen de décision dans un menu à *4 entrées*
 3. Calculez le temps moyen d’accès à l’item de menu défini en **1.3.3.** Quelle est votre conclusion ?
 
-# 3. KLM - Keystroke Level Model
+## 3. KLM - Keystroke Level Model
 
 Keystroke-Level Model (KLM), proposé par Card, Moran et Newell (1983), prédit le temps d’exécution d’une tâche à partir d’un scénario de tâche spécifiques. Il s’agit essentiellement d’énumérer la séquence d’actions au niveau des touches que l’utilisateur doit effectuer pour accomplir une tâche.
 
