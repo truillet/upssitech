@@ -3,7 +3,7 @@
 ## Introduction à l'interaction homme-machine
 * [support de cours](https://github.com/truillet/upssitech/blob/master/SRI/1A/Cours/survol_ihm_3_96.pdf) (2024)
 * **TD1** - [Lois Psycho-Physiques](https://github.com/truillet/upssitech/blob/master/SRI/1A/TD/TD1_IHM.pdf) (2021)
-* **TD2** - [Conception de systèmes interactifs](https://github.com/truillet/upssitech/blob/master/SRI/1A/TD/BE_csi_v2.2.pdf) (2024)
+* **TD2** - [Conception de systèmes interactifs](https://github.com/truillet/upssitech/blob/master/SRI/1A/TD/BE_csi_v2.3.pdf) (2024)
 * **Projet** - [Bureau d'études](https://github.com/truillet/upssitech/blob/master/SRI/1A/TD/BE_prototypage_2024.pdf) (2024)
 
 ### Quelques liens et articles "à lire" ou "écouter"
