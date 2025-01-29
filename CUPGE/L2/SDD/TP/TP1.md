@@ -60,7 +60,7 @@ Connectez-vous sur une session Unix. Depuis le terminal :
 * créez le répertoire **TP1** puis allez dans ce répertoire
 * listez les fichiers du répertoire (y compris les fichiers cachés) ?
 
-### Redirection des entrées-sorties et « pipes »
+### Redirection des entrées-sorties et "pipes"
 Comme vous avez pu le constater, toutes les commandes émises depuis une fenêtre terminal, effectuent leurs sorties sur le terminal (**stdout**). Pour les rediriger sur d’autres supports on peut les faire suivre, entre autres, des symboles **>** ou **>>** :
 
 **>** indique que la sortie n’est plus le terminal mais un autre support (fichier, etc.)
