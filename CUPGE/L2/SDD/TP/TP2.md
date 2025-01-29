@@ -60,10 +60,10 @@ int main(){
   melange(jeu);
   distribue(jeu,jeuJ1,jeuJ2);
 
-  printf(" \_\_ Jeu Joueur1 \_\_\n");
+  printf(" __ Jeu Joueur1 __\n");
   affiche(jeuJ1,16);
 
-  printf(" \_\_ Jeu Joueur2 \_\_\n");
+  printf(" __ Jeu Joueur2 __\n");
   affiche(jeuJ2,16);
 
   int NBcoups = 0;
