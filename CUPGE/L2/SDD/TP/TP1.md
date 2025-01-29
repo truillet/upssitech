@@ -84,11 +84,11 @@ Comme nous l’avons vu en cours, un programme C commence à s’exécuter à pa
 
 ### Rappel
 Au lancement du programme, le paramètre **argc** est initialisé avec le nombre d’arguments passés sur la ligne de commande (tous séparés par une espace). Le paramètre **argv** est initialisé avec ces chaines de caractères.
-Prenons l’exemple de **gcc**, commande aussi écrite en C. Lorsque vous lancez **gcc** avec la ligne de commande suivante : **gcc mon\_prog.c -o mon\_prog** alors la fonction main de **gcc** (aussi appelée point d’entrée du programme), est appelée avec les valeurs suivantes pour **argc** et **argv** : **argc** vaut **4** et **argv** vaut **{« gcc », « mon\_prog.c », « -o », « mon\_prog »}**
+Prenons l’exemple de **gcc**, commande aussi écrite en C. Lorsque vous lancez **gcc** avec la ligne de commande suivante : **gcc mon_prog.c -o mon_prog** alors la fonction main de **gcc** (aussi appelée point d’entrée du programme), est appelée avec les valeurs suivantes pour **argc** et **argv** : **argc** vaut **4** et **argv** vaut **{"gcc", "mon_prog.c", "-o", "mon_prog"}**
 
-**Nous allons écrire un programme appelé « sum » qui prend en paramètre deux entiers.**Dans cet exercice, l’objectif est simplement de vérifier que lorsqu’il le lance, l’utilisateur a donné le bon nombre de paramètres et que ces paramètres sont des entiers.
+**Nous allons écrire un programme appelé *sum* qui prend en paramètre deux entiers.**Dans cet exercice, l’objectif est simplement de vérifier que lorsqu’il le lance, l’utilisateur a donné le bon nombre de paramètres et que ces paramètres sont des entiers.
 
-Vous définirez en outre la fonction suivante dans votre code ***void display\_message(char\* msg);***Comme son nom l’indique, cette fonction affiche simplement à l’écran le message qui lui est passé en paramètre.
+Vous définirez en outre la fonction suivante dans votre code ***void display_message(char\* msg);***Comme son nom l’indique, cette fonction affiche simplement à l’écran le message qui lui est passé en paramètre.
 
 ### 3.1 Exercice 1
 Ecrire le code de la fonction main de sorte à afficher le message suivant : ***Wrong usage, 2 parameters expected: ./sum param1 param2***lorsque l’utilisateur n’a pas passé le bon nombre de paramètres.
