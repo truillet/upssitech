@@ -48,8 +48,8 @@ Quelques commandes utiles :
 * **ls** (**L**i**S**t) pour lister les noms de fichiers du répertoire courant
 * **mkdir** *dir* (**M**a**K**e **DIR**ectory) pour créer le répertoire *dir*
 * **cd** *dir* (**C**hange **D**irectory) pour aller dans le répertoire *dir*
-* **cp fich1 fich2 (C**o**p**y**)** pour copier le fichier *fich1* ver le nouveau fichier *fich2*
-* **mv fich1 fich2 (M**o**v**e**)** pour changer le nom du fichier *fich1* vers *fich2*
+* **cp fich1 fich2 (C**o**p**y) pour copier le fichier *fich1* vers le nouveau fichier *fich2*
+* **mv fich1 fich2 (M**o**v**e) pour changer le nom du fichier *fich1* vers *fich2*
 
 Pour chacune des commandes, il existe un descriptif détaillé, accessible via la commande **man**, par exemple **man ls**.
 
