@@ -23,7 +23,7 @@ int alea32(){ /* génère un entier aléatoire compris entre 0 et 31 */
   /* à compléter */
 }
 
-void permute(Carte *carte1, Carte *carte2){ /* permute 2 cartes */
+void permute(Carte \*carte1, Carte \*carte2){ /* permute 2 cartes */
   /* à compléter */
 }
 
@@ -31,7 +31,7 @@ void melange(Carte jeu[]){ /* mélange les cartes */
   /* à compléter */
 }
 
-void affiche\_carte(Carte X){ /* affiche une carte (valeur, couleur)*/
+void affiche_carte(Carte X){ /* affiche une carte (valeur, couleur)*/
   /* à compléter */
 }
 
