@@ -31,7 +31,7 @@ foo@bar:~$ _
 ***Nota1*** : **gcc** est l’outil de compilation que nous utiliserons communément en TP. Son fonctionnement précis sera précisé ultérieurement. L’option **-o** *hello* indique à **gcc** que le fichier produit devra s’appeler *hello* (et non *a.out* par défaut).
 
 ***Nota2*** : pourquoi faut-il appeler l’outil **gcc** avec la commande « **gcc** », alors qu’il faut appeler notre programme avec la commande **./hello** ?
-*A quoi sert ce «****./****»*? La raison est assez simple. Afin de pouvoir exécuter un programme en ligne de commande, il faut donner le chemin de ce programme sur le disque. C’est ce que nous faisons avec **./hello** en référençant un chemin relatif grâce à « **./** ».
+*A quoi sert ce «****./****»*? La raison est assez simple. Afin de pouvoir exécuter un programme en ligne de commande, il faut donner le chemin de ce programme sur le disque. C’est ce que nous faisons avec **./hello** en référençant un chemin relatif grâce à "**./**".
 
 Comme **gcc** est un outil couramment utilisé, et il a été placé dans un répertoire que l’environnement d’exécution des commandes connait. L’ensemble des chemins dans lesquels l’environnement de commande cherche les binaires que vous lancez est stocké dans la variable d’environnement **PATH**.
 
@@ -77,10 +77,10 @@ Les commandes qui vont être utilisées ici :
 
 Placez-vous dans votre sous-répertoire **TP1**. Envoyez le résultat de la commande **date** dans le fichier **output.txt**. Vérifiez le contenu du fichier créé avec la commande **cat**. Quels sont les droits du fichier **output.txt** ?
 
-Vous allez maintenant utiliser un « *pipe* », outil très utile pour rediriger ou filtrer les sorties vers une autre commande. Pour cela, revenez dans votre répertoire « *home* » (**cd** ou **cd ~** par exemple). Localisez votre fichier **output.txt** en utilisant la commande **ls -lR | grep output.txt**
+Vous allez maintenant utiliser un "*pipe*", outil très utile pour rediriger ou filtrer les sorties vers une autre commande. Pour cela, revenez dans votre répertoire "*home*" (**cd** ou **cd \~** par exemple). Localisez votre fichier **output.txt** en utilisant la commande **ls -lR | grep output.txt**
 
 ## Programmation en C et usage de pointeurs
-Comme nous l’avons vu en cours, un programme C commence à s’exécuter à partir d’une fonction **main**. La signature de cette fonction est ***int main (int argc, char\* argv[])***.
+Comme nous l’avons vu en cours, un programme C commence à s’exécuter à partir d’une fonction **main**. La signature de cette fonction est **int main (int argc, char\* argv[])**.
 
 ### Rappel
 Au lancement du programme, le paramètre **argc** est initialisé avec le nombre d’arguments passés sur la ligne de commande (tous séparés par une espace). Le paramètre **argv** est initialisé avec ces chaines de caractères.
@@ -106,15 +106,15 @@ Testez votre implémentation en compilant et en exécutant le programme avec dif
 ### 3.4 Exercice 4
 Nous allons maintenant continuer l’implémentation du programme **sum** que nous avons commencé précédemment. Pour cela, nous allons implémenter la fonctionnalité qui somme la valeur des entiers passés en paramètres sur la ligne de commande, puis qui affiche la valeur obtenue.
 
-Afin de convertir une chaine de caractère contenant des nombres en une valeur entière, vous allez coder la fonction ***int******charToInteger(char c)***, qui renvoie la valeur de c sous la forme d’un entier.
-Codez ensuite la fonction ***int stringToInteger(char \* c)***, qui renvoie la valeur de c (un tableau de caractères représentant des chiffres) sous la forme d’un entier.
+Afin de convertir une chaine de caractère contenant des nombres en une valeur entière, vous allez coder la fonction **int charToInteger(char c)**, qui renvoie la valeur de c sous la forme d’un entier.
+Codez ensuite la fonction **int stringToInteger(char\* c)**, qui renvoie la valeur de c (un tableau de caractères représentant des chiffres) sous la forme d’un entier.
 
 ### 3.5 Exercice 5
-Afin d’afficher le résultat du calcul, nous allons avoir besoin d’utiliser une fonction d’entrée sortie. Dans cet exercice, nous allons utiliser la fonction de sortie la plus simple : ***printf*** (utilisez ***#include <stdio.h>***). Pour accéder à sa documentation depuis le terminal, tapez **man printf**Modifiez votre programme dans **sum.c** pour afficher le résultat donné par la somme des entiers passés en ligne de commande.
+Afin d’afficher le résultat du calcul, nous allons avoir besoin d’utiliser une fonction d’entrée sortie. Dans cet exercice, nous allons utiliser la fonction de sortie la plus simple : **printf** (utilisez **#include <stdio.h>**). Pour accéder à sa documentation depuis le terminal, tapez **man printf**. Modifiez votre programme dans **sum.c** pour afficher le résultat donné par la somme des entiers passés en ligne de commande.
 
 Testez votre programme comme suit : **sum 21 21** puis **sum 21 -21.** Une fois que vous aurez obtenu le chiffre **42** en résultat de ce test, passez au test suivant : **sum 1024 1024**. Le résultat est-il celui attendu ?
 
-***Nota :*** *il existe déjà, dans la librairie standard du langage C (stdlib), une fonction qui convertit une chaine de caractère en une valeur numérique entière. Cette fonction s’appelle* ***atoi*** *(****A****SCII* ***to******I****nteger), et vous pouvez l’utiliser en remplacement de* ***stringToInteger***
+**Nota :** *il existe déjà, dans la librairie standard du langage C (stdlib), une fonction qui convertit une chaine de caractère en une valeur numérique entière. Cette fonction s’appelle* ***atoi*** *(****A****SCII* ***to******I****nteger), et vous pouvez l’utiliser en remplacement de **stringToInteger** *
 
 ### 3.6 Exercice 6
 Modifiez le programme précédent de telle sorte que le résultat soit renvoyé à la ligne de commandes. Testez votre solution.
@@ -123,6 +123,6 @@ Modifiez le programme précédent de telle sorte que le résultat soit renvoyé 
 Plutôt que d’utiliser des arguments passés en ligne de commande, vous allez maintenant utiliser des fonctions d’entrées/sorties.
 Faites évoluer votre programme en utilisant des interactions avec l’utilisateur, via la fonction **scanf** (*int scanf(const char \*format [, arg1 [, arg2]...]*)
 
-***Nota :*** *Pour pouvoir initialiser arg1 et arg2 dans l’appel de fonction, arg1 et arg2 doivent être de type pointeur. Nous passerons donc des adresses ou des pointeurs en paramètre de cette fonction.*
+**Nota :** *Pour pouvoir initialiser arg1 et arg2 dans l’appel de fonction, arg1 et arg2 doivent être de type pointeur. Nous passerons donc des adresses ou des pointeurs en paramètre de cette fonction.*
 
 
