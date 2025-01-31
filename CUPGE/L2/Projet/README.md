@@ -1,7 +1,7 @@
 # Projet d'intégration
 
-## Supports
-* [Présentation du Projet d'Intégration](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/Projet_Int%C3%A9gration.pdf)
+## Supports[
+* [Présentation du Projet d'Intégration](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/Projet_Integration.pdf) (2025)
 * [Support arduino](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/arduino.pdf)
   * [site officiel](https://www.arduino.cc)
   * Lien pour ajouter les cartes ESP32 : *https://dl.espressif.com/dl/package_esp32_index.json*
@@ -9,7 +9,7 @@
 * [Support Réseaux](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/introduction_reseaux_2024.pdf)
 
 ## Drivers
-* Driver [SER340](https://sparks.gogo.co.nz/ch340.html) (clones arduino)
+* Driver [SER340](https://sparks.gogo.co.nz/ch340.html) (pour les clones arduino)
 * Driver [CP210x](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
 
 
