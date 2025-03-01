@@ -2,7 +2,7 @@
 
 JNI (**J**ava **N**ative **I**nterface) est une bibliothèque logicielle d’interfaçage qui permet au code Java s’exécutant à l’intérieur de la JVM (**J**ava **V**irtual **M**achine) d’appeler et d’être appelé par des applications natives (c’est-à-dire des programmes spécifiquement liés au matériel et au système d’exploitation de la plate-forme concernée), ou avec des bibliothèques logicielles basées sur d’autres langages (C, C++, assembleur, etc.).
 
-Il faut installer tout d’abord le JDK Java et instancier la variable **JAVA\_HOME** (exemple ci-dessous pour Linux) ([^1]) :
+Il faut installer tout d’abord le JDK Java et instancier la variable **JAVA_HOME** (exemple ci-dessous pour Linux) ([^1]) :
 
 ```console
 sudo apt install openjdk-17-jdk-headless
