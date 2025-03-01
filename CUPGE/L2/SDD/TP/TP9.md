@@ -1,11 +1,10 @@
 # TP 9 : JNI et langage C/Java
-
 JNI (**J**ava **N**ative **I**nterface) est une bibliothèque logicielle d’interfaçage qui permet au code Java s’exécutant à l’intérieur de la JVM (**J**ava **V**irtual **M**achine) d’appeler et d’être appelé par des applications natives (c’est-à-dire des programmes spécifiquement liés au matériel et au système d’exploitation de la plate-forme concernée), ou avec des bibliothèques logicielles basées sur d’autres langages (C, C++, assembleur, etc.).
 
 Il faut installer tout d’abord le JDK Java et instancier la variable **JAVA_HOME** (exemple ci-dessous pour Linux) ([^1]) :
 
 ```console
-sudo apt install openjdk-17-jdk-headless
+sudo apt install openjdk-17-jdk
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 ```
 
@@ -52,7 +51,7 @@ Code généré :
   #endif
 
   /*
-  * Class: fr\_ut3\_HelloJNI
+  * Class: fr_ut3_HelloJNI
   * Method: getGreetings
   * Signature: (Ljava/lang/String;)Ljava/lang/String;
   */
