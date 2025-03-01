@@ -31,8 +31,8 @@ export LIBGL_ALWAYS_INDIRECT=1
 * **TP 2** : [utilisation de structure simple](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP2.md) et [solution](https://github.com/truillet/ups/blob/master/l2cupge/TP/solutions/jeucarte.c) (2025)
 * **TP 3 & 4** : [exploration de labyrinthes](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP3-4.md) et [début de solution](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/solutions/labyrinthe.zip) (2025)
 * **TP 5** : [compilation séparée](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP5.md) et [solution](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/solutions/tp4.zip) (2025)
-* **TP 6 & 7** : [Graphes - partie 1](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP6-7_Graphes1.pdf) et [début de solution](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/solutions/tp5_6.zip) (2024)
-* **TP 8** : [Graphes - partie 2](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP8_Graphes2.pdf) (2024)
+* **TP 6 & 7** : [Graphes - partie 1](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP6-7.md) et [début de solution](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/solutions/tp5_6.zip) (2025)
+* **TP 8** : [Graphes - partie 2](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP8.md) (2025)
 ```mermaid
  graph TD;
   A-->C;
@@ -44,7 +44,7 @@ export LIBGL_ALWAYS_INDIRECT=1
   E-->G;
   E-->F;
 ```
-* **TP 9** : [JNI - articuler java et langage C](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP9_JNI_C.pdf) (2024)
+* **TP 9** : [JNI - articuler java et langage C](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP9.md) (2025)
 * **TP 10** : [un middleware pour l'interaction](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP10_ivy_middleware.pdf) (2024)
 * **TP bonus 1** : [arduino](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TPbonus1_arduino.pdf) (2024)
 
