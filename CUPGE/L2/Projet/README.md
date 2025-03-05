@@ -15,6 +15,8 @@ Enfin en 2024/2025, les élèves participent au  concours **[T'Hacka Voir](https
   * [raspberry pinout](https://pinout.xyz)
   * [raspberry pico](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
 
+* support Processing.org
+  
 ## Drivers
 * Driver [SER340](https://sparks.gogo.co.nz/ch340.html) (pour les clones arduino)
 * Driver [CP210x](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
