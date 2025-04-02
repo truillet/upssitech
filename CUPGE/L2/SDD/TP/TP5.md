@@ -59,9 +59,7 @@ commandes
 La cible est généralement le nom d’un fichier qui va être généré par les commandes qui vont suivre. Les dépendances sont les fichiers ou les règles nécessaires à la création de la cible.
 Les commandes sont des commandes shell qui seront exécutées au moment de la construction de la cible. La tabulation avant les commandes est obligatoire et si la commande dépasse une ligne, il est nécessaire de signaler la fin de ligne avec un caractère antislash "\\".
 
-### Mon premier Makefile
-
-## construction du TP5
+## Mon premier Makefile
 ```makefile
 all: maLibMath.o TP5.o
 gcc –o TP5.exe maLibMath.o TP5.o -lm
