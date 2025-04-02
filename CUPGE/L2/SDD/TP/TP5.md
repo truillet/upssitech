@@ -95,5 +95,5 @@ $(CC) $(OBJECTS) –o $(BIN) -lm
 
 **Attention** : il existe des conventions de nommage sur des noms des d’exécutables et leurs arguments (Ex : **CC** pour le compilateur) ou pour les noms de cible (Ex : **all**). Nous y reviendrons prochainement.
 
-**Exercice** : Ecrire un fichier **Makefile** qui permette de compiler le code de l’exercice à l’aide de variables.
+### Exercice : Ecrire un fichier **Makefile** qui permette de compiler le code de l’exercice à l’aide de variables.
 
