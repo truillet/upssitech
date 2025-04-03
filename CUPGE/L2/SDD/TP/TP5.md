@@ -81,14 +81,16 @@ Par exemple, la syntaxe de l’appel d’une variable est la suivante : **$(NOM)
 ```makefile
 # $(BIN) est le nom du fichier binaire généré
 BIN = TP5.exe
-# $(OBJECTS) sont les objets qui seront générés après la compilation
 
+# $(OBJECTS) sont les objets qui seront générés après la compilation
 OBJECTS = TP5.o maLibMath.o
+
 # $(CC) est le compilateur utilisé
 CC = gcc
+
 # all est la première règle à être exécutée (1ère règle)
 all: $(OBJECTS)
-$(CC) $(OBJECTS) –o $(BIN) -lm
+   $(CC) $(OBJECTS) –o $(BIN) -lm
 
 ...
 ```
