@@ -62,11 +62,13 @@ Les commandes sont des commandes shell qui seront exécutées au moment de la co
 ## Mon premier Makefile
 ```makefile
 all: maLibMath.o TP5.o
-gcc –o TP5.exe maLibMath.o TP5.o -lm
+   gcc –o TP5.exe maLibMath.o TP5.o -lm
+
 maLibMath.o: maLibMath.c maLibMath.h
-gcc -c maLibMath.c -Wall -o maLibMath.o -lm
+   gcc -c maLibMath.c -Wall -o maLibMath.o -lm
+
 TP5.o: TP5.c
-gcc -c TP5.c -Wall -o TP5.o
+   gcc -c TP5.c -Wall -o TP5.o
 ```
 
 Les lignes commençant par le caractère **#** sont des lignes de commentaires.
