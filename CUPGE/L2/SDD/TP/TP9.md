@@ -100,13 +100,13 @@ Le mapping entre les types java et ceux des méthodes natives est assez simple. 
 | **Type de données Java** | **Type de données natif** | **Description** |
 | --- | --- | --- |
 | void | void | Type vide |
-| Byte | jbyte | 8 bits signés. Valeurs entre -27 à 27- 1 |
-| Int | jint | 32 bits signés. Valeurs entre -231 et 231- 1 |
+| Byte | jbyte | 8 bits signés. Valeurs entre -2<sup>7</sup> à 2<sup>7</sup>- 1 |
+| int | jint | 32 bits signés. Valeurs entre -2<sup>31</sup> et 2<sup>31</sup>- 1 |
 | float | jfloat | 32 bits. Représente une valeur réelle entre 1,4 1045 et 3,4 1038 (approx.), positive ou négative |
 | double | jdouble | 64 bits. Représente une valeur réelle entre 4,9 10324 et 1,7 10308 (approx.), positive ou négative |
 | char | jchar | 16 bits non signés. Valeur entre 0 et 65535 |
-| long | jlong | 64 bits signés. Valeur entre -263 et 263-1 |
-| short | jshort | 16-bit signés. Valeur entre -215 et 215–1 |
+| long | jlong | 64 bits signés. Valeur entre -2<sup>63</sup> et 2<sup>63</sup>-1 |
+| short | jshort | 16-bit signés. Valeur entre -2<sup>15</sup> et 2<sup>15</sup>–1 |
 | boolean | jboolean | 8 bits non signés. *true* et *false* |
 
 En outre, JNI définit d’autres références classiques comme les chaînes de caractères, classes, … D’autres références peuvent aussi être mappées et manipulables avec ***jobject***.
