@@ -118,6 +118,8 @@ En outre, JNI définit d’autres références classiques comme les chaînes de 
 | java.lang.Class | jclass | classe objet Java |
 | java.lang.Throwable | jthrowable | Objet Java levant une exception |
 
+Lien vers la documentation des fonctions [**JNI**](https://docs.oracle.com/en/java/javase/17/docs/specs/jni/functions.html)
+
 ## A vous de jouer !!!
 A vous maintenant de créer votre interface JNI.
 
