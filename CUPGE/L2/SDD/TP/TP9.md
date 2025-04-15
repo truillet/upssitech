@@ -13,9 +13,12 @@ export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 Dans un premier temps, créons le fichier HelloJNI.java (cf. ci-dessous).
 
 ```java
-package fr.ut3; class HelloJNI {
+package fr.ut3;
+
+class HelloJNI {
   static {System.loadLibrary("Greetings");} // librairie native
   public static native String getGreetings(String who);
+
   public static void main(String[] args) {
     HelloJNI h = new HelloJNI();
     System.out.println(getGreetings(args[0]));
