@@ -16,7 +16,9 @@ Dans un premier temps, créons le fichier HelloJNI.java (cf. ci-dessous).
 package fr.ut3;
 
 class HelloJNI {
-  static {System.loadLibrary("Greetings");} // librairie native
+  static {
+    System.loadLibrary("Greetings");
+  } // librairie native
   public static native String getGreetings(String who);
 
   public static void main(String[] args) {
