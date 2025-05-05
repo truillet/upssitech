@@ -9,6 +9,7 @@
 *Le travail réalisé sera *noté* – notes issues du brainstorming, scénario de conception, prototypes et photographies éventuelles et code produit - est à adresser par mél à l’adresse suivante : Philippe.Truillet@upssitech.fr avant le Vendredi 21 février 2025 23h55 GMT (un accusé de réception sera envoyé en retour)*
 
 ### Quelques liens et articles "à lire" ou "écouter"
+* [L’interaction humain-machine, des années 1960 à l’intelligence artificielle, itinéraire d’un pionnier - portrait de Michel Beaudoin-Lafon](https://theconversation.com/linteraction-humain-machine-des-annees-1960-a-lintelligence-artificielle-itineraire-dun-pionnier-255326)
 * [Les cours IHM au Collège de France de Wendy Mackay](https://www.college-de-france.fr/site/wendy-mackay/_agenda.htm)
 * [The Augmentation of Douglas Engelbart](https://www.youtube.com/watch?v=_7ZtISeGyCY)
 
