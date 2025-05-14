@@ -4,9 +4,10 @@
 Vous trouverez ici les notes de cours des :
 
 * **CPI UPSSITECH / CUPGE UPSSITECH**
-  * [Stuctures de données / Langage C](https://github.com/truillet/upssitech/tree/master/CUPGE/L2/SDD) (UE Informatique Appliquée 3 - **KINUPI31**)
-  * *Introduction aux Réseaux Informatiques*
-  * [Projet d'intégration](https://github.com/truillet/upssitech/tree/master/CUPGE/L2/Projet) (UE Informatique Théorique 3 - **KINUPH31**)
+  * **L2 CUPGE UPSSITECH** 
+     * [Stuctures de données / Langage C](https://github.com/truillet/upssitech/tree/master/CUPGE/L2/SDD) (UE Informatique Appliquée 3 - **KINUPI31**)
+     * *Introduction aux Réseaux Informatiques*
+     * [Projet d'intégration](https://github.com/truillet/upssitech/tree/master/CUPGE/L2/Projet) (UE Informatique Théorique 3 - **KINUPH31**)
  
 * **Cycle Ingénieur UPSSITECH** 
    * **Filière GCGEO 3ème année (1ère année cycle ingénieur)**
