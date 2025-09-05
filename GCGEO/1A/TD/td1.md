@@ -3,18 +3,13 @@
 GNU  Octave  permet  d’utiliser  les  structures  de  contrôle  de  l’algorithmique,  c’est-à-dire  qu’il  permet
 d’écrire des séquences d’action, d’effectuer des sélections et des répétitions d’action.
 
-Répétition :
-Si  vous  ne  connaissez  pas  le  nombre  de
-répétitions  à  effectuer,  il  faut  appliquer  la
-boucle
-jusqu’à  ce  qu’une  condition  soit
-satisfaite.
-
+**Répétition :**
+Si  vous  ne  connaissez  pas  le  nombre  de répétitions  à  effectuer,  il  faut  appliquer  la boucle jusqu’à  ce  qu’une  condition  soit satisfaite.
+``
 while expression
-
-actions
-
+  actions
 end
+``
 
 Exemple :
 
