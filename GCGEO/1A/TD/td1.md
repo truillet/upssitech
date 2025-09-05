@@ -86,12 +86,10 @@ Le traduire en langage GNU Octave
 Ecrire  un  programme  qui  calcule  la  factorielle  d’un  nombre  fourni  en  entrée  de  manière  itérative  ou
 récursive.
 
+* Écrire l’algorithme en pseudo code.
+* Le traduire en langage GNU Octave
 
-
-Écrire l’algorithme en pseudo code.
-Le traduire en langage GNU Octave
-
-Elément de Cours : Tableaux et Vecteurs en GNU Octave
+## Elément de Cours : Tableaux et Vecteurs en GNU Octave
 Beaucoup de problèmes mathématiques fonctionnent avec des séquences de nombres. Dans la plupart
 des langages, ces séquences sont manipulées au travers de tableaux (arrays). Dans Octave, on parlera
 de vecteurs (vectors).
@@ -269,9 +267,7 @@ Exemple :
 
 
 # Elément de Cours : Matrices
-Les vecteurs ne sont que des cas spéciaux de matrices. Une matrice est un tableau à deux dimensions
-de nombres. Sa taille est décrite usuellement par la notation m x n, signifiant que la matrice comporte
-m lignes et n colonnes.
+Les vecteurs ne sont que des cas spéciaux de matrices. Une matrice est un tableau à deux dimensions de nombres. Sa taille est décrite usuellement par la notation m x n, signifiant que la matrice comporte m lignes et n colonnes.
 
 Exemple :
 
@@ -399,7 +395,7 @@ ans = 7
 Nota : L’élément : permet d’extraire soit un nombre d’éléments déterminés (plage de données), soit un
 ensemble complet de données.
 
-Exercice 4 : stockage de données
+## Exercice 4 : stockage de données
 Considérons  un  groupe de 25  étudiants.  Chaque  étudiant  est  associé à  un  identifiant.  Les  identifiants
 sont gérés de 1 à 25. Nous avons besoin d’associer à chaque étudiant un ensemble de notes, chacune
 correspondant à une matière différente.
@@ -448,22 +444,20 @@ Matière 4
 
 7
 
-•  Développez un algorithme permettant de saisir et de stocker toutes les notes pour chacun des
+* Développez un algorithme permettant de saisir et de stocker toutes les notes pour chacun des
 étudiants.  Pour  des  raisons  de  simplicité  lors  de  la  saisie  on  souhaitera  saisir  toutes  les  notes
 matière par matière et non pas étudiant par étudiant.
 Traduisez cet algorithme en GNU Octave
-
-•
-•  On  souhaite  extraire  et  stocker  dans  un  autre  tableau  toutes  les  notes  de  l’étudiant  n°14.
+* On  souhaite  extraire  et  stocker  dans  un  autre  tableau  toutes  les  notes  de  l’étudiant  n°14.
 
 Proposez directement l’algorithme en Octave permettant d’extraire ce résultat.
 
-•  On  souhaite  calculer  pour  chaque  étudiant  sa  moyenne  générale  (notes  sans  coefficient).
+* On  souhaite  calculer  pour  chaque  étudiant  sa  moyenne  générale  (notes  sans  coefficient).
 Proposez l’algorithme GNU Octave permettant de la calculer et de la stocker dans un tableau
 séparé.
 
-Elément de Cours : Quelques fonctions de traitement matriciel avec
-GNU Octave
+## Elément de Cours : Quelques fonctions de traitement matriciel avec GNU Octave
+
 Addition matricielle :
 Soit 2 matrices M, N. L’addition matricielle en octave s’écrit simplement :
 
@@ -523,7 +517,6 @@ ans =  1
 
 3] ;
 5
-
 6]
 
 Nota :  Il  n’est  pas  nécessaire  que  la  matrice  soit  carrée,  l’extraction  s’achève  dès  qu’il  n’est  plus
