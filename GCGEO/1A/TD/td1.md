@@ -1,6 +1,5 @@
-#TD 1 : Structures de contrôle, tableaux/vecteurs/matrices
-
-Elément de Cours : Structures de contrôle
+# TD 1 : Structures de contrôle, tableaux/vecteurs/matrices
+## Elément de Cours : Structures de contrôle
 GNU  Octave  permet  d’utiliser  les  structures  de  contrôle  de  l’algorithmique,  c’est-à-dire  qu’il  permet
 d’écrire des séquences d’action, d’effectuer des sélections et des répétitions d’action.
 
@@ -61,27 +60,20 @@ end
 
 Attention : il existe d’autres formes pour décrire la sélection et la répétition !
 
-  1A GCGEO 2024/2025
+
 
-Exercice 1 : Jouons ensemble sans ordinateur !
+### Exercice 1 : Jouons ensemble sans ordinateur !
 
-•
-
-Jouons à l’aveugle ! Que doit-on en conclure ?
-
-•  On joue et on essaye de gagner « à tous les coups » !
-
-•
-•
-
-Jeu de Nim
-Le crêpier psycho-rigide
+* Jouons à l’aveugle ! Que doit-on en conclure ?
+* On joue et on essaye de gagner « à tous les coups » !
+* Jeu de Nim
+* Le crêpier psycho-rigide
 
 Trouver les stratégies pour gagner, résoudre le problème. Le traduire en algorithme.
 
-•  Des stratégies … de tri
+*  Des stratégies … de tri
 
-Exercice 2 : Une stratégie pour résoudre le problème
+### Exercice 2 : Une stratégie pour résoudre le problème
 Ecrire  un  programme  permettant  à  la  machine  de  deviner  un  nombre  entre  1  et  100  choisi  par
 l’utilisateur.  Pour  trouver  le  nombre,  la  machine  fera  des  propositions  successives  à  l’utilisateur.  À
 chacune  de  ces  propositions,  l’utilisateur  devra  répondre  en  indiquant  si  le  nombre  à  rechercher  est
@@ -90,18 +82,15 @@ inférieur, égal ou supérieur au nombre proposé.
 La machine doit deviner le nombre en au plus 7 coups. Si au bout de 7 coups le nombre n’a pas été
 trouvé c’est que l’utilisateur a triché !
 
-•
-
-Écrire le pseudo code.
+* Écrire le pseudo code.
 
 Le traduire en langage GNU Octave
 
-Exercice 3 : factorielle – d’autres façons de résoudre des problèmes
+### Exercice 3 : factorielle – d’autres façons de résoudre des problèmes
 Ecrire  un  programme  qui  calcule  la  factorielle  d’un  nombre  fourni  en  entrée  de  manière  itérative  ou
 récursive.
 
-•
-•
+
 
 Écrire l’algorithme en pseudo code.
 Le traduire en langage GNU Octave
@@ -281,9 +270,9 @@ Exemple :
 
 7
 
-  1A GCGEO 2024/2025
+
 
-Elément de Cours : Matrices
+# Elément de Cours : Matrices
 Les vecteurs ne sont que des cas spéciaux de matrices. Une matrice est un tableau à deux dimensions
 de nombres. Sa taille est décrite usuellement par la notation m x n, signifiant que la matrice comporte
 m lignes et n colonnes.
@@ -377,8 +366,6 @@ la matrice suivi de crochets ouvrants et fermants
 
   E = []
 E = [](0x0)
-
-  1A GCGEO 2024/2025
 
 Manipulation élément par élément
 Comme pour les vecteurs, il est possible de manipuler les éléments d’une matrice isolément en utilisant la
@@ -478,8 +465,6 @@ Proposez directement l’algorithme en Octave permettant d’extraire ce résult
 •  On  souhaite  calculer  pour  chaque  étudiant  sa  moyenne  générale  (notes  sans  coefficient).
 Proposez l’algorithme GNU Octave permettant de la calculer et de la stocker dans un tableau
 séparé.
-
-  1A GCGEO 2024/2025
 
 Elément de Cours : Quelques fonctions de traitement matriciel avec
 GNU Octave
