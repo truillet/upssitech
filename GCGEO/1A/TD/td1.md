@@ -5,9 +5,12 @@ d’écrire des séquences d’action, d’effectuer des sélections et des rép
 
 **Répétition :**
 Si  vous  ne  connaissez  pas  le  nombre  de répétitions  à  effectuer,  il  faut  appliquer  la boucle jusqu’à  ce  qu’une  condition  soit satisfaite.
+
 ``
 while expression
+
   actions
+  
 end
 ``
 
