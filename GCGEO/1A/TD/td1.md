@@ -8,13 +8,11 @@ Si  vous  ne  connaissez  pas  le  nombre  de répétitions  à  effectuer,  il 
 
 ``
 while expression
-
-  actions
-  
+   actions
 end
 ``
 
-Exemple :
+*Exemple :*
 
 while x > 1
 
