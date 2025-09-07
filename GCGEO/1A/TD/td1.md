@@ -69,14 +69,14 @@ Ecrire  un  programme  qui  calcule  la  factorielle  d’un  nombre  fourni  en
 
 ## Elément de Cours : Tableaux et Vecteurs en GNU Octave
 Beaucoup de problèmes mathématiques fonctionnent avec des séquences de nombres. Dans la plupart des langages, ces séquences sont manipulées au travers de tableaux (arrays). Dans Octave, on parlera de vecteurs (vectors).
-Ces vecteurs sont communément utilisés pour représenter des positions dans un espace 3D, des vitesses, etc. mais ce ne sont en fait qu’une liste de données traitables avec Octave.
+Ces vecteurs sont communément utilisés pour représenter des positions dans un espace 3D, des vitesses, etc. mais ce ne sont en fait qu’une liste de données traitables avec GNU-Octave.
 
 En  fait,  les  vecteurs  ne  sont  que  des  sous-ensembles  de  matrices  (matrix)  –  grille  à  n-dimensions  de données.  Un  vecteur  ne  contient  soit  qu’une  ligne,  soit  qu’une  colonne  de  données.  On  pourra distinguer les vecteurs-colonnes (column vector) des vecteurs-lignes (row vector).
 
 **Création de vecteurs**
 Il y a plusieurs façons de définir les vecteurs et les matrices. La façon la plus simple consiste à définir le vecteur entre « crochets » [] dans lesquels on place des données séparées soit par :
-*  des espaces ou des virgules  définira un vecteur-ligne
-*  des points-virgules ou des « retour-chariot »  définira un vecteur-colonne
+*  des espaces ou des virgules <CR> définira un vecteur-ligne
+*  des points-virgules ou des *retour-chariot* <CR> définira un vecteur-colonne
 
 *Exemple :*
 ```
@@ -85,17 +85,16 @@ Il y a plusieurs façons de définir les vecteurs et les matrices. La façon la 
 >  a = [1, 4, 8]
    a = 1 4 8
 >  a = [1;4;8]
-a =  1
-     4
-     8
+   a =  1
+        4
+        8
 ```
-
 Il est aussi possible de définir un nouveau vecteur en incluant un vecteur déjà défini
 
 *Exemple :*
 ```
 >  d = [a 6]
-d = 1 4 8 6
+   d = 1 4 8 6
 ```
 
 ## Elément de Cours : Création avancée de vecteurs
@@ -110,12 +109,13 @@ Il existe une autre façon de construire un vecteur de manière semi-automatique
 v = 2   3   4   5   6
 ```
 La notation permet aussi d’introduire un 3ème argument : **le pas**
+          
           **(premier nombre) : (pas) : (dernier nombre)**
 
 *Exemple :*
 ```
 >  v = 2:0.2:3
-v = 2.0  2.2   2.4   2.6   2.8   3.0
+   v = 2.0  2.2   2.4   2.6   2.8   3.0
 ```
 
 *Note :* Il est possible de spécifier un pas négatif
