@@ -13,48 +13,36 @@ end
 ```
 
 *Exemple :*
-
+```
 while x > 1
-
-x = x/2
-
+   x = x/2
 end
+```
 
-Sélection :
-La  forme  générale  de  la  sélection  dans  GNU  Octave
-est :
-
+**Sélection :**
+La  forme  générale  de  la  sélection  dans  GNU  Octave est :
+```
 if expression
-
-actions
-
+   actions
 elseif expression
-
-actions
-
+   actions
 else
-
+   actions
 end
+```
 
-actions
-
-Exemple :
-
+*Exemple :*
+```
 a=0
-
 b=2
-
 if a>b
-
-c= a+b
-
-c= a*b
-
+   c= a+b
+   c= a*b
 else
 
 end
-
-Attention : il existe d’autres formes pour décrire la sélection et la répétition !
+```
+**Attention :** il existe d’autres formes pour décrire la sélection et la répétition !
 
 
 
