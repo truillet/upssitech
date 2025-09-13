@@ -17,7 +17,7 @@ Il existe d'autres solutions permettant par exemple d'utiliser GNU Octave sous [
 
 Si vous préférez programmer en [python](https://www.python.org) avec [Jupyter Notebook](https://jupyter.org), plusieurs solutions s'offrent à vous : 
 * [Google Colab](https://colab.research.google.com)
-* ou hors ligne, vous pouvez aussi télécharger **edupyter** -->[ici](https://www.edupyter.net/)<-- (dernière version *312* du 26/03/2024) ([Installer edupyter](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/edupyter.pdf))
+* ou hors ligne, vous pouvez aussi télécharger **edupyter** -->[ici](https://www.edupyter.net/)<-- (dernière version *313* du 25/11/2024) ([Installer edupyter](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/edupyter.pdf))
 * [documentation NumPy](https://numpy.org/doc/stable/index.html) 
  
 
