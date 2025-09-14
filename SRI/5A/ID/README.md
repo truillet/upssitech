@@ -4,7 +4,7 @@
 * [Distributed Interaction](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/ID_intro_2026.pdf) (2025)
 
 ## ivy: a middleware for interaction
-* [ivy : un outil pour la conception d'interfaces](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/C_ivy_2_8.pdf) (2025)
+* [ivy : un outil pour la conception d'interfaces](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/C_ivy_2.8.pdf) (2025)
 * [middleware ivy](https://github.com/truillet/ivy) (2025)
     
 ## Ingescape: Model-based framework for broker-free distributed software environments
