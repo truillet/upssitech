@@ -1,11 +1,12 @@
 # Distributed Interaction
 
 ## General introduction
-* [Distributed Interaction](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/ID_intro_2025.pdf) (2024)
+* [Distributed Interaction](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/ID_intro_2026.pdf) (2025)
 
 ## ivy: a middleware for interaction
-* [middleware ivy](https://github.com/truillet/ivy) (2024)
-  
+* [ivy : un outil pour la conception d'interfaces](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/C_ivy_2_8.pdf) (2025)
+* [middleware ivy](https://github.com/truillet/ivy) (2025)
+    
 ## Ingescape: Model-based framework for broker-free distributed software environments
 * [ingescape](https://ingescape.com/fr/home) : Model-based framework for broker-free distributed software environments by [ingenuity I/O](https://ingenuity.io)
  
@@ -18,10 +19,10 @@
 * [ZeroMQ](https://zeromq.org) : (zero brocker) is an open-source universal messaging library and [Ingescape](https://github.com/zeromq/ingescape)
 
 ## API RESTful, JSON (JavaScript Object Notation) and MQTT, a lightweight publish/subscribe messaging transport
-* [REST and JSON slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/REST_JSON.pdf) (2021)
-* [MQTT slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/MQTT.pdf) (2022)
+* [REST and JSON slides](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/REST_JSON.pdf) (2021)
+* [MQTT slides](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/MQTT.pdf) (2022)
 
-**Lab**: [MQTT, REST API](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/MQTT-2.0.pdf) (2024)
+**Lab**: [MQTT, REST API](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/MQTT-2.0.pdf) (2024)
   
 ### Some (useful) links
 * [Shiftr.io](https://www.shiftr.io)
@@ -39,23 +40,23 @@ Depending on your hardware, you may need to use the [CH341SER](https://github.co
 
 ## Older resources
 ### ivy middleware
-* [ivy presentation v. 2.5 (EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/C_ivy_2.5en.pdf) (2021)
-* **TP1** - [ivy](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/TP_ivy.3.5.pdf) (2022)
+* [ivy presentation v. 2.5 (EN)](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/C_ivy_2.5en.pdf) (2021)
+* **TP1** - [ivy](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/TP_ivy.3.5.pdf) (2022)
 
 **Some useful ivy libraries and clients**
 See [this wiki page concerning specifically the **ivy middleware**](https://github.com/truillet/ivy/blob/master/README.md)
 
 ### Java socket programming
-* [socket programming slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/sockets_2022.pdf) (2022)
-* **TP2** - [socket programming v. 2.5](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/sockets_2.5.pdf) (2022)
+* [socket programming slides](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/sockets_2022.pdf) (2022)
+* **TP2** - [socket programming v. 2.5](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/sockets_2.5.pdf) (2022)
 
 **Some links**
 * [Socket programming in Python](https://realpython.com/python-sockets)
 * [A guide to java socket](https://www.baeldung.com/a-guide-to-java-sockets)
 
 ### RMI (Remote Message Invocation)
-* [Java RMI slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/RMI_2022.pdf) (2022)
-* **TP3** - [RMI programming v. 2.4 (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/RMI-2_4.pdf) (2022) / [RMI programming v. 2.3 (EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/RMI-2_3en.pdf) (2021)
+* [Java RMI slides](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/RMI_2022.pdf) (2022)
+* **TP3** - [RMI programming v. 2.4 (FR)](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/RMI-2_4.pdf) (2022) / [RMI programming v. 2.3 (EN)](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/RMI-2_3en.pdf) (2021)
 
 **Some links**
 * [Java Remote Method Invocation Distributed Computing for Java](https://www.oracle.com/java/technologies/javase/remote-method-invocation-distributed-computing.html)
@@ -63,12 +64,12 @@ See [this wiki page concerning specifically the **ivy middleware**](https://gith
 * [A Step by Step Implementation Tutorial for Java RMI](http://www.ejbtutorial.com/java-rmi/a-step-by-step-implementation-tutorial-for-java-rmi)
 
 ### CORBA: Common Object Request Broker Architecture **(optional)**
-* [CORBA slides](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/CORBA-2020.pdf) (2020)
-* **TP3bis** - [CORBA programming v. 3.4](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/CORBA-3.4.pdf) (2020)
+* [CORBA slides](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/CORBA-2020.pdf) (2020)
+* **TP3bis** - [CORBA programming v. 3.4](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/CORBA-3.4.pdf) (2020)
 
 ### Projects
-* **Project -2019-** : [MySQL - My Smart Quiet Locality](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2019_v1.0.pdf)
-* **Project -2020-** : [TISSU - TIny Smart Sensors Unified](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2020_v1.0.pdf)
-* **Project -2021-** : [SEW - Sensors EveryWhere](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2021_v1.0.pdf)
-* **Project -2022-** : [ID-PHYCS - Interactive Disseminated PHYsical Complex Sensors (FR)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2022_v1.0.pdf) / [(EN)](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2022_v1.0en.pdf)
-* **Project -2023-** : [Phi-X/it - PHYsically eXtended Interactive Technologies](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Projet-2023_v1.0.pdf)
+* **Project -2019-** : [MySQL - My Smart Quiet Locality](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/Projet-2019_v1.0.pdf)
+* **Project -2020-** : [TISSU - TIny Smart Sensors Unified](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/Projet-2020_v1.0.pdf)
+* **Project -2021-** : [SEW - Sensors EveryWhere](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/Projet-2021_v1.0.pdf)
+* **Project -2022-** : [ID-PHYCS - Interactive Disseminated PHYsical Complex Sensors (FR)](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/Projet-2022_v1.0.pdf) / [(EN)](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/Projet-2022_v1.0en.pdf)
+* **Project -2023-** : [Phi-X/it - PHYsically eXtended Interactive Technologies](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/Projet-2023_v1.0.pdf)
