@@ -22,7 +22,7 @@ Si vous préférez programmer en [python](https://www.python.org) avec [Jupyter 
  
 
 ## supports de TD
-* **TD 1** : [Structures de contrôle, tableaux/vecteurs/matrices](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TD/TD1_Structures_Tableaux_Vecteurs_Matrices.pdf) (2024)
+* **TD 1** : [Structures de contrôle, tableaux/vecteurs/matrices](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TD/td1.md) (2025)
 * **TD 2** : [Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TD/TD2_Fonctions.pdf) (2024)
 * **TD 3** : [Les aventures de pi et méthodes d'intégration](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TD/TD3_Pi_Integration.pdf) (2024)
   * [le nombre](https://www.nombrepi.com) $\pi$
