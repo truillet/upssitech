@@ -332,7 +332,7 @@ La  fonction  diag  (déjà  vue  plus  haut)  permet  aussi  de  créer  une  m
 
 **Nota :**  Il  n’est  pas  nécessaire  que  la  matrice  soit  carrée,  l’extraction  s’achève  dès  qu’il  n’est  plus possible d’extraire d’éléments.
 
-### Taille d’une matrice
+### Taille d’une matrice
 La fonction size permet de renvoyer un couple (M, N) [lignes, colonnes] correspondant au nombre de lignes et de colonnes que comporte la matrice.
 
 *Exemple :*
