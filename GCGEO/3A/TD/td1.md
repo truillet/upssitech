@@ -270,11 +270,11 @@ Considérons  un  groupe de 25  étudiants.  Chaque  étudiant  est  associé à
 
 Voici à quoi ressemblera cet ensemble de données :
 
-|  N’étudiant |  Matière 1   |   Matière 2   |   Matière 3   |   Matière 4 |
-| 1 | 4 | 11 | 15.5 | 14|
-| 2 | 18 |  10 | 9 | 13.8|
-| ... | 
-| 25 | 12 | 14 | 19 | 7|    
+|N’étudiant|Matière 1|Matière 2|Matière 3|Matière 4|
+|1|4|11|15.5|14|
+|2|18|10|9|13.8|
+|...| 
+|25|12|14|19|7|    
 
 * Développez un algorithme permettant de saisir et de stocker toutes les notes pour chacun des étudiants.  Pour  des  raisons  de  simplicité  lors  de  la  saisie  on  souhaitera  saisir  toutes  les  notes matière par matière et non pas étudiant par étudiant.
 * Traduisez cet algorithme en GNU Octave
