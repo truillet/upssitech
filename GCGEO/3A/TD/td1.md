@@ -271,6 +271,7 @@ Considérons  un  groupe de 25  étudiants.  Chaque  étudiant  est  associé à
 Voici à quoi ressemblera cet ensemble de données :
 
 |N’étudiant|Matière 1|Matière 2|Matière 3|Matière 4|
+|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
 |1|4|11|15.5|14|
 |2|18|10|9|13.8|
 |...| 
