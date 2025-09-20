@@ -2,6 +2,7 @@
 
 ## Préambule / Preamble - ivy middleware
 Les deux premiers sujets de travaux pratiques ont pour objectif de concevoir un système multimodal en entrée qui sera développé dans les trois suivants. Le dernier sujet traite de la multimodalité en sortie et de transmodalité (passage d'une modalité vers une ou plusieurs "équivalentes").
+
 *The aim of the first two practical topics is to design an input multimodal system, which will be developed in the next three. The last topic deals with multimodal output and transmodality (switching from one modality to one or more "equivalent" ones).*
 
 * [ivy presentation v 2.8 (FR)](https://github.com/truillet/ivy/blob/master/doc/C_ivy_2.8.pdf) (2025) / [ivy presentation v. 2.5 (EN)](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/C_ivy_2.5en.pdf) (2021)
