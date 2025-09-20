@@ -20,7 +20,7 @@ _Exemple de code Processing permettant l'affichage de la reconnaissance vocale e
 ## Interaction gestuelle / gesture interaction
 * **TP2/Tutorial 2** - [Interaction gestuelle](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/TP2_InteractionGestuelle.pdf) (2024) / [Gesture Interaction](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/T2_gesture_interaction.pdf) (2023)
 
-_Exemple de code Processing permettant l'enregistrement de formes dessinées à l'écran / Example of Processing code for recording shapes drawn on the screen_ : **[Enregistrement Forme](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Code/Enregistrement_Forme.zip)**
+_Exemple de code Processing permettant l'enregistrement de formes dessinées à l'écran / Example of Processing code for recording shapes drawn on the screen_ : **[Enregistrement Forme](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/Enregistrement_Forme.zip)**
 
 _Autres ressources / Other resources_
    * **OneDollarIvy** (implémentation de l'algorithme du [$1 Recognizer](http://faculty.washington.edu/wobbrock/pubs/uist-07.01.pdf)) [code source](https://github.com/truillet/OneDollarIvy)
@@ -29,7 +29,7 @@ _Autres ressources / Other resources_
 
 _Un peu d'Histoire  / A bit of History_
 * [PalmOs et Graffiti](https://designobserver.com/feature/interface-runes/35108)
-<img src="https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/ressources/Palm_Graffiti_gestures.png" height=250 alt="Graffiti gestures">
+<img src="https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/ressources/Palm_Graffiti_gestures.png" height=250 alt="Graffiti gestures">
   
 ## Fusion Multimodale / Multimodal Fusion
 * **TP3-5/Tutorial 3 to 5** - [Moteur de Fusion](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/TP3-5_Projet_Multimodal.pdf) (2024) / [Multimodal Engine](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/T3-5_multimodal_interaction.pdf) (2023)
@@ -40,7 +40,7 @@ _Exemple de code Processing permettant la gestion de formes géométriques / Exa
 
   * [R. Bolt, "Put-That-There": Voice and Gesture at the Graphics Interface, ACM SIGGRAPH Computer Graphics, Volume 14, Issue 3
 Pages 262 - 270](https://doi.org/10.1145/965105.807503) et [R. Bolt, Reflexion on ... "Put-That-There": Voice and Gesture at the Graphics Interface](
-https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/ressources/Bolt_1998_-_Reflections_on_Put-That-There.pdf)
+https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/ressources/Bolt_1998_-_Reflections_on_Put-That-There.pdf)
   * [Sh. Oviatt, Ten Myths on Multimodal Interaction, Communication of the ACM, volume 42, Issue 11, November 1999](https://dl.acm.org/doi/10.1145/319382.319398)
 
 ## Fission Multimodale / Multimodal Fission
