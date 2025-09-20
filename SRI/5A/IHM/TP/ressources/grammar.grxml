@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE grammar PUBLIC "-//W3C//DTD GRAMMAR 1.0//EN"
+                "grammar.dtd">
+<!-- the default grammar language is FR  -->
+<grammar  version="1.0"
+          mode ="voice"
+          xmlns="http://www.w3.org/2001/06/grammar"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.w3.org/2001/06/grammar
+                              grammar.xsd"
+          xml:lang="fr-FR" root="flux_vocal" tag-format="semantics/1.0">
+
+<!-- ============================================================= -->
+     <rule id = "flux_vocal" scope = "public">
+		   <ruleref special="GARBAGE" /> 
+		   <tag> out.position = "undefined" </tag>
+		   <item> <ruleref uri="#action"/><tag>out.action = rules.action;</tag></item>
+		   <item> <ruleref uri="#dessert"/><tag>out.dessert = rules.dessert;</tag></item>
+		   <item repeat="0-1">
+                 <ruleref uri="#position"/>
+				           <tag>out.position = rules.position;</tag>
+           </item>		 
+           <tag>out = "Action=" + out.action + " Dessert=" + out.dessert + " Position=" + out.position</tag>
+	</rule>
+	
+	<!-- regle action -->
+     <!-- =========================================== -->
+     <rule id="action">
+			<one-of>
+					<item> poser  <tag> out = "Put" </tag> </item>
+					<item> mettre  <tag> out = "Put" </tag> </item>
+					<item> retirer <tag> out = "Remove" </tag> </item>
+					<item> supprimer  <tag> out = "Remove" </tag> </item>
+			</one-of>
+     </rule>
+		
+     <!-- regle position -->
+     <!-- =========================================== -->
+     <rule id="position">
+			<one-of>
+					<item> au milieu <tag>out = "Milieu"</tag></item>
+					<item> à gauche <tag>out = "Gauche"</tag></item>
+					<item> à droite <tag>out = "Droite"</tag></item>
+					<item> ici <tag>out = "attenteposition"</tag></item>
+			</one-of>
+     </rule>
+	 	 
+	 <!-- regle dessert -->
+     <!-- =========================================== -->
+     <rule id="dessert">
+			<one-of>
+					<item> un café <tag> out = "Cafe" </tag> </item>
+					<item> un espresso <tag> out = "Cafe" </tag> </item>
+					<item> une mousse au chocolat <tag> out = "Mousse_Chocolat" </tag> </item>
+			</one-of>
+     </rule>	     
+</grammar>
