@@ -12,8 +12,8 @@ Les deux premiers sujets de travaux pratiques ont pour objectif de concevoir un 
 ## Interaction vocale / vocal interaction
 * **TP1/Tutorial 1** - [Interaction vocale](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab1_vocal.md) (2025)
    * **Les outils utilisés dans le TP / tools used in this tutorial** : Agent de reconnaissance vocale / Speech Recognizer agent [sra5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/sra5.zip), agent de synthèse vocale / speech Synthesis agent [ppilot5 v 3.3](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.3.zip), outil de supervision ivy / ivy monitoring tool [Probe](https://github.com/truillet/ivy/blob/master/code/Probe.zip) ou / or [visionneur](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Outils/visionneur_1_2.zip)
-  * **[GrXML pour SAPI 5](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/Memo/GrXML.pdf)**
-  * **[SSML pour SAPI 5](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/Memo/ssml.pdf)**
+  * **[GrXML pour SAPI 5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/Memo/GrXML.pdf)**
+  * **[SSML pour SAPI 5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/Memo/ssml.pdf)**
   
 _Exemple de code Processing permettant l'affichage de la reconnaissance vocale et l'envoi du résultat vers la synthèse vocale / Example of Processing code allowing the text ouptut of speech recognition and sending the result to TTS_ : **[dessert](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/dessert.zip)**
 
