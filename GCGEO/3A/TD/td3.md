@@ -12,7 +12,7 @@ Vous allez tout d’abord écrire une série de fonctions sous GNU Octave permet
 
 $U_0=1/sqrt{2}$
 
-$`\U_n=sqrt(1/2+1/2U_(n-1)\`$
+$U_n=sqrt(1/2+1/2U_(n-1)$
 
 
 ### Produit infini de Wallis (1606-1703)
