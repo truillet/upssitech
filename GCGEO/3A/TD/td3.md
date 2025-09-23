@@ -9,9 +9,9 @@ Ce sont ces fameuses décimales qui aujourd’hui font tout l’intérêt de ce 
 Vous allez tout d’abord écrire une série de fonctions sous GNU Octave permettant de calculer une valeur approchée de π suivant un nombre n d’itérations souhaitées.
 
 ### Produit infini de Viète (1540-1603)
-```math
-U_0=1/sqrt(2)
-U_n=sqrt(1/2+1/2U_(n-1)
+
+$\U_0=1/sqrt(2)$
+$\U_n=sqrt(1/2+1/2U_(n-1)$
 
 ```
 
