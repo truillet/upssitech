@@ -38,21 +38,23 @@ On tire aléatoirement les valeurs de x et y. Le point M appartient au disque de
 
 $x^2+y^2 = 1$
 
-La probabilité que le point M appartienne au disque est alors de π/4. En faisant le rapport du nombre de points dans le disque au nombre de tirages, on obtient une approximation du nombre **π** si le nombre de tirages est grand.
+La probabilité que le point M appartienne au disque est alors de **π/4**. En faisant le rapport du nombre de points dans le disque au nombre de tirages, on obtient une approximation du nombre **π** si le nombre de tirages est grand.
 
 ## Intégrales et méthodes de calcul
 Soit f une fonction continue sur [a,b], dans les exercices qui suivent, il s’agira d’approcher l’intégrale :
+
+$\int_a^b f(x) dx$
 
 ### Méthode des rectangles
 Dans la méthode dite des rectangles, on a le choix entre trois techniques :
 
 1. on  fait  coïncider  le  sommet  haut  gauche  du  rectangle  avec  la  courbe :  c’est  la  méthode  des rectangles à gauche,
-2.  on  fait  coïncider  le  sommet  haut  droit  du  rectangle  avec  la  courbe :  c’est  la  méthode  des rectangles à droite,
-3.  on fait coïncider le milieu du côté haut du rectangle avec la courbe : c’est la méthode du point milieu
+2. on  fait  coïncider  le  sommet  haut  droit  du  rectangle  avec  la  courbe :  c’est  la  méthode  des rectangles à droite,
+3. on fait coïncider le milieu du côté haut du rectangle avec la courbe : c’est la méthode du point milieu
 
 On définit le pas d’approximation :
 
-où n est le nombre de rectangles avec lesquels nous allons « paver » l’aire à calculer.
+où n est le nombre de rectangles avec lesquels nous allons *paver* l’aire à calculer.
 
 
 On définit ainsi :
@@ -63,8 +65,7 @@ Avec la méthode du point milieu, l’aire se calcule de la manière suivante :
 Ecrire une fonction GNU Octave integration_rectangles qui utilise la méthode des rectangles.
 
 ### Méthode des trapèzes
-La méthode des trapèzes est à peu près similaire à la méthode précédente mais on utilise maintenant
-des trapèzes pour « paver » l’aire afin d’être plus précis.
+La méthode des trapèzes est à peu près similaire à la méthode précédente mais on utilise maintenant des trapèzes pour *paver* l’aire afin d’être plus précis.
 
 Comme plus haut, l’intervalle [a,b] est partagé en n petits trapèzes de largeur h = (b-a)/n. Nous savons ainsi que l’aire de chaque petit trapèze est Ai = (h/2)*(f(a+ih) + f(a+(i-1)h)).
 Nous obtenons alors l’aire recherchée en sommant l’aire de tous les trapèzes entre a et b, ce qui nous donne (vous pouvez vérifier !) :
