@@ -1,42 +1,24 @@
-1A GCGEO 2024/2025
+# TD3 : Les aventures de π / Méthodes de calcul d’intégrales
 
-TD 3 :
-Les aventures de π
-Méthodes de calcul d’intégrales
+## Calcul de π
+Le nombre π est sans doute l’entité mathématique la plus connue de par le monde. Apparu dès l’Antiquité de manière intuitive en tant que rapport du périmètre d’un cercle sur son diamètre, il n’a cessé de susciter l’intérêt  en  mathématiques.  Mais  c’est  Archimède  (287-212  avant  J.C.)  qui  le  premier  se  pencha réellement sur la question.
+Dans son écrit De la mesure du cercle, il commence par démontrer qu’il existe une unique constante π telle que l’on ait A=πR² et P=2πR, où A et P sont respectivement l’aire et le périmètre du cercle de rayon R.
 
-Calcul de π
+Ce sont ces fameuses décimales qui aujourd’hui font tout l’intérêt de ce nombre. Nous allons donc étudier diverses méthodes et formules pour approcher ce nombre π.
 
-Le nombre π est sans doute l’entité mathématique la plus connue de par le monde. Apparu dès l’Antiquité
-de manière intuitive en tant que rapport du périmètre d’un cercle sur son diamètre, il n’a cessé de susciter
-l’intérêt  en  mathématiques.  Mais  c’est  Archimède  (287-212  avant  J.C.)  qui  le  premier  se  pencha
-réellement sur la question.
-Dans son écrit De la mesure du cercle, il commence par démontrer qu’il existe une unique constante π telle
-que l’on ait A=πR² et P=2πR, où A et P sont respectivement l’aire et le périmètre du cercle de rayon R.
+Vous allez tout d’abord écrire une série de fonctions sous GNU Octave permettant de calculer une valeur approchée de π suivant un nombre n d’itérations souhaitées.
 
-Ce sont ces fameuses décimales qui aujourd’hui font tout l’intérêt de ce nombre. Nous allons donc étudier
-diverses méthodes et formules pour approcher ce nombre π.
+### Produit infini de Viète (1540-1603)
 
-Vous allez tout d’abord écrire une série de fonctions sous GNU Octave permettant de calculer une valeur
-approchée de π suivant un nombre n d’itérations souhaitées.
+### Produit infini de Wallis (1606-1703)
 
-Produit infini de Viète (1540-1603)
+### Formule d’Euler (1707-1783)
 
-Produit infini de Wallis (1606-1703)
+### La méthode de Monte-Carlo
+Le terme de *méthode de Monte-Carlo* désigne toute méthode visant à calculer une valeur numérique en utilisant des procédés aléatoires, c’est-à-dire en utilisant des techniques probabilistes. Le nom de ces méthodes, qui fait allusion aux jeux de hasard pratiqués à Monte-Carlo, a été proposé par l’équipe du physicien Nicholas Metropolis.
+Les méthodes de Monte-Carlo sont particulièrement utilisées pour calculer des intégrales (en particulier, pour calculer des surfaces et des volumes). Elles sont également couramment utilisées en physique des particules, où des simulations probabilistes permettent d'estimer la forme d’un signal ou la sensibilité d’un détecteur.
 
-Formule d’Euler (1707-1783)
-
-La méthode de Monte-Carlo
-Le terme de « méthode de Monte-Carlo » désigne toute méthode visant à calculer une valeur numérique
-en utilisant des procédés aléatoires, c’est-à-dire en utilisant des techniques probabilistes. Le nom de ces
-méthodes, qui fait allusion aux jeux de hasard pratiqués à Monte-Carlo, a été proposé par l’équipe du
-physicien Nicholas Metropolis.
-Les méthodes de Monte-Carlo sont particulièrement utilisées pour calculer des intégrales (en particulier,
-pour calculer des surfaces et des volumes). Elles sont également couramment utilisées en physique des
-particules, où des simulations probabilistes permettent d'estimer la forme d’un signal ou la sensibilité d’un
-détecteur.
-
-1A GCGEO 2024/2025
-
+
 L’exemple suivant est un classique de l’usage de la méthode de Monte-Carlo. Soit une zone rectangulaire
 ou carrée dont les côtés sont de longueur connue. Au sein de cette aire se trouve un lac dont la superficie
 est  inconnue.  Grâce  aux  mesures  des  côtés  de  la  zone,  on  connaît  l’aire  du  rectangle.
@@ -54,139 +36,39 @@ La probabilité que le point M appartienne au disque est alors de π/4. En faisa
 de points dans le disque au nombre de tirages, on obtient une approximation du nombre π si le nombre
 de tirages est grand.
 
-Intégrales et méthodes de calcul
+## Intégrales et méthodes de calcul
 Soit f une fonction continue sur [a,b], dans les exercices qui suivent, il s’agira d’approcher l’intégrale :
 
-𝑏𝑏
-
-Méthode des rectangles
+### Méthode des rectangles
 Dans la méthode dite des rectangles, on a le choix entre trois techniques :
 
-� 𝑓𝑓(𝑥𝑥)𝑑𝑑𝑥𝑥
-𝑎𝑎
-
-1.  on  fait  coïncider  le  sommet  haut  gauche  du  rectangle  avec  la  courbe :  c’est  la  méthode  des
-
-rectangles à gauche,
-
-2.  on  fait  coïncider  le  sommet  haut  droit  du  rectangle  avec  la  courbe :  c’est  la  méthode  des
-
-rectangles à droite,
-
-3.  on fait coïncider le milieu du côté haut du rectangle avec la courbe : c’est la méthode du point
-
-milieu
+1. on  fait  coïncider  le  sommet  haut  gauche  du  rectangle  avec  la  courbe :  c’est  la  méthode  des rectangles à gauche,
+2.  on  fait  coïncider  le  sommet  haut  droit  du  rectangle  avec  la  courbe :  c’est  la  méthode  des rectangles à droite,
+3.  on fait coïncider le milieu du côté haut du rectangle avec la courbe : c’est la méthode du point milieu
 
 On définit le pas d’approximation :
 
- où n est le nombre de rectangles avec lesquels nous allons « paver » l’aire à calculer.
+où n est le nombre de rectangles avec lesquels nous allons « paver » l’aire à calculer.
 
-𝑏𝑏−𝑎𝑎
-𝑛𝑛
-
-ℎ =
 
 On définit ainsi :
 
 Avec la méthode du point milieu, l’aire se calcule de la manière suivante :
 
-𝑥𝑥𝑖𝑖 = 𝑎𝑎 + 𝑖𝑖ℎ
 
-𝑏𝑏
-
-𝑛𝑛−1
-
-� 𝑓𝑓(𝑥𝑥)𝑑𝑑𝑥𝑥
-𝑎𝑎
-
-≈   �( 𝑥𝑥𝑖𝑖+1 −   𝑥𝑥𝑖𝑖)𝑓𝑓(
 Ecrire une fonction GNU Octave integration_rectangles qui utilise la méthode des rectangles.
-Méthode des trapèzes
+
+### Méthode des trapèzes
 La méthode des trapèzes est à peu près similaire à la méthode précédente mais on utilise maintenant
 des trapèzes pour « paver » l’aire afin d’être plus précis.
 
-𝑖𝑖=1
-
-)
-
- 𝑥𝑥𝑖𝑖 +   𝑥𝑥𝑖𝑖+1
-2
-
-Comme plus haut, l’intervalle [a,b] est partagé en n petits trapèzes de largeur h = (b-a)/n. Nous
-savons ainsi que l’aire de chaque petit trapèze est Ai = (h/2)*(f(a+ih) + f(a+(i-1)h)).
-
-Nous obtenons alors l’aire recherchée en sommant l’aire de tous les trapèzes entre a et b, ce qui nous
-donne (vous pouvez vérifier !) :
-
-1A GCGEO 2024/2025
-
-𝑏𝑏
-
-𝑛𝑛−1
-
-� 𝑓𝑓(𝑥𝑥)𝑑𝑑𝑥𝑥
-𝑎𝑎
-
-≈ ℎ ��
-
-𝑓𝑓(𝑎𝑎) + 𝑓𝑓(𝑏𝑏)
-2
-
-� + � 𝑓𝑓(𝑥𝑥𝑖𝑖)
-𝑖𝑖=1
-
-�
+Comme plus haut, l’intervalle [a,b] est partagé en n petits trapèzes de largeur h = (b-a)/n. Nous savons ainsi que l’aire de chaque petit trapèze est Ai = (h/2)*(f(a+ih) + f(a+(i-1)h)).
+Nous obtenons alors l’aire recherchée en sommant l’aire de tous les trapèzes entre a et b, ce qui nous donne (vous pouvez vérifier !) :
 
 Ecrire une fonction GNU Octave integration_trapezes qui utilise la méthode des trapèzes.
-Méthode de Monte-Carlo
-Soit une fonction f(x) définie sur l’intervalle [a,b]. On définit un rectangle de longueur b-a (axe
-des abscisses) et de largeur z (axe des ordonnées) telle que z soit supérieur à tout point de la courbe
-f(x). On génère (n+1)2 points espacés régulièrement, avec des pas notés px et py respectivement
-suivant l’axe des abscisses et des ordonnées. Pour chaque abscisse xi, on compare chaque valeur yi des
-points associés à cette abscisse avec la valeur de f(x). Chaque fois que y<f(x), on incrémente la
-valeur d’un compteur C. On calcule ensuite le rapport R entre le nombre de points compris sous la courbe
-et  le  nombre  total  de  points.  La  valeur  approchée  I  de  l’intégrale  est  donnée  par  la  relation  I  =
-R*(b-a)*z.
 
-z
-
-py
-
-2
-
-1,8
-
-1,6
-
-1,4
-
-1,2
-
-1
-
-0,8
-
-0,6
-
-0,4
-
-0,2
-
-0
-
-0
-a
-
-f(x)
-
-0,1 0,2 0,3 0,4 0,5 0,6 0,7 0,8 0,9
-
-1
-
-px
-
-1,1 1,2 1,3 1,4 1,5
-b
+### Méthode de Monte-Carlo
+Soit une fonction f(x) définie sur l’intervalle [a,b]. On définit un rectangle de longueur b-a (axe des abscisses) et de largeur z (axe des ordonnées) telle que z soit supérieur à tout point de la courbe f(x). On génère (n+1)2 points espacés régulièrement, avec des pas notés px et py respectivement suivant l’axe des abscisses et des ordonnées. Pour chaque abscisse xi, on compare chaque valeur yi des points associés à cette abscisse avec la valeur de f(x). Chaque fois que y<f(x), on incrémente la valeur d’un compteur C. On calcule ensuite le rapport R entre le nombre de points compris sous la courbe et  le  nombre  total  de  points.  La  valeur  approchée  I  de  l’intégrale  est  donnée  par  la  relation  I  =
 
 Ecrire une fonction octave qui permet d’estimer l’intégrale de la fonction f(x).
 
