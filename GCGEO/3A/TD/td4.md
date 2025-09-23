@@ -1,15 +1,12 @@
-1A GCGEO 2024/2025
+# TD 4 : algorithmes de tri
 
-TD 4 : algorithmes de t ri
-
-Soit un tableau T de taille N où chaque cellule ci avec 1 ≤ i ≤ N contient un nombre. Trier T par ordre
-croissant consiste à réordonner les valeurs des cellules de manière à ce que :
+Soit un tableau T de taille N où chaque cellule ci avec 1 ≤ i ≤ N contient un nombre. Trier T par ordre croissant consiste à réordonner les valeurs des cellules de manière à ce que :
 
 √ 1≤i ≤ N et 1 ≤j≤ N : ci ≤ cj
 
 Pour passer d’un tableau non trié à un tableau trié par ordre croissant, il existe plusieurs méthodes de
 tri. L’objectif de ce projet est de programmer deux de ces méthodes (des tris naïfs assez peu efficaces
-au final �������) pour pouvoir ensuite comparer leur efficacité.
+au final) pour pouvoir ensuite comparer leur efficacité.
 
 Exemple
 Pour illustrer les deux méthodes de tri décrites ci-dessous, nous prendrons le tableau T comprenant 5
@@ -35,7 +32,7 @@ Pour illustrer les deux méthodes de tri décrites ci-dessous, nous prendrons le
 
 5
 
-Exercice 1 : Fonction d’insertion d’un élément dans un tableau
+## Exercice 1 : Fonction d’insertion d’un élément dans un tableau
 Pour réaliser les deux algorithmes de tri décrits ci-après, vous aurez besoin d’une fonction d’insertion
 d’un élément. Considérons que cet élément se trouve à la position i et doit être inséré à la position j
 (avec j < i).
@@ -49,7 +46,7 @@ Pour insérer T[i] à la position j, il faut :
 Programmez une fonction qui réalise l’insertion d’un élément à partir d’un tableau de nombre entiers,
 d’une position d’un nombre à insérer et d’un indice de position d’arrivée.
 
-Exercice 2 : Fonction de Tri par sélection
+## Exercice 2 : Fonction de Tri par sélection
 Le  tri  par  sélection  consiste  à  chercher  le  plus  petit  élément  du  tableau  et  à  le  placer  en  première
 position.  Une  fois  le  plus  petit  élément  positionné  en  première  position,  on  recommence  la  même
 opération en commençant à l’indice 2 : on cherche le plus petit élément compris dans le tableau entre la
@@ -124,13 +121,9 @@ tableau, le plus petit élément est 2. On l’insère donc en seconde position.
 
 5
 
-1A GCGEO 2024/2025
+On  recommence  en  partant  de  l’indice  3.  Entre  l’élément  3  et  la  fin  du tableau, le plus petit élément est 5. On l’insère donc en troisième position.
 
-On  recommence  en  partant  de  l’indice  3.  Entre  l’élément  3  et  la  fin  du
-tableau, le plus petit élément est 5. On l’insère donc en troisième position.
-
-On  recommence  en  partant  de  l’indice  4.  Entre  l’élément  4  et  la  fin  du
-tableau, le plus petit élément est 7. On l’insère donc en quatrième position.
+On  recommence  en  partant  de  l’indice  4.  Entre  l’élément  4  et  la  fin  du tableau, le plus petit élément est 7. On l’insère donc en quatrième position.
 
 1
 
@@ -174,7 +167,7 @@ tableau, le plus petit élément est 7. On l’insère donc en quatrième positi
 
 Programmez une fonction qui réalise le tri par sélection d’un tableau.
 
-Exercice 3 : Fonction de Tri par insertion
+## Exercice 3 : Fonction de Tri par insertion
 Le  tri  par  insertion  consiste  à  classer  les  deux  premiers  éléments  du  tableau.  Une  fois  que  les  deux
 premiers sont ordonnés, on prend l’élément qui suit et on le classe à son tour dans ce qui a déjà été
 classé. Pour chaque élément i du tableau, on sait que les éléments de 1 à i-1 sont déjà classés. On va
@@ -250,10 +243,7 @@ d’une case. Enfin on insère x à la position j.
 
 5
 
-On prend ensuite l’élément à la position i=4 (T[4] = 1), on cherche la position
-j dans le sous tableau déjà trié ([5 ; 7 ; 8]) : j=1, x=T[4]=1, on décale tous
-les éléments d’une case entre j et i-1 soit ici entre 1 et 3. Donc 5, 7 et 8 sont
-décalés d’une case. Enfin on insère x à la position j.
+On prend ensuite l’élément à la position i=4 (T[4] = 1), on cherche la position j dans le sous tableau déjà trié ([5 ; 7 ; 8]) : j=1, x=T[4]=1, on décale tous les éléments d’une case entre j et i-1 soit ici entre 1 et 3. Donc 5, 7 et 8 sont décalés d’une case. Enfin on insère x à la position j.
 
 1
 
@@ -275,10 +265,7 @@ décalés d’une case. Enfin on insère x à la position j.
 
 5
 
-Enfin, on prend l’élément à la position i=5 (T[5] = 2), on cherche la position j
-dans  le  sous  tableau  déjà trié  ([1 ;  5 ;  7 ;  8]) :  j=2,  x=T[5]  =  2,  on  décale
-tous les éléments d’une case entre j et i-1 soit ici entre 2 et 4. Donc 5, 7 et 8
-sont décalés d’une case. Enfin on insère x à la position j.
+Enfin, on prend l’élément à la position i=5 (T[5] = 2), on cherche la position j dans  le  sous  tableau  déjà trié  ([1 ;  5 ;  7 ;  8]) :  j=2,  x=T[5]  =  2,  on  décale tous les éléments d’une case entre j et i-1 soit ici entre 2 et 4. Donc 5, 7 et 8 sont décalés d’une case. Enfin on insère x à la position j.
 
 1
 
