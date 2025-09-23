@@ -28,22 +28,17 @@ $\pi = {\sqrt{6 {\sum_{k=1}^\infty {1 \over k^2}}}} $
 Le terme de *méthode de Monte-Carlo* désigne toute méthode visant à calculer une valeur numérique en utilisant des procédés aléatoires, c’est-à-dire en utilisant des techniques probabilistes. Le nom de ces méthodes, qui fait allusion aux jeux de hasard pratiqués à Monte-Carlo, a été proposé par l’équipe du physicien Nicholas Metropolis.
 Les méthodes de Monte-Carlo sont particulièrement utilisées pour calculer des intégrales (en particulier, pour calculer des surfaces et des volumes). Elles sont également couramment utilisées en physique des particules, où des simulations probabilistes permettent d'estimer la forme d’un signal ou la sensibilité d’un détecteur.
 
-L’exemple suivant est un classique de l’usage de la méthode de Monte-Carlo. Soit une zone rectangulaire
-ou carrée dont les côtés sont de longueur connue. Au sein de cette aire se trouve un lac dont la superficie
-est  inconnue.  Grâce  aux  mesures  des  côtés  de  la  zone,  on  connaît  l’aire  du  rectangle.
-Pour trouver l’aire du lac, on demande à une armée de tirer « x » coups de canon de manière aléatoire
-sur cette zone. On compte ensuite le nombre « n » de boulets qui sont restés sur le terrain ; on peut ainsi
-déterminer le nombre de boulets qui sont tombés dans le lac : x-n. Il suffit ensuite d’établir un rapport
+L’exemple suivant est un classique de l’usage de la méthode de Monte-Carlo. Soit une zone rectangulaire ou carrée dont les côtés sont de longueur connue. Au sein de cette aire se trouve un lac dont la superficie est  inconnue.  Grâce  aux  mesures  des  côtés  de  la  zone,  on  connaît  l’aire  du  rectangle.
+Pour trouver l’aire du lac, on demande à une armée de tirer *x* coups de canon de manière aléatoire sur cette zone. On compte ensuite le nombre *n* de boulets qui sont restés sur le terrain ; on peut ainsi déterminer le nombre de boulets qui sont tombés dans le lac : **x-n**. Il suffit ensuite d’établir un rapport
 entre les différentes valeurs pour trouver l’aire finale.
 
 Soit un point M de coordonnées (x, y), où 0<x<1 et 0<y<1.
 
-On tire aléatoirement les valeurs de x et y. Le point M appartient au disque de centre (0,0) de rayon
-1 si et seulement si x²+y²= 1.
+On tire aléatoirement les valeurs de x et y. Le point M appartient au disque de centre (0,0) de rayon 1 si et seulement si 
 
-La probabilité que le point M appartienne au disque est alors de π/4. En faisant le rapport du nombre
-de points dans le disque au nombre de tirages, on obtient une approximation du nombre π si le nombre
-de tirages est grand.
+$ x^2+y^2 = 1$
+
+La probabilité que le point M appartienne au disque est alors de π/4. En faisant le rapport du nombre de points dans le disque au nombre de tirages, on obtient une approximation du nombre **π** si le nombre de tirages est grand.
 
 ## Intégrales et méthodes de calcul
 Soit f une fonction continue sur [a,b], dans les exercices qui suivent, il s’agira d’approcher l’intégrale :
