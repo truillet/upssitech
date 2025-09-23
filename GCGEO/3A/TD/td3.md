@@ -22,6 +22,8 @@ $\pi = {2 {\prod_{n=1}^\infty {4n^2 \over {4n^2-1}}}}$
 
 ### Formule d’Euler (1707-1783)
 
+$\pi = {\sqrt{6 {\sum_{k=1}^\infty {1 \over k^2}}}} $
+
 ### La méthode de Monte-Carlo
 Le terme de *méthode de Monte-Carlo* désigne toute méthode visant à calculer une valeur numérique en utilisant des procédés aléatoires, c’est-à-dire en utilisant des techniques probabilistes. Le nom de ces méthodes, qui fait allusion aux jeux de hasard pratiqués à Monte-Carlo, a été proposé par l’équipe du physicien Nicholas Metropolis.
 Les méthodes de Monte-Carlo sont particulièrement utilisées pour calculer des intégrales (en particulier, pour calculer des surfaces et des volumes). Elles sont également couramment utilisées en physique des particules, où des simulations probabilistes permettent d'estimer la forme d’un signal ou la sensibilité d’un détecteur.
