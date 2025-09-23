@@ -97,12 +97,13 @@ Modifiez la fonction afin que l’on puisse tirer aléatoirement un nombre entre
 Ecrire une fonction qui calcule et renvoie la somme les n premiers nombres (n>0)
 
 *Nota :*
-
 S<sub>n</sub>=1+2+3+ … + n
-Sn=n+(n-1)+(n-2)+ … +1
-2.Sn=(n+1)+(n+1)+(n+1) … (n+1)
 
-Sn=n.(n+1)/2
+S<sub>n</sub>=n+(n-1)+(n-2)+ … +1
+
+2.S<sub>n</sub>=(n+1)+(n+1)+(n+1) … (n+1)
+
+S<sub>n</sub>=n.(n+1)/2
 
 ## Exercice 5 : calcul de la racine carré d’un nombre n
 Ecrire une fonction qui calcule et renvoie la somme la racine carrée d’un nombre p >0
