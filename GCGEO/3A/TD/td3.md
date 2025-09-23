@@ -65,15 +65,16 @@ Avec la méthode du point milieu, l’aire se calcule de la manière suivante :
 
 $\int_a^b f(x)dx \approx {\sum_{i=1}^{n-1}(x_{i+1} - x_i)f({{x_i + x_{i+1}} \over 2})}$
 
-Ecrire une fonction GNU Octave integration_rectangles qui utilise la méthode des rectangles.
+Ecrire une fonction GNU Octave *integration_rectangles* qui utilise la méthode des rectangles.
 
 ### Méthode des trapèzes
 La méthode des trapèzes est à peu près similaire à la méthode précédente mais on utilise maintenant des trapèzes pour *paver* l’aire afin d’être plus précis.
 
 Comme plus haut, l’intervalle [a,b] est partagé en n petits trapèzes de largeur h = (b-a)/n. Nous savons ainsi que l’aire de chaque petit trapèze est Ai = (h/2)*(f(a+ih) + f(a+(i-1)h)).
+ 
 Nous obtenons alors l’aire recherchée en sommant l’aire de tous les trapèzes entre a et b, ce qui nous donne (vous pouvez vérifier !) :
 
-Ecrire une fonction GNU Octave integration_trapezes qui utilise la méthode des trapèzes.
+Ecrire une fonction GNU Octave *integration_trapezes* qui utilise la méthode des trapèzes.
 
 ### Méthode de Monte-Carlo
 Soit une fonction f(x) définie sur l’intervalle [a,b]. On définit un rectangle de longueur b-a (axe des abscisses) et de largeur z (axe des ordonnées) telle que z soit supérieur à tout point de la courbe f(x). On génère (n+1)2 points espacés régulièrement, avec des pas notés px et py respectivement suivant l’axe des abscisses et des ordonnées. Pour chaque abscisse xi, on compare chaque valeur yi des points associés à cette abscisse avec la valeur de f(x). Chaque fois que y<f(x), on incrémente la valeur d’un compteur C. On calcule ensuite le rapport R entre le nombre de points compris sous la courbe et  le  nombre  total  de  points.  La  valeur  approchée  I  de  l’intégrale  est  donnée  par  la  relation  I  =
