@@ -10,7 +10,7 @@ Vous allez tout d’abord écrire une série de fonctions sous GNU Octave permet
 
 ### Produit infini de Viète (1540-1603)
 
-$U_0= 1 \over \sqrt{2}$
+$U_0 = {1 \over \sqrt{2}}$
 
 $U_n=sqrt(1/2+1/2U_(n-1)$
 
