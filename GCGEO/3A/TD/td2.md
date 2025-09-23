@@ -97,6 +97,7 @@ Modifiez la fonction afin que l’on puisse tirer aléatoirement un nombre entre
 Ecrire une fonction qui calcule et renvoie la somme les n premiers nombres (n>0)
 
 *Nota :*
+
 S<sub>n</sub>=1+2+3+ … + n
 
 S<sub>n</sub>=n+(n-1)+(n-2)+ … +1
@@ -116,8 +117,8 @@ X²+X=X+p
 
 On arrive à X = (X+p) / (X+1)
 
-On définit la suite X avec Xi=(Xi-1+p)/(Xi-1+1)
+On définit la suite X avec X<sub>i</sub>=( X<sub>i-1</sub>+p)/( X<sub>i-1</sub>+1)
 
-On s’arrête quand |Xi – Xi-1| < epsilon
+On s’arrête quand |X<sub>i</sub> – X<sub>i</sub>-1| < epsilon
 
 
