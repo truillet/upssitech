@@ -11,10 +11,9 @@ Vous allez tout d’abord écrire une série de fonctions sous GNU Octave permet
 ### Produit infini de Viète (1540-1603)
 
 $U_0 = {1 \over \sqrt{2}}$
-
 $U_n = {\sqrt{{1 \over 2} + {1 \over 2}U_{n-1}}}$
-
 $\pi = {2 \over {\prod_{k=0}^\infty U_k}}$
+
 ### Produit infini de Wallis (1606-1703)
 
 ### Formule d’Euler (1707-1783)
