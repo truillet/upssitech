@@ -18,8 +18,7 @@ Vous allez tout d’abord écrire une série de fonctions sous GNU Octave permet
 Le terme de *méthode de Monte-Carlo* désigne toute méthode visant à calculer une valeur numérique en utilisant des procédés aléatoires, c’est-à-dire en utilisant des techniques probabilistes. Le nom de ces méthodes, qui fait allusion aux jeux de hasard pratiqués à Monte-Carlo, a été proposé par l’équipe du physicien Nicholas Metropolis.
 Les méthodes de Monte-Carlo sont particulièrement utilisées pour calculer des intégrales (en particulier, pour calculer des surfaces et des volumes). Elles sont également couramment utilisées en physique des particules, où des simulations probabilistes permettent d'estimer la forme d’un signal ou la sensibilité d’un détecteur.
 
-
-L’exemple suivant est un classique de l’usage de la méthode de Monte-Carlo. Soit une zone rectangulaire
+L’exemple suivant est un classique de l’usage de la méthode de Monte-Carlo. Soit une zone rectangulaire
 ou carrée dont les côtés sont de longueur connue. Au sein de cette aire se trouve un lac dont la superficie
 est  inconnue.  Grâce  aux  mesures  des  côtés  de  la  zone,  on  connaît  l’aire  du  rectangle.
 Pour trouver l’aire du lac, on demande à une armée de tirer « x » coups de canon de manière aléatoire
