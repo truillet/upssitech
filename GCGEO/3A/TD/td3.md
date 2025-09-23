@@ -63,7 +63,7 @@ $x_i = a+ih$
 
 Avec la méthode du point milieu, l’aire se calcule de la manière suivante :
 
-$\int_a^b f(x)dx \approx \sum_{i=1}^{n-1}(x_{i+1} - x_i)f({x_i + x_{i+1}} \over 2)$
+$\int_a^b f(x)dx \approx {\sum_{i=1}^{n-1}(x_{i+1} - x_i)f({{x_i + x_{i+1}} \over 2})}$
 
 Ecrire une fonction GNU Octave integration_rectangles qui utilise la méthode des rectangles.
 
