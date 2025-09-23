@@ -53,14 +53,17 @@ Dans la méthode dite des rectangles, on a le choix entre trois techniques :
 3. on fait coïncider le milieu du côté haut du rectangle avec la courbe : c’est la méthode du point milieu
 
 On définit le pas d’approximation :
+$h= {b-a} \over n$
 
 où n est le nombre de rectangles avec lesquels nous allons *paver* l’aire à calculer.
 
 
 On définit ainsi :
+$x_i = a+ih$
 
 Avec la méthode du point milieu, l’aire se calcule de la manière suivante :
 
+$\int_a^b f(x)dx \approx \sum_{i=1}^{n-1}(x_{i+1} - x_i)f({x_i + x_{i+1}} \over 2)$
 
 Ecrire une fonction GNU Octave integration_rectangles qui utilise la méthode des rectangles.
 
