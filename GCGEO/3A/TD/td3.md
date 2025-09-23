@@ -1,4 +1,4 @@
-# TD3 : Les aventures de π / Méthodes de calcul d’intégrales
+# TD 3 : Les aventures de π / méthodes de calcul d’intégrales
 
 ## Calcul de π
 Le nombre π est sans doute l’entité mathématique la plus connue de par le monde. Apparu dès l’Antiquité de manière intuitive en tant que rapport du périmètre d’un cercle sur son diamètre, il n’a cessé de susciter l’intérêt  en  mathématiques.  Mais  c’est  Archimède  (287-212  avant  J.C.)  qui  le  premier  se  pencha réellement sur la question.
