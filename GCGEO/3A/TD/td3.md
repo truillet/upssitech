@@ -14,7 +14,7 @@ $U_0 = {1 \over \sqrt{2}}$
 
 $U_n = {\sqrt{{1 \over 2} + {1 \over 2}U_{n-1}}}$
 
-$\pi = {2 \over {\prod_{k=0}^\inf U_k}}
+$\pi = {2 \over {\prod_{k=0}^\inf U_k}}$
 ### Produit infini de Wallis (1606-1703)
 
 ### Formule d’Euler (1707-1783)
