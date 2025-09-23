@@ -36,7 +36,7 @@ Soit un point M de coordonnées (x, y), où 0<x<1 et 0<y<1.
 
 On tire aléatoirement les valeurs de x et y. Le point M appartient au disque de centre (0,0) de rayon 1 si et seulement si 
 
-$ x^2+y^2 = 1$
+$x^2+y^2 = 1$
 
 La probabilité que le point M appartienne au disque est alors de π/4. En faisant le rapport du nombre de points dans le disque au nombre de tirages, on obtient une approximation du nombre **π** si le nombre de tirages est grand.
 
