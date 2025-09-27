@@ -45,22 +45,22 @@ la vitesse de l’utilisateur à la saisie. Dans une première étape on fait un
 
 4.  *Trouver le meilleur angle pour obtenir le meilleur score* : on calcule la distance moyenne entre la trace et les différents modèles avec la formule suivante :
 
-
+$\d_i = {{\sum_{k=1}^N{\sqrt{[(C[k]_x - T_i[k]_x}^2} +{C[k]_y - T_i[k]_y}^2}\over N}}$
 
 Le modèle ayant la plus petite distance est le modèle retenu. Il est de plus possible de convertir cette distance dans un score de reconnaissance (voir article page 4). Il est aussi éventuellement nécessaire de faire une rotation plus précise (voir page 5 de l’article).
 L’article fournit enfin en annexe (page 10) le pseudo-code de l’algorithme.
 
-##Les grandes étapes à suivre :
+## Les grandes étapes à suivre :
 
 1. Comprendre l’algorithme décrit sur cet énoncé et sur les pages 3 à 5 de l’article
 2. Récupérer  le  code  Procesing  OneDollarIvy  ici : https://github.com/truillet/OneDollarIvy,  le tester.
 3. A  partir  de  l’exemple  fourni,  programmer  l’algorithme  $N  Multistroke  Recognizer  (pseudo-code  ici :  https://depts.washington.edu/acelab/proj/dollar/ndollar.pdf)  dans  le  langage  de votre choix.
 4. Programmer  un  module  afin  de  permettre  d’ajouter  de  nouveaux  gestes  au  dictionnaire  de gestes reconnus.
 5. Intégrer  ces  modifications  dans  une  application  qui  se  connecte  au  bus  ivy.  Déterminer  les messages à envoyer sur le bus.
-6. (optionnel) Intégrer votre travail de façon de permettre d’appliquer cette reconnaissance de
+6. (*optionnel*) Intégrer votre travail de façon de permettre d’appliquer cette reconnaissance de
 gestes directement sur un élément de visualisation (widget).
-7. (optionnel) Intégrer votre reconnaissance de gestes avec la Leap Motion
+7. (*optionnel*) Intégrer votre reconnaissance de gestes avec la Leap Motion
 (https://www.ultraleap.com/product/leap-motion-controller) par exemple
 (*SDK* : https://developer.leapmotion.com).
 
-Il n’y a pas de rendu attendu, mais si l’application fonctionne et est intégrée dans le projet multimodal, elle sera comptée comme bonus pour la note de projet à venir.
+Il n’y a pas de rendu attendu, mais si l’application fonctionne et est intégrée dans le projet multimodal, elle sera comptée comme **bonus** pour la note de projet à venir.
