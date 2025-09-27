@@ -23,7 +23,7 @@ L’objectif du projet *$1 Dollar Recognizer* est de permettre le codage d’un 
 La  Figure 1 montre les gestes (non ambigus) reconnus par l’algorithme.
 Vous pouvez tester le moteur de reconnaissance sur le site proposé par le projet (voir plus haut).
 
-<img src="tp2_fig1.png" alt="figure 1"/>
+<img src="lab2_fig1.png" alt="figure 1"/>
 
 *Figure 1 : Gestes reconnus par le One Dollar Recognizer*
 
@@ -34,13 +34,13 @@ L’algorithme est indépendant de la façon comment le geste est effectué (ave
 Par conséquent, il faut compenser ces différences. L’algorithme procède en plusieurs étapes (décrit sur pages 3 à 5 de l’article). Les étapes 1 à 3 s’appliquent aux modèles ainsi qu’aux traces :
 1. *Resample* de la trace : le nombre de points par trace dépend du hardware, logiciel et de la vitesse de l’utilisateur à la saisie. Dans une première étape on fait un ré-échantillonnage pour que les points sont  équidistants sur la trace et correspondent au nombre de points dans le modèle. Un nombre de points N entre *32 et 256* aurait donné des bons résultats.
 
-<img src="tp2_fig2.png" alt="figure 2" width="200"/>
+<img src="lab2_fig2.png" alt="figure 2" width="200"/>
 
 *Figure 2 : Exemples de ré-échantillonnage*
 
 2. *Rotation* : tourner la trace pour que l’angle entre le centre et le premier point se trouve à 0° (à droite, voir Figure 3).
 
-<img src="tp2_fig3.png" alt="figure 3" width="200"/>
+<img src="lab2_fig3.png" alt="figure 3" width="200"/>
 
 *Figure 3 : Rotation de la trace*
 
