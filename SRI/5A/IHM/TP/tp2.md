@@ -2,25 +2,23 @@
 ## Objectifs
 L’objectif du TP est de coder et d’étendre un moteur de reconnaissance de gestes.
 
-Nous  détaillerons  tout  d’abord  l’algorithme  du  *[$1  Dollar  Recognizer](https://depts.washington.edu/acelab/proj/dollar/index.html)*.
+Nous  détaillerons  tout  d’abord  l’algorithme  du  *[$1 Recognizer](https://depts.washington.edu/acelab/proj/dollar/index.html)*.
 
-L’objectif est d’ensuite de coder une extension du *$1 Recognizer* *($N Multistroke Recognizer*) et de la connecter sur le bus ivy que nous pourrons ensuite réutiliser dans notre application multimodale.
+L’objectif est d’ensuite de coder une extension du *$1 Recognizer* *($N Multistroke Recognizer*) et de la connecter sur le [bus ivy](github.com/truillet/ivy) que nous pourrons ensuite réutiliser dans notre application multimodale.
 
 ## Documents de référence utilisés
 * https://depts.washington.edu/aimgroup/proj/dollar/
-Explication du projet, exemple de « One Dollar Recognizer » à tester, des exemples de code
+Explication du projet, exemple de *$1 Recognizer* à tester, des exemples de code
 * https://faculty.washington.edu/wobbrock/pubs/uist-07.01.pdf
-Publication : Wobbrock, J.O., Wilson, A.D. and Li, Y. (2007). Gestures without libraries, toolkits or training: A $1 recognizer for user interface prototypes. Proceedings of the ACM Symposium on User Interface Software and Technology (UIST '07). Newport, Rhode Island (October 7-10, 2007). New York: ACM Press, pp. 159-168.
+**Publication :** Wobbrock, J.O., Wilson, A.D. and Li, Y. (2007). Gestures without libraries, toolkits or training: A $1 recognizer for user interface prototypes. Proceedings of the ACM Symposium on User Interface Software and Technology (UIST '07). Newport, Rhode Island (October 7-10, 2007). New York: ACM Press, pp. 159-168.
 * https://faculty.washington.edu/wobbrock/pubs/gi-10.02.pdf
-Publication : Anthony L., Wobbrock J.O (2010). A Lightweight Multistroke Recognizer for User
-Interface Prototypes. Proceedings of Graphics Interface 2010. Ottawa, Ontario (May 31-June
-2, 2010), pp. 245-252
+**Publication :** Anthony L., Wobbrock J.O (2010). A Lightweight Multistroke Recognizer for User
+Interface Prototypes. Proceedings of Graphics Interface 2010. Ottawa, Ontario (May 31-June 2, 2010), pp. 245-252
 
 ## Le $1 Dollar Recognizer
 L’implémentation d’un moteur de reconnaissance de gestes nécessite normalement des  connaissances avancées en apprentissage. Pour un concepteur en IHM, il est donc difficile d’implémenter la reconnaissance de gestes spécifiques.
 
-L’objectif du projet *$1  Dollar Recognizer* est de permettre le codage d’un moteur de reconnaissance de  gestes  dans  différents  langages, sans  que  le  développeur  ait  besoin
-d’avoir  des connaissances  dans l’apprentissage. Il a été démontré que l’algorithme détecte les gestes avec un taux proche d’algorithmes plus complexes.
+L’objectif du projet *$1 Dollar Recognizer* est de permettre le codage d’un moteur de reconnaissance de  gestes  dans  différents  langages, sans  que  le  développeur  ait  besoin d’avoir  des connaissances  dans l’apprentissage. Il a été démontré que l’algorithme détecte les gestes avec un taux proche d’algorithmes plus complexes.
 
 La  Figure  1  montre  les  gestes  (non ambigus)  reconnus  par  l’algorithme.
 Vous  pouvez  tester  le  moteur  de reconnaissance sur le site proposé par le projet (voir plus haut).
@@ -45,7 +43,7 @@ la vitesse de l’utilisateur à la saisie. Dans une première étape on fait un
 
 4.  *Trouver le meilleur angle pour obtenir le meilleur score* : on calcule la distance moyenne entre la trace et les différents modèles avec la formule suivante :
 
-$\d_i = {\sum_{k=1}^N{\sqrt{[(C[k]_x - T_i[k]_x}^2} +{C[k]_y - T_i[k]_y}^2}\over N}}$
+$\d_i = {\sum_{k=1}^N{\sqrt{{C[k]_x - T_i[k]_x}^2 +{C[k]_y - T_i[k]_y}^2}}}\over N$
 
 Le modèle ayant la plus petite distance est le modèle retenu. Il est de plus possible de convertir cette distance dans un score de reconnaissance (voir article page 4). Il est aussi éventuellement nécessaire de faire une rotation plus précise (voir page 5 de l’article).
 L’article fournit enfin en annexe (page 10) le pseudo-code de l’algorithme.
