@@ -1,40 +1,23 @@
-Interaction Gestuelle : $1/$N Recognizer
+#Interaction Gestuelle : $1/$N Recognizer
 
-3A SRI 2024/2025
-
-Objectifs
+## Objectifs
 L’objectif du TP est de coder et d’étendre un moteur de reconnaissance de gestes.
 
-Nous  détaillerons  tout  d’abord  l’algorithme  du  « $1  Dollar  Recognizer »  (cf.  plus  bas  pour  le  lien).
+Nous  détaillerons  tout  d’abord  l’algorithme  du  *[$1  Dollar  Recognizer](https://depts.washington.edu/acelab/proj/dollar/index.html)*.
 
-L’objectif est d’ensuite de coder une extension du $1 Recognizer ($N Multistroke Recognizer) et de la
-connecter sur le bus ivy que nous pourrons ensuite réutiliser dans notre application multimodale.
+L’objectif est d’ensuite de coder une extension du $1 Recognizer ($N Multistroke Recognizer) et de la connecter sur le bus ivy que nous pourrons ensuite réutiliser dans notre application multimodale.
 
-Documents de référence utilisés
-
-•
-
-•
-
-•
-
-http://depts.washington.edu/aimgroup/proj/dollar/
+## Documents de référence utilisés
+* https://depts.washington.edu/aimgroup/proj/dollar/
 Explication du projet, exemple de « One Dollar Recognizer » à tester, des exemples de code
-
-http://faculty.washington.edu/wobbrock/pubs/uist-07.01.pdf
-Publication : Wobbrock, J.O., Wilson, A.D. and Li, Y. (2007). Gestures without libraries, toolkits
-or training: A $1 recognizer for user interface prototypes. Proceedings of the ACM Symposium
-on User Interface Software and Technology (UIST '07). Newport, Rhode Island (October 7-10,
-2007). New York: ACM Press, pp. 159-168.
-
-http://faculty.washington.edu/wobbrock/pubs/gi-10.02.pdf
+* http://faculty.washington.edu/wobbrock/pubs/uist-07.01.pdf
+Publication : Wobbrock, J.O., Wilson, A.D. and Li, Y. (2007). Gestures without libraries, toolkits or training: A $1 recognizer for user interface prototypes. Proceedings of the ACM Symposium on User Interface Software and Technology (UIST '07). Newport, Rhode Island (October 7-10, 2007). New York: ACM Press, pp. 159-168.
+* http://faculty.washington.edu/wobbrock/pubs/gi-10.02.pdf
 Publication : Anthony L., Wobbrock J.O (2010). A Lightweight Multistroke Recognizer for User
 Interface Prototypes. Proceedings of Graphics Interface 2010. Ottawa, Ontario (May 31-June
 2, 2010), pp. 245-252
 
-Page 1
-
-Le $1 Dollar Recognizer
+## Le $1 Dollar Recognizer
 L’implémentation  d’un  moteur  de  reconnaissance  de  gestes  nécessite  normalement  des  connaissances
 avancées
 apprentissage.
