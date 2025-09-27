@@ -21,11 +21,11 @@ A  partir  de  ces  trois  types  d’interaction,  il  vous  est  demandé  de 
 Créer une forme
 Le moteur de fusion devra permettre de réaliser cette action de différentes manières :
 
-| Créer | rectangle/cercle/triangle/losange | ici 
-| Créer | rectangle/cercle/triangle/losange | rouge/vert/bleu
-| Créer | rectangle/cercle/triangle/losange | de cette couleur
-| Créer | rectangle/cercle/triangle/losange | ici | de cette couleur
-| Créer | rectangle/cercle/triangle/losange | rouge/vert/bleu | ici
+| Créer | rectangle/cercle/triangle/losange | ici |
+| Créer | rectangle/cercle/triangle/losange | rouge/vert/bleu |
+| Créer | rectangle/cercle/triangle/losange | de cette couleur |
+| Créer | rectangle/cercle/triangle/losange | ici | de cette couleur |
+| Créer | rectangle/cercle/triangle/losange | rouge/vert/bleu | ici |
 | etc.  |
 
 *Contraintes additionnelles :*
@@ -40,8 +40,8 @@ Cette action permet de déplacer un objet créé auparavant. L’utilisateur dev
 de déplacement via soit un geste, soit la parole. La désignation se fera comme pour la création d’un
 objet.
 
-| Déplacer ce | rectangle/cercle/triangle/losange | ici
-| Déplacer ce | rectangle/cercle/triangle/losange | rouge/vert/bleu |  ici
+| Déplacer ce | rectangle/cercle/triangle/losange | ici |
+| Déplacer ce | rectangle/cercle/triangle/losange | rouge/vert/bleu |  ici |
 | etc. |
 
 **N.B.** : Dans le deuxième cas, l’ajout de la couleur permet ici de désambiguïser un cas où il y aurait 2
@@ -79,12 +79,14 @@ mots,  on  peut  utiliser  un  panneau  swing  avec  plusieurs  JButtons.  Chaqu
 commande vocale à reconnaitre (« cet objet », « ici », « met ça », …). Un clic sur le bouton enverra le
 message  Ivy  correspondant.  Afin  de  pouvoir  interchanger  facilement  ce  panneau  avec  l’application
 sra5, les boutons devront envoyer des messages Ivy de la forme suivante :
-
+```
 sra5 Parsed='resReco' Confidence='proba' NP='id' Num_A='id'
+```
 
 Exemple pour la reconnaissance de l’expression « cet objet » on enverra :
-
+```
 sra5 Parsed='cetobjet' Confidence=0.8 NP=1 Num_A=0
+```
 
 [Note :  Confidence  précise  le  taux  de  confiance  du  ou  des  concepts  reconnus ;  NP  et  Num_A
 précisent  le  nombre  d’items  reconnus  depuis  le  lancement  et  l’alternative  de  reconnaissance.  Vous
@@ -94,7 +96,6 @@ pouvez ces deux options à 0 dans tous les cas]
 votre choix]
 
 2.  Utilisation de la reconnaissance vocale
-
 Par la suite, nous utiliserons la reconnaissance vocale avec le module sra5 (voir séance de TP 1). Il vous
 faudra donc modifier la grammaire de reconnaissance selon les besoins pour le projet.
 
@@ -106,15 +107,11 @@ Pensez aussi à utiliser la synthèse vocale (avec ou sans prosodie pour les mes
 OneDollarIvy
 Processing.org (cf. Figure 2)
 
-implémente
-
-(qui
-
-l’algorithme  $1Recognizer)  est  composé  d’une  application
+(qui implémente l’algorithme  $1Recognizer) est composé d’une application
 
 Figure 2 – reconnaissance de gestes par OneDollarIvy
 
-OneDollarIvy  permet  de  créer  (Learn),  d’importer  (Import),  d’exporter  (Export),  lister  (display
+OneDollarIvy  permet  de  créer (Learn),  d’importer  (Import),  d’exporter  (Export),  lister  (display
 Templates) et reconnaître (gesture Recognition) des gestes appris.
 
 Lien de téléchargement : https://github.com/truillet/OneDollarIvy
@@ -140,7 +137,8 @@ possible des séances :
 L’idée de ces chronogrammes est d’explorer les différentes possibilités d’ordre de commandes sur
 le bus ivy afin de mieux prévoir la flexibilité dans le système.
 
-Créer un
+
+ | Créer un | 
 
 Couleur
 
