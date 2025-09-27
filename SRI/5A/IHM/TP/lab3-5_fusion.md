@@ -1,9 +1,8 @@
 # Conception d’un moteur de fusion multimodale
 ## Objectifs
 Le but de ce bureau d’étude est de spécifier, concevoir et implémenter un moteur de fusion multimodale pour  interagir avec une palette de dessin ne disposant d’aucun bouton. Pour créer et déplacer des formes sur la palette vous utiliserez les modalités suivantes :
-
 1. La reconnaissance de parole grâce au moteur de reconnaissance de parole (avec par exemple l’usage de l’agentivy sra5)
-2. La reconnaissance de geste grâce à la palette de reconnaissance de geste 2D (votre agent ivy $NRecognizer, $1Recognizer ou ICAR – cf. plus bas -)
+2. La reconnaissance de geste grâce à la palette de reconnaissance de geste 2D (votre agent ivy *$NRecognizer*, *$1Recognizer* ou *ICAR*)
 3. Le pointage (souris) sur la palette de dessin
 
 L’objectif est de développer un moteur de fusion des différentes modalités permettant d’approcher
@@ -12,13 +11,12 @@ le célèbre **[put that there](https://www.youtube.com/watch?v=RyBEUyEtxQo)**, 
 ## Architecture
 Les outils devront communiquer selon l’architecture suivante ou équivalente (cf. Figure 1) :
 
-Figure 1 – architecture logicielle possible
 
-## Cahier des charges :
-A  partir  de  ces  trois  types  d’interaction,  il  vous  est  demandé  de  réaliser  un  moteur  de  fusion
-multimodale qui vous permet d’effectuer les actions suivantes sur une palette de dessin.
+*Figure 1 – architecture logicielle possible*
 
-3A SRI 2024/2025
+## Cahier des charges :
+A  partir  de  ces  trois  types  d’interaction,  il  vous  est  demandé  de  réaliser  un  moteur  de  fusion multimodale qui vous permet d’effectuer les actions suivantes sur une palette de dessin.
+
 
 Créer une forme
 Le moteur de fusion devra permettre de réaliser cette action de différentes manières :
