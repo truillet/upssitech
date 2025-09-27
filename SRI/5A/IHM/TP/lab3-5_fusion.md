@@ -1,11 +1,11 @@
 # Conception d’un moteur de fusion multimodale
 ## Objectifs
-Le but de ce bureau d’étude est de spécifier, concevoir et implémenter un moteur de fusion multimodale pour  interagir avec une palette de dessin ne disposant d’aucun bouton. Pour créer et déplacer des formes sur la palette vous utiliserez les modalités suivantes :
-1. La reconnaissance de parole grâce au moteur de reconnaissance de parole (avec par exemple l’usage de l’agentivy sra5)
-2. La reconnaissance de geste grâce à la palette de reconnaissance de geste 2D (votre agent ivy *$NRecognizer*, *$1Recognizer* ou *ICAR*)
-3. Le pointage (souris) sur la palette de dessin
+Le but de ce bureau d’étude est de **spécifier, concevoir et implémenter un moteur de fusion multimodale** pour  interagir avec une palette de dessin ne disposant d’aucun bouton. Pour créer et déplacer des formes sur la palette vous utiliserez les modalités suivantes :
+1. **La reconnaissance de parole** grâce au moteur de reconnaissance de parole (avec par exemple l’usage de l’agentivy sra5)
+2. **La reconnaissance de geste** grâce à la palette de reconnaissance de geste 2D (votre agent ivy *$NRecognizer*, *$1Recognizer* ou *ICAR*)
+3. Le **pointage** (souris) sur la palette de dessin
 
-L’objectif est de développer un moteur de fusion des différentes modalités permettant d’approcher
+L’objectif est de développer un **moteur de fusion des différentes modalités** permettant d’approcher
 le célèbre **[put that there](https://www.youtube.com/watch?v=RyBEUyEtxQo)**, une des premières techniques d’interaction multimodale proposée par le MIT il y a maintenant une quarantaine d’années.
 
 ## Architecture
@@ -21,90 +21,40 @@ A  partir  de  ces  trois  types  d’interaction,  il  vous  est  demandé  de 
 Créer une forme
 Le moteur de fusion devra permettre de réaliser cette action de différentes manières :
 
-Créer
+| Créer | rectangle/cercle/triangle/losange | ici 
+| Créer | rectangle/cercle/triangle/losange | rouge/vert/bleu
+| Créer | rectangle/cercle/triangle/losange | de cette couleur
+| Créer | rectangle/cercle/triangle/losange | ici | de cette couleur
+| Créer | rectangle/cercle/triangle/losange | rouge/vert/bleu | ici
+| etc.  |
 
-Créer
+*Contraintes additionnelles :*
+1. Aucune interaction proposée ne devra être **monomodale** !
+2. L’action  de  créer  un  objet  devra  être  réalisée  au  moyen  de  la  reconnaissance  de  gestes (d’abord la parole *créer*, suivi par le geste pour choisir la forme).
+3. La couleur et la désignation de la position devront être optionnelles, et l’ordre des deux doit être flexible
+4. Si une couleur est spécifiée, ceci doit se faire via la parole
+5. Dans le cas d’une désignation (*de cette couleur*, *ici*), celle-ci se réalise à la voix et doit être complétée par un pointage/clic sur la palette de dessin
 
-Créer
-
-Créer
-
-Créer
-
-Etc.
-
-rectangle|cercle|triangle|losange
-
-ici
-
-rectangle|cercle|triangle|losange
-
-rouge|vert|bleu
-
-rectangle|cercle|triangle|losange  de cette couleur
-
-rectangle|cercle|triangle|losange
-
-ici
-
-de cette couleur
-
-rectangle|cercle|triangle|losange
-
-rouge|vert|bleu
-
-Ici
-
-Contraintes additionnelles :
-
-1.  Aucune interaction proposée ne devra être monomodale !
-2.  L’action  de  créer  un  objet  devra  être  réalisée  au  moyen  de  la  reconnaissance  de  gestes
-
-(d’abord la parole « créer », suivi par le geste pour choisir la forme).
-
-3.  La couleur et la désignation de la position devront être optionnelles, et l’ordre des deux doit
-
-être flexible
-
-4.  Si une couleur est spécifiée, ceci doit se faire via la parole
-5.  Dans le cas d’une désignation (« de cette couleur », « ici »), celle-ci se réalise à la voix et doit
-
-être complétée par un pointage/clic sur la palette de dessin
-
-Déplacer une forme
+### Déplacer une forme
 Cette action permet de déplacer un objet créé auparavant. L’utilisateur devra pouvoir spécifier l’action
 de déplacement via soit un geste, soit la parole. La désignation se fera comme pour la création d’un
 objet.
 
-Déplacer ce
+| Déplacer ce | rectangle/cercle/triangle/losange | ici
+| Déplacer ce | rectangle/cercle/triangle/losange | rouge/vert/bleu |  ici
+| etc. |
 
-Déplacer ce
-
-etc.
-
-rectangle|cercle|triangle|losange
-
-Ici
-
-rectangle|cercle|triangle|losange
-
-rouge|vert|bleu
-
-Ici
-
-N.B. : Dans le deuxième cas, l’ajout de la couleur permet ici de désambiguïser un cas où il y aurait 2
+**N.B.** : Dans le deuxième cas, l’ajout de la couleur permet ici de désambiguïser un cas où il y aurait 2
 rectangles à l’endroit de la désignation
 
-Autres actions
-Il  serait possible  de  définir  d’autres  actions  (supprimer,  modifier  la  couleur).  Ceci  n’est  pas  demandé
-dans ce bureau d’étude, mais vous pouvez aller plus loin si vous avez le temps.
+### Autres actions
+Il  serait possible  de  définir  d’autres  actions  (supprimer,  modifier  la  couleur).  Ceci  n’est  pas  demandé dans ce bureau d’étude, mais vous pouvez aller plus loin si vous avez le temps.
 
-Couleur et formes
-On peut se limiter à des formes d’exemple (rectangle, ellipse, triangle, …). Il est également suffisant
+### Couleur et formes
+On peut se limiter à des formes d’exemple (rectangle, ellipse, triangle, ...). Il est également suffisant
 de choisir trois couleurs comme exemple.
 
 ## Les outils
-
 ### Langage de programmation recommandé
 Coder en Python, Processing ou Java via un projet IntelliJ IDEA, VSCode, Eclipse, ….
 
@@ -112,7 +62,7 @@ Coder en Python, Processing ou Java via un projet IntelliJ IDEA, VSCode, Eclipse
 Les outils (Palette / $NRecognizer, $1Recognizer / sra5 et ppilot5) mis à disposition sont des agents
 Ivy.
 
-Les  agents  ivy  communiquent  via  des  messages  textuels  sur  le  réseau.  Ils  s’abonnent  aux  types  de
+Les agents ivy communiquent via des messages textuels sur le réseau. Ils s’abonnent aux types de
 messages qui les intéressent. Ces types sont définis par expression régulière. La réception d’un message
 provoque le déclenchement d’un appel de callback/listener.
 
