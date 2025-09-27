@@ -43,7 +43,7 @@ la vitesse de l’utilisateur à la saisie. Dans une première étape on fait un
 
 4.  *Trouver le meilleur angle pour obtenir le meilleur score* : on calcule la distance moyenne entre la trace et les différents modèles avec la formule suivante :
 
-$\d_i = {\sum_{k=1}^N{\sqrt{{C[k]_x - T_i[k]_x}^2 +{C[k]_y - T_i[k]_y}^2}}}\over N$
+$\d_i = {\sum_{k=1}^N {\sqrt{{C[k]_x-T_i[k]_x}^2 +{C[k]_y-T_i[k]_y}^2} }} \over N$
 
 Le modèle ayant la plus petite distance est le modèle retenu. Il est de plus possible de convertir cette distance dans un score de reconnaissance (voir article page 4). Il est aussi éventuellement nécessaire de faire une rotation plus précise (voir page 5 de l’article).
 L’article fournit enfin en annexe (page 10) le pseudo-code de l’algorithme.
