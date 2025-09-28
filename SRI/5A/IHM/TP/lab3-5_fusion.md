@@ -122,7 +122,7 @@ possible des séances :
 3. Décrire vos commandes multimodales sous la forme de chronogrammes (cf. figure 3 ci-dessous).
 L’idée de ces chronogrammes est d’explorer les différentes possibilités d’ordre de commandes sur le [bus ivy](https://github.com/truillet/ivy) afin de mieux prévoir la flexibilité dans le système.
 
-<img src="lab3-5_fig3.png" alt="figure 3"/>
+<img src="lab3-5_fig3.jpg" alt="figure 3"/>
 
 *Figure 4 – chronogrammes des commandes multimodales*
 
