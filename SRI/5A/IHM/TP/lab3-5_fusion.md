@@ -85,13 +85,13 @@ Exemple pour la reconnaissance de l’expression *cet objet* on enverra :
 sra5 Parsed='cetobjet' Confidence=0,8 NP=1 Num_A=0
 ```
 
-`[**Note** :  Confidence  précise  le  taux  de  confiance  du  ou  des  concepts  reconnus ;  NP  et  Num_A
+\[**Note** :  Confidence  précise  le  taux  de  confiance  du  ou  des  concepts  reconnus ;  NP  et  Num_A
 précisent  le  nombre  d’items  reconnus  depuis  le  lancement  et  l’alternative  de  reconnaissance.  Vous
-pouvez ces deux options à 0 dans tous les cas`]
+pouvez ces deux options à 0 dans tous les cas\]
 
 `[**Note  2** :  Il  est  possible  de  coder  cette  interface  en  python,  Processing.org  ou  via le  langage  de votre choix`]
 
-2. *Utilisation de la reconnaissance vocale*
+2. *Utilisation de la reconnaissance vocale*
 Par la suite, nous utiliserons la reconnaissance vocale avec le module [sra5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/sra5.zip) (voir la [Lab1](lab1_vocal.md)). Il vous faudra donc modifier la grammaire de reconnaissance selon les besoins pour le projet.
 
 3. *Utilisation de la synthèse vocale*
