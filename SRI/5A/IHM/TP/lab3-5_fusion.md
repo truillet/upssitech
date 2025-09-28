@@ -2,7 +2,7 @@
 ## Objectifs
 Le but de ce bureau d’étude est de **spécifier, concevoir et implémenter un moteur de fusion multimodale** pour  interagir avec une palette de dessin ne disposant d’aucun bouton. Pour créer et déplacer des formes sur la palette vous utiliserez les modalités suivantes :
 1. **La reconnaissance de parole** grâce au moteur de reconnaissance de parole (avec par exemple l’usage de l’agentivy sra5)
-2. **La reconnaissance de geste** grâce à la palette de reconnaissance de geste 2D (votre agent ivy *$NRecognizer*, *$1Recognizer* ou *ICAR*)
+2. **La reconnaissance de geste** grâce à la palette de reconnaissance de geste 2D (votre agent ivy *$N_Recognizer*, *$1_Recognizer* ou *ICAR*)
 3. Le **pointage** (souris) sur la palette de dessin
 
 L’objectif est de développer un **moteur de fusion des différentes modalités** permettant d’approcher
@@ -11,6 +11,7 @@ le célèbre **[put that there](https://www.youtube.com/watch?v=RyBEUyEtxQo)**, 
 ## Architecture
 Les outils devront communiquer selon l’architecture suivante ou équivalente (cf. Figure 1) :
 
+<img src="lab3-5_fig1.jpg" alt="figure 1"/>
 
 *Figure 1 – architecture logicielle possible*
 
