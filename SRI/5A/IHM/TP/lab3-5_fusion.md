@@ -15,10 +15,9 @@ Les outils devront communiquer selon l’architecture suivante ou équivalente (
 *Figure 1 – architecture logicielle possible*
 
 ## Cahier des charges :
-A  partir  de  ces  trois  types  d’interaction,  il  vous  est  demandé  de  réaliser  un  moteur  de  fusion multimodale qui vous permet d’effectuer les actions suivantes sur une palette de dessin.
+A partir de ces trois types d’interaction, il vous est demandé de réaliser un moteur de fusion multimodale qui vous permet d’effectuer les actions suivantes sur une palette de dessin.
 
-
-Créer une forme
+### Créer une forme
 Le moteur de fusion devra permettre de réaliser cette action de différentes manières :
 | action | forme | (opt.) couleur | (opt.) localisation|
 |----|----|----|----|
@@ -51,79 +50,63 @@ objet.
 rectangles à l’endroit de la désignation
 
 ### Autres actions
-Il  serait possible  de  définir  d’autres  actions  (supprimer,  modifier  la  couleur).  Ceci  n’est  pas  demandé dans ce bureau d’étude, mais vous pouvez aller plus loin si vous avez le temps.
+Il  serait possible de définir d’autres actions (supprimer, modifier la couleur). Ceci n’est pas demandé dans ce bureau d’étude, mais vous pouvez aller plus loin si vous avez le temps.
 
 ### Couleur et formes
 On peut se limiter à des formes d’exemple (rectangle, ellipse, triangle, ...). Il est également suffisant
-de choisir trois couleurs comme exemple.
+de choisir *trois couleurs* comme exemple.
 
 ## Les outils
 ### Langage de programmation recommandé
-Coder en Python, Processing ou Java via un projet IntelliJ IDEA, VSCode, Eclipse, ….
+Coder en Python, Processing ou Java via un projet VSCode, IntelliJ IDEA, , Eclipse, ….
 
 ### Communication inter-outils : Ivy
-Les outils (Palette / $NRecognizer, $1Recognizer / sra5 et ppilot5) mis à disposition sont des agents
-Ivy.
+Les outils ([Palette](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/Palette.zip) / $NRecognizer, [$1_Recognizer](https://github.com/truillet/OneDollarIvy) / [sra5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/sra5.zip) et [ppilot5](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.3.zip)) mis à disposition sont des [agents
+Ivy]https://github.com/truillet/ivy().
 
 Les agents ivy communiquent via des messages textuels sur le réseau. Ils s’abonnent aux types de
 messages qui les intéressent. Ces types sont définis par expression régulière. La réception d’un message
 provoque le déclenchement d’un appel de callback/listener.
 
 ### Visualiser les messages sur Ivy
-1. Un visionneur graphique Ivy. Le visionneur vous permet de gérer les agents ainsi que les messages qui transitent sur le bus ivy de manière graphique. Particulièrement pratique lors du développement d’une application utilisant le bus Ivy. Il est téléchargeable à cette adresse :
-https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Outils/visionneur_1_2.zip
-2. Probe sur console. En  alternative,  pour  utiliser  la  ligne  de  commande  (cf.  documentation  ivy  vu  en  enseignement d’interaction distribuée)
+1. *Un visionneur graphique Ivy*. Le [visionneur](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Outils/visionneur_1_2.zip) vous permet de gérer les agents ainsi que les messages qui transitent sur le bus ivy de manière graphique. Particulièrement pratique lors du développement d’une application utilisant le [bus Ivy](https://github.com/truillet/ivy). 
+
+2. *Probe sur console*. En  alternative,  pour  utiliser  la  ligne  de  commande  (cf.  [documentation  ivy](https://github.com/truillet/ivy))
 
 ### Reconnaissance vocale
-1. Simulation
-
-Durant le développement, la reconnaissance peut être simulée. Afin de simuler la reconnaissance des
-mots,  on  peut  utiliser  un  panneau  swing  avec  plusieurs  JButtons.  Chaque  bouton  représentera  une
-commande vocale à reconnaitre (*cet objet*, *ici*, *met ça*», ...). Un clic sur le bouton enverra le
-message  Ivy  correspondant.  Afin  de  pouvoir  interchanger  facilement  ce  panneau  avec  l’application
-[sra5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/sra5.zip), les boutons devront envoyer des messages Ivy de la forme suivante :
+1. *Simulation*. Durant le développement, la reconnaissance peut être simulée. Afin de simuler la reconnaissance des
+mots,  on  peut  utiliser par exemple un  panneau  graphique  avec  plusieurs  boutons.  Chaque  bouton  représentera  une commande vocale à reconnaitre (*cet objet*, *ici*, *met ça*», ...). Un clic sur le bouton enverra le message  [Ivy](https://github.com/truillet/ivy)  correspondant.  Afin  de  pouvoir  interchanger  facilement  ce  panneau  avec  l’application [sra5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/sra5.zip), les boutons devront envoyer des messages [Ivy](https://github.com/truillet/ivy) de la forme suivante :
 ```
 sra5 Parsed='resReco' Confidence='proba' NP='id' Num_A='id'
 ```
 
-Exemple pour la reconnaissance de l’expression « cet objet » on enverra :
+Exemple pour la reconnaissance de l’expression *cet objet* on enverra :
 ```
-sra5 Parsed='cetobjet' Confidence=0.8 NP=1 Num_A=0
+sra5 Parsed='cetobjet' Confidence=0,8 NP=1 Num_A=0
 ```
 
-[Note :  Confidence  précise  le  taux  de  confiance  du  ou  des  concepts  reconnus ;  NP  et  Num_A
+`[**Note** :  Confidence  précise  le  taux  de  confiance  du  ou  des  concepts  reconnus ;  NP  et  Num_A
 précisent  le  nombre  d’items  reconnus  depuis  le  lancement  et  l’alternative  de  reconnaissance.  Vous
-pouvez ces deux options à 0 dans tous les cas]
+pouvez ces deux options à 0 dans tous les cas`]
 
-[Note  2 :  Il  est  possible  de  coder  cette  interface  en  python,  Processing.org  ou  via  …  le  langage  de
-votre choix]
+`[**Note  2** :  Il  est  possible  de  coder  cette  interface  en  python,  Processing.org  ou  via le  langage  de votre choix`]
 
-2.  Utilisation de la reconnaissance vocale
+2. *Utilisation de la reconnaissance vocale*
 Par la suite, nous utiliserons la reconnaissance vocale avec le module [sra5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/sra5.zip) (voir la [Lab1](lab1_vocal.md)). Il vous faudra donc modifier la grammaire de reconnaissance selon les besoins pour le projet.
 
-3. Utilisation de la synthèse vocale
+3. *Utilisation de la synthèse vocale*
 Pensez aussi à utiliser la synthèse vocale [ppilot5](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.3.zip) (avec ou sans prosodie pour les messages de feedback !)
 
 ### Reconnaissance gestuelle : $1_Recognizer ou $N_Recognizer
-OneDollarIvy
-Processing.org (cf. Figure 2)
+[OneDollarIvy](https://github.com/truillet/OneDollarIvy) implémente l’algorithme  $1Recognizer et est composé d’une application [Processing.org](https://processing.org/) (cf. Figure 2)
 
-(qui implémente l’algorithme  $1Recognizer) est composé d’une application
+*Figure 2 – reconnaissance de gestes par OneDollarIvy*
 
-Figure 2 – reconnaissance de gestes par OneDollarIvy
-
-OneDollarIvy  permet  de  créer (Learn),  d’importer  (Import),  d’exporter  (Export),  lister  (display
-Templates) et reconnaître (gesture Recognition) des gestes appris.
-
-**Lien de téléchargement** : https://github.com/truillet/OneDollarIvy
+[OneDollarIvy](https://github.com/truillet/OneDollarIvy)  permet  de  créer (Learn),  d’importer  (Import),  d’exporter  (Export),  lister  (display Templates) et reconnaître (gesture Recognition) des gestes appris.
 
 ### Palette de dessin
-Celle-ci  répond  à  des  messages  Ivy,  permettant  de  créer,  déplacer,  colorier,  supprimer,  etc.  des
-éléments. Afin de communiquer avec elle, votre application doit émettre des messages ivy.
-Nous fournissons une version de Palette développée en Processing.org permettant de gérer différentes
-formes (triangles, cercles, rectangles et losanges) :
-
-https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Code/Palette.zip
+Nous fournissons une version de [Palette](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/Palette.zip) développée en [Processing.org](https://processing.org/) permettant de gérer différentes formes (triangles, cercles, rectangles et losanges) :
+La [Palette](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/Palette.zip) répond à des  messages  [Ivy](https://github.com/truillet/ivy), permettant de créer, déplacer, colorier, supprimer, etc. des éléments. Afin de communiquer avec elle, votre application doit émettre des messages [ivy](https://github.com/truillet/ivy).
 
 Vous pouvez bien évidemment recoder une palette selon vos envies.
 
@@ -133,17 +116,15 @@ possible des séances :
 
 ### Séance 1 :
 1. Spécifier les grammaires de gestes et de parole
-2. Faire l’apprentissage des gestes ($NR_ecognizer, $1_Recognizer )
+2. Faire l’apprentissage des gestes ($NR_ecognizer, [$1_Recognizer](https://github.com/truillet/OneDollarIvy))
 3. Décrire vos commandes multimodales sous la forme de chronogrammes (cf. figure 4 ci-dessous).
 L’idée de ces chronogrammes est d’explorer les différentes possibilités d’ordre de commandes sur le [bus ivy](https://github.com/truillet/ivy) afin de mieux prévoir la flexibilité dans le système.
-
 
 
 *Figure 4 – chronogrammes des commandes multimodales*
 
 ### Séance 2 :
-1.  Décrire **l’automate du contrôleur de dialogue** (machines à états, voir cours M. Serrano). Cet automate est  crucial pour le fonctionnement de votre moteur de fusion et nécessite de la réflexion \[**Rappel** : il faut commencer par décrire les actions et événements possibles, ensuite l’automate et
-ensuite la matrice états/événements\]
+1.  Décrire **l’automate du contrôleur de dialogue** (machines à états, voir cours M. Serrano). Cet automate est  crucial pour le fonctionnement de votre moteur de fusion et nécessite de la réflexion `[**Rappel** : il faut commencer par décrire les actions et événements possibles, ensuite l’automate et ensuite la matrice états/événements`]
 2. Vous allez devoir utiliser une **structure de données** pour réaliser la fusion des informations. Elle sera
 remplie au fur et à mesure que les messages arrivent. Celle-ci sera implémentée dans une classe à part. Quelles  données et quelles méthodes doit-elle contenir ? Quand devra avoir lieu la réinitialisation ? Spécifier et coder cette structure.
 
