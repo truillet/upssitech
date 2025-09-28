@@ -20,8 +20,9 @@ A  partir  de  ces  trois  types  d’interaction,  il  vous  est  demandé  de 
 
 Créer une forme
 Le moteur de fusion devra permettre de réaliser cette action de différentes manières :
-
-| Créer | rectangle/cercle/triangle/losange | ici |
+| action | forme | (opt.) couleur | (opt.) localisation|
+|----|----|----|----|
+| Créer | rectangle/cercle/triangle/losange | | ici |
 | Créer | rectangle/cercle/triangle/losange | rouge/vert/bleu |
 | Créer | rectangle/cercle/triangle/losange | de cette couleur |
 | Créer | rectangle/cercle/triangle/losange | ici | de cette couleur |
@@ -40,6 +41,8 @@ Cette action permet de déplacer un objet créé auparavant. L’utilisateur dev
 de déplacement via soit un geste, soit la parole. La désignation se fera comme pour la création d’un
 objet.
 
+| action | forme | (opt.) couleur | (opt.) localisation|
+|----|----|----|----|
 | Déplacer ce | rectangle/cercle/triangle/losange | ici |
 | Déplacer ce | rectangle/cercle/triangle/losange | rouge/vert/bleu |  ici |
 | etc. |
@@ -72,13 +75,13 @@ https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Outils/visionneu
 2. Probe sur console. En  alternative,  pour  utiliser  la  ligne  de  commande  (cf.  documentation  ivy  vu  en  enseignement d’interaction distribuée)
 
 ### Reconnaissance vocale
-1.  Simulation
+1. Simulation
 
 Durant le développement, la reconnaissance peut être simulée. Afin de simuler la reconnaissance des
 mots,  on  peut  utiliser  un  panneau  swing  avec  plusieurs  JButtons.  Chaque  bouton  représentera  une
-commande vocale à reconnaitre (« cet objet », « ici », « met ça », …). Un clic sur le bouton enverra le
+commande vocale à reconnaitre (*cet objet*, *ici*, *met ça*», ...). Un clic sur le bouton enverra le
 message  Ivy  correspondant.  Afin  de  pouvoir  interchanger  facilement  ce  panneau  avec  l’application
-sra5, les boutons devront envoyer des messages Ivy de la forme suivante :
+[sra5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/sra5.zip), les boutons devront envoyer des messages Ivy de la forme suivante :
 ```
 sra5 Parsed='resReco' Confidence='proba' NP='id' Num_A='id'
 ```
@@ -96,14 +99,12 @@ pouvez ces deux options à 0 dans tous les cas]
 votre choix]
 
 2.  Utilisation de la reconnaissance vocale
-Par la suite, nous utiliserons la reconnaissance vocale avec le module sra5 (voir séance de TP 1). Il vous
-faudra donc modifier la grammaire de reconnaissance selon les besoins pour le projet.
+Par la suite, nous utiliserons la reconnaissance vocale avec le module [sra5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/sra5.zip) (voir la [Lab1](lab1_vocal.md)). Il vous faudra donc modifier la grammaire de reconnaissance selon les besoins pour le projet.
 
 3. Utilisation de la synthèse vocale
+Pensez aussi à utiliser la synthèse vocale [ppilot5](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.3.zip) (avec ou sans prosodie pour les messages de feedback !)
 
-Pensez aussi à utiliser la synthèse vocale (avec ou sans prosodie pour les messages de feedback !
-
-### Reconnaissance gestuelle : $1Recognizer ou $NRecognizer
+### Reconnaissance gestuelle : $1_Recognizer ou $N_Recognizer
 OneDollarIvy
 Processing.org (cf. Figure 2)
 
@@ -114,7 +115,7 @@ Figure 2 – reconnaissance de gestes par OneDollarIvy
 OneDollarIvy  permet  de  créer (Learn),  d’importer  (Import),  d’exporter  (Export),  lister  (display
 Templates) et reconnaître (gesture Recognition) des gestes appris.
 
-Lien de téléchargement : https://github.com/truillet/OneDollarIvy
+**Lien de téléchargement** : https://github.com/truillet/OneDollarIvy
 
 ### Palette de dessin
 Celle-ci  répond  à  des  messages  Ivy,  permettant  de  créer,  déplacer,  colorier,  supprimer,  etc.  des
@@ -132,49 +133,28 @@ possible des séances :
 
 ### Séance 1 :
 1. Spécifier les grammaires de gestes et de parole
-2. Faire l’apprentissage des gestes ($NRecognizer, $1Recognizer )
+2. Faire l’apprentissage des gestes ($NR_ecognizer, $1_Recognizer )
 3. Décrire vos commandes multimodales sous la forme de chronogrammes (cf. figure 4 ci-dessous).
-L’idée de ces chronogrammes est d’explorer les différentes possibilités d’ordre de commandes sur
-le bus ivy afin de mieux prévoir la flexibilité dans le système.
+L’idée de ces chronogrammes est d’explorer les différentes possibilités d’ordre de commandes sur le [bus ivy](https://github.com/truillet/ivy) afin de mieux prévoir la flexibilité dans le système.
 
 
- | Créer un | 
 
-Couleur
-
-Position
-
-Parole
-
-Clic Palette
-
-Geste
-
-Forme
-
-Figure 4 – chronogrammes des commandes multimodales
+*Figure 4 – chronogrammes des commandes multimodales*
 
 ### Séance 2 :
-1.  Décrire l’automate du contrôleur de dialogue (machines à états, voir cours M. Serrano).
-
-Cet  automate  est  crucial  pour  le  fonctionnement  de  votre  moteur  de  fusion  et  nécessite  de  la
-réflexion !
-[Rappel : il faut commencer par décrire les actions et événements possibles, ensuite l’automate et
-ensuite la matrice états/événements]
-
-2.  Vous allez devoir utiliser une structure de données pour réaliser la fusion des informations. Elle sera
-remplie au fur et à mesure que les messages arrivent. Celle-ci sera implémentée dans une classe à
-part.  Quelles  données  et  quelles  méthodes  doit-elle  contenir ?  Quand  devra  avoir  lieu  la
-réinitialisation ? Spécifier et coder cette structure.
+1.  Décrire **l’automate du contrôleur de dialogue** (machines à états, voir cours M. Serrano). Cet automate est  crucial pour le fonctionnement de votre moteur de fusion et nécessite de la réflexion \[**Rappel** : il faut commencer par décrire les actions et événements possibles, ensuite l’automate et
+ensuite la matrice états/événements\]
+2. Vous allez devoir utiliser une **structure de données** pour réaliser la fusion des informations. Elle sera
+remplie au fur et à mesure que les messages arrivent. Celle-ci sera implémentée dans une classe à part. Quelles  données et quelles méthodes doit-elle contenir ? Quand devra avoir lieu la réinitialisation ? Spécifier et coder cette structure.
 
 ### Séance 3 :
-1. Coder le moteur de fusion. Vous veillerez également à appliquer les techniques de conception et d’implémentation systématique d’un contrôleur de dialogue (déduction du code par rapport à une machine à états).
+1. Coder **le moteur de fusion**. Vous veillerez également à appliquer les techniques de conception et d’implémentation systématique d’un contrôleur de dialogue (déduction du code par rapport à une machine à états).
 2. Terminer de coder le moteur de fusion.
 3. Tester et valider le fonctionnement de votre travail.
 4. Ecrire le rapport.
 
 ## Travail à rendre
-Vous enverrez par mél un lien vers un repository git ou vers une archive zip contenant :
+**Vous enverrez par mél un lien vers un repository git ou vers une archive zip contenant :**
 1. Votre conception de la fusion des modalités devra être argumentée dans un rapport de quelques pages. Vous y décrirez :
   * les aspects temporels de la fusion multimodale (chronogrammes)
   * la conception logicielle de votre système dans sa globalité (diagramme de classe) 
@@ -185,7 +165,7 @@ d’écrans de l’utilisation).
 3. Un exécutable ou un point d’entrée de votre projet (exemple : un fichier .bat ou .sh lançant l’exécution  de tous les outils nécessaires au fonctionnement de l’application). En alternative, décrivez le mode d’utilisation dans le rapport.
 4. En option, vous pourrez fournir une vidéo avec un exemple d’exécution de l’application.
 
-**Délai pour le rendu : dimanche 1er décembre 2024, 23h55 UTC+1**
+**Délai pour le rendu : dimanche 05 décembre 2025, 23h55 UTC+1**
 Le travail sera envoyé à Philippe.Truillet@upssitech.fr (Si vous avez des fichiers trop lourds à envoyer, vous pouvez utiliser un service cloud ou de transfert comme https://filesender.renater.fr)
 
 Chaque jour de retard se verra infligé 0,25 pt de pénalité.
