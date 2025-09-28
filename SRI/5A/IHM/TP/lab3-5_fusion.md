@@ -62,7 +62,7 @@ Coder en Python, Processing ou Java via un projet VSCode, IntelliJ IDEA, , Eclip
 
 ### Communication inter-outils : Ivy
 Les outils ([Palette](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/Palette.zip) / $NRecognizer, [$1_Recognizer](https://github.com/truillet/OneDollarIvy) / [sra5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/sra5.zip) et [ppilot5](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.3.zip)) mis à disposition sont des [agents
-Ivy]https://github.com/truillet/ivy().
+Ivy](https://github.com/truillet/ivy).
 
 Les agents ivy communiquent via des messages textuels sur le réseau. Ils s’abonnent aux types de
 messages qui les intéressent. Ces types sont définis par expression régulière. La réception d’un message
@@ -85,11 +85,11 @@ Exemple pour la reconnaissance de l’expression *cet objet* on enverra :
 sra5 Parsed='cetobjet' Confidence=0,8 NP=1 Num_A=0
 ```
 
-\[**Note** :  Confidence  précise  le  taux  de  confiance  du  ou  des  concepts  reconnus ;  NP  et  Num_A
+**Note** :  Confidence  précise  le  taux  de  confiance  du  ou  des  concepts  reconnus ;  NP  et  Num_A
 précisent  le  nombre  d’items  reconnus  depuis  le  lancement  et  l’alternative  de  reconnaissance.  Vous
-pouvez ces deux options à 0 dans tous les cas\]
+pouvez ces deux options à 0 dans tous les cas
 
-`[**Note  2** :  Il  est  possible  de  coder  cette  interface  en  python,  Processing.org  ou  via le  langage  de votre choix`]
+**Note  2** :  Il  est  possible  de  coder  cette  interface  en  python,  Processing.org  ou  via le  langage  de votre choix
 
 2. *Utilisation de la reconnaissance vocale*
 Par la suite, nous utiliserons la reconnaissance vocale avec le module [sra5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/sra5.zip) (voir la [Lab1](lab1_vocal.md)). Il vous faudra donc modifier la grammaire de reconnaissance selon les besoins pour le projet.
@@ -124,7 +124,7 @@ L’idée de ces chronogrammes est d’explorer les différentes possibilités d
 *Figure 4 – chronogrammes des commandes multimodales*
 
 ### Séance 2 :
-1.  Décrire **l’automate du contrôleur de dialogue** (machines à états, voir cours M. Serrano). Cet automate est  crucial pour le fonctionnement de votre moteur de fusion et nécessite de la réflexion `[**Rappel** : il faut commencer par décrire les actions et événements possibles, ensuite l’automate et ensuite la matrice états/événements`]
+1.  Décrire **l’automate du contrôleur de dialogue** (machines à états, voir cours M. Serrano). Cet automate est  crucial pour le fonctionnement de votre moteur de fusion et nécessite de la réflexion \[**Rappel** : il faut commencer par décrire les actions et événements possibles, ensuite l’automate et ensuite la matrice états/événements\]
 2. Vous allez devoir utiliser une **structure de données** pour réaliser la fusion des informations. Elle sera
 remplie au fur et à mesure que les messages arrivent. Celle-ci sera implémentée dans une classe à part. Quelles  données et quelles méthodes doit-elle contenir ? Quand devra avoir lieu la réinitialisation ? Spécifier et coder cette structure.
 
