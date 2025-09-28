@@ -42,7 +42,7 @@ objet.
 
 | action | forme | (opt.) couleur | (opt.) localisation|
 |----|----|----|----|
-| Déplacer ce | rectangle/cercle/triangle/losange | ici |
+| Déplacer ce | rectangle/cercle/triangle/losange | | ici |
 | Déplacer ce | rectangle/cercle/triangle/losange | rouge/vert/bleu |  ici |
 | etc. |
 
