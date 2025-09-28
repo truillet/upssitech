@@ -100,15 +100,17 @@ Pensez aussi à utiliser la synthèse vocale [ppilot5](https://github.com/truill
 ### Reconnaissance gestuelle : $1_Recognizer ou $N_Recognizer
 [OneDollarIvy](https://github.com/truillet/OneDollarIvy) implémente l’algorithme  $1Recognizer et est composé d’une application [Processing.org](https://processing.org/) (cf. Figure 2)
 
+<img src="lab3-5_fig2.png" alt="figure 2"/>
+
 *Figure 2 – reconnaissance de gestes par OneDollarIvy*
 
 [OneDollarIvy](https://github.com/truillet/OneDollarIvy)  permet  de  créer (Learn),  d’importer  (Import),  d’exporter  (Export),  lister  (display Templates) et reconnaître (gesture Recognition) des gestes appris.
 
 ### Palette de dessin
 Nous fournissons une version de [Palette](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/Palette.zip) développée en [Processing.org](https://processing.org/) permettant de gérer différentes formes (triangles, cercles, rectangles et losanges) :
-La [Palette](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/Palette.zip) répond à des  messages  [Ivy](https://github.com/truillet/ivy), permettant de créer, déplacer, colorier, supprimer, etc. des éléments. Afin de communiquer avec elle, votre application doit émettre des messages [ivy](https://github.com/truillet/ivy).
+La [Palette](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/Palette.zip) répond à des  messages  [ivy](https://github.com/truillet/ivy), permettant de *créer*, *déplacer*, *colorier*, *supprimer*, etc. des éléments. 
 
-Vous pouvez bien évidemment recoder une palette selon vos envies.
+Vous pouvez bien évidemment recoder une __palette__ selon vos envies.
 
 ## Déroulement des séances
 Pour  réaliser  ce  bureau  d’études,  vous  avez  trois  séances  de  deux  heures.  Voici  une  organisation
@@ -117,9 +119,10 @@ possible des séances :
 ### Séance 1 :
 1. Spécifier les grammaires de gestes et de parole
 2. Faire l’apprentissage des gestes ($NR_ecognizer, [$1_Recognizer](https://github.com/truillet/OneDollarIvy))
-3. Décrire vos commandes multimodales sous la forme de chronogrammes (cf. figure 4 ci-dessous).
+3. Décrire vos commandes multimodales sous la forme de chronogrammes (cf. figure 3 ci-dessous).
 L’idée de ces chronogrammes est d’explorer les différentes possibilités d’ordre de commandes sur le [bus ivy](https://github.com/truillet/ivy) afin de mieux prévoir la flexibilité dans le système.
 
+<img src="lab3-5_fig3.png" alt="figure 3"/>
 
 *Figure 4 – chronogrammes des commandes multimodales*
 
