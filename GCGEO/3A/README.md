@@ -39,8 +39,8 @@ Si vous préférez programmer en [python](https://www.python.org) avec [Jupyter 
    * [Affichage - Partie 2 GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/TP3_Affichage_Part2.pdf) (2025)
    * [TP3_Affichage_de_données_(part2) Python](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/ipynb/TP2-3_Affichage_de_donn%C3%A9es.ipynb) (2025)
 * **TP 4** :
-   * [Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/TP4_Fonctions.pdf) (2023)
-   * [TP4 Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/ipynb/TP4_Fonctions.ipynb) (2024)
+   * [Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/TP4_Fonctions.pdf) (2025)
+   * [TP4 Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/ipynb/TP4_Fonctions.ipynb) (2025)
 * **TP 5/6/7** : 
    * [Algorithmes de tri](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/TP5-6-7_Algorithmes_tri.pdf) (2023)
    * [TP5_Algorithmes_de_tri](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/ipynb/TP5_Algorithmes_de_tri.ipynb) (2024)  
