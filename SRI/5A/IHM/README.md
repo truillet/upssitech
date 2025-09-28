@@ -30,7 +30,7 @@ _Un peu d'Histoire  / A bit of History_
 <img src="https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/ressources/Palm_Graffiti_gestures.png" height=250 alt="Graffiti gestures">
   
 ## Fusion Multimodale / Multimodal Fusion
-* **TP3-5/Tutorial 3 to 5** - [Moteur de Fusion](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/TP3-5_Projet_Multimodal.pdf) (2024) / [Multimodal Engine](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/T3-5_multimodal_interaction.pdf) (2023)
+* **TP3-5/Tutorial 3 to 5** - [Lab3-5]((https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab3-5_fusion.md) (2025)
 
 _Exemple de code Processing permettant la gestion de formes géométriques / Example of Processing code for rmanipulating different shapes_ : **[Palette](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/Palette.zip)**
 
