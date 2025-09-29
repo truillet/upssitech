@@ -55,7 +55,7 @@ L’article fournit enfin en annexe (page 10) le pseudo-code de l’algorithme.
 
 ## Les grandes étapes à suivre :
 1. Comprendre l’algorithme décrit sur cet énoncé et sur les pages 3 à 5 de l’article
-2. Récupérer le code Procesing *OneDollarIvy* ici : https://github.com/truillet/OneDollarIvy, le tester.
+2. Récupérer le code Procesing *OneDollarIvy* ici : https://github.com/truillet/OneDollarIvy ou celui en python là : https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/OneDollarIvy.zip , le tester.
 3. A  partir de l’exemple fourni, programmer l’algorithme *$N Multistroke Recognizer* (pseudo-code ici :  https://depts.washington.edu/acelab/proj/dollar/ndollar.pdf) dans le langage de votre choix.
 4. Programmer un module afin de permettre d’ajouter de nouveaux gestes au dictionnaire de gestes reconnus.
 5. Intégrer ces modifications dans une application qui se connecte au [bus ivy](github.com/truillet/ivy).  Déterminer  les messages à envoyer sur le bus.
