@@ -21,7 +21,7 @@ _Exemple de code Processing permettant l'affichage de la reconnaissance vocale e
 * **TP2/Tutorial 2** - [Lab2](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab2_gestes.md) (2025)
 
 _Ressources / Resources_
-   * **OneDollarIvy** (implémentation de l'algorithme du [$1 Recognizer](https://faculty.washington.edu/wobbrock/pubs/uist-07.01.pdf)) [code source Processing](https://github.com/truillet/OneDollarIvy) [code source Python](./Code/TP/OneDollarIvy.zip)
+   * **OneDollarIvy** (implémentation de l'algorithme du [$1 Recognizer](https://faculty.washington.edu/wobbrock/pubs/uist-07.01.pdf)) [code source Processing](https://github.com/truillet/OneDollarIvy) [code source Python](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/OneDollarIvy.zip)
    * **ICAR** (implémentation de l'algorithme de [Rubine](http://reports-archive.adm.cs.cmu.edu/anon/itc/CMU-ITC-099.pdf)) [code source](https://github.com/truillet/icar), [fichier jar](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Outils/icar.1.2.zip) et [documentation](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Outils/icar.pdf)
   * **[$N Recognizer](https://depts.washington.edu/acelab/proj/dollar/ndollar.html)**
 
