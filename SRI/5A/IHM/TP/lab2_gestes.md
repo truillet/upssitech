@@ -15,7 +15,7 @@ Explication du projet, exemple de *$1 Recognizer* à tester, des exemples de cod
 **Publication :** Anthony L., Wobbrock J.O (2010). A Lightweight Multistroke Recognizer for User
 Interface Prototypes. Proceedings of Graphics Interface 2010. Ottawa, Ontario (May 31-June 2, 2010), pp. 245-252
 
-## Le $1 Recognizer
+## Le $1 Recognizer
 L’implémentation d’un moteur de reconnaissance de gestes nécessite normalement des  connaissances avancées en apprentissage. Pour un concepteur en IHM, il est donc difficile d’implémenter la reconnaissance de gestes spécifiques.
 
 L’objectif du projet *$1 Dollar Recognizer* est de permettre le codage d’un moteur de reconnaissance de  gestes dans différents langages, sans  que le développeur ait besoin d’avoir des connaissances dans l’apprentissage. Il a été démontré que l’algorithme détecte les gestes avec un taux proche d’algorithmes plus complexes.
