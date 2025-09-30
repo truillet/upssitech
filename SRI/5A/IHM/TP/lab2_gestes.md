@@ -18,7 +18,7 @@ Interface Prototypes. Proceedings of Graphics Interface 2010. Ottawa, Ontario (M
 ## Le $1 Recognizer
 L’implémentation d’un moteur de reconnaissance de gestes nécessite normalement des  connaissances avancées en apprentissage. Pour un concepteur en IHM, il est donc difficile d’implémenter la reconnaissance de gestes spécifiques.
 
-L’objectif du projet *$1 Dollar Recognizer* est de permettre le codage d’un moteur de reconnaissance de  gestes dans différents langages, sans  que le développeur ait besoin d’avoir des connaissances dans l’apprentissage. Il a été démontré que l’algorithme détecte les gestes avec un taux proche d’algorithmes plus complexes.
+L’objectif du projet *$1 Recognizer* est de permettre le codage d’un moteur de reconnaissance de  gestes dans différents langages, sans  que le développeur ait besoin d’avoir des connaissances dans l’apprentissage. Il a été démontré que l’algorithme détecte les gestes avec un taux proche d’algorithmes plus complexes.
 
 La  Figure 1 montre les gestes (non ambigus) reconnus par l’algorithme.
 Vous pouvez tester le moteur de reconnaissance sur le site proposé par le projet (voir plus haut).
