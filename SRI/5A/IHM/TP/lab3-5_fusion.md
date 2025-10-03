@@ -99,7 +99,7 @@ Par la suite, nous utiliserons la reconnaissance vocale avec le module [sra5](ht
 Pensez aussi à utiliser la synthèse vocale [ppilot5](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.3.zip) (avec ou sans prosodie pour les messages de feedback !)
 
 ### Reconnaissance gestuelle : $1_Recognizer ou $N_Recognizer
-[OneDollarIvy](https://github.com/truillet/OneDollarIvy) implémente l’algorithme  $1Recognizer et est composé d’une application [Processing.org](https://processing.org/) (cf. Figure 2)
+[OneDollarIvy](https://github.com/truillet/OneDollarIvy) implémente l’algorithme  $1_Recognizer et est composé d’une application [Processing.org](https://processing.org/) (cf. Figure 2)
 
 <img src="lab3-5_fig2.png" alt="figure 2"/>
 
@@ -119,7 +119,7 @@ possible des séances :
 
 ### Séance 1 :
 1. Spécifier les grammaires de gestes et de parole
-2. Faire l’apprentissage des gestes ($NR_ecognizer, [$1_Recognizer](https://github.com/truillet/OneDollarIvy))
+2. Faire l’apprentissage des gestes ($N_Recognizer, [$1_Recognizer](https://github.com/truillet/OneDollarIvy))
 3. Décrire vos commandes multimodales sous la forme de chronogrammes (cf. figure 3 ci-dessous).
 L’idée de ces chronogrammes est d’explorer les différentes possibilités d’ordre de commandes sur le [bus ivy](https://github.com/truillet/ivy) afin de mieux prévoir la flexibilité dans le système.
 
