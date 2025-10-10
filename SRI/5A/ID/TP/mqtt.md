@@ -87,14 +87,9 @@ Remplacez l’url utilisée dans l’instruction client.connect ligne 20
 Lancez le sketch. Appuyez sur la base espace dans le sketch Processing.org et visualisez le résultat sur
 le DesktopApp (cf. Figure 3)
 
-*Figure 3* : Visualisation des messages MQTT “Publish/Subscribe”
+*Figure 3* : Visualisation des messages MQTT "Publish/Subscribe"
 
-### Exercice :
-
-Ecrivez  maintenant  à  partir  de  cet  exemple  un  programme  Processing.org  qui  génère  des
-valeurs  aléatoires  de  température  toutes  les  secondes  et  les  envoie  au  broker  MQTT  (vous
-devez déterminer le topic). Chaque instance lancée sera considérée comme une « pièce » de la
-maison)
+Ecrivez maintenant à partir de cet exemple un programme Processing.org qui génère des valeurs aléatoires  de  température toutes les secondes et les envoie au broker MQTT (vous devez déterminer le topic). Chaque instance lancée sera considérée comme une *pièce* de la maison).
 Ecrivez ensuite un programme qui devra s’abonner à l’ensemble des températures émises par
 chacune  des  instances  et  afficher  la  moyenne  générale  des  températures  de  la  « maison »
 (générée donc par chacune des pièces) et les moyennes par « pièce ».
@@ -104,29 +99,26 @@ MQTT  est  multi-langage  et  on  peut  utiliser  Python  comme  langage  suppor
 Raspberry  Pi  par  exemple).  Pour  utiliser  MQTT  sous  Python,  allez  voir  la  documentation  ici :
 https://pypi.python.org/pypi/paho-mqtt
 
-
 Ecrivez le même programme émetteur de données aléatoires en Python.
 
 ### Arduino
 De  la  même  manière,  il  est  possible  de  générer  des  messages  MQTT  depuis  un  périphérique
-compatible arduino connecté à TCP/IP (via un réseau filaire ou en WiFi)
-
-Il  faut  dans  un  premier  temps  récupérer  la  librairie  MQTT  en  faisant  « Croquis  |  Importer  une
-bibliothèque | Gérer les bibliothèques » et chercher la bibliothèque MQTT (Arduino 1.8.7 et ultérieur)
+compatible arduino connecté à TCP/IP (via un réseau filaire ou en WiFi).
+Il  faut  dans  un  premier  temps  récupérer  la  librairie  MQTT  en  faisant  *Croquis | Importer  une
+bibliothèque | Gérer les bibliothèques* et chercher la bibliothèque MQTT (Arduino 1.8.7 et ultérieur)
 
 Vous trouverez dans la section « Exemples » du code permettant d’émettre des données depuis arduino
 directement sur MQTT.
 
-Nota : S’il manque des périphériques arduino de type ESP8266 ou ESP32, vous pourrez peut-être sauter
+**Nota** : S’il manque des périphériques arduino de type ESP8266 ou ESP32, vous pourrez peut-être sauter
 cette étape.
 
-Vous trouverez un exemple de code pour ESP8266 ici 
-https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Code/UPSSITECH_stati
-on_meteo.zip
-Nota2 : le code utilise un NodeMCU (ESP8266) et un capteur d’humidité et de température DHT22
+Vous trouverez un exemple de code pour ESP8266 ici : [Station_meteo](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/Code/UPSSITECH_station_meteo.zip)
+
+**Nota2** : le code utilise un NodeMCU (ESP8266) et un capteur d’humidité et de température DHT22
 
 ### Un broker MQTT
-Le broker MQTT le plus connu et le plus utilisé reste [Mosquitto](https://mosquitto.org) (géré par la fondation eclipse)
+Le broker MQTT le plus connu et le plus utilisé reste [Mosquitto](https://mosquitto.org) (géré par la [fondation eclipse](https://www.eclipse.org))
 
 Vous  avez  aussi  accès  au  broker  MQTT  *UPSSITECH* en ligne à l’adresse IP  ```mqtt.upssitech.fr``` (les
 ports **1883** et **9001** [websockets] sont disponibles avec les identifiants  ```login : upssitech/ password : 2011```) pour vos tests.
