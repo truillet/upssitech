@@ -50,64 +50,55 @@ Les  données  IoT  échangées  peuvent  s’avérer  très  critiques,  c’es
 ## QoS -Qualité de Service
 MQTT intègre en natif la notion de QoS. En effet le publisher à la possibilité de définir la qualité de
 son message.  Trois niveaux sont possibles :
-* Un  message  de  QoS  niveau  0  *At  most  once*  sera  délivré  tout  au  plus  une  fois.  Ce  qui
-signifie  que  le  message  est  envoyé  sans  garantie  de  réception,  (le  broker  n’informe  pas
+* Un  message de QoS niveau 0 *At most once* sera délivré tout au plus une fois. Ce qui
+signifie que le  message est envoyé sans garantie de réception, (le broker n’informe  pas
 l’expéditeur qu’il l’a reçu et le message)
-*  Un  message  de  QoS  niveau  1  *At  least  once*  sera  livré  au  moins  une  fois.  Le  client
+* Un message de QoS niveau 1 *At  least  once*  era  livré  au  moins  une  fois.  Le  client
 transmettra plusieurs fois s’il le faut jusqu’à ce que le Broker lui confirme qu’il a était transmis
 sur le réseau.
-* Un  message  de  QoS  niveau  2  *exactly  once*  sera  obligatoirement  sauvegardé  par
-l’émetteur  et  le  transmettra  toujours  tant  que  le  récepteur  ne  confirme  pas  son  envoi  sur  le
-réseau. La principale différence étant que l’émetteur utilise une phase de reconnaissance plus
-sophistiquée avec le broker pour éviter une duplication des messages (plus lent mais plus sûr).
+* Un  message  de  QoS  niveau  2  *exactly  once*  sera  obligatoirement  sauvegardé  par l’émetteur  et  le  transmettra  toujours  tant  que  le  récepteur  ne  confirme  pas  son  envoi  sur  le réseau. La principale différence étant que l’émetteur utilise une phase de reconnaissance plus sophistiquée avec le broker pour éviter une duplication des messages (plus lent mais plus sûr).
 
-Par défaut, MQTT utilise la QoS de niveau 0.
+Par défaut, MQTT utilise la **QoS de niveau 0**.
 
 ## Exercices de chauffe
 ### Préambule
-Pour pouvoir fonctionner, vous allez devoir utiliser un broker MQTT. Vous pouvez facilement en installer
-un  en  allant  sur  le  site  https://shiftr.io  et  télécharger  la  Desktop  App  (disponible  sous  Linux,
-Windows et MacOS).
+Pour pouvoir fonctionner, vous allez devoir utiliser un broker MQTT. Vous pouvez facilement en installer un  en  allant sur le site [shiftr.io](https://shiftr.io) et télécharger la  **Desktop App** (disponible sous  Linux, Windows et MacOS).
 
-**Nota** : si cela ne fonctionne pas, vous pouvez vous rendre sur le site : https://shiftr.io/try
+**Nota** : si cela ne fonctionne pas, vous pouvez vous rendre sur le site : ```https://shiftr.io/try```
 Dézippez et lancez le DesktopApp shiftr.io : un broker MQTT est lancé sr votre machine, prêt à recevoir
 vos messages ! Vous devriez voir une fenêtre s’ouvrir (cf. Figure 1)
 
 *Figure 2* : DesktopApp – shiftr.io
 
 ### Un premier exemple avec Processing.org
-Ouvrez  Processing,  installez  la  librairie  MQTT  (Menu  « Outils »  |  « Ajouter  un  outil »,  onglet
-« Libraries » MQTT.
+Ouvrez  Processing,  installez  la  librairie  MQTT  (Menu  ```Outils | Ajouter  un  outil```,  onglet
+```Libraries```MQTT.
 
-Ouvrez l’exemple installé avec la librairie MQTT (Menu « Fichier » | « Exemples… »,| « Contributed
-Libraries » | « MQTT », exemple PublishSubscribe.
+Ouvrez l’exemple installé avec la librairie MQTT (Menu ```Fichier | Exemples...,| Contributed
+Libraries | MQTT```, exemple ```PublishSubscribe```.
 
-Remplacez l’url utilisée dans l’instruction client.connect ligne 20
-« mqtt://try:try@broker.shiftr.io » par « mqtt://localhost »
-Lancez le sketch. Appuyez sur la base espace dans le sketch Processing.org et visualisez le résultat sur
-le DesktopApp (cf. Figure 3)
+Remplacez l’url utilisée dans l’instruction client.connect ligne 20 ```mqtt://try:try@broker.shiftr.io``` par ```mqtt://localhost```
+Lancez le sketch. Appuyez sur la base espace dans le sketch Processing.org et visualisez le résultat sur le DesktopApp (cf. Figure 3)
 
 *Figure 3* : Visualisation des messages MQTT "Publish/Subscribe"
 
 Ecrivez maintenant à partir de cet exemple un programme Processing.org qui génère des valeurs aléatoires  de  température toutes les secondes et les envoie au broker MQTT (vous devez déterminer le topic). Chaque instance lancée sera considérée comme une *pièce* de la maison).
-Ecrivez ensuite un programme qui devra s’abonner à l’ensemble des températures émises par
-chacune  des  instances  et  afficher  la  moyenne  générale  des  températures  de  la  « maison »
-(générée donc par chacune des pièces) et les moyennes par « pièce ».
+
+Ecrivez ensuite un programme qui devra s’abonner à l’ensemble des températures émises par chacune des instances et  afficher  la  moyenne  générale  des  températures  de  la  *maison* (générée donc par chacune des pièces) et les moyennes par « pièce ».
 
 ### Python (Paho)
 MQTT  est  multi-langage  et  on  peut  utiliser  Python  comme  langage  support  (intéressant  pour  un
-Raspberry  Pi  par  exemple).  Pour  utiliser  MQTT  sous  Python,  allez  voir  la  documentation  ici :
-https://pypi.python.org/pypi/paho-mqtt
+Raspberry  Pi  par  exemple).  Pour  utiliser  MQTT  sous  Python,  allez  voir  la  [documentation](https://pypi.python.org/pypi/paho-mqtt)
 
 Ecrivez le même programme émetteur de données aléatoires en Python.
 
 ### Arduino
 De  la  même  manière,  il  est  possible  de  générer  des  messages  MQTT  depuis  un  périphérique
 compatible arduino connecté à TCP/IP (via un réseau filaire ou en WiFi).
-Il  faut  dans  un  premier  temps  récupérer  la  librairie  MQTT  en  faisant  *Croquis | Importer  une
-bibliothèque | Gérer les bibliothèques* et chercher la bibliothèque MQTT (Arduino 1.8.7 et ultérieur)
+Il  faut  dans  un  premier  temps  récupérer  la  librairie  MQTT  en  faisant  ```Croquis | Importer  une
+bibliothèque | Gérer les bibliothèques``` et chercher la bibliothèque MQTT (Arduino 1.8.7 et ultérieur)
 
-Vous trouverez dans la section « Exemples » du code permettant d’émettre des données depuis arduino
+Vous trouverez dans la section ```Exemples``` du code permettant d’émettre des données depuis arduino
 directement sur MQTT.
 
 **Nota** : S’il manque des périphériques arduino de type ESP8266 ou ESP32, vous pourrez peut-être sauter
