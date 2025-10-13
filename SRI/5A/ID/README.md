@@ -1,5 +1,4 @@
 # Distributed Interaction
-
 ## General introduction
 * [Distributed Interaction](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/ID_intro_2026.pdf) (2025)
 
@@ -22,7 +21,9 @@
 * [REST and JSON slides](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/REST_JSON.pdf) (2021)
 * [MQTT slides](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/MQTT.pdf) (2022)
 
-**Lab**: [MQTT, REST API](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/MQTT-2.0.pdf) (2024)
+**Lab**: [MQTT, REST API](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/mqtt.md) (2025)
+
+**"Mini-Project"** : [Combining technologies](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/be.md) (2025)
   
 ### Some (useful) links
 * [Shiftr.io](https://www.shiftr.io)
