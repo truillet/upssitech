@@ -6,7 +6,9 @@ Le but de ce bureau d’étude est de **spécifier, concevoir et implémenter un
 3. Le **pointage** (souris) sur la palette de dessin
 
 L’objectif est de développer un **moteur de fusion des différentes modalités** permettant d’approcher
-le célèbre **[put that there](https://www.youtube.com/watch?v=RyBEUyEtxQo)**, une des premières techniques d’interaction multimodale proposée par le MIT il y a maintenant une quarantaine d’années.
+le célèbre **[put that there](https://www.media.mit.edu/publications/put-that-there-voice-and-gesture-at-the-graphics-interface/)**, une des premières techniques d’interaction multimodale proposée par le MIT il y a maintenant une quarantaine d’années.
+
+[<img src="https://img.youtube.com/vi/RyBEUyEtxQo/0.jpg" width=250 alt="Put That There">](https://youtu.be/RyBEUyEtxQo)
 
 ## Architecture
 Les outils devront communiquer selon l’architecture suivante ou équivalente (cf. Figure 1) :
@@ -30,9 +32,9 @@ Le moteur de fusion devra permettre de réaliser cette action de différentes ma
 | etc.  |
 
 *Contraintes additionnelles :*
-1. Aucune interaction proposée ne devra être **monomodale** !
-2. L’action  de  créer  un  objet  devra  être  réalisée  au  moyen  de  la  reconnaissance  de  gestes (d’abord la parole *créer*, suivi par le geste pour choisir la forme).
-3. La couleur et la désignation de la position devront être optionnelles, et l’ordre des deux doit être flexible
+1. Aucune interaction proposée ne devra être **monomodale** (usage d'une seule modalité ou information gobale portée par une modalité) !
+2. L’action de créer un objet pourra être réalisée au moyen de la reconnaissance de gestes (usage de la parole pour le *créer* suivi par exemple par le geste pour choisir la forme).
+3. La couleur et la désignation de la position doivent être *optionnelles*, et l’ordre des deux doit être flexible
 4. Si une couleur est spécifiée, ceci doit se faire via la parole
 5. Dans le cas d’une désignation (*de cette couleur*, *ici*), celle-ci se réalise à la voix et doit être complétée par un pointage/clic sur la palette de dessin
 
@@ -47,8 +49,7 @@ objet.
 | Déplacer ce | rectangle/cercle/triangle/losange | rouge/vert/bleu |  ici |
 | etc. |
 
-**N.B.** : Dans le deuxième cas, l’ajout de la couleur permet ici de désambiguïser un cas où il y aurait 2
-rectangles à l’endroit de la désignation
+**N.B.** : Dans le deuxième cas, l’ajout de la couleur permet ici de désambiguïser un cas où il y aurait 2 rectangles à l’endroit de la désignation.
 
 ### Autres actions
 Il  serait possible de définir d’autres actions (supprimer, modifier la couleur). Ceci n’est pas demandé dans ce bureau d’étude, mais vous pouvez aller plus loin si vous avez le temps.
@@ -59,15 +60,13 @@ de choisir *trois couleurs* comme exemple.
 
 ## Les outils
 ### Langage de programmation recommandé
-Coder en Python, Processing ou Java via un projet VSCode, IntelliJ IDEA, , Eclipse, ….
+Coder en Python, Processing ou Java via un projet VSCode, IntelliJ IDEA, , Eclipse, ...
 
 ### Communication inter-outils : Ivy
 Les outils ([Palette](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/Palette.zip) / $NRecognizer, [$1_Recognizer](https://github.com/truillet/OneDollarIvy) / [sra5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/sra5.zip) et [ppilot5](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.3.zip)) mis à disposition sont des [agents
 Ivy](https://github.com/truillet/ivy).
 
-Les agents ivy communiquent via des messages textuels sur le réseau. Ils s’abonnent aux types de
-messages qui les intéressent. Ces types sont définis par expression régulière. La réception d’un message
-provoque le déclenchement d’un appel de callback/listener.
+Les agents ivy communiquent via des messages textuels sur le réseau. Ils s’abonnent aux types de messages qui les intéressent. Ces types sont définis par expression régulière. La réception d’un message provoque le déclenchement d’un appel de callback/listener.
 
 ### Visualiser les messages sur Ivy
 1. *Un visionneur graphique Ivy*. Le [visionneur](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Outils/visionneur_1_2.zip) vous permet de gérer les agents ainsi que les messages qui transitent sur le bus ivy de manière graphique. Particulièrement pratique lors du développement d’une application utilisant le [bus Ivy](https://github.com/truillet/ivy). 
@@ -77,14 +76,10 @@ provoque le déclenchement d’un appel de callback/listener.
 ### Reconnaissance vocale
 1. *Simulation*. Durant le développement, la reconnaissance peut être simulée. Afin de simuler la reconnaissance des
 mots,  on  peut  utiliser par exemple un  panneau  graphique  avec  plusieurs  boutons.  Chaque  bouton  représentera  une commande vocale à reconnaitre (*cet objet*, *ici*, *met ça*», ...). Un clic sur le bouton enverra le message  [Ivy](https://github.com/truillet/ivy)  correspondant.  Afin  de  pouvoir  interchanger  facilement  ce  panneau  avec  l’application [sra5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/sra5.zip), les boutons devront envoyer des messages [Ivy](https://github.com/truillet/ivy) de la forme suivante :
-```
-sra5 Parsed='resReco' Confidence='proba' NP='id' Num_A='id'
-```
+```sra5 Parsed='resReco' Confidence='proba' NP='id' Num_A='id'```
 
 Exemple pour la reconnaissance de l’expression *cet objet* on enverra :
-```
-sra5 Parsed='cetobjet' Confidence=0,8 NP=1 Num_A=0
-```
+```sra5 Parsed='cetobjet' Confidence=0,8 NP=1 Num_A=0```
 
 **Note** :  Confidence  précise  le  taux  de  confiance  du  ou  des  concepts  reconnus ;  NP  et  Num_A
 précisent  le  nombre  d’items  reconnus  depuis  le  lancement  et  l’alternative  de  reconnaissance.  Vous
