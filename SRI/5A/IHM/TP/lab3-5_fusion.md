@@ -152,7 +152,7 @@ Chaque jour de retard se verra infligé 0,25 pt de pénalité.
 
 ## Liens
 * Richard  Bolt,  *“Put  that  there”:  Voice  and  Gesture  at  the  Graphics  Interface*,  Proceedings  of SIGRAPH’80, https://dl.acm.org/citation.cfm?id=807503
-*  Denis Lalanne, Laurence Nigay, Philippe Palanque, Peter Robinson, Jean Vanderdonckt, Jean-François Ladry, *Fusion Engines for Multimodal Input: A Survey*, Proceedings of ICMI-MLMI’09, http://iihm.imag.fr/publs/2009/FinalSurvey.pdf
+*  Denis Lalanne, Laurence Nigay, Philippe Palanque, Peter Robinson, Jean Vanderdonckt, Jean-François Ladry, *Fusion Engines for Multimodal Input: A Survey*, Proceedings of ICMI-MLMI’09, https://iihm.imag.fr/publs/2009/FinalSurvey.pdf
 * Sharon Oviatt, *Ten Myths of Mutimodal Interaction*, Communication of the ACM, november 1999, https://pdfs.semanticscholar.org/440a/4e4e842968c58a45ac1e920abfda1c4803bc.pdf
 * Marcos Serrano, *Interaction multimodale en entrée : Conception et Prototypage*, Thèse en Informatique de l’Université de Grenoble, 2010, https://tel.archives-ouvertes.fr/tel-01017242/document
 * Matthiew Turk, *Multimodal interaction: A review*. Pattern Recognition Lett. 2013, https://dx.doi.org/10.1016/j.patrec.2013.07.003
