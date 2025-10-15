@@ -25,6 +25,9 @@ L’objectif est de développer un **mini-moteur de fission multimodale** permet
 
 Vous pouvez utiliser l'exemple html disponible ici	:(https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/Toulouse.html) pour effectuer vos tests.
 
+**Délai pour le rendu : dimanche 12 décembre 2025, 23h55 UTC+1**
+Le travail sera envoyé à Philippe.Truillet@upssitech.fr (Si vous avez des fichiers trop lourds à envoyer, vous pouvez utiliser un service cloud ou de transfert comme https://filesender.renater.fr)
+
 ### outils disponibles
 *	[ppilot5](https://github.com/truillet/ivy/blob/master/agents/doc_ppilot5.md), agent ivy de synthèse vocale (prend en compte le format [SSML](https://www.w3.org/TR/speech-synthesis11)
 *	[Braille_display](https://github.com/truillet/ups/blob/master/m2ihm/TP/Braille_display.zip), agent ivy simulant une plage braille 10 points braille
