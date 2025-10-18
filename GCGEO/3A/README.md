@@ -1,5 +1,5 @@
 # Algorithmique / GNU Octave & Jupyter Notebook
-Les travaux pratiques sont disponibles pour deux langages : Matlab (avec GNU Octave) et Python (Jupyter notebbok). Avous de choisir !
+Les travaux pratiques sont disponibles pour deux langages : Matlab (avec [GNU Octave](https://octave.org)) et Python ([Jupyter notebook](https://jupyter.org)). Avous de choisir !
 
 ## introduction
 [<img src="https://img.youtube.com/vi/cDA3_5982h8/0.jpg" width=250 alt="Exact Instructions Challenge - THIS is why my kids hate me. | Josh Darnit">](https://www.youtube.com/watch?v=cDA3_5982h8)
@@ -9,7 +9,7 @@ Les travaux pratiques sont disponibles pour deux langages : Matlab (avec GNU Oct
 * [pptx présentation GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TD/gnu_octave_2025.pdf) (2025)
 * [notes de cours GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TD/octave_v1.94.pdf) (2025)
 
-Vous pouvez télécharger **GNU Octave** -->[ici](https://octave.org/download)<-- (dernière version *10.2.0* du 03/06/2025) 
+Vous pouvez télécharger **GNU Octave** -->[ici](https://octave.org/download)<-- (dernière version *10.3.0* du 30/09/2025) 
 
 **Nota** : vous pouvez essayer [**GNU Octave** en ligne](https://octave-online.net)
 
