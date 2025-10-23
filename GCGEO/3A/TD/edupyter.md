@@ -10,7 +10,7 @@ Effectuez un clic droit dessus et choisissez l’environnement que vous voulez o
 ## Scripts Jupyter Notebook dans edupyter
 Les scripts Jupyter Notebook sont stockés dans le sous-répertoire ```IPYNB``` d’edupyter
 
-Glissez-déposer  vos  notebooks  dans  ce  répertoire  si  vous  voulez  les  sauvegarder  ou  les  importer !
+Glissez-déposer  vos  notebooks  dans  ce  répertoire  si  vous  voulez  les  sauvegarder  ou  les  importer !
 Rafraichissez la page web : c’est prêt !
 
 
