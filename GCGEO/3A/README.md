@@ -24,9 +24,9 @@ Si vous préférez programmer en [python](https://www.python.org) avec [Jupyter 
 ## supports de TD
 * **TD 1** : [Structures de contrôle, tableaux/vecteurs/matrices](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TD/td1.md) (2025)
 * **TD 2** : [Fonctions](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TD/td2.md) (2025)
-* **TD 3** : [Les aventures de pi et méthodes d'intégration](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TD/TD3_Pi_Integration.pdf) (2024)
+* **TD 3** : [Les aventures de pi et méthodes d'intégration](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TD/td3.md) (2025)
   * [le nombre](https://www.nombrepi.com) $\pi$
-* **TD 4** : [Algorithmes de tri](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TD/TD4_algorithmes_de_tri.pdf) (2024)
+* **TD 4** : [Algorithmes de tri](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TD/td4.md) (2025)
 
 ## supports de TP
 * **TP 1** :
