@@ -60,14 +60,11 @@ Vus pouvez aller jeter un oeil chez [notion](https://ctruille.notion.site/TP-1A-
 * **TP 5/6** : [Algorithmes de tri](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/solutions/tp5_6.zip) (2020)
 
 ## Projets
-* **2018-2019** : [A la dérive](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/Projet_2019_v1.0.pdf) - Le rendu sera à effectuer pour le 11 janvier 2019 23h55 UTC
-* **2019-2020** : [Tri (très) sélectif](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/Projet-2020_v1.0_GCGEO.pdf) - Le rendu sera à effectuer pour le 12 janvier 2020 23h55 UTC
-* **2020-2021** : [A la recherche du "Zéro"](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/Projet-2021_v1.0.pdf) - Le rendu sera à effectuer pour le 10 janvier 2021 23h55 UTC
 * **2021-2022** : [Des rayons et des formes](https://github.com/vgaildrat/2021_GCGEO_Projet) - Le rendu sera à effectuer pour le 16 janvier 2022 23h55 UTC
 * **2022-2023** : ["Une aire" de déjà-vu](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/Projet-2023_v1.0.pdf) - Le rendu sera à effectuer pour le 13 janvier 2023 23h55 UTC
 * **2023-2024** : [interpolation polynomiale](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/Projet-2024_v1.0.pdf) - Le rendu sera à effectuer pour le 14 janvier 2024 23h55 UTC
-* **2024-2025** : [Les 4 fantastiques : super "zéros" en action](https://github.com/truillet/upssitech/blob/master/GCGEO/31A/TP/Projet-2025_v1.0.pdf) - Le rendu sera à effectuer pour le 12 janvier 2025 23h55 UTC
-* **2025-2026**  - Le rendu sera à effectuer pour le 11 janvier 2026 23h55 UTC
+* **2024-2025** : [Les 4 fantastiques : super "zéros" en action](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/Projet-2025_v1.0.pdf) - Le rendu sera à effectuer pour le 12 janvier 2025 23h55 UTC
+* **2025-2026**  - [(boite de) dérivation](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/Projet-2026_v1.0.pdf) Le rendu sera à effectuer pour le 11 janvier 2026 23h55 UTC
 
 ### Contrôles Continus
 * **2018-2019** : le sujet [1](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/CC/TP8%20-%20Controle%20Continu_2018_GCGE0_Gr1.pdf) et le [2](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/CC/TP8%20-%20Controle%20Continu_2018_GCGEO_Gr2.pdf)
