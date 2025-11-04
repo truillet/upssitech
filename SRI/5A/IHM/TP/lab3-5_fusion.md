@@ -43,7 +43,7 @@ Cette action permet de déplacer un objet créé auparavant. L’utilisateur dev
 de déplacement via soit un geste, soit la parole. La désignation se fera comme pour la création d’un
 objet.
 
-| action | forme | (opt.) couleur | (opt.) localisation|
+| action | forme | (opt.) couleur | localisation|
 |----|----|----|----|
 | Déplacer ce | rectangle/cercle/triangle/losange | | ici |
 | Déplacer ce | rectangle/cercle/triangle/losange | rouge/vert/bleu |  ici |
