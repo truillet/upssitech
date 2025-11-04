@@ -145,7 +145,7 @@ d’écrans de l’utilisation).
 3. Un exécutable ou un point d’entrée de votre projet (exemple : un fichier .bat ou .sh lançant l’exécution  de tous les outils nécessaires au fonctionnement de l’application). En alternative, décrivez le mode d’utilisation dans le rapport.
 4. En option, vous pourrez fournir une vidéo avec un exemple d’exécution de l’application.
 
-**Délai pour le rendu : dimanche 05 décembre 2025, 23h55 UTC+1**
+**Délai pour le rendu : dimanche 07 décembre 2025, 23h55 UTC+1**
 Le travail sera envoyé à Philippe.Truillet@upssitech.fr (Si vous avez des fichiers trop lourds à envoyer, vous pouvez utiliser un service cloud ou de transfert comme https://filesender.renater.fr)
 
 Chaque jour de retard se verra infligé 0,25 pt de pénalité.
