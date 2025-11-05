@@ -3,7 +3,7 @@
 La communication humain-machine peut se définir comme un cadre de relations entre trois acteurs : l’utilisateur, l’application et l’interface. Les échanges d’informations entre l’usager et la machine constituent le support de la communication. Ceci nous amène à considérer le document électronique comme un objet de communication entre un auteur et un ou plusieurs lecteurs. Sur cet objet, différents processus tels que la compréhension, le repérage ou l’appropriation du texte sont mis en jeu au travers d’une interface. Un document électronique structuré se décompose en :
 *	son contenu textuel,
 *	et ses attributs typo-dimensionnels qui représentent la mise en forme matérielle du texte comme par exemple le style *titre*.
-*	
+  
 Ces derniers sont porteurs de sens en sus du contenu du document proprement dit.
 L’objectif est ici d’étudier une des propriétés de la multimodalité CARE- **C**omplémentarité, **A**ssignation, **R**edondance et **É**quivalence définies par ([Coutaz, 1994](http://iihm.imag.fr/publs/1994/IHM94_CARE.Fr.pdf)) dans le cadre d'usagers non-voyants.
 
@@ -25,7 +25,7 @@ L’objectif est de développer un **mini-moteur de fission multimodale** permet
 
 Vous pouvez utiliser l'exemple html disponible ici	:(https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/Toulouse.html) pour effectuer vos tests.
 
-**Délai pour le rendu : dimanche 12 décembre 2025, 23h55 UTC+1**
+**Délai pour le rendu : dimanche 14 décembre 2025, 23h55 UTC+1**
 Le travail sera envoyé à Philippe.Truillet@upssitech.fr (Si vous avez des fichiers trop lourds à envoyer, vous pouvez utiliser un service cloud ou de transfert comme https://filesender.renater.fr)
 
 ### outils disponibles
