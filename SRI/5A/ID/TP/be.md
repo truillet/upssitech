@@ -1,7 +1,7 @@
 # Bureau d’Etudes - un superviseur de capteurs réels et virtuels
-*par groupe de 5 à 8)*
+*(A réaliser par groupe de 5 à 8)*
 
-Il s’agit de créer, de gérer et de superviser un réseau de capteurs à partir de données *réelles locales* (température, pression, luminosité, taux d’humidité, détection, ...) et à distance (en utilisant par exemple des données récupérées via une API REST).
+Votre mission va être de créer, de gérer et de superviser un réseau de capteurs à partir de données *réelles locales* (température, pression, luminosité, taux d’humidité, détection, ...) et à distance (en utilisant par exemple des données récupérées via une API REST).
 
 Pour ce faire :
 1.  créez un client MQTT qui récupère les données de la météo locale via l’API OpenWeatherMap et les envoie sur le broker.
