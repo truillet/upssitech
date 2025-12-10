@@ -3,7 +3,7 @@
 
 Votre mission va être de créer, de gérer et de superviser un réseau de capteurs à partir de données *réelles locales* (température, pression, luminosité, taux d’humidité, détection, ...) et à distance (en utilisant par exemple des données récupérées via une API REST).
 
-<img src="https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/images/rpi.jpg" width=150>
+<img src="https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/images/rpi.jpg" align="center" width=300>
 
 
 Pour ce faire :
