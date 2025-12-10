@@ -14,7 +14,7 @@ Pour ce faire :
 6.  proposez enfin un dashboard de vos données en javascript, Python, … (et *MQTT* ou *MQTT over websoket*) permettant de suivre l’évolution des données dans le temps et déclencher des alertes à l’utilisateur.
 
 ## A votre disposition
-* un broker MQTT en ligne
+* un broker MQTT (soit en ligne - mqtt.upssitech.fr, soit local - [Shiftr.io](https://www.shiftr.io))
 * des arduino, NodeMCU et des capteurs
 * un raspberry Pi 4 qui délibre une vidéo sous forme de stream RTSP
 
