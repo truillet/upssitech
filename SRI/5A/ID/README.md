@@ -23,7 +23,7 @@
 
 **Lab**: [MQTT, REST API](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/mqtt.md) (2025)
 
-**"Mini-Project"** : [Combining technologies](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/be.md) (2025)
+**"Short-Term Project"** : [Combining technologies](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/be.md) (2025)
   
 ### Some (useful) links
 * [Shiftr.io](https://www.shiftr.io)
@@ -39,6 +39,7 @@ Depending on your hardware, you may need to use the [CH341SER](https://github.co
 * [ROS2](https://github.com/ros2) : Robotic Operating System
 * [TUIO](https://www.tuio.org) : Tangible User Interface Object (based on OSC protocol) is an open protocol for the communication of data from devices like a multi-touch display, an interactive surface, or a computer vision-based motion tracker
 
+----------------------------------------------------------
 ## Older resources
 ### ivy middleware
 * [ivy presentation v. 2.5 (EN)](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/C_ivy_2.5en.pdf) (2021)
