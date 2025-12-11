@@ -26,14 +26,12 @@
 **"Short-Term Project"** : [Combining technologies](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/be.md) (2025)
   
 ### Some (useful) links
-* [Shiftr.io](https://www.shiftr.io)
-* [Eclipse Mosquitto - MQTT brocker](https://mosquitto.org)
-* [Paho - MQTT library](https://pypi.org/project/paho-mqtt)
-* [Introduction to arduino : ESP8266 et ESP32](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/arduino.pdf) (2022)
-
-Depending on your hardware, you may need to use the [CH341SER](https://github.com/HobbyComponents/CH340-Drivers/tree/master/CH341SER) [mainly for arduino clones] driver or driver [CP210x USB to UART Bridge](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers), useful for ESP32 (2022)
-* [MQTT protocol in ESP32](https://highvoltages.co/iot-internet-of-things/mqtt/mqtt-protocol-in-esp32)
-* code sample: [DHT22 / ESP32](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Code/DHT_ESP32.zip) et [Station Météo](https://github.com/truillet/Projets/tree/master/Weather_Station)
+* **MQTT** - [Shiftr.io](https://www.shiftr.io), [Eclipse Mosquitto - MQTT brocker](https://mosquitto.org), [Paho - MQTT library](https://pypi.org/project/paho-mqtt)
+* **arduino**
+    * [Introduction to arduino : ESP8266 et ESP32](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/arduino.pdf) (2022)
+    * Depending on your hardware, you may need to use the [CH341SER](https://github.com/HobbyComponents/CH340-Drivers/tree/master/CH341SER) [mainly for arduino clones] driver or driver [CP210x USB to UART Bridge](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers), useful for ESP32 (2022)
+    * [MQTT protocol in ESP32](https://highvoltages.co/iot-internet-of-things/mqtt/mqtt-protocol-in-esp32)
+    * code sample: [DHT22 / ESP32](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Code/DHT_ESP32.zip) et [Station Météo](https://github.com/truillet/Projets/tree/master/Weather_Station)
 
 ## Other interesting middlewares
 * [ROS2](https://github.com/ros2) : Robotic Operating System
