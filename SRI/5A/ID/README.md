@@ -23,7 +23,7 @@
 
 **Lab**: [MQTT, REST API](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/mqtt.md) (2025)
 
-<font color"red">**"Short-Term Project"**</font> : [Combining technologies](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/be.md) (2025)
+<font color="red">**"Short-Term Project"**</font> : [Combining technologies](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/be.md) (2025)
   
 ### Some (useful) links
 * **MQTT** - [Shiftr.io](https://www.shiftr.io), [Eclipse Mosquitto - MQTT brocker](https://mosquitto.org), [Paho - MQTT library](https://pypi.org/project/paho-mqtt)
