@@ -1,7 +1,7 @@
 # Interaction Homme-Machine / Prototypage
 
 ## Introduction à l'interaction homme-machine
-* [support de cours](https://github.com/truillet/upssitech/blob/master/SRI/3A/Cours/survol_ihm_3_96.pdf) (2024)
+* [support de cours](https://github.com/truillet/upssitech/blob/master/SRI/3A/Cours/survol_ihm_4.pdf) (2025)
 * **TD1** - [Lois Psycho-Physiques](https://github.com/truillet/upssitech/blob/master/SRI/3A/TD/td1.md) (2025)
 * **TD2** - [Conception de systèmes interactifs](https://github.com/truillet/upssitech/blob/master/SRI/3A/TD/BE_csi_v2.3.pdf) (2024)
 
