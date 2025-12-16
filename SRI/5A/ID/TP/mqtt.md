@@ -1,5 +1,5 @@
-# MQTT : MQ Telemetry/Transport - Un protocole pour l’IoT
-## MQTT : comment ça marche ?
+# MQTT / API REST
+## MQTT : MQ Telemetry/Transport - Un protocole pour l’IoT, comment ça marche ?
 [MQTT](https://mqtt.org) est un protocole ouvert, simple, léger et facile à mettre en œuvre. Ce protocole est idéal pour répondre aux besoins suivants :
 * l’utilisation d’une très faible bande passante,
 * l’utilisation sur les réseaux sans fils,
@@ -118,3 +118,36 @@ Le broker MQTT le plus connu et le plus utilisé reste [Mosquitto](https://mosqu
 
 Vous  avez  aussi  accès  au  broker  MQTT  *UPSSITECH* en ligne à l’adresse IP  ```mqtt.upssitech.fr``` (les
 ports **1883** et **9001** [websockets] sont disponibles avec les identifiants  ```login : upssitech/ password : 2011```) pour vos tests.
+
+## API REST - Representational State Transfer
+**REST** (**RE**presentational **S**tate **T**ransfer) n’est pas à proprement parlé un protocole mais un *style d’architecture* défendu par Roy Fielding en 2000.
+Ce dernier a défini plusieurs contraintes afin d’être conforme à l’architecture REST (*REST compliant*)
+*	Le client (interface utilisateur) et le serveur sont indépendants (stockage, ...)
+*	Aucune variable de session ou état volatile ne doit être enregistré côté serveur : chaque requête doit être indépendante.
+*	Le serveur indique au client s’il peut mettre en cache les données qu’il reçoit afin d’éviter les requêtes inutiles et préserver la bande passante.
+*	Une interface uniforme : chaque ressource est accessible de manière unique. 
+*	Une hiérarchie par couche
+
+A la différence des protocoles **RPC** (**R**emote **P**rocedure **C**all) et **SOAP** (**S**imple **O**bject **A**ccess **P**rotocol), **REST** n’impose que peu de contraintes. Les applications respectant cette architecture sont dites **RESTful**.
+Les ressources peuvent subir quatre opérations de base : **CRUD** (**C**reate, **R**etrieve, **U**pdate et **D**elete). **REST** est souvent utilisé dans un contexte web avec le protocole HTTP en tirant parti du protocole lui-même (mots-clés GET, POST, PUT et DELETE) et de l’utilisation d’URI (Uniform Resource Identifier) comme représentant d’identification des ressources.
+
+L’API peut utiliser n’importe quel moyen de communication pour initier l’interaction entre les applications. Les formats d’échanges entre les clients et le serveur sont la plupart du temps du plaintext, xml (eXtended Markup Language) ou JSON (JavaScript Object Notation) définie par la *RFC 4627*	 (https://tools.ietf.org/html/rfc4627).	
+REST a de nombreux avantages comme être évolutif, simple à mettre en œuvre avec des représentations multiples mais a l’inconvénient de ne garantir qu’une sécurité restreinte par l’emploi des méthodes HTTP.
+
+### Exercice avec un client http pour consommer les services
+Nous utilisons ici le module python requests (``pip install requests``) qui permet d’effectuer des requêtes web à partir d’un fichier python.
+Télécharger l’exemple à l’adresse suivante :	https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/Code/myHttpClient.py
+
+Décoder les données JSON dans une structure préalablement définie avec un parser JSON (``pip install json``)
+
+### Lire et traiter du JSON via une API REST
+*	Créer un compte (gratuit) sur open exchange rates (https://openexchangerates.org) et créer une application (dans le langage que vous souhaitez) qui utilise l’API REST proposée pour permettre d’afficher le taux de change entre différentes monnaies (exemple $US, € et £)
+*	Avec https://openweathermap.org, développer une application qui permet de demander à l’utilisateur un nom de ville (dans une interface graphique ou non), faire l’appel nécessaire, récupérer et afficher la météo du jour (icône en png) et la température de la ville concernée.	
+
+**Nota** : cet exercice a déjà été proposé dans le cadre de l’initiation à Processing.org en 1ère année 😉
+
+### Produire du contenu JSON avec une API REST
+Créer une petite application web *Annuaire* qui renvoie une structure JSON contenant les coordonnées complètes de la personne recherchée lorsque l’utilisateur tape une url depuis un navigateur web de type : http://@ip/searchbyname?name=nom
+
+**Nota** : vous pouvez par exemple utiliser un framework web en python comme bottle (https://bottlepy.org) ou flask (https://flask.palletsprojects.com)
+Créer enfin une application cliente (dans le langage de votre choix) qui fait les appels nécessaires au serveur et affiche les résultats dans un format *lisible*.
