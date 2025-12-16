@@ -4,7 +4,7 @@
 ## Votre mission
 Votre mission va être de créer, de gérer et de superviser un réseau de capteurs à partir de données *réelles locales* (température, pression, luminosité, taux d’humidité, détection, ...) et à distance (en utilisant par exemple des données récupérées via une API REST).
 
-<img src="https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/images/rpi.jpg" align="center" width=300>
+<img src="https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/images/rpi.jpg" align="center" width=300 alt="Raspberri Pi">
 
 
 ## Votre travail
@@ -16,13 +16,13 @@ Votre mission va être de créer, de gérer et de superviser un réseau de capte
 
 ### A votre disposition
 * un broker MQTT (soit en ligne - mqtt.upssitech.fr, soit local - [Shiftr.io](https://www.shiftr.io))
-* des arduino, NodeMCU, ESP32 et des capteurs
+* des arduino, NodeMCU, ESP32 ... et des capteurs
 * des raspberry Pi 4 qui délivrent des vidéos sous forme de stream RTSP
 
 ### API REST intéressantes pour le projet
-* **OpenWeatherMap**, https://openweathermap.org/api
-* **Tisseo**, https://data.toulouse-metropole.fr/explore/dataset/api-temps-reel-tisseo/api
-* **JCDecaux**, https://developer.jcdecaux.com
+* **API OpenWeatherMap**, https://openweathermap.org/api
+* **API Tisseo**, https://data.toulouse-metropole.fr/explore/dataset/api-temps-reel-tisseo/api
+* **API JCDecaux**, https://developer.jcdecaux.com
 
 **Délai pour le rendu** : *fin  de séance quel que soit le résultat obtenu*
 Le travail sera envoyé à Philippe.Truillet@upssitech.fr (Si vous avez des fichiers trop lourds à envoyer, vous pouvez utiliser un service cloud ou de transfert comme https://filesender.renater.fr)
