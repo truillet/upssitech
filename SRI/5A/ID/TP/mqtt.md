@@ -150,4 +150,5 @@ Décoder les données JSON dans une structure préalablement définie avec un pa
 Créer une petite application web *Annuaire* qui renvoie une structure JSON contenant les coordonnées complètes de la personne recherchée lorsque l’utilisateur tape une url depuis un navigateur web de type : http://@ip/searchbyname?name=nom
 
 **Nota** : vous pouvez par exemple utiliser un framework web en python comme bottle (https://bottlepy.org) ou flask (https://flask.palletsprojects.com)
+
 Créer enfin une application cliente (dans le langage de votre choix) qui fait les appels nécessaires au serveur et affiche les résultats dans un format *lisible*.
