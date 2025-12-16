@@ -1,4 +1,4 @@
-<img src="https://github.com/truillet/upssitech/blob/master/UT_UPSSITECH.png" width=150>
+<img src="https://github.com/truillet/upssitech/blob/master/UT-UPSSITECH.png" width=150>
 
 # Notes de Cours/TD/TP
 Vous trouverez ici les notes de cours des :
