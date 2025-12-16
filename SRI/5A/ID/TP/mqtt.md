@@ -19,7 +19,7 @@ Le protocole MQTT utilise une architecture *publish/subscribe* en contraste avec
 Le point central de la communication est le broker MQTT (qui par défaut utilise le port **1883** pour les
 connexions non chiffrées et le port **8883** pour celles chiffrées en [SSL/TLS](https://www.certeurope.fr/blog/tout-savoir-sur-les-certificats-ssl/)), en charge de relayer les messages des émetteurs vers les clients. Chaque client  s’abonne via un message vers le broker : le *topic* (sorte d’information de routage pour le broker) qui permettra au  broker de réémettre les messages reçus des producteurs de données vers les clients. Les clients et les producteurs n’ont ainsi pas à se connaître, ne communiquant qu’au travers des topics. Cette architecture permet des solutions multi-échelles.
 
-
+<img src="https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/images/mqtt_fig1.jpg" align="center" width=300 alt="architecture">
 *Figure 1* : Architecture MQTT “Publish/Subscribe” (tiré du site https://mqtt.org)
 
 Chaque client MQTT a une connexion ouverte en permanence avec le broker. Si la connexion s’arrête,
@@ -68,6 +68,7 @@ Pour pouvoir fonctionner, vous allez devoir utiliser un broker MQTT. Vous pouvez
 Dézippez et lancez le DesktopApp shiftr.io : un broker MQTT est lancé sr votre machine, prêt à recevoir
 vos messages ! Vous devriez voir une fenêtre s’ouvrir (cf. Figure 1)
 
+<img src="https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/images/mqtt_fig2.jpg" align="center" width=300 alt="application shiftr.io">
 *Figure 2* : DesktopApp – shiftr.io
 
 ### Un premier exemple avec Processing.org
@@ -80,6 +81,7 @@ Libraries | MQTT```, exemple ```PublishSubscribe```.
 Remplacez l’url utilisée dans l’instruction client.connect ligne 20 ```mqtt://try:try@broker.shiftr.io``` par ```mqtt://localhost```
 Lancez le sketch. Appuyez sur la base espace dans le sketch Processing.org et visualisez le résultat sur le DesktopApp (cf. Figure 3)
 
+<img src="https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/images/mqtt_fig3.jpg" align="center" width=300 alt="messages sur shiftr.io">
 *Figure 3* : Visualisation des messages MQTT "Publish/Subscribe"
 
 Ecrivez maintenant à partir de cet exemple un programme Processing.org qui génère des valeurs aléatoires  de  température toutes les secondes et les envoie au broker MQTT (vous devez déterminer le topic). Chaque instance lancée sera considérée comme une *pièce* de la maison).
