@@ -49,14 +49,10 @@ Les  données  IoT  échangées  peuvent  s’avérer  très  critiques,  c’es
 * Authentification par login/mot de passe.
 
 ## QoS -Qualité de Service
-MQTT intègre en natif la notion de QoS. En effet le publisher à la possibilité de définir la qualité de
-son message.  Trois niveaux sont possibles :
+MQTT intègre en natif la notion de QoS. En effet le publisher à la possibilité de définir la qualité de son message.  Trois niveaux sont possibles :
 * Un  message de QoS niveau 0 *At most once* sera délivré tout au plus une fois. Ce qui
-signifie que le  message est envoyé sans garantie de réception, (le broker n’informe  pas
-l’expéditeur qu’il l’a reçu et le message)
-* Un message de QoS niveau 1 *At  least  once*  era  livré  au  moins  une  fois.  Le  client
-transmettra plusieurs fois s’il le faut jusqu’à ce que le Broker lui confirme qu’il a était transmis
-sur le réseau.
+signifie que le  message est envoyé sans garantie de réception, (le broker n’informe  pas l’expéditeur qu’il l’a reçu et le message)
+* Un message de QoS niveau 1 *At  least  once*  era  livré  au  moins  une  fois.  Le  client transmettra plusieurs fois s’il le faut jusqu’à ce que le Broker lui confirme qu’il a était transmis sur le réseau.
 * Un  message  de  QoS  niveau  2  *exactly  once*  sera  obligatoirement  sauvegardé  par l’émetteur  et  le  transmettra  toujours  tant  que  le  récepteur  ne  confirme  pas  son  envoi  sur  le réseau. La principale différence étant que l’émetteur utilise une phase de reconnaissance plus sophistiquée avec le broker pour éviter une duplication des messages (plus lent mais plus sûr).
 
 Par défaut, MQTT utilise la **QoS de niveau 0**.
@@ -92,22 +88,17 @@ Ecrivez maintenant à partir de cet exemple un programme Processing.org qui gén
 Ecrivez ensuite un programme qui devra s’abonner à l’ensemble des températures émises par chacune des instances et  afficher  la  moyenne  générale  des  températures  de  la  *maison* (générée donc par chacune des pièces) et les moyennes par « pièce ».
 
 ### Python (Paho)
-MQTT  est  multi-langage  et  on  peut  utiliser  Python  comme  langage  support  (intéressant  pour  un
-Raspberry  Pi  par  exemple).  Pour  utiliser  MQTT  sous  Python,  allez  voir  la  [documentation](https://pypi.python.org/pypi/paho-mqtt)
+MQTT  est  multi-langage  et  on  peut  utiliser  Python  comme  langage  support  (intéressant  pour  un Raspberry  Pi  par  exemple).  Pour  utiliser  MQTT  sous  Python,  allez  voir  la  [documentation](https://pypi.python.org/pypi/paho-mqtt)
 
 Ecrivez le même programme émetteur de données aléatoires en Python.
 
 ### Arduino
-De  la  même  manière,  il  est  possible  de  générer  des  messages  MQTT  depuis  un  périphérique
-compatible arduino connecté à TCP/IP (via un réseau filaire ou en WiFi).
-Il  faut  dans  un  premier  temps  récupérer  la  librairie  MQTT  en  faisant  ```Croquis | Importer  une
-bibliothèque | Gérer les bibliothèques``` et chercher la bibliothèque MQTT (Arduino 1.8.7 et ultérieur)
+De  la  même  manière,  il  est  possible  de  générer  des  messages  MQTT  depuis  un  périphérique compatible arduino connecté à TCP/IP (via un réseau filaire ou en WiFi).
+Il  faut  dans  un  premier  temps  récupérer  la  librairie  MQTT  en  faisant  ```Croquis | Importer  une bibliothèque | Gérer les bibliothèques``` et chercher la bibliothèque MQTT (Arduino 1.8.7 et ultérieur)
 
-Vous trouverez dans la section ```Exemples``` du code permettant d’émettre des données depuis arduino
-directement sur MQTT.
+Vous trouverez dans la section ```Exemples``` du code permettant d’émettre des données depuis arduino directement sur MQTT.
 
-**Nota** : S’il manque des périphériques arduino de type ESP8266 ou ESP32, vous pourrez peut-être sauter
-cette étape.
+**Nota** : S’il manque des périphériques arduino de type ESP8266 ou ESP32, vous pourrez peut-être sauter cette étape.
 
 Vous trouverez un exemple de code pour ESP8266 ici : [Station_meteo](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/Code/UPSSITECH_station_meteo.zip)
 
@@ -116,8 +107,7 @@ Vous trouverez un exemple de code pour ESP8266 ici : [Station_meteo](https://git
 ### Un broker MQTT
 Le broker MQTT le plus connu et le plus utilisé reste [Mosquitto](https://mosquitto.org) (géré par la [fondation eclipse](https://www.eclipse.org))
 
-Vous  avez  aussi  accès  au  broker  MQTT  *UPSSITECH* en ligne à l’adresse IP  ```mqtt.upssitech.fr``` (les
-ports **1883** et **9001** [websockets] sont disponibles avec les identifiants  ```login : upssitech/ password : 2011```) pour vos tests.
+Vous  avez  aussi  accès  au  broker  MQTT  *UPSSITECH* en ligne à l’adresse IP  ```mqtt.upssitech.fr``` (les ports **1883** et **9001** [websockets] sont disponibles avec les identifiants  ```login : upssitech/ password : 2011```) pour vos tests.
 
 ## API REST - Representational State Transfer
 **REST** (**RE**presentational **S**tate **T**ransfer) n’est pas à proprement parlé un protocole mais un *style d’architecture* défendu par Roy Fielding en 2000.
@@ -129,13 +119,14 @@ Ce dernier a défini plusieurs contraintes afin d’être conforme à l’archit
 *	Une hiérarchie par couche
 
 A la différence des protocoles **RPC** (**R**emote **P**rocedure **C**all) et **SOAP** (**S**imple **O**bject **A**ccess **P**rotocol), **REST** n’impose que peu de contraintes. Les applications respectant cette architecture sont dites **RESTful**.
-Les ressources peuvent subir quatre opérations de base : **CRUD** (**C**reate, **R**etrieve, **U**pdate et **D**elete). **REST** est souvent utilisé dans un contexte web avec le protocole HTTP en tirant parti du protocole lui-même (mots-clés GET, POST, PUT et DELETE) et de l’utilisation d’URI (Uniform Resource Identifier) comme représentant d’identification des ressources.
+Les ressources peuvent subir quatre opérations de base : **CRUD** (**C**reate, **R**etrieve, **U**pdate et **D**elete). **REST** est souvent utilisé dans un contexte web avec le protocole HTTP en tirant parti du protocole lui-même (mots-clés GET, POST, PUT et DELETE) et de l’utilisation d’**URI** (**U**niform **R**esource **I**dentifier) comme représentant d’identification des ressources.
 
-L’API peut utiliser n’importe quel moyen de communication pour initier l’interaction entre les applications. Les formats d’échanges entre les clients et le serveur sont la plupart du temps du plaintext, xml (eXtended Markup Language) ou JSON (JavaScript Object Notation) définie par la *RFC 4627*	 (https://tools.ietf.org/html/rfc4627).	
+L’API peut utiliser n’importe quel moyen de communication pour initier l’interaction entre les applications. Les formats d’échanges entre les clients et le serveur sont la plupart du temps du plaintext, **xml** (e**X**tended **M**arkup **L**anguage) ou **JSON** (**J**ava**S**cript **O**bject **N**otation) définie par la [RFC 4627](https://tools.ietf.org/html/rfc4627).	
 REST a de nombreux avantages comme être évolutif, simple à mettre en œuvre avec des représentations multiples mais a l’inconvénient de ne garantir qu’une sécurité restreinte par l’emploi des méthodes HTTP.
 
 ### Exercice avec un client http pour consommer les services
 Nous utilisons ici le module python requests (``pip install requests``) qui permet d’effectuer des requêtes web à partir d’un fichier python.
+
 Télécharger l’exemple à l’adresse suivante :	https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/Code/myHttpClient.py
 
 Décoder les données JSON dans une structure préalablement définie avec un parser JSON (``pip install json``)
