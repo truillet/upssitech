@@ -71,7 +71,7 @@ Vus pouvez aller jeter un oeil chez [notion](https://ctruille.notion.site/TP-1A-
 * **2022-2023** : Le [sujet 1](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/CC/CC_2022-Gr1_GCGEO.pdf) et le [sujet 2](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/CC/CC_2022-Gr2_GCGEO.pdf) {solution [ici](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/CC/solutions/CC_2022-Gr2_GCGEO.zip)}
 * **2023-2024** : Le [sujet 1](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/CC/CC_2023-Gr1_GCGEO.pdf) {solution [ici](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/CC/solutions/CC_2023-Gr1_GCGEO.zip)} et le [sujet 2](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/CC/CC_2023-Gr2_GCGEO.pdf) {solution [ici](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/CC/solutions/CC_2023-Gr2_GCGEO.zip)}
 * **2024-2025** : Le sujet 1 [GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/CC/CC_2024-Gr1_GCGEO.pdf) ou [Jupyter notebook](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/CC/CC1_2024_2025_Sujet_1.ipynb) et le sujet 2 [GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/CC/CC_2024-Gr2_GCGEO.pdf) ou [Jupyter notebook](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/CC/CC1_2024_2025_Sujet_2.ipynb)
-* **2025-2026** : *à venir*
+* **2025-2026** :[Le sujet GNU octave ou Jupyter Notebook](https://github.com/upssitech/examen/blob/main/CC1_2025_2026.md)
   
 ### Petit plus 
 Utiliser des "packages" sous GNU Octave peut permettre d'enrichir les fonctionnalités du langage. La liste des principaux packages est disponible --> [ici](https://gnu-octave.github.io/packages) <--
