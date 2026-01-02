@@ -23,7 +23,7 @@ L’objectif est de développer un **mini-moteur de fission multimodale** permet
     *	faire varier les *paramètres prosodiques* de la synthèse vocale (débit, élocution et volume) d’après l’attribut mis en jeu. Par exemple, l’attribut **gras**, pouvant dénoter une phrase avec une sémantique forte, il faudra l’énoncer avec une vitesse plus lente et un fort volume.
     *	ou enfin utiliser une plage braille simulée (pour les non-voyants) sur laquelle les attributs typographiques en jeu sont affichés pendant que la synthèse restitue le texte.
 
-Vous pouvez utiliser l'exemple html disponible ici	:(https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/Toulouse.html) pour effectuer vos tests.
+Vous pouvez utiliser l'exemple html disponible ici	: (https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/Toulouse.html) pour effectuer vos tests.
 
 **Délai pour le rendu : dimanche 14 décembre 2025, 23h55 UTC+1**
 Le travail sera envoyé à Philippe.Truillet@upssitech.fr (Si vous avez des fichiers trop lourds à envoyer, vous pouvez utiliser un service cloud ou de transfert comme https://filesender.renater.fr)
