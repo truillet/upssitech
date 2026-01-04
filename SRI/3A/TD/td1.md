@@ -75,13 +75,13 @@ Pour répondre à cette question, *trois techniques sont envisagées* : soit vo
 ### Rappel : **KLM** introduit six opérateurs pour décrire l’exécution d’une tâche élémentaire
 
 * **K** : « keystroking », frappe de touches du clavier ou de la souris – entre 0.08 et 1.20 s suivant l’expertise des utilisateurs – **0,2 s**
-* **P** : « pointing », désignation – entre 0,8 s et 1,5 s, **on prendra la valeur médiane 1,1 s**
-* **H** : « homing », rapatriement de la main – **0,4 s**
-* **D** : « drawing », action de dessiner – **0,9 n + 0,161** (n = nombre de segments tracés)
-* **M** : « mental activity », activité mentale – **1,35 s**
-* **R** : « response time », temps de réponse du système – **max (0, n-t)** – n = temps de traitement d’une commande par le système, t = temps exploité par l’utilisateur
+* **P** : *pointing*, désignation – entre 0,8 s et 1,5 s, **on prendra la valeur médiane 1,1 s**
+* **H** : *homing*, rapatriement de la main – **0,4 s**
+* **D** : *drawing*», action de dessiner – **0,9 n + 0,161** (n = nombre de segments tracés)
+* **M** : *mental activity*, activité mentale – **1,35 s**
+* **R** : *response time*, temps de réponse du système – **max (0, n-t)** – n = temps de traitement d’une commande par le système, t = temps exploité par l’utilisateur
 
-Le temps d’exécution est la somme des temps passés à exécuter chaque classe d’opérateurs.
+Le temps d’exécution est la somme des temps passés à exécuter chaque classe d'opérateurs.
 
 **Estimateur** : [KmlCalc](https://github.com/truillet/upssitech/blob/master/SRI/1A/TD/KlmCalc.exe) (application windows)
 
