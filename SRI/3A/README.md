@@ -2,7 +2,7 @@
 
 ## Introduction à l'interaction homme-machine
 * [support de cours](https://github.com/truillet/upssitech/blob/master/SRI/3A/Cours/survol_ihm_4.pdf) (2025)
-* **TD1** - [Lois Psycho-Physiques](https://github.com/truillet/upssitech/blob/master/SRI/3A/TD/td1.md) (2025)
+* **TD1** - [Lois Psycho-Physiques](https://github.com/truillet/upssitech/blob/master/SRI/3A/TD/td1.md) (2026)
 * **TD2** - [Conception de systèmes interactifs](https://github.com/truillet/upssitech/blob/master/SRI/3A/TD/BE_csi_v2.3.pdf) (2024)
 
 * **Facteurs Humains** :  [La psychologie cognitive en capsules](https://cogcaps.univ-tlse2.fr) (collaboration avec l'UT2J)
