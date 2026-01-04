@@ -3,7 +3,7 @@
 ## 1. Loi de Fitts
 *Le temps mis pour atteindre une cible est proportionnel à sa distance et inversement proportionnel à sa taille*
 
-Mathématiquement, a loi de Fitts a été formulée de plusieurs manières, l’indice de difficulté été calculé par **log<sub>2</sub>(2D/d)** ou **log<sub>2</sub>(1 + D/d)**, formulation dite « de Shannon » proposée par Scott MacKenzie.
+Mathématiquement, a loi de Fitts a été formulée de plusieurs manières, l’indice de difficulté été calculé par **log<sub>2</sub>(2D/d)** ou **log<sub>2</sub>(1 + D/d)**, formulation dite *de Shannon* proposée par Scott MacKenzie.
 
 **Rappels** :
  * *Logarithme binaire* : log<sub>2</sub>(2n) = n
