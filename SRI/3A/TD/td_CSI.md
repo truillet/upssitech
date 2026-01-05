@@ -21,15 +21,13 @@ Une fois que vous aurez choisi par consensus un ensemble d’idées de conceptio
 
 Cette étape fondamentale va vous permettre d’illustrer les différentes fonctions du logiciel du point de vue de son usage réel et de fournir la base pour un **prototype** basse (prototype vidéo) puis moyenne ou haute-fidélité (prototype fonctionnel).
 
-## Déroulement des séances de conception
-
+### Déroulement des séances de conception
 * La séance de brainstorming va débuter par une présentation rapide du **scénario de travail** et des principes du brainstorming.
 * Les participants seront ensuite divisés en plusieurs groupes de 4 à 6 personnes pour « *brainstormer* » et proposer un scénario d’usage (**temps 1**).
 * Le brainstorming sera suivi d’une séance de maquettage (**temps 2**) au cours de laquelle chaque groupe réalisera une maquette (papier, vidéo, …) basse fidélité pour mettre en scène les idées évoquées.
 
 ______________________________________________
-
-## Scénario de travail
+## 1 - Scénario de travail
 **Dans le cas idéal, un scénario de travail est la description d’une séquence d’événements qui illustre les activités d’une ou de plusieurs personnes engagées dans une activité.**
 
 Le but est d’être aussi réaliste que possible, aussi détaillé que possible et en même temps aussi concis que possible. Etant donné que cela est difficile à réaliser rapidement, le mieux est de couvrir une période de temps limitée dans le scénario ; Nous ne cherchons pas à produire une version idéalisée du travail décrit, ni à séparer les activités en fonctions avec l’idée que la technologie servira de support.
@@ -44,7 +42,7 @@ Choisissez un jour particulier et décrivez pas à pas, ce qui se passe. Utilise
 
 **Pour la conception, un bref cahier des charges vous sera donné en séance.**
 
-## Brainstorming – temps 1
+## 2 - Brainstorming – temps 1
 Le brainstorming, connu également comme la technique Delphi, est utilisé pour générer des idées novatrices. On donne aux participants (3 à 7) un sujet et une période de temps limitée. Une personne (le scribe) écrit chaque idée qui est générée sur un tableau. Une autre personne (le modérateur) dirige la discussion, évite que les idées générées dans la phase I ne soient évaluées et s’assure que la séance est terminée dans les délais. Il est très important de limiter le temps imparti ; ceci est un exercice très intense s’il est bien fait, qui doit se terminer positivement et non quand tout le monde est fatigué.
 
 Dans la première phase, tout le monde suggère des idées, même si elles semblent saugrenues. La règle la plus importante est **NE PAS EVALUER LES IDEES**. Les jugements de valeur sont interdits à ce moment. Pour aider les gens à se sentir à l’aise, on peut convenir au départ pour que chacun inscrive au moins une idée “stupide”.
@@ -72,7 +70,7 @@ Vous utiliserez les idées produites dans cette séance pour concevoir un protot
 **Durée** : Cet exercice doit durer environ **1 heure** (45 minutes de brainstorming + 10 minutes pour l’évaluation
 et le vote)
 
-## Scénario de conception – temps 1
+## 3 - Scénario de conception – temps 1
 Un scénario de conception est essentiellement une **version enrichie** d’un scénario de travail auquel on ajoute une proposition du nouveau système pour assister le travail. Le scénario de conception doit clairement décrire comment les utilisateurs interagiront avec le nouveau système pendant leur travail et comment il modifiera leurs activités. De même que pour un scénario de travail, il est important que la discussion inclue les gens qui accomplissent actuellement le travail, car ils sont les mieux placés pour identifier les problèmes ou les utilisations irréalistes du nouveau système.
 
 Les scénarios de conception peuvent être écrits comme un ***story-board*** qui contient des dessins ce que font les utilisateurs. Le scénario de conception doit couvrir les mêmes événements que le scénario de travail, en imaginant comment ils seraient modifiés par l’usage du nouveau système. Le scénario de conception devrait servir de base à un prototype du nouveau système, ce qui permet aux utilisateurs comme aux concepteurs d’imaginer le futur système et de faire des commentaires et des suggestions.
@@ -93,7 +91,7 @@ Raconter une histoire décrivant ce qui est arrivé à la même personne, le mê
 
 **Durée** : **1 heure**
 
-## Prototypage rapide – temps 2
+## 4 - Prototypage rapide – temps 2
 Comme le développement logiciel est long et coûteux, particulièrement le développement de logiciels fiables, il est souvent judicieux de créer un prototype pour déterminer si l’approche retenue est satisfaisante et pour évaluer des alternatives éventuelles. Il s’agit d’utiliser n’importe quel outil (prototypes papier, logiciel, “Magicien d’Oz”, “effets spéciaux”) pour créer l’illusion d’une interaction réelle entre les utilisateurs et le futur système. Le prototype doit être suffisamment détaillé et être fondé sur un scénario suffisamment réaliste pour que les utilisateurs puissent juger ce que serait le système réel.
 
 **L’objectif est de présenter les interactions possibles guidées par le scénario de conception en faisant suivre une séquence d’étapes par l’utilisateur.**
