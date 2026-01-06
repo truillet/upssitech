@@ -1,5 +1,5 @@
 # Conception de Sstèmes Interactifs - *Participatory Design*
-**Janvier 2025**
+**Janvier 2026**
 
 *Nota : ces TPs sont inspirés de ceux de Wendy MacKay, utilisés lors de l’école d’été IHM (Juillet 1997- Marseille)*
 
