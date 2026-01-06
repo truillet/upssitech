@@ -7,7 +7,7 @@
 
 * **Facteurs Humains** :  [La psychologie cognitive en capsules](https://cogcaps.univ-tlse2.fr) (collaboration avec l'UT2J)
 
-* **Projet** - [Bureau d'études](https://github.com/truillet/upssitech/blob/master/SRI/3A/TD/BS_prototypage.pdf) (2025)
+* **Projet** - [Bureau d'études](https://github.com/truillet/upssitech/blob/master/SRI/3A/TD/BS_prototypage.pdf) (2026)
 
 **Le travail réalisé sera *noté* – notes issues du brainstorming, scénario de conception, prototypes et photographies éventuelles et code produit - est à adresser par mél à l’adresse suivante : Philippe.Truillet@upssitech.fr avant le Vendredi 20 février 2026 23h55 GMT (un accusé de réception sera envoyé en retour)**
 
