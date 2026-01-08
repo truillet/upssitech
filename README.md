@@ -16,7 +16,7 @@ Vous trouverez ici les notes de cours des :
      * [Algorithmique / GNU Octave & Jupyter Notebook](https://github.com/truillet/upssitech/tree/master/GCGEO/3A) (UE Informatique - **KUPG5BB1**)
    * **Filière SRI 3ème année (1ère année cycle ingénieur)**
      * [Interaction Homme-Machine / Prototypage](https://github.com/truillet/upssitech/blob/master/SRI/3A/README.md)  (UE Intro SI-IHM - **KUPR6BC6**)
-     * [Anglais/ Overlapping Perspectives](https://github.com/truillet/upssitech/tree/master/SRI/3A/HMI_Perspectives) **KUPX6BA2**
+     * [Anglais/ HMI-English Project](https://github.com/truillet/upssitech/tree/master/SRI/3A/HMI_Perspectives) **KUPX6BA2**
    * **Filière SRI 5ème année (3ème année cycle ingénieur)**
      * [Interaction Humain-Machine Multimodale](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/README.md) (UE Sciences et Techniques 9 - **KUPR9BD6**)
      * [Interaction Distribuée](https://github.com/truillet/upssitech/tree/master/SRI/5A/ID) (UE Sciences et Techniques 9 - **KUPR9BD8**)
