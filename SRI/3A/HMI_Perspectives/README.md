@@ -1,10 +1,10 @@
-# HMI Project
+# HMI-English Project
 
-## Project - Overlapping Perspectives
+## Overlapping Perspectives
 This training class is done in collaboration with the English teacher.
-The objective is both to stimulate discussion and to experiment with peer review through a "call for papers" to which the students must answer.
+The objective is both to stimulate discussion and to experiment with peer review through a *"call for proposal*" to which students must answer.
 
-This course will divide as follows (see [moodle](https://moodle.utoulouse.fr/course/view.php?id=5011) for further information:
+This course is divided as follows (see [moodle](https://moodle.utoulouse.fr/course/view.php?id=5011) for further information):
 * **Class 1**:
   * Discover and analyse a **Call For Proposal** (CFP). Build up the team
   
@@ -21,7 +21,7 @@ This course will divide as follows (see [moodle](https://moodle.utoulouse.fr/cou
   * Prepare the final presentation in which must be shown and justified the technical characteritics of the prototype (slideshow + video teaser)
   
 * **Class 6**:
-  * Presnetation aof the answer to the CFP
+  * Presentation aof the answer to the CFP
   
 <!--
 ### [Situation](https://github.com/truillet/upssitech/blob/master/SRI/1A/HMI_Perspectives/documents/HMI_Situation.pdf)
