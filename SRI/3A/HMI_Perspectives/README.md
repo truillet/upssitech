@@ -1,34 +1,34 @@
 # HMI Project
 
 ## Project - Overlapping Perspectives
-This training is done in collaboration with the English teacher.
+This training class is done in collaboration with the English teacher.
 The objective is both to stimulate discussion and to experiment with peer review through a "call for papers" to which the students must answer.
 
-This course will divide as follows:
-* **First two classes**: 	
-  * acquisition of data, design of proposal,
-  *  fill out evaluation form
-  * pass on  proposal and evaluation form to the other 7.45 or 10.00 o'clock group.
-  * start  PPT
-			
-All  work (except the PPT) will be anonymized
-
-* **Off the class**:
-  * study the various proposals received 
-  * fill out a Google form and write report.
-
+This course will divide as follows (see [moodle](https://moodle.utoulouse.fr/course/view.php?id=5011) for further information:
+* **Class 1**:
+  * Discover and analyse a **Call For Proposal** (CFP). Build up the team
+  
+* **Class 2**:
+  * Start the research, design **a usage scenario** for the product
+    
 * **Class 3**:
-  * peer review process: Use the Google form plus other notes to present and debate in the class your view on your analysis to suggest lines of improvements for each of the proposals.
+  * Write and submit the **Exectuive Summary** includind and prototyping a solution
 			
 * **Class 4**:
-  * Presentation of your PPt that will be ended by your video teaser that will integrate the critics and advice sent by the peer reviewers.
+  * **Peer Review** - evaluate your peer's ES and submit the review
 
-
+* **Class 5**:
+  * Prepare the final presentation in which must be shown and justified the technical characteritics of the prototype (slideshow + video teaser)
+  
+* **Class 6**:
+  * Presnetation aof the answer to the CFP
+  
+<!--
 ### [Situation](https://github.com/truillet/upssitech/blob/master/SRI/1A/HMI_Perspectives/documents/HMI_Situation.pdf)
 
 ### [Evaluation Form](https://github.com/truillet/upssitech/blob/master/SRI/1A/HMI_Perspectives/documents/PEER_REVIEW.pdf) 
 
 
 ## articles, documents
-
 * [Empathy Machine (Scientific American)](https://www.scientificamerican.com/article/empathy-machine-humans-communicate-better-after-robots-show-their-vulnerable-side/)
+-->
