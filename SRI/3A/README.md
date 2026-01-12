@@ -19,7 +19,7 @@
 [<img src="https://img.youtube.com/vi/_7ZtISeGyCY/0.jpg" width=250 alt="Put That There">](https://www.youtube.com/watch?v=_7ZtISeGyCY)
 
 * [The Information Capacity of he Human Motor System in Controlling The Amplitude of Movement](https://github.com/truillet/upssitech/blob/master/SRI/3A/articles/Fitts_1954.pdf), Paul Fitts in Journal of Experimental Psychology, vol. 47, No 6, June 1954
-* {AffordanceS et perceptionS](https://chaire-participations.univ-lr.fr/affordances-et-perceptions-synthese)
+* [AffordanceS et perceptionS](https://chaire-participations.univ-lr.fr/affordances-et-perceptions-synthese)
 * [M. Beaudoin-Lafon, 50 ans d'interaction homme-machine : retours vers le futur, Interstices.info](https://interstices.info/50-ans-dinteraction-homme-machine-retours-vers-le-futur)
 * [Reimagining Participatory Design](http://interactions.acm.org/archive/view/january-february-2019/reimagining-participatory-design), ACM Interactions, January-February 2019, p.26
 * [ACM Interactions Magazine](http://interactions.acm.org)
