@@ -13,7 +13,7 @@
 * [Installer le sous-sytème ubuntu sous windows](https://learn.microsoft.com/fr-fr/windows/wsl/install)
 * [Serveur X et WSL2 sous Windows 10](https://medium.com/javarevisited/using-wsl-2-with-x-server-linux-on-windows-a372263533c3)
 
-```
+```console
 # sous WSL 2 et windows 11, un serveur X est installé [Magic] ! 
 # sous WSL 2 et windows 10, lancer d'abord un serveur X comme VcXsrv
 # (N'oubliez pas de cliquer sur l'option "Disable access control")
@@ -50,12 +50,12 @@ export LIBGL_ALWAYS_INDIRECT=1
 
 ### Eléments
 __installer Java OpenJDK (téléchargement des paquets)__
-```
+```console
 sudo apt install openjdk-17-jdk-headless
 ```
 
 __gcc__
-```
+```console
 gcc -c fichier.c # compile le fichier .c et génère le fichier.o
 gcc -E fichier.c # montre le résultat issu de l'étape du pré-processeur
 gcc -S fichier.c # génère le code ASM fichier.s
