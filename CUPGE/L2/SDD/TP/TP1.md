@@ -91,7 +91,7 @@ Prenons l’exemple de **gcc**, commande aussi écrite en C. Lorsque vous lancez
 Vous définirez en outre la fonction suivante dans votre code ***void display_message(char\* msg);***Comme son nom l’indique, cette fonction affiche simplement à l’écran le message qui lui est passé en paramètre.
 
 ### 3.1 Exercice 1
-Ecrire le code de la fonction main de sorte à afficher le message suivant : ***Wrong usage, 2 parameters expected: ./sum param1 param2***lorsque l’utilisateur n’a pas passé le bon nombre de paramètres.
+Ecrire le code de la fonction main de sorte à afficher le message suivant : ***Wrong usage, 2 parameters expected: ./sum param1 param2*** lorsque l’utilisateur n’a pas passé le bon nombre de paramètres.
 Testez votre implémentation en compilant et en exécutant le programme avec différentes configurations comme par exemple : **./sum 2 3 4**
 
 ### 3.2 Exercice 2
