@@ -23,7 +23,7 @@ int alea32(){ /* génère un entier aléatoire compris entre 0 et 31 */
   /* à compléter */
 }
 
-void permute(Carte \*carte1, Carte \*carte2){ /* permute 2 cartes */
+void permute(Carte *carte1, Carte *carte2){ /* permute 2 cartes */
   /* à compléter */
 }
 
