@@ -4,29 +4,31 @@ Les élèves sont amenés à fabriquer, coder et programmer des micro-contrôleu
 
 Depuis 2024/2025, les élèves participent au  concours **[T'Hacka Voir](https://thackavoir.fr)** organisé par ["Cherchons Pour Voir"](http://cherchonspourvoir.org) <img src="https://github.com/truillet/ups/blob/master/l1info/projets/logo_cpv.png" width=50 valign="middle">
 
-## Supports
-* [Présentation du Projet d'Intégration](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/Projet_Integration.pdf) (2025)
+## Présentation Générale de l'UE
+* [Présentation du Projet d'Intégration](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/Projet_Integration.pdf) (2026)
 
-### Arduino 
-* [Support arduino](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/introduction_arduino.pdf)
-* [site officiel](https://www.arduino.cc)
-  
-* Carte ESP32 [DOIT ESP32 DEVKIT v1](https://espacerm.com/webgen/esp32intro)
+## Initialisation 
+### Interfaces Graphiques
+### Programmation arduino/raspberry
+* support arduino
+  * [site officiel](https://www.arduino.cc)
+  * Lien pour ajouter les cartes[DOIT ESP32 DEVKIT v1](https://espacerm.com/webgen/esp32intro) sur l'IDE arduino : *https://dl.espressif.com/dl/package_esp32_index.json*
 
-### Raspberry Pi
-* [raspberry pinout](https://pinout.xyz)
-* [raspberry pico](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
+* support raspberry
+  * [raspberry pinout](https://pinout.xyz)
+  * [raspberry pico](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
 
-  
-## Drivers
-* Lien pour ajouter les cartes ESP32 sur l'IDE arduino : *https://dl.espressif.com/dl/package_esp32_index.json*
+**Drivers**
 * Driver [SER340](https://sparks.gogo.co.nz/ch340.html) (pour les clones arduino)
 * Driver [CP210x](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
 
-
-## Ressources
+**Ressources**
 * [webServer on a ESP32](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/code/webserver.zip) (code arduino)
  * [logo UPSSITECH en base64](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/ressources/logoUpssitech250_png_base64.txt)
 
 ## Liens
 * [Base64 image encoder](https://www.base64-image.de)
+
+## Tips et outils 
+* [Se connecter au réseau wifi eduroam](https://eduroam.org/geteduroam-get-connected-quickly-and-safely/)
+* [installer WSL sous windows - **W**indows **S**ubsystem for **L**inux](https://learn.microsoft.com/fr-fr/windows/wsl/install)
