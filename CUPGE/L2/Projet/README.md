@@ -27,10 +27,15 @@ Depuis 2024/2025, les élèves participent au  concours **[T'Hacka Voir](https:/
  * [logo UPSSITECH en base64](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/ressources/logoUpssitech250_png_base64.txt)
 
 ## Liens
-* [Base64 image encoder](https://www.base64-image.de)
-
+### outils
+* [arduino](https://www.arduino.cc)
 * [Autodesk Fusion online](https://fusion.online.autodesk.com)
 * [BambuStudio](https://bambulab.com/en/download/studio) (imprimantes 3D)
+
+### utilitaires
+* [Base64 image encoder](https://www.base64-image.de)
+
+
 
 ## Tips et outils 
 * [Se connecter au réseau wifi eduroam](https://eduroam.org/geteduroam-get-connected-quickly-and-safely/)
