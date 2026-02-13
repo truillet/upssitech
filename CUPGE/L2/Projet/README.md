@@ -29,6 +29,9 @@ Depuis 2024/2025, les élèves participent au  concours **[T'Hacka Voir](https:/
 ## Liens
 * [Base64 image encoder](https://www.base64-image.de)
 
+* [Autodesk Fusion online](https://fusion.online.autodesk.com)
+* [BambuStudio](https://bambulab.com/en/download/studio) (imprimantes 3D)
+
 ## Tips et outils 
 * [Se connecter au réseau wifi eduroam](https://eduroam.org/geteduroam-get-connected-quickly-and-safely/)
 * [installer WSL sous windows - **W**indows **S**ubsystem for **L**inux](https://learn.microsoft.com/fr-fr/windows/wsl/install)
