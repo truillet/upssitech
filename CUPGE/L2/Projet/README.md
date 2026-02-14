@@ -10,11 +10,12 @@ Depuis 2024/2025, les élèves participent au  concours **[T'Hacka Voir](https:/
 ## Initialisation 
 ### Interfaces Graphiques
 ### Programmation arduino/raspberry
-* support arduino
+* *support arduino*
   * [site officiel](https://www.arduino.cc)
-  * Lien pour ajouter les cartes[DOIT ESP32 DEVKIT v1](https://espacerm.com/webgen/esp32intro) sur l'IDE arduino : *https://dl.espressif.com/dl/package_esp32_index.json*
-
-* support raspberry
+  * Lien pour ajouter les cartes [DOIT ESP32 DEVKIT v1](https://espacerm.com/webgen/esp32intro) sur l'IDE arduino : *https://dl.espressif.com/dl/package_esp32_index.json*
+  * [micropython et circuitpython](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/micropython.md)
+   
+* *support raspberry*
   * [raspberry pinout](https://pinout.xyz)
   * [raspberry pico](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
 
