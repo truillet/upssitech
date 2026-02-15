@@ -9,6 +9,8 @@ Depuis 2024/2025, les élèves participent au  concours **[T'Hacka Voir](https:/
 
 ## Initialisation 
 ### Interfaces Graphiques
+* tkinter / pygame
+
 ### Programmation arduino/raspberry
 * *support arduino*
   * [site officiel](https://www.arduino.cc)
