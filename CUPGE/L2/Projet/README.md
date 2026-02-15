@@ -18,6 +18,7 @@ Depuis 2024/2025, les élèves participent au  concours **[T'Hacka Voir](https:/
   * [micropython et circuitpython](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/micropython.md)
 
 --> [introduction à arduino](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/introduction_arduino.pdf) et [exercices arduino](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/arduino.md)
+
 --> [micropython / circuitpython](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/micropython.md)
 
 * *support raspberry*
