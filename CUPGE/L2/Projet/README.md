@@ -14,7 +14,10 @@ Depuis 2024/2025, les élèves participent au  concours **[T'Hacka Voir](https:/
   * [site officiel](https://www.arduino.cc)
   * Lien pour ajouter les cartes [DOIT ESP32 DEVKIT v1](https://espacerm.com/webgen/esp32intro) sur l'IDE arduino : *https://dl.espressif.com/dl/package_esp32_index.json*
   * [micropython et circuitpython](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/micropython.md)
-   
+
+--> [introduction à arduino](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/introduction_arduino.pdf) et [exercices arduino](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/arduino.md)
+--> [micropython / circuitpython](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/micropython.md)
+
 * *support raspberry*
   * [raspberry pinout](https://pinout.xyz)
   * [raspberry pico](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
