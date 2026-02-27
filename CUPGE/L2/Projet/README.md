@@ -7,6 +7,9 @@ Depuis 2024/2025, les élèves participent au  concours **[T'Hacka Voir](https:/
 ## Présentation Générale de l'UE
 * [Présentation du Projet d'Intégration](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/Projet_Integration.pdf) (2026)
 
+## Brainstorming/Idéation
+ * [storyboards]() et {Personnas]()
+
 ## Initialisation 
 ### Interfaces Graphiques
 * tkinter / pygame
