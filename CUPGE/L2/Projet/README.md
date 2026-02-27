@@ -8,7 +8,7 @@ Depuis 2024/2025, les élèves participent au  concours **[T'Hacka Voir](https:/
 * [Présentation du Projet d'Intégration](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/Projet_Integration.pdf) (2026)
 
 ## Brainstorming/Idéation
- * [storyboards]() et {Personnas]()
+ * [storyboards](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/Storyboards_fr.pdf) et [Personnas](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/Persona_fr.pdf)
 
 ## Initialisation 
 ### Interfaces Graphiques
