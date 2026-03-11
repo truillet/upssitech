@@ -17,6 +17,7 @@ Depuis 2024/2025, les élèves participent au  concours **[T'Hacka Voir](https:/
 ### Programmation arduino/raspberry
 * *support arduino*
   * [site officiel](https://www.arduino.cc)
+  * [simulateur arduino/ESP32](https://wokwi.com)
   * Lien pour ajouter les cartes [DOIT ESP32 DEVKIT v1](https://espacerm.com/webgen/esp32intro) sur l'IDE arduino : *https://dl.espressif.com/dl/package_esp32_index.json*
   * [micropython et circuitpython](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/Projet/supports/micropython.md)
 
