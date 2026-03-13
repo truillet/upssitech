@@ -1,6 +1,6 @@
 # Projet Professionnel 
 
-## séance 1 - cohénsion et valeurs
+## séance 1 - cohésion et valeurs
 
 ## séance 2 - savoir-être / habiletés socio-cognitives
 
@@ -10,4 +10,4 @@
 
 ## séance 5 - RSE
 
-## séance 6 - Candidater
+## séance 6 - candidater
