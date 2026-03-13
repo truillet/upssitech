@@ -5,7 +5,7 @@ Vous trouverez ici les notes de cours des :
 
 * **CPI UPSSITECH / CUPGE UPSSITECH**
   * **CPI 1A UPSSITECH**
-    * Projet Professionnel (UE Projet Professionnel - **KUPI2AC3**)
+    * [Projet Professionnel](https://github.com/truillet/upssitech/tree/master/CPI/1A/Projet_Professionnel) (UE Projet Professionnel - **KUPI2AC3**)
   * **L2 CUPGE UPSSITECH** 
      * [Stuctures de données / Langage C](https://github.com/truillet/upssitech/tree/master/CUPGE/L2/SDD) (UE Informatique Appliquée 3 - **KINUPI31**)
      * *Introduction aux Réseaux Informatiques*
