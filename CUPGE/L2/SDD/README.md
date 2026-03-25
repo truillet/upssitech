@@ -69,11 +69,13 @@ gcc -S fichier.c # génère le code ASM fichier.s
   * **2025** : [Des matrices](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/CC1_Structures_2025.pdf) et [Des formes](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/CC2_Structures_2025.pdf)
 
 ### Projets
+<!--
 * **Projet 2018** : [Réservations de ressources](https://github.com/truillet/ups/blob/master/l2cupge/CC/Projet_Info_2018.pdf)
 * **Projet 2019** : [On en a Gros (sur le compte) !](https://github.com/truillet/ups/blob/master/l2cupge/CC/Projet_Info_2019.pdf)
 * **Projet 2020** : [Share Things](https://github.com/truillet/ups/blob/master/l2cupge/CC/Projet_Info_2020.pdf)
 * **Projet 2021** : [Tchou-(tchou)](https://github.com/truillet/ups/blob/master/l2cupge/CC/Projet_Info_2021.pdf)
 * **Projet 2022** : [BAC - **B**ook **A** **C**lassrom](https://github.com/truillet/ups/blob/master/l2cupge/CC/Projet_Info_2022.pdf)
+-->
 * **Projet 2023** : [G-VGT - **G**osh! **V**ery **G**ood **T**rip](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/Projet_Info_2023.pdf)
 * **Projet 2024** : [SEL & POIVRE](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/Projet_Info_2024.pdf)
 * **Projet 2025** : [THOMAS](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/Projet_Info_2025.pdf)
