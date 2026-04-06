@@ -79,5 +79,5 @@ gcc -S fichier.c # génère le code ASM fichier.s
 * **Projet 2023** : [G-VGT - **G**osh! **V**ery **G**ood **T**rip](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/Projet_Info_2023.pdf)
 * **Projet 2024** : [SEL & POIVRE](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/Projet_Info_2024.pdf)
 * **Projet 2025** : [THOMAS](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/Projet_Info_2025.pdf)
-* **Projet 2026** : *à venir*
+* **Projet 2026** : [FAB²](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/Projet_Info_2026.pdf)
 
