@@ -36,9 +36,10 @@ Depuis 2024/2025, les élèves participent au  concours **[T'Hacka Voir](https:/
 
 ### Modélisation 3D
 * AutoDesk Fusion
-* Blender
-* OpenSCAD
-* TinkerCad
+* [AutoDesk TinkerCad](https://www.tinkercad.com/dashboard/designs)
+* [Blender](https://www.blender.org)
+* [OpenSCAD](https://openscad.org)
+
 
 ### Impression 3D
 * [BambuStudio](https://bambulab.com/en/download/studio) (imprimantes 3D)
