@@ -31,7 +31,7 @@ Si vous préférez programmer en [python](https://www.python.org) avec [Jupyter 
 ## supports de TP
 * **TP 1** :
    * [Prise en main GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/TP1_Prise_en_main.pdf) (2025)
-   * [TP0_Premier_Notebook Python](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/ipynb/TP0_Premier_Notebook.ipynb) et [TP1_Prise_en_main](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/ipynb/TP1_Prise_en_main_de_Python.ipynb) (2025)
+   * [TP0_Premier_Notebook Python](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/ipynb/TP0_Premier_Notebook.ipynb) et [TP1_Prise_en_main](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/ipynb/TP1_Prise_en_main_de_Python.ipynb) (2026)
 * **TP 2** :
    * [Affichage - Partie 1 GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/TP2_Affichage_Part1.pdf) (2025)
    * [TP2_Affichage_de_données_(part1) Python](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/ipynb/TP2-3_Affichage_de_donn%C3%A9es.ipynb) (2025)
