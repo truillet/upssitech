@@ -9,7 +9,7 @@ Les travaux pratiques sont disponibles pour deux langages : Matlab (avec [GNU Oc
 * [pptx présentation GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TD/gnu_octave_2025.pdf) (2025)
 * [notes de cours GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TD/octave_v1.94.pdf) (2025)
 
-Vous pouvez télécharger **GNU Octave** -->[ici](https://octave.org/download)<-- (dernière version *10.3.0* du 30/09/2025) 
+Vous pouvez télécharger **GNU Octave** -->[ici](https://octave.org/download)<-- (dernière version *11.3.0* du 01/06/2026) 
 
 **Nota** : vous pouvez essayer [**GNU Octave** en ligne](https://octave-online.net)
 
@@ -30,7 +30,7 @@ Si vous préférez programmer en [python](https://www.python.org) avec [Jupyter 
 
 ## supports de TP
 * **TP 1** :
-   * [Prise en main GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/TP1_Prise_en_main.pdf) (2025)
+   * [Prise en main GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/TP1_Prise_en_main.pdf) (2026)
    * [TP0_Premier_Notebook Python](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/ipynb/TP0_Premier_Notebook.ipynb) et [TP1_Prise_en_main](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/ipynb/TP1_Prise_en_main_de_Python.ipynb) (2026)
 * **TP 2** :
    * [Affichage - Partie 1 GNU Octave](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/TP2_Affichage_Part1.pdf) (2026)
