@@ -24,6 +24,15 @@ transport des événements
 
 Les bibliothèques sont disponibles sur différents systèmes d’exploitation (Sun Solaris, Linux, Windows, Mac OS, Android, ...) pour plusieurs langages de programmation (Ada, C, C++, C#, Java, Perl, Perl-Tk, O-Caml, Python, Processing.org, Tcl, Tcl-Tk, VBA, ...).
 
+### fonctionnement
+Quel que soit le langage utilisé, les principes de fonctionnement restent les mêmes :
+1. Création d’un nouvel acteur du bus. Cela revient ici à allouer de la mémoire pour l’objet qui va se connecter au bus.
+2. Connexion de l’agent au bus. Le bus ivy se connecte sur un port d’une adresse IP (ou de broadcast) du réseau local : c’est le point de rendez-vous de tous les agents qui veulent interagir entre eux.
+3. Envoi / réception des messages (par un mécanisme d’abonnement). L’envoi de messages est extrêmement simple : il suffit de préparer la chaîne alphanumérique de données que l’on souhaite diffuser puis on active la fonction *send* associée à l’objet bus créé précédemment. Pour recevoir des messages du bus, il est nécessaire de s’abonner (fonction *bind*) à des **patrons** de messages  qui  permettront  l’activation  d’une  fonction  dite  de  callback  (fonction  receive  en  java)  qui  traitera  le message reçu.
+4. Fermeture de la connexion et destruction de l’agent
+
+*Nota* : L’utilisation d’ivy implique l’utilisation de la pile de protocoles tcp/ip.
+
 ## Etape 1 - charger les outils et configurer son environnement
 Téléchargez les deux agents *ivy* suivants :
 * visionneur
