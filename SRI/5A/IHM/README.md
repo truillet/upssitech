@@ -5,20 +5,12 @@ Les deux premiers sujets de travaux pratiques ont pour objectif de concevoir un 
 
 *The aim of the first two practical topics is to design an input multimodal system, which will be developed in the next three. The last topic deals with multimodal output and transmodality (switching from one modality to one or more "equivalent" ones).*
 
-* [ivy presentation v 2.8 (FR)](https://github.com/truillet/ivy/blob/master/doc/C_ivy_2.8.pdf) (2025) / [ivy presentation v. 2.5 (EN)](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/C_ivy_2.5en.pdf) (2021)
-* **Comment utiliser ivy / How to use ivy** - [ivy](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/TP_ivy.3.5.pdf) (2022)
+* [ivy presentation v 2.8 (FR)](https://github.com/truillet/ivy/blob/master/doc/C_ivy_2.8.pdf) (2025)
+* **Comment utiliser ivy / How to use ivy** - [ivy](./TP/lab0_ivy.md) (2026)
 * **repository ivy** : [Github ivy](https://github.com/truillet/ivy/blob/master/README.md)  
 
-## Interaction vocale / vocal interaction
-* **TP1/Tutorial 1** - [Lab1](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab1_vocal.md) (2025)
-   * **Les outils utilisés dans le TP / tools used in this tutorial** : Agent de reconnaissance vocale / Speech Recognizer agent [sra5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/sra5.zip), agent de synthèse vocale / speech Synthesis agent [ppilot5 v 3.3](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.3.zip), outil de supervision ivy / ivy monitoring tool [Probe](https://github.com/truillet/ivy/blob/master/code/Probe.zip) ou / or [visionneur](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Outils/visionneur_1_2.zip)
-  * **[GrXML pour SAPI 5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/Memo/GrXML.pdf)**
-  * **[SSML pour SAPI 5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/Memo/ssml.pdf)**
-  
-_Exemple de code Processing permettant l'affichage de la reconnaissance vocale et l'envoi du résultat vers la synthèse vocale / Example of Processing code allowing the text ouptut of speech recognition and sending the result to TTS_ : **[dessert](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/dessert.zip)**
-
 ## Interaction gestuelle / gesture interaction
-* **TP2/Tutorial 2** - [Lab2](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab2_gestes.md) (2025)
+* **TP1/Tutorial 1** - [Lab1](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab2_gestes.md) (2025)
 
 _Ressources / Resources_
    * **OneDollarIvy** (implémentation de l'algorithme du [$1 Recognizer](https://faculty.washington.edu/wobbrock/pubs/uist-07.01.pdf)) [code source Processing](https://github.com/truillet/OneDollarIvy) [code source Python](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/OneDollarIvy.zip)
@@ -28,7 +20,15 @@ _Ressources / Resources_
 _Un peu d'Histoire  / A bit of History_
 * [PalmOs et Graffiti](https://designobserver.com/feature/interface-runes/35108)
 <img src="https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/ressources/Palm_Graffiti_gestures.png" height=250 alt="Graffiti gestures">
+
+## Interaction vocale / vocal interaction
+* **TP2/Tutorial 2** - [Lab2](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab1_vocal.md) (2025)
+   * **Les outils utilisés dans le TP / tools used in this tutorial** : Agent de reconnaissance vocale / Speech Recognizer agent [sra5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/sra5.zip), agent de synthèse vocale / speech Synthesis agent [ppilot5 v 3.3](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.3.zip), outil de supervision ivy / ivy monitoring tool [Probe](https://github.com/truillet/ivy/blob/master/code/Probe.zip) ou / or [visionneur](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Outils/visionneur_1_2.zip)
+  * **[GrXML pour SAPI 5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/Memo/GrXML.pdf)**
+  * **[SSML pour SAPI 5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/Memo/ssml.pdf)**
   
+_Exemple de code Processing permettant l'affichage de la reconnaissance vocale et l'envoi du résultat vers la synthèse vocale / Example of Processing code allowing the text ouptut of speech recognition and sending the result to TTS_ : **[dessert](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/dessert.zip)**
+
 ## Fusion Multimodale / Multimodal Fusion
 * **TP3-5/Tutorial 3 to 5** - [Lab3-5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab3-5_fusion.md) (2025)
 
