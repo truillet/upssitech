@@ -70,7 +70,7 @@ Ecrire une fonction GNU Octave *integration_rectangles* qui utilise la méthode 
 ### Méthode des trapèzes
 La méthode des trapèzes est à peu près similaire à la méthode précédente mais on utilise maintenant des trapèzes pour *paver* l’aire afin d’être plus précis.
 
-Comme plus haut, l’intervalle [a,b] est partagé en n petits trapèzes de largeur h = (b-a)/n. Nous savons ainsi que l’aire de chaque petit trapèze est Ai = (h/2)*(f(a+ih) + f(a+(i-1)h)).
+Comme plus haut, l’intervalle [a,b] est partagé en n petits trapèzes de largeur h = (b-a)/n. Nous savons ainsi que l’aire de chaque petit trapèze est Ai = (h/2)*(f(a+ih) + f(a+(i-1)h)).
  
 Nous obtenons alors l’aire recherchée en sommant l’aire de tous les trapèzes entre a et b, ce qui nous donne (vous pouvez vérifier !) :
 
