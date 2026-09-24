@@ -32,43 +32,45 @@ Quel que soit le langage utilisé, les principes de fonctionnement restent les m
 
 *Nota* : L’utilisation d’ivy implique l’utilisation de la pile de protocoles tcp/ip.
 
-## Utiliser et développer avec ivy
+## Utiliser ivy
 ### Etape 1 - charger les outils et configurer son environnement
-Installer 
+Installer le package [ivy-python](https://pypi.org/project/ivy-python)
+
+```
+pip install ivy-python
+```
+ou 
 ```
 pipx install ivy-python
 ```
 
-Téléchargez les deux agents *ivy* suivants (windows) :
-* probe
-
-
-Téléchargez les deux agents *ivy* suivants (linux / macOS) :
-* probe
-
+l'outil *ivyprobe.py* est installé avec la librairie et peut être appelée en tapant 
+```
+ivyprobe.py
+ivyprobe.py "*regexp*"
+ivyprobe.py -b *adresse_ip:port* "*regexp*"
+```
 
 ### Etape 2 - Vérifier la connexion entre agents
-Depuis le Visionneur, envoyez le message suivant :
-
+Ouvrir deux fenêtres de commandes et lancer *ivyprobe* de la manière suivante : 
 ```
-ppilot5 Say=bonjour tout le monde
+ivyprobe -b 127.255.255.255:2010 "^(.*)"
 ```
-
-### Etape 3 - créer son propre agent
-
+Depuis *ivyprobe*, envoyez le message suivant :
 ```
-
+coucou
 ```
+Normalement, le message s'affiche dans la deuxième fenêtre ... ivy fonctionne ! 
 
-#### Envoyer un message sur ivy
-
-### Recevoir et traiter les messages reçus
-
-## Exercices
+## Développer avec ivy
 ### Maîtriser les expressions régulières et en faire une messagerie
-L’objectif  du  premier  exercice  est  d’écrire  des  expressions  régulières  qui  pourront  être  utilisées  dans  vos développements ivy.
+L’objectif  du  premier  exercice  est  d'écrire  des  expressions  régulières  qui  pourront  être  utilisées  dans  vos développements ivy.
 
-Vous testerez vos essais avec l’outil *Probe* Vous lancerez deux instances de Probe et testerez vos solutions en ajoutant des regex.
+ivy utilise des expressions rationnelles (*regexp*) de type **PCRE** ([**P**erl **C**ompatible **R**egular **E**xpressions](https://www.pcre.org))
+Vous pourrez tester vos *regexp* avec :
+* le site web [regex101](https://regex101.com)
+* l'outil *ivyprobe*. Vous lancerez deux instances d'*ivyprobe* et testerez vos solutions en ajoutant des regex (commande *.bind 'regexp'*).
+
 
 Soit une application X qui émet des messages du style : 
 ```
