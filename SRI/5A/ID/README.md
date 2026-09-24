@@ -6,7 +6,7 @@
 * [ivy : un outil pour la conception d'interfaces](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/C_ivy_2.9.pdf) (2026)
 * [middleware ivy](https://github.com/truillet/ivy) (2026)
 
-* [Lab 1]() ivy middleware: how-to?
+* **Lab1** [ivy middleware: how-to?](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab0_ivy.md) (2026)
     
 ## Ingescape: Model-based framework for broker-free distributed software environments
 * [ingescape](https://ingescape.com/fr/home) : Model-based framework for broker-free distributed software environments by [ingenuity I/O](https://ingenuity.io)
@@ -23,8 +23,9 @@
 * [REST and JSON slides](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/REST_JSON.pdf) (2021)
 * [MQTT slides](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/MQTT.pdf) (2022)
 
-**Lab**: [MQTT, REST API](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/mqtt.md) (2025)
+**Lab2**: [MQTT, REST API](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/mqtt.md) (2025)
 
+## Project
 <font color="red">**"Short-Term Project"**</font> : [Combining technologies](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/be.md) (2025)
   
 ### Some (useful) links
