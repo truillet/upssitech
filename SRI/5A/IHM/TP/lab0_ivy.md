@@ -1,6 +1,5 @@
-# démarrer avec le [middleware ivy](https://github.com/truillet/ivy)
-## introduction
-
+# Démarrer avec le [middleware ivy](https://github.com/truillet/ivy)
+## Introduction
 Ivy est un bus logiciel [middleware] (https://www.eei.cena.fr/products/ivy) conçu à la DTI R&D (ex CENA)
 dans le but de connecter d’une manière extrêmement simple des applications interactives ou pas en elles écrites avec différents langages et fonctionnant sur différentes machines ou plates-formes.
 
@@ -24,7 +23,7 @@ transport des événements
 
 Les bibliothèques sont disponibles sur différents systèmes d’exploitation (Sun Solaris, Linux, Windows, Mac OS, Android, ...) pour plusieurs langages de programmation (Ada, C, C++, C#, Java, Perl, Perl-Tk, O-Caml, Python, Processing.org, Tcl, Tcl-Tk, VBA, ...).
 
-### fonctionnement
+### Fonctionnement
 Quel que soit le langage utilisé, les principes de fonctionnement restent les mêmes :
 1. **Création d’un nouvel acteur du bus**. Cela revient ici à allouer de la mémoire pour l’objet qui va se connecter au bus.
 2. **Connexion de l’agent au bus**. Le bus ivy se connecte sur un port d’une adresse IP (ou de broadcast) du réseau local : c’est le point de rendez-vous de tous les agents qui veulent interagir entre eux.
@@ -35,13 +34,18 @@ Quel que soit le langage utilisé, les principes de fonctionnement restent les m
 
 ## Utiliser et développer avec ivy
 ### Etape 1 - charger les outils et configurer son environnement
+Installer 
+```
+pipx install ivy-python
+```
+
 Téléchargez les deux agents *ivy* suivants (windows) :
-* visionneur
-* ppilot5
+* probe
+
 
 Téléchargez les deux agents *ivy* suivants (linux / macOS) :
-* visionneur
-* ppilot5
+* probe
+
 
 ### Etape 2 - Vérifier la connexion entre agents
 Depuis le Visionneur, envoyez le message suivant :
@@ -50,9 +54,61 @@ Depuis le Visionneur, envoyez le message suivant :
 ppilot5 Say=bonjour tout le monde
 ```
 
-### Etape 3 - ajouter son propre agent python
+### Etape 3 - créer son propre agent
 
+```
 
 ```
 
+#### Envoyer un message sur ivy
+
+### Recevoir et traiter les messages reçus
+
+## Exercices
+### Maîtriser les expressions régulières et en faire une messagerie
+L’objectif  du  premier  exercice  est  d’écrire  des  expressions  régulières  qui  pourront  être  utilisées  dans  vos développements ivy.
+
+Vous testerez vos essais avec l’outil *Probe* Vous lancerez deux instances de Probe et testerez vos solutions en ajoutant des regex.
+
+Soit une application X qui émet des messages du style : 
 ```
+X time=1200 receiver=Y msg=blablabla
+```
+
+* Quelle serait l’expression régulière si :
+  * Vous voulez récupérer seulement le nom du récepteur (champ receiver du message)
+  * Vous voulez récupérer le nom du récepteur et le message (champ msg)
+  * Tous les champs ?
+* Supposons maintenant que des champs optionnels peuvent s’ajouter en fin de message : comment faire pour les récupérer et les traiter ?
+* Quels seraient les avantages et inconvénients si on s’abonnait à "^(.*)" (tous les messages) ?
+* Quel est, selon vous les avantages/inconvénients de structurer un message ivy ?
+
+Développez maintenant un agent ivy permettant :
+* D’envoyer un message à l’ensemble des personnes connectées sur la messagerie
+* De recevoir et d’afficher les messages envoyés par les autres clients de la messagerie instantanée
+* *(optionnel)* D’envoyer un message à une personne particulière connectée (en message privé)
+
+*Nota :* pensez que chaque client doit avoir un nom particulier pour pouvoir recevoir des messages privés !
+
+### Interagir avec d’autres langages
+Tout d’abord, téléchargez le fichier xxx à l’adresse :
+
+* Réécrivez  votre  agent  ivy  de  messagerie  (cf.  6.1)  afin  de  proposer  une  interface  « innovante »  de  votre messagerie.
+
+### Réutiliser des agents précédemment développés
+Sur https://github.com/truillet/xx
+
+* Récupérez l’agent xxx
+* Créez maintenant un petit dictionnaire de reconnaissance de gestes permettant de reconnaître un rectangle
+
+* Utilisez cet agent (en lançant Icarivy.bat)
+* A l’aide de l’outil de votre choix, étudiez la forme des messages envoyés par ICAR.
+* Déduisez-en  une  expression  régulière  qui  vous  permettra  de  développer  une  application  (Traceur) permettant d’afficher dans un Panel la forme reconnue.
+
+### vos propres applications ...
+Maintenant, il ne reste qu’à concevoir et prototyper vos propres applications multimédia et/ou multimodales ! Le principe général est d’utiliser le langage le plus approprié pour chaque module afin de développer des prototypes haute-fidélité le plus rapidement possible.
+
+Réutilisez, mixez, développez des agents réutilisables et le tour est joué !
+
+### adresses utiles
+* https://
