@@ -93,24 +93,21 @@ Développez maintenant un agent ivy permettant :
 *Nota :* pensez que chaque client doit avoir un nom particulier pour pouvoir recevoir des messages privés !
 
 ### Interagir avec d’autres langages
-Tout d’abord, téléchargez le fichier xxx à l’adresse :
+Tout d’abord, téléchargez le fichier [ivyFirst](https://github.com/truillet/ivy/blob/master/code/ivyfirst3.py)
 
-* Réécrivez  votre  agent  ivy  de  messagerie  (cf.  6.1)  afin  de  proposer  une  interface  « innovante »  de  votre messagerie.
+* Tester l'agent (quo s'abonne à des messages de type *"hello **something**"*
+* A partir de cet exemple, écrivez un agent ivy de messagerie qui peut échanger des messages publics ou privés entre utilisateurs connectés.
 
 ### Réutiliser des agents précédemment développés
-Sur https://github.com/truillet/xx
-
-* Récupérez l’agent xxx
+Sur [github](https://github.com/truillet/ivy) :
+* Récupérez l’agent [OneDollarIvy/Processing](https://github.com/truillet/OneDollarIvy) ou [OneDollarIvy/python](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/OneDollarIvy.zip)
 * Créez maintenant un petit dictionnaire de reconnaissance de gestes permettant de reconnaître un rectangle
 
-* Utilisez cet agent (en lançant Icarivy.bat)
-* A l’aide de l’outil de votre choix, étudiez la forme des messages envoyés par ICAR.
+* A l’aide de l’outil de votre choix, étudiez la forme des messages envoyés par OneDollarIvy.
 * Déduisez-en  une  expression  régulière  qui  vous  permettra  de  développer  une  application  (Traceur) permettant d’afficher dans un Panel la forme reconnue.
 
-### vos propres applications ...
+### Vos propres applications ...
 Maintenant, il ne reste qu’à concevoir et prototyper vos propres applications multimédia et/ou multimodales ! Le principe général est d’utiliser le langage le plus approprié pour chaque module afin de développer des prototypes haute-fidélité le plus rapidement possible.
 
 Réutilisez, mixez, développez des agents réutilisables et le tour est joué !
 
-### adresses utiles
-* https://
