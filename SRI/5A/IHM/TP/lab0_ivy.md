@@ -26,42 +26,32 @@ Les bibliothèques sont disponibles sur différents systèmes d’exploitation (
 
 ### fonctionnement
 Quel que soit le langage utilisé, les principes de fonctionnement restent les mêmes :
-1. Création d’un nouvel acteur du bus. Cela revient ici à allouer de la mémoire pour l’objet qui va se connecter au bus.
-2. Connexion de l’agent au bus. Le bus ivy se connecte sur un port d’une adresse IP (ou de broadcast) du réseau local : c’est le point de rendez-vous de tous les agents qui veulent interagir entre eux.
-3. Envoi / réception des messages (par un mécanisme d’abonnement). L’envoi de messages est extrêmement simple : il suffit de préparer la chaîne alphanumérique de données que l’on souhaite diffuser puis on active la fonction *send* associée à l’objet bus créé précédemment. Pour recevoir des messages du bus, il est nécessaire de s’abonner (fonction *bind*) à des **patrons** de messages  qui  permettront  l’activation  d’une  fonction  dite  de  callback  (fonction  receive  en  java)  qui  traitera  le message reçu.
-4. Fermeture de la connexion et destruction de l’agent
+1. **Création d’un nouvel acteur du bus**. Cela revient ici à allouer de la mémoire pour l’objet qui va se connecter au bus.
+2. **Connexion de l’agent au bus**. Le bus ivy se connecte sur un port d’une adresse IP (ou de broadcast) du réseau local : c’est le point de rendez-vous de tous les agents qui veulent interagir entre eux.
+3. **Envoi / réception des messages** (par un mécanisme d’abonnement). L’envoi de messages est extrêmement simple : il suffit de préparer la chaîne alphanumérique de données que l’on souhaite diffuser puis on active la fonction *send* associée à l’objet bus créé précédemment. Pour recevoir des messages du bus, il est nécessaire de s’abonner (fonction *bind*) à des *patrons* de messages  qui  permettront  l’activation  d’une  fonction de callback qui traitera le message reçu.
+4. **Fermeture de la connexion et destruction de l’agent**
 
 *Nota* : L’utilisation d’ivy implique l’utilisation de la pile de protocoles tcp/ip.
 
-## Etape 1 - charger les outils et configurer son environnement
-Téléchargez les deux agents *ivy* suivants :
+## Utiliser et développer avec ivy
+### Etape 1 - charger les outils et configurer son environnement
+Téléchargez les deux agents *ivy* suivants (windows) :
 * visionneur
 * ppilot5
 
-## Etape 2 - Vérifier la connexion entre agents
+Téléchargez les deux agents *ivy* suivants (linux / macOS) :
+* visionneur
+* ppilot5
+
+### Etape 2 - Vérifier la connexion entre agents
 Depuis le Visionneur, envoyez le message suivant :
 
 ```
 ppilot5 Say=bonjour tout le monde
 ```
 
-## ajouter son propre agent python
+### Etape 3 - ajouter son propre agent python
 
-
-```
-
-```
-
-## envoyer des messages depuis son agent
-
-```
-
-```
-
-## recevoir des messages 
-Pour recevoir des messages, il faut ajouter 2 éléments :
-* une instruction d'abonnement à un type de message
-* 
 
 ```
 
