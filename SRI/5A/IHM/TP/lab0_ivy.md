@@ -96,7 +96,7 @@ Développez maintenant un agent ivy permettant :
 *Nota :* pensez que chaque client doit avoir un nom particulier pour pouvoir recevoir des messages privés !
 
 ### Réutiliser des agents précédemment développés
-Sur [github](https://github.com/truillet/ivy) :
+Sur [le repository github d'ivy](https://github.com/truillet/ivy) :
 * Récupérez l’agent [OneDollarIvy/Processing](https://github.com/truillet/OneDollarIvy) ou [OneDollarIvy/python](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/OneDollarIvy.zip)
 * Créez maintenant un petit dictionnaire de reconnaissance de gestes permettant de reconnaître un rectangle
 
