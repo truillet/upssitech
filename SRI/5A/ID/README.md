@@ -6,8 +6,17 @@
 * [ivy : un outil pour la conception d'interfaces](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/C_ivy_2.9.pdf) (2026)
 * [middleware ivy](https://github.com/truillet/ivy) (2026)
 
-* **Lab1** [ivy middleware: how-to?](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab0_ivy.md) (2026)
-    
+* **Lab1**: [ivy middleware: how-to?](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab0_ivy.md) (2026)
+
+## API RESTful, JSON (JavaScript Object Notation) and MQTT, a lightweight publish/subscribe messaging transport
+* [REST and JSON slides](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/REST_JSON.pdf) (2021)
+* [MQTT slides](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/MQTT.pdf) (2022)
+
+**Lab2**: [MQTT, REST API](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/mqtt.md) (2025)
+
+## Project
+<font color="red">**"Short-Term Project"**</font> : [Combining technologies](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/be.md) (2025)
+  
 ## Ingescape: Model-based framework for broker-free distributed software environments
 * [ingescape](https://ingescape.com/fr/home) : Model-based framework for broker-free distributed software environments by [ingenuity I/O](https://ingenuity.io)
  
@@ -18,15 +27,6 @@
 * [ingescape for nodeJS](https://github.com/zeromq/ingescape/tree/main/bindings/javascript-node)
 * [ingescape for C#](https://github.com/zeromq/ingescape/tree/main/bindings/csharp)
 * [ZeroMQ](https://zeromq.org) : (zero brocker) is an open-source universal messaging library and [Ingescape](https://github.com/zeromq/ingescape)
-
-## API RESTful, JSON (JavaScript Object Notation) and MQTT, a lightweight publish/subscribe messaging transport
-* [REST and JSON slides](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/REST_JSON.pdf) (2021)
-* [MQTT slides](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/MQTT.pdf) (2022)
-
-**Lab2**: [MQTT, REST API](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/mqtt.md) (2025)
-
-## Project
-<font color="red">**"Short-Term Project"**</font> : [Combining technologies](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/be.md) (2025)
   
 ### Some (useful) links
 * **MQTT** - [Shiftr.io](https://www.shiftr.io), [Eclipse Mosquitto - MQTT brocker](https://mosquitto.org), [Paho - MQTT library](https://pypi.org/project/paho-mqtt)
