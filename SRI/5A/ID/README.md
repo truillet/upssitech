@@ -6,7 +6,7 @@
 * [ivy : un outil pour la conception d'interfaces](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/C_ivy_2.9.pdf) (2026)
 * [middleware ivy](https://github.com/truillet/ivy) (2026)
 
-* **Lab1**: [ivy middleware: how-to?](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab0_ivy.md) (2026)
+**Lab1**: [ivy middleware: how-to?](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab0_ivy.md) (2026)
 
 ## API RESTful, JSON (JavaScript Object Notation) and MQTT, a lightweight publish/subscribe messaging transport
 * [REST and JSON slides](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/REST_JSON.pdf) (2021)
