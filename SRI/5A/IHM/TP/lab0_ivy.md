@@ -85,18 +85,15 @@ X time=1200 receiver=Y msg=blablabla
 * Quels seraient les avantages et inconvénients si on s’abonnait à "^(.*)" (tous les messages) ?
 * Quel est, selon vous les avantages/inconvénients de structurer un message ivy ?
 
+### Interagir avec d’autres langages
+Tout d’abord, téléchargez le fichier [ivyFirst](https://github.com/truillet/ivy/blob/master/code/ivyfirst3.py) et tester l'agent (qui s'abonne à des messages de type *"hello **something**"*)
+
 Développez maintenant un agent ivy permettant :
-* D’envoyer un message à l’ensemble des personnes connectées sur la messagerie
-* De recevoir et d’afficher les messages envoyés par les autres clients de la messagerie instantanée
-* *(optionnel)* D’envoyer un message à une personne particulière connectée (en message privé)
+* D'envoyer un message à l'ensemble des personnes connectées sur la messagerie
+* De recevoir et d'afficher les messages envoyés par les autres clients de la messagerie instantanée
+* *(optionnel)* D'envoyer un message à une personne particulière connectée (en message privé)
 
 *Nota :* pensez que chaque client doit avoir un nom particulier pour pouvoir recevoir des messages privés !
-
-### Interagir avec d’autres langages
-Tout d’abord, téléchargez le fichier [ivyFirst](https://github.com/truillet/ivy/blob/master/code/ivyfirst3.py)
-
-* Tester l'agent (quo s'abonne à des messages de type *"hello **something**"*
-* A partir de cet exemple, écrivez un agent ivy de messagerie qui peut échanger des messages publics ou privés entre utilisateurs connectés.
 
 ### Réutiliser des agents précédemment développés
 Sur [github](https://github.com/truillet/ivy) :
