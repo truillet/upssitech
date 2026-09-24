@@ -5,6 +5,8 @@
 ## ivy: a middleware for interaction
 * [ivy : un outil pour la conception d'interfaces](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/Cours/C_ivy_2.9.pdf) (2026)
 * [middleware ivy](https://github.com/truillet/ivy) (2026)
+
+* [Lab 1]() ivy middleware: how-to?
     
 ## Ingescape: Model-based framework for broker-free distributed software environments
 * [ingescape](https://ingescape.com/fr/home) : Model-based framework for broker-free distributed software environments by [ingenuity I/O](https://ingenuity.io)
