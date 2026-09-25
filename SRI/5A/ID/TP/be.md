@@ -31,6 +31,7 @@ Vous pourrez superviser ce réseau à la voix ou via une interface tactile.
 * [LMStudio}(https://lmstudio.ai/download) : faire tourner des LLM en local, api REST disponible
 * [VoiceBox](https://github.com/jamiepine/voicebox) : voice cloning, api REST disponible
 
-**Délai pour le rendu** : 16 décembre 2026
+**Délai pour le rendu** : *16 décembre 2026*
+
 Le travail sera envoyé à Philippe.Truillet@upssitech.fr (Si vous avez des fichiers trop lourds à envoyer, vous pouvez utiliser un service cloud ou de transfert comme https://filesender.renater.fr)
 
