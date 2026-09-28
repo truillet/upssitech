@@ -10,7 +10,7 @@ Les deux premiers sujets de travaux pratiques ont pour objectif de concevoir un 
 * **repository ivy** : [Github ivy](https://github.com/truillet/ivy/blob/master/README.md)  
 
 ## Interaction gestuelle / gesture interaction
-* **TP1/Tutorial 1** - [Lab1](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab2_gestes.md) (2025)
+* **TP1/Tutorial 1** - [Lab1](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab2_gestes.md) (2026)
 
 _Ressources / Resources_
    * **OneDollarIvy** (implémentation de l'algorithme du [$1 Recognizer](https://faculty.washington.edu/wobbrock/pubs/uist-07.01.pdf)) [code source Processing](https://github.com/truillet/OneDollarIvy) [code source Python](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/OneDollarIvy.zip)
@@ -22,7 +22,7 @@ _Un peu d'Histoire  / A bit of History_
 <img src="https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/ressources/Palm_Graffiti_gestures.png" height=250 alt="Graffiti gestures">
 
 ## Interaction vocale / vocal interaction
-* **TP2/Tutorial 2** - [Lab2](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab1_vocal.md) (2025)
+* **TP2/Tutorial 2** - [Lab2](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab1_vocal.md) (2026)
    * **Les outils utilisés dans le TP / tools used in this tutorial** : Agent de reconnaissance vocale / Speech Recognizer agent [sra5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/sra5.zip), agent de synthèse vocale / speech Synthesis agent [ppilot5 v 3.3](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.3.zip), outil de supervision ivy / ivy monitoring tool [Probe](https://github.com/truillet/ivy/blob/master/code/Probe.zip) ou / or [visionneur](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Outils/visionneur_1_2.zip)
   * **[GrXML pour SAPI 5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/Memo/GrXML.pdf)**
   * **[SSML pour SAPI 5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/Memo/ssml.pdf)**
