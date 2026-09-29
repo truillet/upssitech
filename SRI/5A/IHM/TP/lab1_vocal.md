@@ -25,6 +25,6 @@ A la fin de la séance, vous aurez produit un **prototype haute-fidélité testa
 * [sra5](https://github.com/truillet/ivy/blob/master/agents/sra5.zip), agent de reconnaissance vocale (prend en compte le format [GrXML](https://www.w3.org/TR/speech-grammar)
 *	[ppilot5](https://github.com/truillet/ivy/blob/master/agents/doc_ppilot5.md), agent ivy de synthèse vocale (prend en compte le format [SSML](https://www.w3.org/TR/speech-synthesis11)
 *	[Braille_display](./ressources/Braille_display.zip), agent ivy simulant une plage braille 10 points braille
-*	le [visionneur ivy](https://github.com/truillet/ivy/blob/master/lib/visionneur_1_2.zip)
+*	le [visionneur ivy](https://github.com/truillet/ivy/blob/master/lib/visionneur_1_2.zip) (si java installé) ou [ivyprobe.py](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/ivyprobe.py) si python installé avec la librairie [ivy-python](https://pypi.org/project/ivy-python))
 *	Le [middleware ivy](https://github.com/truillet/ivy)
 
