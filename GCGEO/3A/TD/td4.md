@@ -24,7 +24,7 @@ Soit le tableau de départ suivant :
 8  1  5  2  7  3  1  4  2  5
 ```
 
-* Le plus petit élément du tableau est 1. On l’insère à la première position du tableau
+* Le plus petit élément du tableau est **1**. On l’insère à la première position du tableau
 * On  recommence  en  partant  de  l’indice  2.  Entre  l’élément  2  et  la  fin  du tableau, le plus petit élément est **2**. On l’insère donc en seconde position.
 * On  recommence  en  partant  de  l’indice  3.  Entre  l’élément  3  et  la  fin  du tableau, le plus petit élément est **2**. On l’insère donc en troisième position.
 * On  recommence  en  partant  de  l’indice  4.  Entre  l’élément  4  et  la  fin  du tableau, le plus petit élément est **3**. On l’insère donc en quatrième position.
@@ -40,8 +40,8 @@ Soit le tableau de départ suivant
 ```
 
 * On commence par classer les 2 premiers éléments
-* Puis on prend l’élément à la position i=3 (T[3] = 7), on cherche la position j dans  le  sous  tableau  déjà  trié  ([5 ;  8]) :  j=2,  x=T[3]=7,  on  décale  tous  les éléments d’une case entre j et i-1 soit ici entre 2 et 2. Donc seul 8 est décalé d’une case. Enfin on insère x à la position j.
-* On prend ensuite l’élément à la position i=4 (T[4] = 1), on cherche la position j dans le sous tableau déjà trié ([5 ; 7 ; 8]) : j=1, x=T[4]=1, on décale tous les éléments d’une case entre j et i-1 soit ici entre 1 et 3. Donc 5, 7 et 8 sont décalés d’une case. Enfin on insère x à la position j.
-* Enfin, on prend l’élément à la position i=5 (T[5] = 2), on cherche la position j dans  le  sous  tableau  déjà trié  ([1 ;  5 ;  7 ;  8]) :  j=2,  x=T[5]  =  2,  on  décale tous les éléments d’une case entre j et i-1 soit ici entre 2 et 4. Donc 5, 7 et 8 sont décalés d’une case. Enfin on insère x à la position j.
+* Puis on prend l’élément à la position i=3 (T[3] = 5), on cherche la position j dans  le  sous  tableau  déjà  trié  (1 ; 8]) :  j=2,  x=T[3]=5,  on  décale  tous  les éléments d’une case entre j et i-1 soit ici entre 1 et 8. Donc seul 8 est décalé d’une case. Enfin on insère x à la position j.
+* On prend ensuite l’élément à la position i=4 (T[4] = 2), on cherche la position j dans le sous tableau déjà trié ([1 ; 5 ; 8]) : j=1, x=T[4]=2, on décale tous les éléments d’une case entre j et i-1 soit ici entre 1 et 5. Donc 8 est décalé d’une case. Enfin on insère x à la position j.
+* Enfin, on prend l’élément à la position i=5 (T[5] = 7), on cherche la position j dans  le  sous  tableau  déjà trié  ([1 ;  5 ;  7 ;  8]) :  j=2,  x=T[5]  =  2,  on  décale tous les éléments d’une case entre j et i-1 soit ici entre 1 et 5. Donc 5, 7 et 8 sont décalés d’une case. Enfin on insère x à la position j.
 
 Programmez une fonction qui réalise le tri par insertion d’un tableau.
