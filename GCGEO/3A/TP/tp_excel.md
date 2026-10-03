@@ -23,14 +23,13 @@ On affichera au bas de cette feuille, les moyennes et les médianes de chaque ma
 ## Exercice 2
 Un câble acier de 2 m de longueur est soumis à un effort de traction variant de 0 et 1 500 daN. L'allongement delta L de ce câble est calculé par l'intermédiaire de la formule suivante :
 
-$$ $\delta L= $\frac{F.L}{E.S}$ $$
+$$ $\DeltaL= $\frac{F.L}{E.S} $$
 
 avec :	
-
-* F effort de traction
-* L longueur du câble
-* E = 210 000 MPa module d'élasticité de l'acier
-* S = 7,57 cm2 section du câble
+* F, effort de traction
+* L, longueur du câble
+* E = 210 000 MPa, module d'élasticité de l'acier
+* S = 7,57 cm2, section du câble
 
 Créer une feuille sous Excel ayant le format du modèle présenté ci-dessous :
 
