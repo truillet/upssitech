@@ -1,0 +1,26 @@
+Nom;Mathématiques;Physique;Informatique;Anglais
+Dupont Thomas;14.5;12.0;16.5;15.0
+Martin Emma;18.0;16.5;19.0;17.5
+Bernard Lucas;09.5;11.0;13.0;10.5
+Petit Chloé;15.0;14.5;12.5;18.0
+Robert Hugo;08.0;09.5;11.0;12.0
+Richard Lea;13.5;15.0;14.0;16.0
+Durand Gabriel;17.0;18.5;17.5;14.0
+Dubois Manon;11.0;10.5;13.5;15.5
+Moreau Arthur;06.5;08.0;10.0;11.5
+Laurent Jade;19.0;17.5;18.5;19.5
+Simon Jules;12.0;13.0;15.0;10.0
+Michel Sarah;14.0;13.5;16.0;17.0
+Lefebvre Louis;10.5;11.5;12.0;13.0
+Leroy Camille;16.5;15.5;17.0;16.5
+Roux Adam;07.5;09.0;11.5;08.5
+David Lina;15.5;16.0;14.5;18.5
+Bertrand Ethan;13.0;12.5;15.5;14.0
+Morel Louna;11.5;10.0;12.5;13.5
+Fournier Maël;18.5;19.0;20.0;16.0
+Girard Alice;10.0;12.0;11.0;15.0
+Bonnet Nathan;14.0;11.5;13.0;12.5
+Rousseau Eva;16.0;17.0;15.5;19.0
+Vincent Paul;09.0;10.5;12.0;11.0
+Lambert Mia;12.5;14.0;13.5;16.5
+Lefevre Liam;15.0;13.0;16.0;14.5
