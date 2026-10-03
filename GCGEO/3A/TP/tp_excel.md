@@ -11,6 +11,7 @@ Ouvrir le fichier *notes.tx*t. Il contient une liste de notes en Mathématiques,
 * Insérer une ligne en haut de la feuille et préciser l’intitulé de chaque discipline
 * Rajouter une colonne à droite, contenant la moyenne, en affectant le coefficient 4 pour les maths, 3 pour la physique, 2 pour l’informatique et 2 pour l’anglais (la moyenne doit apparaître au dixième de point près, en Gras et en couleur verte).
 
+
 * Créer une nouvelle feuille de nom *Alpha* qui reprend les données de *Notes* et classe les étudiants par ordre alphabétique (sous-menu Trier du menu Données)
 * Créer 2 feuilles de noms **Math** et **Ang**  qui reprend les données de *Notes* et affichant les étudiants par note décroissante dans la matière et ordre alphabétique.
 * Créer une nouvelle feuille de nom **Class** qui reprend les données de *Notes* et ajouter une colonne affichant le rang, avant celle contenant le nom de l’étudiant, et qui donnera le classement de l’étudiant (pour cela on pourra utiliser la fonction ~rang~).
