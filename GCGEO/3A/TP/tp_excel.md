@@ -33,5 +33,6 @@ avec :
 * S = 7,57 cm2, section du câble
 
 Créer une feuille sous Excel ayant le format du modèle présenté ci-dessous :
-<img src="excel.jpg" width=350 alt="feuille Excel">]
+
+<img src="excel.jpg" width=500 alt="feuille Excel">]
 
