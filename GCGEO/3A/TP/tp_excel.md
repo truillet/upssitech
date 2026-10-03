@@ -6,7 +6,7 @@ Objectifs de la séance :
 * découvrir les outils de construction automatique d'une série arithmétique 
 
 ## Exercice 1 
-Ouvrir le fichier *|notes.txt](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/notes.txt)*. Il contient une liste de notes en Mathématiques, Physique, Informatique et Anglais pour les étudiants dont le nom est situé en début de ligne.
+Ouvrir le fichier |https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/notes.txtnotes.txt](notes.txt). Il contient une liste de notes en Mathématiques, Physique, Informatique et Anglais pour les étudiants dont le nom est situé en début de ligne.
 * Entrer ces notes dans une feuille de calcul Excel de nom *Notes.xlsx*.
 * Insérer une ligne en haut de la feuille et préciser l’intitulé de chaque discipline
 * Rajouter une colonne à droite, contenant la moyenne, en affectant le coefficient 4 pour les maths, 3 pour la physique, 2 pour l’informatique et 2 pour l’anglais (la moyenne doit apparaître au dixième de point près, en Gras et en couleur verte).
