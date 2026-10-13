@@ -30,7 +30,7 @@ _Un peu d'Histoire  / A bit of History_
 _Exemple de code Processing permettant l'affichage de la reconnaissance vocale et l'envoi du résultat vers la synthèse vocale / Example of Processing code allowing the text ouptut of speech recognition and sending the result to TTS_ : **[dessert](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/dessert.zip)**
 
 ## Fusion Multimodale / Multimodal Fusion
-* **TP3-5/Tutorial 3 to 5** - [Lab3-5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab3-5_fusion.md) (2025)
+* **TP3-5/Tutorial 3 to 5** - [Lab3-5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab3-5_fusion.md) (2026)
 
 _Exemple de code Processing permettant la gestion de formes géométriques / Example of Processing code for rmanipulating different shapes_ : **[Palette](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/Palette.zip)**
 
