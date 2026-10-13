@@ -108,6 +108,8 @@ La [Palette](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Cod
 
 Vous pouvez bien évidemment recoder une __palette__ selon vos envies.
 
+Pour un accès direct à Processing version portable -> [télécharger](https://github.com/processing/processing4/releases/download/processing-1435-4.5.7/processing-4.5.7-windows-x64-portable.zip)
+
 ## Déroulement des séances
 Pour  réaliser  ce  bureau  d’études,  vous  avez  trois  séances  de  deux  heures.  Voici  une  organisation
 possible des séances :
