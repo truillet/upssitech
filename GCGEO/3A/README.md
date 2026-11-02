@@ -67,7 +67,7 @@ Vus pouvez aller jeter un oeil chez [notion](https://ctruille.notion.site/TP-1A-
 * **2023-2024** : [interpolation polynomiale](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/Projet-2024_v1.0.pdf) - Le rendu sera à effectuer pour le 14 janvier 2024 23h55 UTC
 * **2024-2025** : [Les 4 fantastiques : super "zéros" en action](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/Projet-2025_v1.0.pdf) - Le rendu sera à effectuer pour le 12 janvier 2025 23h55 UTC
 * **2025-2026**  - [(boîte de) dérivation](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/Projet-2026_v1.0.pdf) Le rendu sera à effectuer pour le 11 janvier 2026 23h55 UTC
-* **2026-2027** - [Very Good Tri(p)]() Le sera à effectuer pour le 13 janvier 2027 23h55 UTC
+* **2026-2027** - [Very Good Tri(p)](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/TP/Projet-2027_v1.0_GCGEO.pdf) Le rendu sera à effectuer pour le 13 janvier 2027 23h55 UTC
 
 ### Contrôles Continus
 * **2021-2022** : [le sujet](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/CC/CC_2021_GCGEO.pdf) et la solution [ici](https://github.com/truillet/upssitech/blob/master/GCGEO/3A/CC/solutions/CC2021.zip)
