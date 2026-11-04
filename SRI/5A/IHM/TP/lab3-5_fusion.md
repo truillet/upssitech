@@ -148,7 +148,7 @@ d’écrans de l’utilisation).
 4. En option, vous pourrez fournir une vidéo avec un exemple d’exécution de l’application.
 
 **Délai pour le rendu : dimanche 08 décembre 2026, 23h55 UTC+1**
-Le travail sera envoyé à Philippe.Truillet@upssitech.fr (Si vous avez des fichiers trop lourds à envoyer, vous pouvez utiliser un service cloud ou de transfert comme https://filesender.renater.fr)
+Le travail sera envoyé à Philippe.Truillet@upssitech.fr ou Victor.Brehault@irit.fr (Si vous avez des fichiers trop lourds à envoyer, vous pouvez utiliser un service cloud ou de transfert comme https://filesender.renater.fr)
 
 Chaque jour de retard se verra infligé 0,25 pt de pénalité.
 
