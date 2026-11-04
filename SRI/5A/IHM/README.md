@@ -41,7 +41,7 @@ https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/ressources/Bolt_199
   * [Sh. Oviatt, Ten Myths on Multimodal Interaction, Communication of the ACM, volume 42, Issue 11, November 1999](https://dl.acm.org/doi/10.1145/319382.319398)
 
 ## Fission Multimodale / Multimodal Fission
-* **TP6/Tutorial 6** - [Lab6](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab6_multimodalite.md) (2025)
+* **TP6/Tutorial 6** - [Lab6](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/lab6_multimodalite.md) (2026)
 
 * **Les outils utilisés dans le TP / tools used in this tutorial** : agent de synthèse vocale / speech Synthesis agent [ppilot5 v 3.3](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.3.zip), agent d'affichage braille / braille display agent [Braille_display](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Code/Braille_display.zip), outil de supervision ivy / ivy monitoring tool [Probe](https://github.com/truillet/ivy/blob/master/code/Probe.zip) ou / or [visionneur](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/TP/Outils/visionneur_1_2.zip)
   * **[Speech Synthesis Markup Language - SSML](https://www.w3.org/TR/speech-synthesis11)** et **[support SSML pour SAPI 5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/Memo/ssml.pdf)**
