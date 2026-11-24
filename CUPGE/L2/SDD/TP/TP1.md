@@ -90,7 +90,7 @@ Prenons l’exemple de **gcc**, commande aussi écrite en C. Lorsque vous lancez
 
 Dans cet exercice, l’objectif est simplement de vérifier que lorsqu’il le lance, l’utilisateur a donné le bon nombre de paramètres et que ces paramètres sont des entiers.
 
-Vous définirez en outre la fonction suivante dans votre code ***void display_message(char\* msg);***Comme son nom l’indique, cette fonction affiche simplement à l’écran le message qui lui est passé en paramètre.
+Vous définirez en outre la fonction suivante dans votre code **void display_message(char\* msg);** Comme son nom l’indique, cette fonction affiche simplement à l’écran le message qui lui est passé en paramètre.
 
 ### 3.1 Exercice 1
 Ecrire le code de la fonction main de sorte à afficher le message suivant : ***Wrong usage, 2 parameters expected: ./sum param1 param2*** lorsque l’utilisateur n’a pas passé le bon nombre de paramètres.
