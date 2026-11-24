@@ -1,6 +1,6 @@
 # TP 2 : utilisation de structure simple
 
-L’objectif de ce TP va être d’écrire un programme de gestion du jeu de cartes « *bataille* ». Dans notre version, on jouera avec un jeu de **32 cartes**.
+L’objectif de ce TP va être d’écrire un programme de gestion du jeu de cartes dite de la *bataille*. Dans notre version, on jouera avec un jeu de **32 cartes** (4 couleurs, cartes de la valeur 7 à As).
 
 Après mélange et distribution des cartes a deux joueurs, chacun retourne la première carte de son tas. La carte la plus forte gagne la manche et les deux cartes sont ajoutées en dernier dans le tas du gagnant. L’ordre de valeur des cartes est : As, Roi, Dame, Valet, 10, 9, 8, 7. En cas d’égalité, la couleur la plus forte est gagnante dans l’ordre : Cœur, Pique, Carreau, Trèfle.
 Enfin, le joueur qui ramasse toutes les cartes est déclaré gagnant.
