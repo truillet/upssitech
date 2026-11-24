@@ -25,7 +25,9 @@ export LIBGL_ALWAYS_INDIRECT=1
 
 * [git et VSCode](https://code.visualstudio.com/docs/sourcecontrol/overview) et [git cheat sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
 * Le concours de code C obscur : **[The International Obfuscated C Code Contest](https://www.ioccc.org)**
-  
+
+* **Accès aux bureaux à distance de la FSI (24h/24 et 7j/7)** : [VM Linux](https://fsi-thinlinc.utoulouse.fr)
+
 ## Travaux Pratiques
 
 * **TP 1** : [prise en main](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP1.md) et [solution](https://github.com/truillet/ups/blob/master/l2cupge/TP/solutions/sum.c) (2025)
