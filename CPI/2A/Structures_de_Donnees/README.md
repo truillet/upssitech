@@ -25,11 +25,13 @@ export LIBGL_ALWAYS_INDIRECT=1
 
 * [git et VSCode](https://code.visualstudio.com/docs/sourcecontrol/overview) et [git cheat sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
 * Le concours de code C obscur : **[The International Obfuscated C Code Contest](https://www.ioccc.org)**
-  
+
+* **Accès aux bureaux à distance de la FSI (24h/24 et 7j/7)** : [VM Linux](https://fsi-thinlinc.utoulouse.fr)
+
 ## Travaux Pratiques
 
-* **TP 1** : [prise en main](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP1.md) et [solution](https://github.com/truillet/ups/blob/master/l2cupge/TP/solutions/sum.c) (2025)
-* **TP 2** : [utilisation de structure simple](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP2.md) et [solution](https://github.com/truillet/ups/blob/master/l2cupge/TP/solutions/jeucarte.c) (2025)
+* **TP 1** : [prise en main](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP1.md) et [solution](https://github.com/truillet/ups/blob/master/l2cupge/TP/solutions/sum.c) (2026)
+* **TP 2** : [utilisation de structure simple](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP2.md) et [solution](https://github.com/truillet/ups/blob/master/l2cupge/TP/solutions/jeucarte.c) (2026)
 * **TP 3 & 4** : [exploration de labyrinthes](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP3-4.md) et [début de solution](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/solutions/labyrinthe.zip) (2025)
 * **TP 5** : [compilation séparée](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP5.md) et [solution](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/solutions/tp5.zip) (2025)
 * **TP 6 & 7** : [Graphes - partie 1](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/TP6-7.md) et [début de solution](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/TP/solutions/tp6_7.zip) (2025)
@@ -63,9 +65,23 @@ gcc -S fichier.c # génère le code ASM fichier.s
 ```
 
 ## Contrôles continus, Projets & examens
-### Contrôles continus
-  * **2026** : à venir
-### Projets
-  * **Projet 2027** : à venir
+### Contrôles continus (CC1 et CC2)
+<!--
+  * **2023** : [Méthode de Cardan](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/CC1_Structures_2023.pdf) (solution [ici](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/solutions/CC1_2023.zip)) et [tango unchained](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/CC2_ExamenMachine_2023.pdf)
+  * **2024** : [Des ensembles](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/CC1_Structures_2024.pdf) et [Complexes Cartésiens/Polaires]()
+-->
+  * **2025** : [Des matrices](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/CC1_Structures_2025.pdf) et [Des formes](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/CC2_Structures_2025.pdf)
 
+### Projets
+<!--
+* **Projet 2018** : [Réservations de ressources](https://github.com/truillet/ups/blob/master/l2cupge/CC/Projet_Info_2018.pdf)
+* **Projet 2019** : [On en a Gros (sur le compte) !](https://github.com/truillet/ups/blob/master/l2cupge/CC/Projet_Info_2019.pdf)
+* **Projet 2020** : [Share Things](https://github.com/truillet/ups/blob/master/l2cupge/CC/Projet_Info_2020.pdf)
+* **Projet 2021** : [Tchou-(tchou)](https://github.com/truillet/ups/blob/master/l2cupge/CC/Projet_Info_2021.pdf)
+* **Projet 2022** : [BAC - **B**ook **A** **C**lassrom](https://github.com/truillet/ups/blob/master/l2cupge/CC/Projet_Info_2022.pdf)
+* **Projet 2023** : [G-VGT - **G**osh! **V**ery **G**ood **T**rip](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/Projet_Info_2023.pdf)
+* **Projet 2024** : [SEL & POIVRE](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/Projet_Info_2024.pdf)
+* **Projet 2025** : [THOMAS](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/Projet_Info_2025.pdf)
+-->
+* **Projet 2026** : [FAB²](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/CC/Projet_Info_2026.pdf)
 
