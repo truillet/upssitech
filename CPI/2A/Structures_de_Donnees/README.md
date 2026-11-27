@@ -1,4 +1,4 @@
-# Structures de données / Langage C
+# Structures de données / Langage C - KUSI2AC3
 [Eléments sur le déroulement du semestre](https://github.com/truillet/upssitech/blob/master/CUPGE/L2/SDD/Cours/infos_L2CUPGE_UPSSITECH.pdf) (2026)
 
 ## Cours
