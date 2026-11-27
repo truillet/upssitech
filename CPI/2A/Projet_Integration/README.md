@@ -1,4 +1,4 @@
-# Projet d'intégration
+# Projet d'intégration - KUSI4AC1
 Cet enseignement est en lien étroit avec le [FabLab](http://campusfab.univ-tlse3.fr) de l'université de Toulouse qui met à disposition son matériel et logiciels :  imprimantes 3D, découpeuse laser, machines CNC.
 Les élèves sont amenés à fabriquer, coder et programmer des micro-contrôleurs (arduino, ESP32, Raspberry Pico, ...)
 
